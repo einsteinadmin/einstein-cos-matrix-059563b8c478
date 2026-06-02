@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "owner": { "name": "Mike Vandenbroader", "title": "DFWT Regional Mgr · Head of Ops", "cos": "Gerald" },
+  "period": "Q2 2026",
+  "last_updated": "2026-01-01T00:00:00-05:00",
+  "updated_by": "(stub — not yet populated)",
+  "cadence_days": 1,
+  "_status": "stub — awaiting first /wrap from Gerald",
+  "_note": "Stub created during Phase 1 setup. When Gerald comes online, he replaces this with Mike's actual rocks — bootstrap from Cameron's dashboard-data.js leadership[] entry for Mike.",
+  "goals": [],
+  "kpis": [],
+  "adopted": [],
+  "network_acks": []
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "owner": { "name": "Paul Morin", "title": "CFO/COO · Co-Owner", "cos": "Clark" },
+  "period": "Q2 2026",
+  "last_updated": "2026-01-01T00:00:00-05:00",
+  "updated_by": "(stub — not yet populated)",
+  "cadence_days": 1,
+  "_status": "stub — awaiting first /wrap from Clark",
+  "_note": "Stub created during Phase 1 setup. When Clark comes online, he replaces this with Paul's actual rocks — bootstrap from Cameron's dashboard-data.js leadership[] entry for Paul.",
+  "goals": [],
+  "kpis": [],
+  "adopted": [],
+  "network_acks": []
+}

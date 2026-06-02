@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "owner": { "name": "Brian Herzig", "title": "CTXH Regional Mgr · Culture Head", "cos": "Vera" },
+  "period": "Q2 2026",
+  "last_updated": "2026-01-01T00:00:00-05:00",
+  "updated_by": "(stub — not yet populated)",
+  "cadence_days": 1,
+  "_status": "stub — awaiting first /wrap from Vera (Brian's call whether to join Phase 1 or wait)",
+  "_note": "Stub created during Phase 1 setup. Vera was originally deferred to Phase 2 for maturity reasons; Cameron flagged the possibility of including her in Phase 1. If she joins, replaces this with Brian's actual rocks.",
+  "goals": [],
+  "kpis": [],
+  "adopted": [],
+  "network_acks": []
+}

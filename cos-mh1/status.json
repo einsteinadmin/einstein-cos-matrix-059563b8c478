@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "owner": { "name": "Matisen Harper", "title": "Director of IT", "cos": "CoS-MH1" },
+  "period": "Q2 2026",
+  "last_updated": "2026-01-01T00:00:00-05:00",
+  "updated_by": "(stub — not yet populated)",
+  "cadence_days": 1,
+  "_status": "stub — awaiting first /wrap from CoS-MH1",
+  "_note": "Stub created during Phase 1 setup. When CoS-MH1 comes online, it replaces this with Matisen's actual rocks — bootstrap from Cameron's dashboard-data.js leadership[] entry for Matisen.",
+  "goals": [],
+  "kpis": [],
+  "adopted": [],
+  "network_acks": []
+}
