@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>COS Network — Adoption Matrix</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --orange:#EF8B22; --orange-soft:#FBE7D1; --orange-deep:#C96A0E;
+    --navy:#0d2b4e; --navy-2:#16395f; --ink:#1c2733; --muted:#5d6b7a;
+    --line:#e4e9ef; --bg:#f6f8fa; --card:#fff;
+    --sg:#1f7a3d; --green:#3aa564; --yellow:#E8A317; --red:#D7472E; --gray:#9aa6b2;
+    --blue:#0979C3;
+    --radius:12px; --shadow:0 1px 3px rgba(13,43,78,.07),0 6px 18px rgba(13,43,78,.06);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:'Roboto',-apple-system,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 22px;}
+
+  .topbar{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;padding:30px 0 24px;}
+  .topbar h1{font-size:26px;font-weight:900;margin:0 0 6px;letter-spacing:-.3px;}
+  .topbar .sub{color:#cdd8e6;font-size:14.5px;max-width:780px;}
+
+  section{padding:26px 0;}
+  h2{font-size:18px;font-weight:800;color:var(--navy);margin:0 0 14px;}
+
+  .summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:18px;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);}
+  .stat .label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .stat .v{font-size:22px;font-weight:900;color:var(--ink);margin-top:2px;}
+  .stat .v.warn{color:var(--orange-deep);}
+  .stat .v.bad{color:var(--red);}
+  .stat .v.good{color:var(--sg);}
+
+  .matrix-wrap{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow-x:auto;}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;}
+  th,td{border-bottom:1px solid var(--line);padding:11px 12px;text-align:center;vertical-align:middle;}
+  th{background:var(--navy);color:#fff;font-weight:600;font-size:12.5px;letter-spacing:.02em;position:sticky;top:0;}
+  th:first-child,td:first-child{text-align:left;background:#fbfcfd;border-right:1px solid var(--line);position:sticky;left:0;}
+  th:first-child{background:var(--navy);}
+  td:first-child{font-weight:600;color:var(--navy);min-width:170px;}
+  td:first-child small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;margin-top:1px;}
+  tr.placeholder td{background:#fafbfc;color:var(--muted);}
+  tr.placeholder td:first-child{background:#fafbfc;}
+
+  .cell{font-weight:700;font-size:11.5px;letter-spacing:.02em;padding:4px 9px;border-radius:5px;display:inline-block;min-width:60px;}
+  .c-adopted{background:#e3f5e9;color:#1f7a3d;}
+  .c-in_progress{background:#fff3da;color:#9a6a00;}
+  .c-behind{background:#fde6e2;color:#b03220;}
+  .c-na{background:#eef1f4;color:var(--muted);}
+  .c-none{color:var(--gray);font-family:'Roboto Mono',monospace;font-size:14px;}
+  .pending-cell{font-weight:800;font-family:'Roboto Mono',monospace;font-size:13px;padding:4px 9px;border-radius:5px;display:inline-block;min-width:30px;}
+  .p-0{background:#e3f5e9;color:#1f7a3d;}
+  .p-low{background:#fff3da;color:#9a6a00;}
+  .p-high{background:#fde6e2;color:#b03220;}
+  .truthbadge{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.08em;background:var(--orange);color:#fff;padding:1px 6px;border-radius:4px;margin-left:6px;vertical-align:middle;}
+  .truthnote{font-size:12.5px;color:var(--muted);margin:0 0 14px;font-style:italic;}
+
+  .hb{font-family:'Roboto Mono',monospace;font-size:12px;font-weight:500;}
+  .hb.fresh{color:var(--sg);}
+  .hb.aging{color:var(--yellow);}
+  .hb.stale{color:var(--red);}
+  .hb.none{color:var(--gray);}
+
+  .legend{display:flex;gap:18px;flex-wrap:wrap;margin:14px 0 0;font-size:13px;color:var(--muted);align-items:center;}
+  .legend .cell{font-size:10.5px;padding:3px 7px;min-width:auto;}
+
+  .announcements{margin-top:30px;}
+  .ann-row{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:10px 14px;margin-bottom:8px;display:flex;justify-content:space-between;gap:14px;align-items:center;}
+  .ann-row .id{font-family:'Roboto Mono',monospace;font-weight:600;color:var(--orange-deep);background:var(--orange-soft);padding:2px 8px;border-radius:5px;font-size:12px;}
+  .ann-row .topic{flex:1;color:var(--ink);font-size:14px;}
+
+  .err{background:#fde6e2;border:1px solid #f3b0a3;color:#b03220;padding:14px 18px;border-radius:9px;margin:16px 0;}
+  footer{padding:30px 0 24px;text-align:center;color:var(--muted);font-size:12px;}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <h1>COS Network — Adoption Matrix</h1>
+    <div class="sub">Who's adopted what across the network · pulled from each COS's <code style="font-family:'Roboto Mono',monospace">status.json</code></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <section>
+    <div id="summary" class="summary"></div>
+    <div id="truthnote" class="truthnote"></div>
+    <h2>Agents × Patterns</h2>
+    <div class="matrix-wrap"><table id="matrix"></table></div>
+    <div class="legend">
+      <span><span class="cell c-adopted">adopted</span> done / current version</span>
+      <span><span class="cell c-in_progress">in prog</span> adopting now</span>
+      <span><span class="cell c-behind">behind</span> needs to catch up</span>
+      <span><span class="cell c-na">—</span> not applicable / no report yet</span>
+    </div>
+    <h2 style="margin-top:30px">Announcements tracked</h2>
+    <div class="announcements" id="announcements"></div>
+  </section>
+</div>
+
+<footer><div class="wrap">Adoption matrix · COS Network v2 · Phase 0.5</div></footer>
+
+<script>
+// ===== CONFIG =====
+// One row per COS. Albert is the TRUTH SOURCE — what he has adopted defines what the
+// network should have adopted. Columns + announcements are derived from Albert's status.json.
+const AGENTS = [
+  { cos:'Albert',   principal:'Cameron', url:'./status.json', truth:true },
+  { cos:'Gerald',   principal:'Mike',    url:null },
+  { cos:'Clark',    principal:'Paul',    url:null },
+  { cos:'CoS-MH1',  principal:'Matisen', url:null },
+  { cos:'Vera',     principal:'Brian',   url:null, note:'Phase 2' },
+  { cos:'(Amanda)', principal:'Amanda',  url:null, note:'onboarding' }
+];
+
+// Pattern label overrides — purely cosmetic, lets us prettify pattern ids.
+const PATTERN_LABELS = {
+  'template':          'Template ver.',
+  'status-file':       'Status file v1',
+  'gm-step-0':         '/gm Step 0',
+  'wrap-git-push':     '/wrap git push',
+  'stub-prompts':      'Stub prompts',
+  'save-thread-keyed': 'Thread-keyed /save',
+  'slack-naming-v063': 'Slack naming v0.6.3'
+};
+
+const CADENCE_DEFAULT = 2;  // staleness threshold for matrix heartbeat
+
+// ===== HELPERS =====
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function freshness(lastUpdated, cadenceDays){
+  if(!lastUpdated) return {tier:'none',label:'no report'};
+  const days = (Date.now()-new Date(lastUpdated).getTime())/(1000*60*60*24);
+  const cadence = cadenceDays || CADENCE_DEFAULT;
+  let tier='fresh';
+  if(days >= cadence*2) tier='stale';
+  else if(days >= cadence) tier='aging';
+  let label;
+  if(days < 1) label = `${Math.max(1,Math.round(days*24))}h ago`;
+  else label = `${Math.round(days)}d ago`;
+  return {tier,label};
+}
+
+function patternState(adopted, patternId){
+  if(!adopted) return null;
+  const m = adopted.find(a=>a.pattern===patternId);
+  if(!m) return null;
+  return { state: m.state, version: m.version };
+}
+
+// ===== FETCH ALL =====
+async function fetchAgent(a){
+  if(!a.url) return { agent:a, data:null, error:null };
+  try{
+    const r = await fetch(a.url + '?t=' + Date.now());
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    return { agent:a, data, error:null };
+  } catch(e){
+    return { agent:a, data:null, error:e.message };
+  }
+}
+
+Promise.all(AGENTS.map(fetchAgent)).then(results=>{
+  // ===== Find truth source (Albert) =====
+  const truth = results.find(r => r.agent.truth && r.data);
+  if(!truth){
+    document.getElementById('summary').innerHTML =
+      `<div class="err"><b>Truth source unreachable.</b> Albert's status.json must be readable for the matrix to compute pending state. Check that /status.json is served and reachable.</div>`;
+    document.getElementById('matrix').innerHTML = '';
+    return;
+  }
+
+  // ===== Derive columns from Albert's adopted[] =====
+  // Patterns Albert has marked 'adopted' define the network's expected baseline.
+  // Patterns he has 'in_progress' get tracked too (visible drift indicator) but don't count toward pending.
+  const truthAdopted = (truth.data.adopted||[]);
+  const PATTERNS = truthAdopted.map(a=>({
+    id: a.pattern,
+    label: PATTERN_LABELS[a.pattern] || a.pattern,
+    truthState: a.state,
+    truthVersion: a.version
+  }));
+  // Albert's acked threads define the announcements to track.
+  const ANNOUNCEMENTS = (truth.data.network_acks||[])
+    .filter(a => a.state === 'acked')
+    .map(a => ({ id: a.thread, topic: a.topic || '(no topic)' }));
+
+  // ===== Compute pending per agent =====
+  function pendingFor(data){
+    if(!data) return { patterns:0, acks:0, total:0 };
+    const adoptedSet = new Set((data.adopted||[]).filter(a=>a.state==='adopted').map(a=>a.pattern));
+    const ackedSet = new Set((data.network_acks||[]).filter(a=>a.state==='acked').map(a=>a.thread));
+    const truthPatterns = truthAdopted.filter(a=>a.state==='adopted').map(a=>a.pattern);
+    const truthAcks = (truth.data.network_acks||[]).filter(a=>a.state==='acked').map(a=>a.thread);
+    const missingPatterns = truthPatterns.filter(p=>!adoptedSet.has(p)).length;
+    const missingAcks = truthAcks.filter(t=>!ackedSet.has(t)).length;
+    return { patterns:missingPatterns, acks:missingAcks, total:missingPatterns+missingAcks };
+  }
+
+  // ===== Summary stats =====
+  const reporting = results.filter(r=>r.data).length;
+  const total = results.length;
+  // adoption = (patterns adopted by reporting non-truth agents) / (truth pattern count * reporting non-truth agents)
+  const reportingNonTruth = results.filter(r=>r.data && !r.agent.truth);
+  const truthPatternCount = truthAdopted.filter(a=>a.state==='adopted').length;
+  const cellsTotal = reportingNonTruth.length * truthPatternCount;
+  const cellsAdopted = reportingNonTruth.reduce((sum,r)=>{
+    const adoptedSet = new Set((r.data.adopted||[]).filter(a=>a.state==='adopted').map(a=>a.pattern));
+    return sum + truthAdopted.filter(a=>a.state==='adopted' && adoptedSet.has(a.pattern)).length;
+  },0);
+  const adoptionPct = cellsTotal ? Math.round(100*cellsAdopted/cellsTotal) : (reportingNonTruth.length===0 ? null : 0);
+  const staleCount = results.filter(r=>r.data && freshness(r.data.last_updated, r.data.cadence_days).tier==='stale').length;
+  const pendingTotal = results.filter(r=>r.data && !r.agent.truth).reduce((s,r)=>s+pendingFor(r.data).total,0);
+
+  const adoptDisplay = adoptionPct===null ? '—' : `${adoptionPct}%`;
+  document.getElementById('summary').innerHTML = `
+    <div class="stat"><div class="label">Agents reporting</div><div class="v ${reporting<total?'warn':'good'}">${reporting} / ${total}</div></div>
+    <div class="stat"><div class="label">Adoption (vs Albert)</div><div class="v ${adoptionPct===null?'':(adoptionPct>=80?'good':(adoptionPct>=50?'warn':'bad'))}">${adoptDisplay}</div></div>
+    <div class="stat"><div class="label">Patterns tracked</div><div class="v">${PATTERNS.length}</div></div>
+    <div class="stat"><div class="label">Stale reports</div><div class="v ${staleCount?'bad':'good'}">${staleCount}</div></div>
+    <div class="stat"><div class="label">Pending items</div><div class="v ${pendingTotal>0?'warn':'good'}">${pendingTotal}</div></div>
+  `;
+
+  document.getElementById('truthnote').innerHTML =
+    `<b style="color:var(--orange-deep)">Truth source:</b> Albert's <code style="font-family:'Roboto Mono',monospace">status.json</code> — patterns Albert has adopted define what the network should have adopted. Columns + announcements auto-derived from his file.`;
+
+  // ===== Matrix =====
+  let html = '<thead><tr><th>COS</th>';
+  PATTERNS.forEach(p=>{
+    const ver = p.truthVersion?`<br><small style="font-weight:400;color:#cdd8e6;font-family:'Roboto Mono',monospace">${esc(p.truthVersion)}</small>`:'';
+    html += `<th>${esc(p.label)}${ver}</th>`;
+  });
+  html += '<th>Pending</th><th>Last seen</th></tr></thead><tbody>';
+
+  results.forEach(({agent,data,error})=>{
+    const placeholder = !data;
+    html += `<tr${placeholder?' class="placeholder"':''}>`;
+    const truthBadge = agent.truth ? '<span class="truthbadge">truth</span>' : '';
+    html += `<td>${esc(agent.cos)}${truthBadge}<small>${esc(agent.principal)}${agent.note?' · '+esc(agent.note):''}</small></td>`;
+    PATTERNS.forEach(p=>{
+      if(placeholder){ html += `<td><span class="c-none">—</span></td>`; return; }
+      const s = patternState(data.adopted, p.id);
+      if(!s){
+        // Albert has it but this COS doesn't have an entry → behind
+        if(!agent.truth && p.truthState==='adopted'){
+          html += `<td><span class="cell c-behind">behind</span></td>`;
+        } else {
+          html += `<td><span class="cell c-na">—</span></td>`;
+        }
+        return;
+      }
+      const ver = s.version?` ${esc(s.version)}`:'';
+      html += `<td><span class="cell c-${s.state}">${esc(s.state.replace('_',' '))}${ver}</span></td>`;
+    });
+    // Pending cell
+    if(placeholder){
+      html += `<td><span class="c-none">—</span></td>`;
+    } else if(agent.truth){
+      html += `<td><span class="c-none">—</span></td>`;
+    } else {
+      const p = pendingFor(data);
+      const pcls = p.total===0?'p-0':(p.total<=2?'p-low':'p-high');
+      const title = `${p.patterns} pattern${p.patterns===1?'':'s'} + ${p.acks} ack${p.acks===1?'':'s'}`;
+      html += `<td><span class="pending-cell ${pcls}" title="${esc(title)}">${p.total}</span></td>`;
+    }
+    if(placeholder){
+      html += `<td><span class="hb none">${error?'(fetch err)':'no report'}</span></td>`;
+    } else {
+      const f = freshness(data.last_updated, data.cadence_days);
+      html += `<td><span class="hb ${f.tier}">${esc(f.label)}</span></td>`;
+    }
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  document.getElementById('matrix').innerHTML = html;
+
+  // ===== Announcements panel =====
+  let ahtml = '';
+  if(ANNOUNCEMENTS.length===0){
+    ahtml = `<div class="empty" style="color:var(--muted);font-style:italic">No announcements acked by Albert yet.</div>`;
+  } else {
+    ANNOUNCEMENTS.forEach(a=>{
+      ahtml += `<div class="ann-row"><span class="id">${esc(a.id)}</span><span class="topic">${esc(a.topic)}</span></div>`;
+    });
+  }
+  document.getElementById('announcements').innerHTML = ahtml;
+}).catch(e=>{
+  document.getElementById('matrix').outerHTML = `<div class="err"><b>Failed to render matrix:</b> ${esc(e.message)}</div>`;
+});
+</script>
+
+</body>
+</html>

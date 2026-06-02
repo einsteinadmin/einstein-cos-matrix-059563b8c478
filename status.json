@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "owner": {
+    "name": "Cameron Brown",
+    "title": "CEO / Co-Owner",
+    "cos": "Albert"
+  },
+  "period": "Q2 2026",
+  "period_start": "2026-05-01",
+  "period_end": "2026-07-31",
+  "last_updated": "2026-06-01T16:30:00-05:00",
+  "updated_by": "Albert (/wrap — edited by Cameron)",
+  "cadence_days": 1,
+  "goals": [
+    {
+      "id": "cameron-cos-rollout",
+      "number": 1,
+      "name": "Build Einstein Dojo + Scale AI COS to All Roundtable",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 70,
+      "assessment": "5 of 6 COS active (Albert, Gerald-Mike, CoS-MH1, Clark-Paul, Vera-Brian — onboarded 5/26). Critical # = 6 active COS instances with weekly usage; Amanda is the last (onboarding prep underway). Network governance maturing: repo consolidated to one private template, v0.7.0–v0.7.3 shipped network-wide (self-serve /digest + Step 0 propagation). Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) Dojo = renamed skills repo + /dojo recommender. (6/1: Anne COS onboarding scheduled this week — 3–4 hr block, pulse 12162563893; Amanda/Gary still mid-flight.)",
+      "blockers": [
+        "Amanda's COS (Gary) onboarding still mid-flight — Mon/Tue finish list pending",
+        "MCP config generator HTML form not yet built",
+        "/dojo recommender skill not yet built"
+      ],
+      "milestones": [
+        {
+          "name": "All 6 Roundtable members have active COS",
+          "date": "2026-06-15",
+          "done": false
+        },
+        {
+          "name": "/dojo recommender + MCP config generator built",
+          "date": "2026-06-30",
+          "done": false
+        },
+        {
+          "name": "Dojo with 40+ skills",
+          "date": "2026-07-31",
+          "done": false
+        },
+        {
+          "name": "1 nightly synthesis pipeline live",
+          "date": "2026-07-15",
+          "done": false
+        }
+      ],
+      "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
+      "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 6 Roundtable members have active COS, 1 nightly synthesis pipeline, skill PR template in repo",
+      "updated": "2026-06-01"
+    },
+    {
+      "id": "cameron-ai-wedge",
+      "number": 2,
+      "name": "AI Wedge Audit and QG Support",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 40,
+      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G. ClearCo API access GRANTED 5/28 — pay starts 6/1; Matisen building recruiting/screening funnel skill on top.",
+      "blockers": [
+        "Matisen audit timing slipped past 5/15 SG threshold; 5/30 G threshold imminent",
+        "QG dependency map not yet documented end-to-end"
+      ],
+      "milestones": [
+        {
+          "name": "Audit complete",
+          "date": "2026-05-30",
+          "done": false
+        },
+        {
+          "name": "Supporting QG dependencies mapped (10 for SG, ≥5 for G)",
+          "date": "2026-06-15",
+          "done": false
+        },
+        {
+          "name": "5+ supporting QGs Green by EOQ",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
+      "superGreen": "Audit complete by 5/15; all 10 supporting QG dependencies mapped; 7+ supporting QGs Green by EOQ; AI Wedge requirements documented + approved",
+      "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
+      "updated": "2026-05-29"
+    },
+    {
+      "id": "cameron-vp-rollout",
+      "number": 3,
+      "name": "Variable Pricing Full Rollout + Weekly Review Cadence",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 60,
+      "assessment": "Carry from Q1. Phase 1 LIVE. 5/27 KP sync: reserve-to-book hit 73% in May (vs 40% Feb). Lead mix 38% estimable / 62% inestimable. Matisen owns: inestimable pathway analysis via Claude agents, Dialpad transcript pull, mailer attribution. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock.",
+      "blockers": [
+        "VP form analytics submission-rate bug (>100% on some funnel steps) — KP reviewing",
+        "Conversion baseline still broken — Matisen owes apples-to-apples investigation"
+      ],
+      "milestones": [
+        {
+          "name": "Full day-of-week VP live + weekly review cadence running",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
+      "superGreen": "Full day-of-week VP live + weekly review cadence running",
+      "green": "Day-of-week VP live + cadence in place",
+      "updated": "2026-05-27"
+    },
+    {
+      "id": "cameron-branch-visits",
+      "number": 4,
+      "name": "Branch Visits + O3s",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 35,
+      "assessment": "Carry from Q1. Cameron's time only — no external dependencies. 5/19 N. Austin onsite with Rance banked (Workstream A FM ride-along + Workstream B app consolidation). 1/3 visits toward Green threshold. Q1'26 O3 rotation COMPLETE (Brian/Anne/Mike/Amanda/Matisen all done).",
+      "blockers": [],
+      "milestones": [
+        {
+          "name": "Branch visit #2",
+          "date": "2026-06-30",
+          "done": false
+        },
+        {
+          "name": "Branch visit #3 (Green)",
+          "date": "2026-07-31",
+          "done": false
+        },
+        {
+          "name": "Q2 O3 rotation",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
+      "superGreen": "5 branch visits + 5 listen-and-learns + 5 O3s with all directs",
+      "green": "3 branch visits + 3 listen-and-learns + quarterly O3s",
+      "updated": "2026-05-19"
+    },
+    {
+      "id": "cameron-website-redesign",
+      "number": 5,
+      "name": "Oversee Website Redesign — Smart Move System Part 2",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 25,
+      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 — staying on WordPress, building new FSE block theme. Proposal SIGNED 5/28; design process kicking off, Ben Young looped for payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh.",
+      "blockers": [
+        "KP SOW pending after design proposal sign-off",
+        "Brand story Drive re-upload pending"
+      ],
+      "milestones": [
+        {
+          "name": "KP design system kicked off",
+          "date": "2026-06-07",
+          "done": false
+        },
+        {
+          "name": "Smart Move copy refresh complete",
+          "date": "2026-07-15",
+          "done": false
+        },
+        {
+          "name": "New site live",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
+      "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
+      "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
+      "updated": "2026-05-28"
+    },
+    {
+      "id": "cameron-itp-reading",
+      "number": 6,
+      "name": "Ideal Team Player Reading",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 50,
+      "assessment": "Bonus rock. Green = read by EOQ (7/31); SG = read by EOQ + a 1-page reflection on personal Humility/Hunger/Smarts gaps. ~Halfway through the book with ~2 months left — ON TRACK. (The earlier 5/30 \"deadline\" was an expectation mismatch in the seed — the bar was always EOQ, not 5/30.)",
+      "blockers": [
+        "Reading time competes with the heavy weekly load — pace it to stay ahead of EOQ"
+      ],
+      "milestones": [
+        {
+          "name": "Book finished",
+          "date": "2026-07-31",
+          "done": false
+        },
+        {
+          "name": "1-page reflection on personal H/H/S gaps",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
+      "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
+      "green": "Read by EOQ (7/31)",
+      "updated": "2026-06-01"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "cameron-tur",
+      "name": "Truck Utilization Rate",
+      "target": "65%",
+      "actual": null,
+      "self_status": "unknown",
+      "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill."
+    },
+    {
+      "id": "cameron-conv",
+      "name": "Conversion Rate $",
+      "target": "40%",
+      "actual": null,
+      "self_status": "unknown",
+      "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring. May (6/1 group sync): conversion just under 19%, record >$3M in services — but still not an apples-to-apples baseline."
+    },
+    {
+      "id": "cameron-enps",
+      "name": "eNPS",
+      "target": "45+",
+      "actual": null,
+      "self_status": "unknown",
+      "note": "Q1 mover survey closed mid-April. Mover eNPS +46 (Q1). Q2 results pending."
+    }
+  ],
+  "adopted": [
+    {
+      "pattern": "template",
+      "version": "v0.7.3",
+      "state": "adopted",
+      "date": "2026-05-30"
+    },
+    {
+      "pattern": "wrap-git-push",
+      "state": "adopted",
+      "date": "2026-04-23"
+    },
+    {
+      "pattern": "gm-step-0",
+      "state": "adopted",
+      "date": "2026-05-30"
+    },
+    {
+      "pattern": "save-thread-keyed",
+      "state": "adopted",
+      "date": "2026-04-23"
+    },
+    {
+      "pattern": "slack-naming-v063",
+      "state": "adopted",
+      "date": "2026-04-23"
+    },
+    {
+      "pattern": "stub-prompts",
+      "state": "adopted",
+      "date": "2026-05-27"
+    },
+    {
+      "pattern": "status-file",
+      "version": "v1.0",
+      "state": "in_progress",
+      "date": "2026-05-29"
+    }
+  ],
+  "network_acks": [
+    {
+      "thread": "12112867738",
+      "topic": "Repo consolidation to ai-chief-of-staff private",
+      "state": "acked",
+      "date": "2026-05-26"
+    },
+    {
+      "thread": "12119024983",
+      "topic": "Stub-prompt propagation v0.6.10",
+      "state": "acked",
+      "date": "2026-05-27"
+    },
+    {
+      "thread": "12144982496",
+      "topic": "Step 0 v0.7.2 / two-stage watermark",
+      "state": "acked",
+      "date": "2026-05-30"
+    },
+    {
+      "thread": "12145052785",
+      "topic": "v0.7.3 — commands watching added",
+      "state": "acked",
+      "date": "2026-05-30"
+    },
+    {
+      "thread": "12109383450",
+      "topic": "/wrap git push audit",
+      "state": "acked",
+      "date": "2026-05-26"
+    },
+    {
+      "thread": "12109448155",
+      "topic": "Slack v0.6.3 retrofit",
+      "state": "acked",
+      "date": "2026-05-26"
+    }
+  ]
+}
