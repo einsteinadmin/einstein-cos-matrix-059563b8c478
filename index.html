@@ -190,6 +190,25 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
     .filter(a => a.state === 'acked')
     .map(a => ({ id: a.thread, topic: a.topic || '(no topic)' }));
 
+  // ===== Retire universally-adopted columns (keeps the matrix bounded) =====
+  // A pattern that EVERY reporting non-truth COS has adopted has stopped discriminating —
+  // it's "solved," so it drops off the live matrix and rolls into a Universal counter.
+  // The matrix only ever shows what's still IN FLIGHT, not a museum of solved history.
+  // Nothing is hidden silently: retired patterns are counted + listed in the Universal stat.
+  // Guard: needs >=1 reporting non-truth COS, else nothing retires (early-phase safety).
+  // EXCEPTION: a pattern Albert still has 'in_progress' never retires (it's a live rollout).
+  const _rnt = results.filter(r => r.data && !r.agent.truth);
+  function isUniversal(patternId){
+    if(_rnt.length === 0) return false;
+    return _rnt.every(r => {
+      const m = (r.data.adopted||[]).find(a => a.pattern === patternId);
+      return m && m.state === 'adopted';
+    });
+  }
+  const PATTERNS_RETIRED = PATTERNS.filter(p => p.truthState === 'adopted' && isUniversal(p.id));
+  const retiredIds = new Set(PATTERNS_RETIRED.map(p => p.id));
+  const PATTERNS_LIVE = PATTERNS.filter(p => !retiredIds.has(p.id));
+
   // ===== Compute pending per agent =====
   function pendingFor(data){
     if(!data) return { patterns:0, acks:0, total:0 };
@@ -221,17 +240,18 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
   document.getElementById('summary').innerHTML = `
     <div class="stat"><div class="label">Agents reporting</div><div class="v ${reporting<total?'warn':'good'}">${reporting} / ${total}</div></div>
     <div class="stat"><div class="label">Adoption (vs Albert)</div><div class="v ${adoptionPct===null?'':(adoptionPct>=80?'good':(adoptionPct>=50?'warn':'bad'))}">${adoptDisplay}</div></div>
-    <div class="stat"><div class="label">Patterns tracked</div><div class="v">${PATTERNS.length}</div></div>
+    <div class="stat"><div class="label">In flight</div><div class="v">${PATTERNS_LIVE.length}</div></div>
+    <div class="stat"><div class="label">Universal (retired)</div><div class="v good" title="${esc(PATTERNS_RETIRED.map(p=>p.label).join(', ')||'none yet')}">${PATTERNS_RETIRED.length}</div></div>
     <div class="stat"><div class="label">Stale reports</div><div class="v ${staleCount?'bad':'good'}">${staleCount}</div></div>
     <div class="stat"><div class="label">Pending items</div><div class="v ${pendingTotal>0?'warn':'good'}">${pendingTotal}</div></div>
   `;
 
   document.getElementById('truthnote').innerHTML =
-    `<b style="color:var(--orange-deep)">Truth source:</b> Albert's <code style="font-family:'Roboto Mono',monospace">status.json</code> — patterns Albert has adopted define what the network should have adopted. Columns + announcements auto-derived from his file.`;
+    `<b style="color:var(--orange-deep)">Truth source:</b> Albert's <code style="font-family:'Roboto Mono',monospace">status.json</code> — patterns Albert has adopted define what the network should have adopted. Columns + announcements auto-derived from his file. <b>Columns retire automatically</b> once every reporting COS has adopted them (they roll into <b>Universal</b>), so the matrix only ever shows what's still in flight — it stays bounded no matter how many patterns ship over time.`;
 
   // ===== Matrix =====
   let html = '<thead><tr><th>COS</th>';
-  PATTERNS.forEach(p=>{
+  PATTERNS_LIVE.forEach(p=>{
     const ver = p.truthVersion?`<br><small style="font-weight:400;color:#cdd8e6;font-family:'Roboto Mono',monospace">${esc(p.truthVersion)}</small>`:'';
     html += `<th>${esc(p.label)}${ver}</th>`;
   });
@@ -242,7 +262,7 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
     html += `<tr${placeholder?' class="placeholder"':''}>`;
     const truthBadge = agent.truth ? '<span class="truthbadge">truth</span>' : '';
     html += `<td>${esc(agent.cos)}${truthBadge}<small>${esc(agent.principal)}${agent.note?' · '+esc(agent.note):''}</small></td>`;
-    PATTERNS.forEach(p=>{
+    PATTERNS_LIVE.forEach(p=>{
       if(placeholder){ html += `<td><span class="c-none">—</span></td>`; return; }
       const s = patternState(data.adopted, p.id);
       if(!s){
