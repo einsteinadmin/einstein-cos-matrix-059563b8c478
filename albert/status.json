@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-02T16:36:02-05:00",
-  "updated_by": "Albert (/wrap — edited by Cameron)",
+  "last_updated": "2026-06-03T17:35:00-05:00",
+  "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 75,
-      "assessment": "6 of 7 COS active (Albert, Gerald-Mike, Clark-Paul, CoS-MH1, Vera-Brian, Gary-Amanda onboarded 6/2). Full target = 7 (Cameron + Paul + 5 directs); Anne's COS (Linda) is the last — Cameron onboarding her this week (pulse 12162563893). Network governance maturing: one private template, v0.7.0–v0.8.2 shipped network-wide incl. the SCB reply-descent fix (PR #49). Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) Dojo = renamed skills repo + /dojo recommender.",
+      "assessment": "6 of 7 COS active (Albert, Gerald-Mike, Clark-Paul, CoS-MH1, Vera-Brian, Gary-Amanda onboarded 6/2). Full target = 7 (Cameron + Paul + 5 directs); Anne's COS (Linda) is the last — Cameron onboarding her this week (pulse 12162563893). Network governance maturing: one private template, v0.7.0–v0.8.2 shipped network-wide incl. the SCB reply-descent fix (PR #49). Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) Dojo = renamed skills repo + /dojo recommender. 6/3: Brian/Vera check-in #3 strong (11 custom skills, /wrap+/save regular, pulled sky-board-workflow live); 3 operator COS tips added to the rollout deck.",
       "blockers": [
         "Anne's COS (Linda) not yet onboarded — Cameron targeting this week",
         "MCP config generator HTML form not yet built",
@@ -50,7 +50,7 @@
       ],
       "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
       "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 7 COS active (Cameron + Paul + 5 directs), 1 nightly synthesis pipeline, skill PR template in repo",
-      "updated": "2026-06-01"
+      "updated": "2026-06-03"
     },
     {
       "id": "cameron-ai-wedge",
@@ -94,7 +94,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 60,
-      "assessment": "Carry from Q1. Phase 1 LIVE. 5/27 KP sync: reserve-to-book hit 73% in May (vs 40% Feb). Lead mix 38% estimable / 62% inestimable. Matisen owns: inestimable pathway analysis via Claude agents, Dialpad transcript pull, mailer attribution. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock.",
+      "assessment": "Carry from Q1. Phase 1 LIVE. 5/27 KP sync: reserve-to-book hit 73% in May (vs 40% Feb). Lead mix 38% estimable / 62% inestimable. Matisen owns: inestimable pathway analysis via Claude agents, Dialpad transcript pull, mailer attribution. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock. 6/3 KP sync: campaign Apr15–May15 +175% YoY booking confirmations / +84% conversions on +31% spend; data-integrity flag (sessions-started mismatch → possible API leak post-form-submit, KP digging).",
       "blockers": [
         "VP form analytics submission-rate bug (>100% on some funnel steps) — KP reviewing",
         "Conversion baseline still broken — Matisen owes apples-to-apples investigation"
@@ -108,7 +108,7 @@
       ],
       "superGreen": "Full day-of-week VP live + weekly review cadence running",
       "green": "Day-of-week VP live + cadence in place",
-      "updated": "2026-05-27"
+      "updated": "2026-06-03"
     },
     {
       "id": "cameron-branch-visits",
@@ -148,10 +148,10 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 25,
-      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 — staying on WordPress, building new FSE block theme. Proposal SIGNED 5/28; design process kicking off, Ben Young looped for payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh.",
+      "percent_complete": 30,
+      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 — staying on WordPress, building new FSE block theme. Proposal SIGNED 5/28; design process kicking off, Ben Young looped for payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh. 6/3 KP sync: redesign workflow LOCKED — first design sprint next week, Rich's team meets Thursday. Cameron's deliverables: brand-voice + front-end design package + visual inspiration for Emma (KP designer) incl. a scroll-based mover animation. Open Q: keeping KP on the latest brand-voice/front-end skill (Moda candidate).",
       "blockers": [
-        "KP SOW pending after design proposal sign-off",
+        "KP project board + redesign invoice pending from Laura",
         "Brand story Drive re-upload pending"
       ],
       "milestones": [
@@ -173,7 +173,7 @@
       ],
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "updated": "2026-05-28"
+      "updated": "2026-06-03"
     },
     {
       "id": "cameron-itp-reading",
