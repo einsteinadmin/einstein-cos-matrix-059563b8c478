@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-03T17:35:00-05:00",
+  "last_updated": "2026-06-04T17:30:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,10 +19,9 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 75,
-      "assessment": "6 of 7 COS active (Albert, Gerald-Mike, Clark-Paul, CoS-MH1, Vera-Brian, Gary-Amanda onboarded 6/2). Full target = 7 (Cameron + Paul + 5 directs); Anne's COS (Linda) is the last — Cameron onboarding her this week (pulse 12162563893). Network governance maturing: one private template, v0.7.0–v0.8.2 shipped network-wide incl. the SCB reply-descent fix (PR #49). Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) Dojo = renamed skills repo + /dojo recommender. 6/3: Brian/Vera check-in #3 strong (11 custom skills, /wrap+/save regular, pulled sky-board-workflow live); 3 operator COS tips added to the rollout deck.",
+      "percent_complete": 80,
+      "assessment": "All 7 COS now LIVE — Linda (Anne) fully onboarded 6/4 (MCP + intake + first /gm + first /wrap); Albert, Gerald, Clark, CoS-MH1, Vera, Gary already running. Full target hit (Cameron + Paul + 5 directs). COS Network v2 status-flow rebuilt 6/4: diagnosed the dead adoption matrix via /teach, locked the PULL model (each COS writes status.json to its own repo, Albert pulls), built + tested cos-network-pull.sh aggregator + health check + plain-language bootstrap; Gerald posted as first pilot (SCB 12197364080). Three legs still open: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) /dojo recommender skill. Network governance mature: one private template, v0.7-v0.8.2 shipped network-wide.",
       "blockers": [
-        "Anne's COS (Linda) not yet onboarded — Cameron targeting this week",
         "MCP config generator HTML form not yet built",
         "/dojo recommender skill not yet built"
       ],
@@ -30,7 +29,7 @@
         {
           "name": "All 7 COS active (Cameron + Paul + 5 directs incl. Anne/Linda)",
           "date": "2026-06-15",
-          "done": false
+          "done": true
         },
         {
           "name": "/dojo recommender + MCP config generator built",
