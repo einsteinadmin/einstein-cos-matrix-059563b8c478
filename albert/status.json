@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-05T18:00:00-05:00",
+  "last_updated": "2026-06-08T17:00:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,8 +19,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 82,
-      "assessment": "All 7 COS now LIVE — Linda (Anne) fully onboarded 6/4 (MCP + intake + first /gm + first /wrap); Albert, Gerald, Clark, CoS-MH1, Vera, Gary already running. Full target hit (Cameron + Paul + 5 directs). COS Network v2 status-flow rebuilt 6/4: diagnosed the dead adoption matrix via /teach, locked the PULL model (each COS writes status.json to its own repo, Albert pulls), built + tested cos-network-pull.sh aggregator + health check + plain-language bootstrap; Gerald posted as first pilot (SCB 12197364080). Three legs still open: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) /dojo recommender skill. Network governance mature: one private template, v0.7-v0.8.2 shipped network-wide. First Tier 2 specialist agent shipped 6/5 — Dialpad sales-call grading, live same-day (Gary); proves the specialist-agent layer of the world-model strategy.",
+      "percent_complete": 84,
+      "assessment": "All 7 COS now LIVE — Linda (Anne) fully onboarded 6/4 (MCP + intake + first /gm + first /wrap); Albert, Gerald, Clark, CoS-MH1, Vera, Gary already running. Full target hit (Cameron + Paul + 5 directs). COS Network v2 status-flow rebuilt 6/4: diagnosed the dead adoption matrix via /teach, locked the PULL model (each COS writes status.json to its own repo, Albert pulls), built + tested cos-network-pull.sh aggregator + health check + plain-language bootstrap; Gerald posted as first pilot (SCB 12197364080). Three legs still open: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Routines, (3) /dojo recommender skill. Network governance mature: one private template, v0.7-v0.8.2 shipped network-wide. First Tier 2 specialist agent shipped 6/5 — Dialpad sales-call grading, live same-day (Gary); proves the specialist-agent layer of the world-model strategy. 6/8: built the Mission Control 'prep-in-tool' meeting system + ran the first 2 live 1:1s (Amanda, Brian) — this is the world-model/meeting-automation leg: meeting record → /digest → dashboard + status.json feed, validating the capture→synthesis loop end-to-end. Prep now seeds into the tool (praise/pushes/discuss/FYI); /meeting-prep + /digest skills wired to it.",
       "blockers": [
         "MCP config generator HTML form not yet built",
         "/dojo recommender skill not yet built"
