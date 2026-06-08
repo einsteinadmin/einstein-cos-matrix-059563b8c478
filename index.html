@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>COS Network — Adoption Matrix</title>
+<title>COS Network — Health & Adoption</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -74,19 +74,57 @@
 
   .err{background:#fde6e2;border:1px solid #f3b0a3;color:#b03220;padding:14px 18px;border-radius:9px;margin:16px 0;}
   footer{padding:30px 0 24px;text-align:center;color:var(--muted);font-size:12px;}
+
+  /* ===== Network Health hero ===== */
+  .alert-banner{border-radius:var(--radius);padding:14px 18px;margin:0 0 20px;font-size:14px;box-shadow:var(--shadow);display:none;}
+  .alert-banner.show{display:block;}
+  .alert-banner.red{background:#fde6e2;border:1px solid #f3b0a3;color:#8f2718;}
+  .alert-banner.green{background:#e3f5e9;border:1px solid #b6e0c4;color:#1f7a3d;}
+  .alert-banner b{font-weight:800;}
+  .alert-banner .chase{display:block;margin-top:6px;padding-left:2px;}
+  .alert-banner .chase .who{font-weight:800;}
+  .alert-banner .chase .ago{font-family:'Roboto Mono',monospace;font-size:12.5px;}
+
+  .health-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:12px;margin-bottom:8px;}
+  .hcard{background:var(--card);border:1px solid var(--line);border-left-width:5px;border-radius:var(--radius);padding:13px 15px;box-shadow:var(--shadow);position:relative;}
+  .hcard .name{font-size:15px;font-weight:800;color:var(--navy);}
+  .hcard .name small{display:block;font-weight:500;color:var(--muted);font-size:12px;margin-top:1px;}
+  .hcard .pill{position:absolute;top:13px;right:13px;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:20px;}
+  .hcard .meta{margin-top:9px;font-size:12.5px;color:var(--muted);}
+  .hcard .meta .seen{font-family:'Roboto Mono',monospace;color:var(--ink);font-weight:600;}
+  .hcard .action{margin-top:7px;font-size:12.5px;font-weight:700;}
+  /* tiers */
+  .hcard.live{border-left-color:var(--sg);}      .hcard.live .pill{background:#e3f5e9;color:#1f7a3d;}
+  .hcard.aging{border-left-color:var(--yellow);} .hcard.aging .pill{background:#fff3da;color:#9a6a00;}
+  .hcard.silent{border-left-color:var(--red);}   .hcard.silent .pill{background:#fde6e2;color:#b03220;}
+  .hcard.silent .action{color:var(--red);}
+  .hcard.pending{border-left-color:var(--gray);background:#fafbfc;} .hcard.pending .pill{background:#eef1f4;color:var(--muted);}
+  .hcard.pending .action{color:var(--blue);}
+  .hcard.unreachable{border-left-color:var(--orange-deep);} .hcard.unreachable .pill{background:var(--orange-soft);color:var(--orange-deep);}
+  .hcard.unreachable .action{color:var(--orange-deep);}
 </style>
 </head>
 <body>
 
 <div class="topbar">
   <div class="wrap">
-    <h1>COS Network — Adoption Matrix</h1>
-    <div class="sub">Who's adopted what across the network · pulled from each COS's <code style="font-family:'Roboto Mono',monospace">status.json</code></div>
+    <h1>COS Network — Health &amp; Adoption</h1>
+    <div class="sub">Is each agent alive and reporting — and who do I go ask if not. Then: who's adopted what. Pulled from each COS's <code style="font-family:'Roboto Mono',monospace">status.json</code>.</div>
   </div>
 </div>
 
 <div class="wrap">
   <section>
+    <div id="healthAlert" class="alert-banner"></div>
+    <h2>Network health</h2>
+    <div id="healthGrid" class="health-grid"></div>
+    <div class="legend" style="margin:4px 0 30px">
+      <span><span class="cell c-adopted">live</span> reporting on cadence</span>
+      <span><span class="cell c-in_progress">aging</span> past cadence, not yet silent</span>
+      <span><span class="cell c-behind">silent</span> crossed the chase threshold → ask the principal</span>
+      <span><span class="cell c-na">awaiting bootstrap</span> not onboarded to the pull model yet</span>
+    </div>
+    <h2>Adoption matrix</h2>
     <div id="summary" class="summary"></div>
     <div id="truthnote" class="truthnote"></div>
     <h2>Agents × Patterns</h2>
@@ -129,20 +167,102 @@ const PATTERN_LABELS = {
 };
 
 const CADENCE_DEFAULT = 2;  // staleness threshold for matrix heartbeat
+const HEALTH_SILENT_DAYS = 9;  // chase threshold in BUSINESS days: a *working* agent silent this long → go ask the principal
 
 // ===== HELPERS =====
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+// Business days elapsed since `iso` (Sat/Sun don't count toward aging — Cameron's rule).
+// Counts weekday boundaries crossed from the day after `iso` through today.
+function businessDaysSince(iso){
+  const start = new Date(iso);
+  if(isNaN(start)) return null;
+  const now = new Date();
+  if(now <= start) return 0;
+  const cur = new Date(start); cur.setHours(0,0,0,0);
+  const end = new Date(now);   end.setHours(0,0,0,0);
+  let count = 0;
+  while(cur < end){
+    cur.setDate(cur.getDate()+1);
+    const dow = cur.getDay();
+    if(dow!==0 && dow!==6) count++;
+  }
+  return count;
+}
+
+// Human "ago" label: hours under a day, else business days (matches the aging rule).
+function agoLabel(iso){
+  const ms = Date.now()-new Date(iso).getTime();
+  if(ms < 24*60*60*1000) return `${Math.max(1,Math.round(ms/3600000))}h ago`;
+  const bd = businessDaysSince(iso);
+  return bd<=0 ? 'today' : `${bd} business day${bd===1?'':'s'} ago`;
+}
+
 function freshness(lastUpdated, cadenceDays){
   if(!lastUpdated) return {tier:'none',label:'no report'};
-  const days = (Date.now()-new Date(lastUpdated).getTime())/(1000*60*60*24);
+  const days = businessDaysSince(lastUpdated);  // business days, not calendar
   const cadence = cadenceDays || CADENCE_DEFAULT;
   let tier='fresh';
   if(days >= cadence*2) tier='stale';
   else if(days >= cadence) tier='aging';
-  let label;
-  if(days < 1) label = `${Math.max(1,Math.round(days*24))}h ago`;
-  else label = `${Math.round(days)}d ago`;
-  return {tier,label};
+  return {tier,label:agoLabel(lastUpdated)};
+}
+
+// Classify an agent's reporting health. Distinguishes a WORKING agent gone dark
+// (→ chase the principal) from one NOT YET bootstrapped (→ Track C onboarding).
+function classifyHealth({agent, data, error}){
+  if(error || !data) return {tier:'unreachable', label:"can't read status.json", days:null};
+  const stub = /stub/i.test(data.updated_by||'') ||
+               String(data.last_updated||'').startsWith('2026-01-01');
+  if(stub) return {tier:'pending', label:'awaiting bootstrap', days:null};
+  const days = businessDaysSince(data.last_updated);  // business days only — weekends don't age an agent
+  const cadence = data.cadence_days || CADENCE_DEFAULT;
+  let tier;
+  if(days >= HEALTH_SILENT_DAYS) tier='silent';
+  else if(days >= cadence) tier='aging';
+  else tier='live';
+  return {tier, label:agoLabel(data.last_updated), days};
+}
+
+function renderHealth(results){
+  const PILL = {live:'live', aging:'aging', silent:'silent', pending:'not onboarded', unreachable:'unreachable'};
+  const cards = results.map(r=>{
+    const h = classifyHealth(r);
+    const a = r.agent;
+    let action = '';
+    if(h.tier==='silent')      action = `<div class="action">→ Ask ${esc(a.principal)} — is ${esc(a.cos)} still running?</div>`;
+    else if(h.tier==='pending')action = `<div class="action">→ Bootstrap pending (Track C)</div>`;
+    else if(h.tier==='unreachable') action = `<div class="action">→ Repo/file unreachable — check the pull</div>`;
+    const seen = h.label ? `<span class="seen">${esc(h.label)}</span>` : '—';
+    const metaLine = (h.tier==='pending') ? 'never published yet'
+                   : (h.tier==='unreachable') ? 'no readable report'
+                   : `last reported ${seen}`;
+    return `<div class="hcard ${h.tier}">
+      <div class="name">${esc(a.cos)}<small>${esc(a.principal)}${a.note?' · '+esc(a.note):''}</small></div>
+      <span class="pill">${PILL[h.tier]}</span>
+      <div class="meta">${metaLine}</div>
+      ${action}
+    </div>`;
+  }).join('');
+  document.getElementById('healthGrid').innerHTML = cards;
+
+  // Threshold banner: only fires on a WORKING agent that has gone silent (the "go ask" case).
+  // Pending/unreachable are setup states, not responsiveness alarms — they don't trip the chase banner.
+  const silent = results.map(r=>({r, h:classifyHealth(r)})).filter(x=>x.h.tier==='silent');
+  const banner = document.getElementById('healthAlert');
+  if(silent.length){
+    const rows = silent
+      .sort((a,b)=>b.h.days-a.h.days)
+      .map(({r,h})=>`<span class="chase">• <span class="who">${esc(r.agent.cos)}</span> (${esc(r.agent.principal)}) — silent <span class="ago">${esc(h.label)}</span> → go ask ${esc(r.agent.principal)}.</span>`)
+      .join('');
+    banner.className = 'alert-banner red show';
+    banner.innerHTML = `<b>${silent.length} agent${silent.length>1?'s have':' has'} gone dark past the ${HEALTH_SILENT_DAYS}-business-day line:</b>${rows}`;
+  } else {
+    const live = results.filter(r=>classifyHealth(r).tier==='live').length;
+    const pend = results.filter(r=>classifyHealth(r).tier==='pending').length;
+    banner.className = 'alert-banner green show';
+    banner.innerHTML = `<b>No agent past the chase line.</b> ${live} reporting on cadence${pend?`, ${pend} awaiting bootstrap`:''}. Nothing to chase right now.`;
+  }
 }
 
 function patternState(adopted, patternId){
@@ -166,6 +286,18 @@ async function fetchAgent(a){
 }
 
 Promise.all(AGENTS.map(fetchAgent)).then(results=>{
+  // ===== Network health (independent of truth source) =====
+  renderHealth(results);
+
+  // For the matrix + stats below, treat un-bootstrapped stubs as "no report" so
+  // placeholder files don't inflate the reporting count or adoption math. (Health
+  // already ran above on the raw results, so the stub/not-onboarded signal is preserved.)
+  results.forEach(r=>{
+    if(r.data && (/stub/i.test(r.data.updated_by||'') || String(r.data.last_updated||'').startsWith('2026-01-01'))){
+      r.data = null; r.stub = true;
+    }
+  });
+
   // ===== Find truth source (Albert) =====
   const truth = results.find(r => r.agent.truth && r.data);
   if(!truth){
