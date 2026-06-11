@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Leader Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --orange:#EF8B22; --orange-soft:#FBE7D1; --orange-deep:#C96A0E;
+    --navy:#0d2b4e; --navy-2:#16395f; --ink:#1c2733; --muted:#5d6b7a;
+    --line:#e4e9ef; --bg:#f6f8fa; --card:#fff;
+    --sg:#1f7a3d; --sg-glow:#2faa54; --green:#3aa564; --yellow:#E8A317; --red:#D7472E; --gray:#9aa6b2;
+    --blue:#0979C3;
+    --radius:12px; --shadow:0 1px 3px rgba(13,43,78,.07),0 6px 18px rgba(13,43,78,.06);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:'Roboto',-apple-system,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 22px;}
+
+  /* Header */
+  .topbar{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;padding:28px 0 26px;}
+  .topbar h1{font-size:26px;font-weight:900;margin:0 0 4px;letter-spacing:-.3px;}
+  .topbar .sub{color:#cdd8e6;font-size:14.5px;}
+  .topbar .meta{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;font-size:13px;}
+  .topbar .meta span{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:5px 12px;}
+  .freshness{display:inline-flex;align-items:center;gap:7px;font-weight:600;}
+  .freshness .pulse{width:8px;height:8px;border-radius:50%;}
+  .fresh .pulse{background:#5be197;box-shadow:0 0 0 4px rgba(91,225,151,.25);}
+  .aging .pulse{background:#ffd591;}
+  .stale .pulse{background:#ff8a7a;}
+
+  /* Sections */
+  section{padding:28px 0;}
+  h2{font-size:18px;font-weight:800;letter-spacing:-.2px;color:var(--navy);margin:0 0 14px;}
+  h2 .count{background:var(--orange-soft);color:var(--orange-deep);font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:middle;}
+
+  /* KPI row */
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:780px){.kpis{grid-template-columns:1fr;}}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);}
+  .kpi .label{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .kpi .actual{font-size:24px;font-weight:900;color:var(--ink);margin-top:4px;}
+  .kpi .actual.unknown{color:var(--gray);}
+  .kpi .target{font-size:12.5px;color:var(--muted);}
+  .kpi .note{font-size:12.5px;color:var(--muted);margin-top:6px;font-style:italic;}
+
+  /* Goal cards */
+  .goals{display:grid;grid-template-columns:1fr;gap:14px;}
+  .goal{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;box-shadow:var(--shadow);border-left:4px solid var(--gray);}
+  .goal.s-supergreen{border-left-color:var(--sg);}
+  .goal.s-green{border-left-color:var(--green);}
+  .goal.s-yellow{border-left-color:var(--yellow);}
+  .goal.s-red{border-left-color:var(--red);}
+  .goal.s-unknown{border-left-color:var(--gray);background:#fafbfc;}
+
+  .goal-head{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;}
+  .dot{width:14px;height:14px;border-radius:50%;flex-shrink:0;margin-top:5px;}
+  .dot.s-supergreen{background:var(--sg);box-shadow:0 0 0 4px rgba(47,170,84,.22);}
+  .dot.s-green{background:var(--green);}
+  .dot.s-yellow{background:var(--yellow);}
+  .dot.s-red{background:var(--red);}
+  .dot.s-unknown{background:var(--gray);}
+  .goal-title{flex:1;min-width:200px;}
+  .goal-title .num{color:var(--muted);font-weight:700;font-size:14px;}
+  .goal-title h3{margin:0;font-size:17px;font-weight:700;color:var(--navy);line-height:1.3;}
+  .badges{display:flex;gap:7px;flex-wrap:wrap;margin-top:6px;}
+  .badge{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:5px;}
+  .b-crit{background:#fde6e2;color:#b03220;}
+  .b-status{background:#eef2f6;color:var(--navy);}
+  .b-status.s-supergreen{background:#e3f5e9;color:#1f7a3d;}
+  .b-status.s-green{background:#e6f4ec;color:#2c8a52;}
+  .b-status.s-yellow{background:#fff3da;color:#9a6a00;}
+  .b-status.s-red{background:#fde6e2;color:#b03220;}
+  .b-status.s-unknown{background:#eef1f4;color:var(--muted);}
+  .b-conf{background:#eef5fc;color:var(--blue);}
+
+  .progress-wrap{margin-top:10px;display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--muted);}
+  .progress{flex:1;height:6px;background:#eef2f6;border-radius:99px;overflow:hidden;}
+  .progress-bar{height:100%;background:var(--orange);border-radius:99px;}
+
+  .assessment{margin-top:12px;font-size:14.5px;color:#33414f;}
+  .meta-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px;}
+  @media(max-width:680px){.meta-row{grid-template-columns:1fr;}}
+  .meta-block h4{margin:0 0 6px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--orange-deep);font-weight:800;}
+  .meta-block ul{margin:0;padding-left:18px;font-size:13.5px;}
+  .meta-block li{margin-bottom:4px;}
+  .ms-done{color:var(--sg);}
+  .ms-date{font-family:'Roboto Mono',monospace;font-size:12px;color:var(--muted);}
+  .crit-thresh{margin-top:12px;font-size:12.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px;}
+  .crit-thresh b{color:var(--ink);}
+
+  /* Adoption sidebar grid */
+  .adoption{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;}
+  .adopt-chip{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:10px 12px;}
+  .adopt-chip .p{font-size:13px;font-weight:700;color:var(--navy);}
+  .adopt-chip .v{font-size:12px;color:var(--muted);font-family:'Roboto Mono',monospace;}
+  .adopt-chip .st{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;display:inline-block;padding:2px 7px;border-radius:5px;margin-top:4px;}
+  .st-adopted{background:#e3f5e9;color:#1f7a3d;}
+  .st-in_progress{background:#fff3da;color:#9a6a00;}
+  .st-behind{background:#fde6e2;color:#b03220;}
+  .st-na{background:#eef1f4;color:var(--muted);}
+
+  /* Network acks list */
+  .acks{display:grid;grid-template-columns:1fr;gap:8px;}
+  .ack-row{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .ack-row .topic{font-size:14px;color:var(--ink);}
+  .ack-row .topic small{color:var(--muted);font-size:11.5px;}
+  .ack-row .right{display:flex;gap:8px;align-items:center;font-size:12px;}
+  .ack-row .date{color:var(--muted);font-family:'Roboto Mono',monospace;}
+
+  .empty{color:var(--muted);font-style:italic;font-size:13.5px;}
+  .err{background:#fde6e2;border:1px solid #f3b0a3;color:#b03220;padding:14px 18px;border-radius:9px;margin:20px 0;}
+  .warn-banner{background:#fff7ee;border:1px solid #fbcfa3;color:var(--orange-deep);padding:10px 16px;border-radius:9px;margin:0 0 16px;font-size:13.5px;}
+  .warn-banner b{color:var(--ink);}
+  footer{padding:34px 0 24px;text-align:center;color:var(--muted);font-size:12px;}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <h1 id="ownerName">Loading…</h1>
+    <div class="sub" id="ownerSub"></div>
+    <div class="meta" id="meta"></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div id="root"></div>
+</div>
+
+<footer>
+  <div class="wrap">
+    Single-leader dashboard · reads <code style="font-family:'Roboto Mono',monospace">status.json</code> at workspace root · COS Network v2
+  </div>
+</footer>
+
+<script>
+// ===== CONFIG =====
+const STATUS_URL = './status.json';  // canonical status lives in the matrix deploy clone
+const SCHEMA_FIELDS = ['schema_version','owner','period','last_updated','goals'];
+const STATUS_ENUM = ['supergreen','green','yellow','red','unknown'];
+
+// ===== INLINE VALIDATOR (no deps) =====
+function validate(data){
+  const errs = [];
+  for(const f of SCHEMA_FIELDS){ if(!(f in data)) errs.push(`missing required field: ${f}`); }
+  if(data.goals && !Array.isArray(data.goals)) errs.push('goals must be array');
+  (data.goals||[]).forEach((g,i)=>{
+    if(!g.id) errs.push(`goal[${i}] missing id`);
+    if(!g.name) errs.push(`goal[${i}] missing name`);
+    if(g.self_status && !STATUS_ENUM.includes(g.self_status)) errs.push(`goal[${i}].self_status invalid: ${g.self_status}`);
+    if(g.confidence!=null && (g.confidence<1||g.confidence>5)) errs.push(`goal[${i}].confidence out of range 1-5`);
+    if(g.percent_complete!=null && (g.percent_complete<0||g.percent_complete>100)) errs.push(`goal[${i}].percent_complete out of range`);
+  });
+  return errs;
+}
+
+// ===== FRESHNESS =====
+function freshness(lastUpdated, cadenceDays){
+  if(!lastUpdated) return {tier:'stale',label:'no timestamp'};
+  const ms = Date.now() - new Date(lastUpdated).getTime();
+  const days = ms / (1000*60*60*24);
+  const cadence = cadenceDays || 1;
+  let tier='fresh', label;
+  if(days < cadence) tier='fresh';
+  else if(days < cadence*2) tier='aging';
+  else tier='stale';
+  if(days < 1){ const h = Math.max(1,Math.round(days*24)); label = `${h}h ago`; }
+  else label = `${Math.round(days)}d ago`;
+  return {tier,label};
+}
+
+// ===== ESCAPE =====
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+// ===== RENDER =====
+function render(d){
+  document.getElementById('ownerName').textContent = d.owner.name;
+  document.getElementById('ownerSub').textContent = `${d.owner.title||''} · COS: ${d.owner.cos}`;
+  const f = freshness(d.last_updated, d.cadence_days);
+  document.getElementById('meta').innerHTML = `
+    <span>Period: <b>${esc(d.period)}</b></span>
+    <span class="freshness ${f.tier}"><span class="pulse"></span>last updated ${f.label}</span>
+    <span>Cadence: every ${d.cadence_days||1}d</span>
+    <span>by ${esc(d.updated_by||'—')}</span>
+  `;
+
+  const errs = validate(d);
+  let html = '';
+  if(errs.length){
+    html += `<div class="err"><b>Schema validation warnings (${errs.length}):</b><ul>${errs.map(e=>`<li>${esc(e)}</li>`).join('')}</ul></div>`;
+  }
+  if(f.tier==='stale'){
+    html += `<div class="warn-banner"><b>Stale report.</b> Last updated ${f.label} (cadence is ${d.cadence_days||1}d). Refresh at next /wrap.</div>`;
+  }
+
+  // KPIs
+  if(d.kpis && d.kpis.length){
+    html += `<section><h2>KPIs <span class="count">${d.kpis.length}</span></h2><div class="kpis">`;
+    d.kpis.forEach(k=>{
+      html += `<div class="kpi">
+        <div class="label">${esc(k.name)}</div>
+        <div class="actual ${k.actual==null?'unknown':''}">${k.actual==null?'—':esc(k.actual)}</div>
+        <div class="target">target: ${esc(k.target||'—')}</div>
+        ${k.note?`<div class="note">${esc(k.note)}</div>`:''}
+      </div>`;
+    });
+    html += `</div></section>`;
+  }
+
+  // Goals
+  html += `<section><h2>Rocks <span class="count">${d.goals.length}</span></h2><div class="goals">`;
+  d.goals.forEach(g=>{
+    const s = g.self_status||'unknown';
+    const conf = g.confidence!=null?`<span class="badge b-conf">confidence ${g.confidence}/5</span>`:'';
+    const crit = g.critical?`<span class="badge b-crit">Critical #</span>`:'';
+    const pct = g.percent_complete!=null?g.percent_complete:0;
+    const ms = (g.milestones||[]).map(m=>{
+      const dateBit = m.date?`<span class="ms-date">${esc(m.date)}</span>`:'';
+      return `<li class="${m.done?'ms-done':''}">${m.done?'✓ ':''}${esc(m.name)} ${dateBit}</li>`;
+    }).join('') || '<li class="empty">No milestones</li>';
+    const bl = (g.blockers||[]).length
+      ? `<ul>${g.blockers.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>`
+      : `<div class="empty">No blockers</div>`;
+    html += `<div class="goal s-${s}">
+      <div class="goal-head">
+        <div class="dot s-${s}"></div>
+        <div class="goal-title">
+          ${g.number?`<div class="num">Rock #${g.number}</div>`:''}
+          <h3>${esc(g.name)}</h3>
+          <div class="badges">
+            ${crit}
+            <span class="badge b-status s-${s}">${s.replace('_',' ')}</span>
+            ${conf}
+          </div>
+        </div>
+      </div>
+      ${g.percent_complete!=null?`<div class="progress-wrap"><div class="progress"><div class="progress-bar" style="width:${pct}%"></div></div><span>${pct}%</span></div>`:''}
+      ${g.assessment?`<div class="assessment">${esc(g.assessment)}</div>`:''}
+      <div class="meta-row">
+        <div class="meta-block"><h4>Blockers</h4>${bl}</div>
+        <div class="meta-block"><h4>Milestones</h4><ul>${ms}</ul></div>
+      </div>
+      ${(g.green||g.superGreen)?`<div class="crit-thresh"><b>Green:</b> ${esc(g.green||'')}<br><b>Super Green:</b> ${esc(g.superGreen||'')}</div>`:''}
+    </div>`;
+  });
+  html += `</div></section>`;
+
+  // Adopted
+  if(d.adopted && d.adopted.length){
+    html += `<section><h2>Adopted patterns <span class="count">${d.adopted.length}</span></h2><div class="adoption">`;
+    d.adopted.forEach(a=>{
+      html += `<div class="adopt-chip">
+        <div class="p">${esc(a.pattern)}</div>
+        ${a.version?`<div class="v">${esc(a.version)}</div>`:''}
+        <div class="st st-${a.state}">${esc(a.state.replace('_',' '))}</div>
+      </div>`;
+    });
+    html += `</div></section>`;
+  }
+
+  // Network acks
+  if(d.network_acks && d.network_acks.length){
+    html += `<section><h2>Network acknowledgments <span class="count">${d.network_acks.length}</span></h2><div class="acks">`;
+    d.network_acks.forEach(a=>{
+      html += `<div class="ack-row">
+        <div class="topic">${esc(a.topic||'(no topic)')} <small>thread ${esc(a.thread)}</small></div>
+        <div class="right">
+          <span class="st st-${a.state==='acked'?'adopted':(a.state==='in_progress'?'in_progress':'behind')}">${esc(a.state.replace('_',' '))}</span>
+          ${a.date?`<span class="date">${esc(a.date)}</span>`:''}
+        </div>
+      </div>`;
+    });
+    html += `</div></section>`;
+  }
+
+  document.getElementById('root').innerHTML = html;
+}
+
+// ===== FETCH =====
+fetch(STATUS_URL + '?t=' + Date.now())
+  .then(r=>{ if(!r.ok) throw new Error(`HTTP ${r.status} fetching ${STATUS_URL}`); return r.json(); })
+  .then(render)
+  .catch(e=>{
+    document.getElementById('root').innerHTML =
+      `<div class="err"><b>Failed to load status.json:</b><br>${esc(e.message)}<br><br>Make sure the server is running and the file exists at <code style="font-family:'Roboto Mono',monospace">${STATUS_URL}</code>.</div>`;
+  });
+</script>
+
+</body>
+</html>

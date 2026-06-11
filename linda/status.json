@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "owner": { "name": "Anne Bosse", "title": "Director of Employee Experience", "cos": "Linda" },
+  "period": "Q2 2026",
+  "last_updated": "2026-01-01T00:00:00-05:00",
+  "updated_by": "(stub — not yet populated)",
+  "cadence_days": 1,
+  "_status": "stub — awaiting first /wrap publish from Linda",
+  "_note": "Stub created 6/11/2026 (Linda went live 6/4 but was missing from the dashboard roster — caught during the org-chart build). Bootstrap from BOOTSTRAP.md once the publish step ships post-Clark-pilot.",
+  "goals": [],
+  "kpis": [],
+  "adopted": [],
+  "network_acks": []
+}
