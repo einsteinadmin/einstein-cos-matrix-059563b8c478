@@ -73,6 +73,33 @@
   .ann-row .topic{flex:1;color:var(--ink);font-size:14px;}
 
   .err{background:#fde6e2;border:1px solid #f3b0a3;color:#b03220;padding:14px 18px;border-radius:9px;margin:16px 0;}
+
+  /* ===== Agent Org Chart — governance (hand-curated, static) ===== */
+  .gov-badge{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--orange-soft);color:var(--orange-deep);padding:2px 8px;border-radius:4px;margin-left:8px;vertical-align:middle;}
+  .gov-note{font-size:12.5px;color:var(--muted);margin:0 0 14px;font-style:italic;}
+  .gov-wrap{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow-x:auto;margin-bottom:18px;}
+  .gov-wrap table{min-width:760px;}
+  .gov-wrap th,.gov-wrap td{text-align:left;}
+  .gov-wrap th:first-child{background:var(--navy);}
+  .gov-wrap td{font-size:13px;color:var(--ink);}
+  .gov-wrap td:first-child{min-width:150px;}
+  .gov-wrap td .agent{font-weight:800;color:var(--navy);font-size:14px;}
+  .gov-wrap td .agent small{display:block;font-weight:500;color:var(--muted);font-size:11.5px;margin-top:1px;}
+  .gov-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:10px;margin-top:5px;}
+  .gov-tag.t1{background:#e6f0fa;color:var(--blue);}
+  .gov-tag.t2{background:var(--orange-soft);color:var(--orange-deep);}
+  .gov-wrap code,.gov-cards code{font-family:'Roboto Mono',monospace;font-size:11.5px;background:#eef1f4;padding:1px 5px;border-radius:4px;color:var(--navy);}
+  .gov-gate{color:#b03220;font-weight:600;}
+  .gov-sub{font-size:11.5px;color:var(--muted);}
+  h3.gov-h3{font-size:14.5px;font-weight:800;color:var(--navy);margin:22px 0 10px;}
+  .gov-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:12px;}
+  .gov-card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--navy);border-radius:var(--radius);padding:13px 15px;box-shadow:var(--shadow);}
+  .gov-card .t{font-size:13.5px;font-weight:800;color:var(--navy);}
+  .gov-card .d{font-size:12.5px;color:var(--muted);margin-top:5px;line-height:1.5;}
+  .gov-rules{margin:10px 0 0;padding:0;list-style:none;}
+  .gov-rules li{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:9px 14px;margin-bottom:8px;font-size:13px;color:var(--ink);}
+  .gov-rules li b{color:var(--navy);}
+  .gov-footnote{font-size:12px;color:var(--muted);font-style:italic;margin-top:14px;}
   footer{padding:30px 0 24px;text-align:center;color:var(--muted);font-size:12px;}
 
   /* ===== Network Health hero ===== */
@@ -137,6 +164,91 @@
     </div>
     <h2 style="margin-top:30px">Announcements tracked</h2>
     <div class="announcements" id="announcements"></div>
+
+    <h2 style="margin-top:38px">Agent Org Chart — governance<span class="gov-badge">hand-curated v1 · as of 6/11/2026</span></h2>
+    <div class="gov-note">Per agent: which <b>brain</b> it reads from, which <b>tools</b> it's allowed, where <b>human approval</b> is required, and who the human champion is.</div>
+
+    <h3 class="gov-h3">Tier 1 — personal Chiefs of Staff (7)</h3>
+    <div class="gov-wrap">
+      <table>
+        <thead><tr><th>Agent · Principal</th><th>Brain (reads from)</th><th>Tools allowed</th><th>Human approval required</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="agent">Albert<small>Cameron Brown — CEO</small></span><span class="gov-tag t1">Tier 1 · host node</span></td>
+            <td><code>emc-projects</code> workspace (CLAUDE.md + memory files) + universal-memory + Shared Context Board</td>
+            <td>Monday (personal token + MCP) · Slack bot · Gmail / Calendar / Drive · GitHub · Playwright / browser</td>
+            <td><span class="gov-gate">All Slack sends · pulses on any board other than Cam's Board · anything public / hosted / external · deletes</span></td>
+          </tr>
+          <tr>
+            <td><span class="agent">Clark<small>Paul Morin — CFO/COO</small></span><span class="gov-tag t1">Tier 1</span></td>
+            <td><code>cos-paul</code> repo + universal-memory + SCB</td>
+            <td>Monday (personal token)</td>
+            <td><span class="gov-gate">External sends · others' boards</span><div class="gov-sub">status.json publish pilot pending</div></td>
+          </tr>
+          <tr>
+            <td><span class="agent">Gerald<small>Mike Vandenbroader — DFWT Regional / Ops</small></span><span class="gov-tag t1">Tier 1</span></td>
+            <td><code>cos-mike</code> repo + universal-memory + SCB</td>
+            <td>Monday (personal token)</td>
+            <td><span class="gov-gate">External sends · others' boards</span></td>
+          </tr>
+          <tr>
+            <td><span class="agent">Vera<small>Brian Herzig — CTXH Regional / Culture</small></span><span class="gov-tag t1">Tier 1</span></td>
+            <td><code>cos-brian</code> repo + universal-memory + SCB</td>
+            <td>Monday (personal token)</td>
+            <td><span class="gov-gate">External sends · others' boards</span></td>
+          </tr>
+          <tr>
+            <td><span class="agent">CoS-MH1<small>Matisen Harper — IT</small></span><span class="gov-tag t1">Tier 1</span></td>
+            <td><code>cos-matisen</code> repo + universal-memory + SCB</td>
+            <td>Monday (personal token) · dev / system access via Matisen</td>
+            <td><span class="gov-gate">External sends · others' boards</span></td>
+          </tr>
+          <tr>
+            <td><span class="agent">Gary<small>Amanda Ware — CX</small></span><span class="gov-tag t1">Tier 1</span></td>
+            <td><code>cos-amanda</code> repo + universal-memory + SCB</td>
+            <td>Monday (personal token) · Dialpad API (shared via SCB, private-board only)</td>
+            <td><span class="gov-gate">External sends · others' boards</span></td>
+          </tr>
+          <tr>
+            <td><span class="agent">Linda<small>Anne Bosse — Employee Experience</small></span><span class="gov-tag t1">Tier 1</span></td>
+            <td><code>cos-anne</code> repo + universal-memory + SCB</td>
+            <td>Monday (personal token)</td>
+            <td><span class="gov-gate">External sends · others' boards</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="gov-h3">Tier 2 — specialist agents</h3>
+    <div class="gov-wrap">
+      <table>
+        <thead><tr><th>Agent · Champion</th><th>Brain (reads from)</th><th>Tools allowed</th><th>Human approval required</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="agent">Sales Call Grading (Dialpad)<small>runs under Gary · champion: Amanda (Albert consult-only)</small></span><span class="gov-tag t2">Tier 2</span></td>
+            <td>Sales Call Scorecard + grade log</td>
+            <td>Dialpad API</td>
+            <td><span class="gov-gate">Any comp-affecting use</span><div class="gov-sub">customer-PII retention policy pending</div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="gov-h3">Shared brains &amp; champions</h3>
+    <div class="gov-cards">
+      <div class="gov-card"><div class="t">World Model</div><div class="d">Data layer champion: <b>Matisen</b> · strategy layer champion: <b>Cameron</b> (settled 6/11)</div></div>
+      <div class="gov-card"><div class="t">universal-memory</div><div class="d">Shared network rules · champion: <b>Albert</b></div></div>
+      <div class="gov-card"><div class="t">Shared Context Board</div><div class="d">Board <code>18407411332</code> · janitor: <b>Albert</b> (weekly hygiene sweep)</div></div>
+    </div>
+
+    <h3 class="gov-h3">Network-wide standing rules</h3>
+    <ul class="gov-rules">
+      <li><b>Two-lane SCB protocol</b> — Asks (Awaiting Reply → Resolved by the poster → Archive) vs Broadcasts (active reference until absorbed, never "resolved").</li>
+      <li><b>No loops</b> — no agent-to-agent automation without an SCB ask to Albert first.</li>
+      <li><b>Quality bar</b> — "vague agents create vague output faster."</li>
+    </ul>
+
+    <div class="gov-footnote">⚠ This section is hand-curated (v1, as of 6/11/2026) — it does <b>not</b> come from the status.json pulls above and will not update automatically.</div>
   </section>
 </div>
 
