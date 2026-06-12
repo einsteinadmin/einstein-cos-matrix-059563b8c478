@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-10T18:30:00-05:00",
+  "last_updated": "2026-06-11T18:45:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 85,
-      "assessment": "COS infrastructure compounding: SCB two-lane governance shipped + GitHub deploy-registry/repo-lifecycle system live; Mission Control now has per-entry session formats (Rob coach template built, KP vendor entry in progress). All 7 COS live; network in check-in/tighten cadence. Still open for SG: MCP config generator HTML form + /dojo recommender skill.",
+      "assessment": "COS infrastructure compounding: Fable-window broadcast live to all 7 COS (repo-audit mandate + orchestrator pattern + loop guardrails, SCB 12256310703), template PR #52 merged (two-lane SCB docs network-wide), Agent Org Chart governance section live on the Health & Adoption dashboard, 3 Fable repo audits banked w/ quick-wins executed. All 7 COS live; network in check-in/tighten cadence. Still open for SG: MCP config generator HTML form + /dojo recommender skill.",
       "blockers": [
         "MCP config generator HTML form not yet built",
         "/dojo recommender skill not yet built"
@@ -59,7 +59,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 45,
-      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G. ClearCo API access GRANTED 5/28 — pay starts 6/1; Matisen building recruiting/screening funnel skill on top. 6/5 dense QG-support day — Quote Funnel tool to KP w/ change-gate, Mobile App Workshop MVP, Roundtable Sync tools (3 modes) built.",
+      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G. ClearCo API access GRANTED 5/28 \u2014 pay starts 6/1; Matisen building recruiting/screening funnel skill on top. 6/5 dense QG-support day \u2014 Quote Funnel tool to KP w/ change-gate, Mobile App Workshop MVP, Roundtable Sync tools (3 modes) built.",
       "blockers": [
         "Matisen audit timing slipped past 5/15 SG threshold; 5/30 G threshold imminent",
         "QG dependency map not yet documented end-to-end"
@@ -71,7 +71,7 @@
           "done": false
         },
         {
-          "name": "Supporting QG dependencies mapped (10 for SG, ≥5 for G)",
+          "name": "Supporting QG dependencies mapped (10 for SG, \u22655 for G)",
           "date": "2026-06-15",
           "done": false
         },
@@ -93,10 +93,10 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 60,
-      "assessment": "Carry from Q1. Phase 1 LIVE. 5/27 KP sync: reserve-to-book hit 73% in May (vs 40% Feb). Lead mix 38% estimable / 62% inestimable. Matisen owns: inestimable pathway analysis via Claude agents, Dialpad transcript pull, mailer attribution. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock. 6/3 KP sync: campaign Apr15–May15 +175% YoY booking confirmations / +84% conversions on +31% spend; data-integrity flag (sessions-started mismatch → possible API leak post-form-submit, KP digging).",
+      "assessment": "Carry from Q1. Phase 1 LIVE. 5/27 KP sync: reserve-to-book hit 73% in May (vs 40% Feb). Lead mix 38% estimable / 62% inestimable. Matisen owns: inestimable pathway analysis via Claude agents, Dialpad transcript pull, mailer attribution. CEO audit flagged this as 'first to drop' \u2014 consider folding to Amanda or Website Redesign rock. 6/3 KP sync: campaign Apr15\u2013May15 +175% YoY booking confirmations / +84% conversions on +31% spend; data-integrity flag (sessions-started mismatch \u2192 possible API leak post-form-submit, KP digging).",
       "blockers": [
-        "VP form analytics submission-rate bug (>100% on some funnel steps) — KP reviewing",
-        "Conversion baseline still broken — Matisen owes apples-to-apples investigation"
+        "VP form analytics submission-rate bug (>100% on some funnel steps) \u2014 KP reviewing",
+        "Conversion baseline still broken \u2014 Matisen owes apples-to-apples investigation"
       ],
       "milestones": [
         {
@@ -117,7 +117,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 35,
-      "assessment": "Carry from Q1. Cameron's time only — no external dependencies. 5/19 N. Austin onsite with Rance banked (Workstream A FM ride-along + Workstream B app consolidation). 1/3 visits toward Green threshold. Q1'26 O3 rotation COMPLETE (Brian/Anne/Mike/Amanda/Matisen all done).",
+      "assessment": "Carry from Q1. Cameron's time only \u2014 no external dependencies. 5/19 N. Austin onsite with Rance banked (Workstream A FM ride-along + Workstream B app consolidation). 1/3 visits toward Green threshold. Q1'26 O3 rotation COMPLETE (Brian/Anne/Mike/Amanda/Matisen all done).",
       "blockers": [],
       "milestones": [
         {
@@ -143,14 +143,14 @@
     {
       "id": "cameron-website-redesign",
       "number": 5,
-      "name": "Oversee Website Redesign — Smart Move System Part 2",
+      "name": "Oversee Website Redesign \u2014 Smart Move System Part 2",
       "critical": false,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 32,
-      "assessment": "KP green-lit (6/10 weekly sync) the plan to mock the ENTIRE site page-by-page using the Quote-Funnel workshop-tool pattern — Laura endorsed it as a good use of Cameron's ~2-week AI-building window. Dedicated scoping meeting booked Thu 6/11 2:30pm. CMS decision (WordPress) locked. Risk being actively managed, not blocked.",
+      "confidence": 5,
+      "percent_complete": 45,
+      "assessment": "KP process meeting (6/11, Laura+Emma+Liz) endorsed the full pipeline \u2014 quote form locked as THE design foundation. Same day: planning packet + interview, inspiration tool (22 refs), v2 directions, 5-critic council, and 3 FULL-FIDELITY finalist homepages built (Mover Journey / Hometown Proof / Front Door 2.0) + Redesign HQ hub. Next: Cameron reaction pass \u2192 design audit \u2192 deploy for Liz review wk of 6/15. Emma's design-system files still not landed (retrofit when they do).",
       "blockers": [
-        "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
+        "KP availability gap \u2014 Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
         "Brand Kit evergreen-hosting approach still open with KP"
       ],
@@ -183,9 +183,9 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 50,
-      "assessment": "Bonus rock. Green = read by EOQ (7/31); SG = read by EOQ + a 1-page reflection on personal Humility/Hunger/Smarts gaps. ~Halfway through the book with ~2 months left — ON TRACK. (The earlier 5/30 \"deadline\" was an expectation mismatch in the seed — the bar was always EOQ, not 5/30.)",
+      "assessment": "Bonus rock. Green = read by EOQ (7/31); SG = read by EOQ + a 1-page reflection on personal Humility/Hunger/Smarts gaps. ~Halfway through the book with ~2 months left \u2014 ON TRACK. (The earlier 5/30 \"deadline\" was an expectation mismatch in the seed \u2014 the bar was always EOQ, not 5/30.)",
       "blockers": [
-        "Reading time competes with the heavy weekly load — pace it to stay ahead of EOQ"
+        "Reading time competes with the heavy weekly load \u2014 pace it to stay ahead of EOQ"
       ],
       "milestones": [
         {
@@ -219,7 +219,7 @@
       "target": "40%",
       "actual": null,
       "self_status": "unknown",
-      "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring. May (6/1 group sync): conversion just under 19%, record >$3M in services — but still not an apples-to-apples baseline."
+      "note": "Baseline still broken from VP rollout \u2014 Matisen owns apples-to-apples investigation before scoring. May (6/1 group sync): conversion just under 19%, record >$3M in services \u2014 but still not an apples-to-apples baseline."
     },
     {
       "id": "cameron-enps",
@@ -290,7 +290,7 @@
     },
     {
       "thread": "12145052785",
-      "topic": "v0.7.3 — commands watching added",
+      "topic": "v0.7.3 \u2014 commands watching added",
       "state": "acked",
       "date": "2026-05-30"
     },
