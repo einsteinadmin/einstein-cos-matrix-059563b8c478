@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-12T17:30:00-05:00",
+  "last_updated": "2026-06-15T16:45:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 85,
-      "assessment": "COS infrastructure compounding: Fable-window broadcast live to all 7 COS (repo-audit mandate + orchestrator pattern + loop guardrails, SCB 12256310703), template PR #52 merged (two-lane SCB docs network-wide), Agent Org Chart governance section live on the Health & Adoption dashboard, 3 Fable repo audits banked w/ quick-wins executed. All 7 COS live; network in check-in/tighten cadence. Still open for SG: MCP config generator HTML form + /dojo recommender skill. 6/12: catch-up wrap shipped network-wide (PR #53 — /gm detects missed /wrap, network ask to same-day ship); two-lane SCB protocol adopted by CoS-MH1/Vera/Clark; agent org chart live on health dashboard.",
+      "assessment": "COS infrastructure compounding. 6/15: Mission Control group-mode DEBUT ran live (first group sync on the tool) + 5-upgrade overhaul shipped (sync per-goal drill-down · pre-meeting staging panel w/ curate-able praise + hide-on-Start FYI/push-prompts + per-person live praise · single uncapped chip counter · last-week-happiness-number cut/pulse kept · layout rebalance) + triage tool gained editable+preseeded priority. All 7 COS live; network in check-in/tighten cadence. Still open for SG: MCP config generator HTML form + /dojo recommender skill + a nightly synthesis pipeline. Prior 6/12: catch-up wrap shipped network-wide (PR #53); two-lane SCB protocol adopted; agent org chart on the Health & Adoption dashboard.",
       "blockers": [
         "MCP config generator HTML form not yet built",
         "/dojo recommender skill not yet built"
@@ -49,7 +49,7 @@
       ],
       "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
       "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 7 COS active (Cameron + Paul + 5 directs), 1 nightly synthesis pipeline, skill PR template in repo",
-      "updated": "2026-06-05"
+      "updated": "2026-06-15"
     },
     {
       "id": "cameron-ai-wedge",
@@ -145,8 +145,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 45,
-      "assessment": "KP process meeting (6/11, Laura+Emma+Liz) endorsed the full pipeline — quote form locked as THE design foundation. Same day: planning packet + interview, inspiration tool (22 refs), v2 directions, 5-critic council, and 3 FULL-FIDELITY finalist homepages built (Mover Journey / Hometown Proof / Front Door 2.0) + Redesign HQ hub. Next: Cameron reaction pass → design audit → deploy for Liz review wk of 6/15. Emma's design-system files still not landed (retrofit when they do). 6/12: 5 Emma-compliant fidelity contenders on HQ hub (incl. Brand Story); Emma design system adopted wholesale; Liz feedback wk 6/15.",
+      "percent_complete": 52,
+      "assessment": "6/15: Mover Journey direction LOCKED (Cameron's pick from the fidelity finalists) + Website HQ packaged & sent to KP for review (Website Refresh PM board item 12284660805, Emma+Liz tagged); KP dev Jeff scoping the Mover Journey build; mobile peekaboo + desktop floor-card spacing shipped (v1.2-stable). NEXT: KP/Emma/Liz feedback → lock direction → Emma Figma component library + 5-page build. Prior: KP pipeline endorsed 6/11; quote form = THE design foundation; Emma design system adopted wholesale.",
       "blockers": [
         "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
@@ -171,7 +171,7 @@
       ],
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "updated": "2026-06-03"
+      "updated": "2026-06-15"
     },
     {
       "id": "cameron-itp-reading",
@@ -180,16 +180,16 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 80,
-      "assessment": "Bonus rock. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/12: ~80% READ (solo-night push wk of 6/8) — SG comfortably in reach; Frio week closes it out.",
+      "percent_complete": 90,
+      "assessment": "Bonus rock. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/15: BOOK FINISHED — beat the Green date by ~6 weeks. Remaining 10% = the SG one-pager: load notes into the COS → draft one-pager + reflection questions (pulse 11752596124, This Week 6/16).",
       "blockers": [
         "Reading time competes with the heavy weekly load — pace it to stay ahead of EOQ"
       ],
       "milestones": [
         {
           "name": "Book finished",
-          "date": "2026-07-31",
-          "done": false
+          "date": "2026-06-15",
+          "done": true
         },
         {
           "name": "1-page reflection on personal H/H/S gaps",
@@ -199,7 +199,7 @@
       ],
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by EOQ (7/31)",
-      "updated": "2026-06-01"
+      "updated": "2026-06-15"
     }
   ],
   "kpis": [
