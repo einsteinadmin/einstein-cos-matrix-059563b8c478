@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-17T11:15:00-05:00",
-  "updated_by": "Albert (/gm catch-up covering 6/16)",
+  "last_updated": "2026-06-17T19:05:00-05:00",
+  "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -145,8 +145,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 58,
-      "assessment": "6/16: Adversarial 7-lens expert-panel audit run on the Mover Journey — verdict SHIP v1, fix the one real blocker (mid-floor 'See my price' CTAs scroll to a hidden div, not /quote/); v2 Peekaboo built as the fallback. Both sent to KP (Website Refresh PM board item 12284660805, update 5293259409, Emma+Liz tagged). Cameron's pick = v1; v2 only if Jeff scopes v1 unviable. NEXT: KP/Jeff feedback → lock direction → Emma Figma component library + 5-page build. Prior 6/15: Mover Journey direction locked + HQ packaged & sent; quote form = THE design foundation; Emma design system adopted wholesale.",
+      "percent_complete": 62,
+      "assessment": "6/17 KP launch conversation: homepage animation DIRECTION LOCKED — continuous 'Mover Journey' desktop (reduced flexibility accepted; Einstein owns the repo; open dev Q to Rich re: an elevator-seam hybrid that could restore some flexibility). GATING NEXT (Cameron, Thu): review KP's 5-page .md feedback + lock homepage components -> unblocks Emma's next sprint. Quote funnel reconciled (Option 2; Jeff builds staging front-end). Handoff doc: website-workshop/launch-handoff-2026-06-17.md; dedicated build session spawned. Prior 6/16: 7-lens audit (SHIP v1) + v2 Peekaboo built + both sent to KP.",
       "blockers": [
         "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
@@ -171,7 +171,7 @@
       ],
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "updated": "2026-06-16"
+      "updated": "2026-06-17"
     },
     {
       "id": "cameron-itp-reading",
