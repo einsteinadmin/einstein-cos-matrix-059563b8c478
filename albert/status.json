@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-15T16:45:00-05:00",
-  "updated_by": "Albert (/wrap)",
+  "last_updated": "2026-06-17T11:15:00-05:00",
+  "updated_by": "Albert (/gm catch-up covering 6/16)",
   "cadence_days": 1,
   "goals": [
     {
@@ -19,8 +19,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 85,
-      "assessment": "COS infrastructure compounding. 6/15: Mission Control group-mode DEBUT ran live (first group sync on the tool) + 5-upgrade overhaul shipped (sync per-goal drill-down · pre-meeting staging panel w/ curate-able praise + hide-on-Start FYI/push-prompts + per-person live praise · single uncapped chip counter · last-week-happiness-number cut/pulse kept · layout rebalance) + triage tool gained editable+preseeded priority. All 7 COS live; network in check-in/tighten cadence. Still open for SG: MCP config generator HTML form + /dojo recommender skill + a nightly synthesis pipeline. Prior 6/12: catch-up wrap shipped network-wide (PR #53); two-lane SCB protocol adopted; agent org chart on the Health & Adoption dashboard.",
+      "percent_complete": 87,
+      "assessment": "COS infrastructure compounding. 6/16-17: v0.10.0 template merged — the missed-wrap catch-up FINALLY landed network-wide (PR #55; the 6/12 'PR #53' announcement had never actually merged, was stranded on an unmerged branch) + Mover Training Super App HQ handed to Mike (his own repo, all 9 docs + Super App mockup, edits auto-deploy); COS Tips Drip system built (bi-weekly, deck→SCB+Slack); 8117 tool-library server made always-on (LaunchAgent+FDA fix); Compensation HQ hosted + shared w/ Paul. 6/15: Mission Control group-mode DEBUT + 5-upgrade overhaul. All 7 COS live; network in check-in/tighten cadence. Still open for SG: MCP config generator HTML form + /dojo recommender skill + a nightly synthesis pipeline.",
       "blockers": [
         "MCP config generator HTML form not yet built",
         "/dojo recommender skill not yet built"
@@ -49,7 +49,7 @@
       ],
       "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
       "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 7 COS active (Cameron + Paul + 5 directs), 1 nightly synthesis pipeline, skill PR template in repo",
-      "updated": "2026-06-15"
+      "updated": "2026-06-17"
     },
     {
       "id": "cameron-ai-wedge",
@@ -145,8 +145,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 52,
-      "assessment": "6/15: Mover Journey direction LOCKED (Cameron's pick from the fidelity finalists) + Website HQ packaged & sent to KP for review (Website Refresh PM board item 12284660805, Emma+Liz tagged); KP dev Jeff scoping the Mover Journey build; mobile peekaboo + desktop floor-card spacing shipped (v1.2-stable). NEXT: KP/Emma/Liz feedback → lock direction → Emma Figma component library + 5-page build. Prior: KP pipeline endorsed 6/11; quote form = THE design foundation; Emma design system adopted wholesale.",
+      "percent_complete": 58,
+      "assessment": "6/16: Adversarial 7-lens expert-panel audit run on the Mover Journey — verdict SHIP v1, fix the one real blocker (mid-floor 'See my price' CTAs scroll to a hidden div, not /quote/); v2 Peekaboo built as the fallback. Both sent to KP (Website Refresh PM board item 12284660805, update 5293259409, Emma+Liz tagged). Cameron's pick = v1; v2 only if Jeff scopes v1 unviable. NEXT: KP/Jeff feedback → lock direction → Emma Figma component library + 5-page build. Prior 6/15: Mover Journey direction locked + HQ packaged & sent; quote form = THE design foundation; Emma design system adopted wholesale.",
       "blockers": [
         "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
@@ -171,17 +171,17 @@
       ],
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "updated": "2026-06-15"
+      "updated": "2026-06-16"
     },
     {
       "id": "cameron-itp-reading",
       "number": 6,
       "name": "Ideal Team Player Reading",
       "critical": false,
-      "self_status": "green",
+      "self_status": "supergreen",
       "confidence": 5,
-      "percent_complete": 90,
-      "assessment": "Bonus rock. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/15: BOOK FINISHED — beat the Green date by ~6 weeks. Remaining 10% = the SG one-pager: load notes into the COS → draft one-pager + reflection questions (pulse 11752596124, This Week 6/16).",
+      "percent_complete": 100,
+      "assessment": "Bonus rock — now SUPER GREEN. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/16 COMPLETE: book finished (~6 wks early), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Deliverables done; 7/10 is a working review Cameron brings his thinking to. Pulse 11752596124 marked Done.",
       "blockers": [
         "Reading time competes with the heavy weekly load — pace it to stay ahead of EOQ"
       ],
@@ -192,14 +192,14 @@
           "done": true
         },
         {
-          "name": "1-page reflection on personal H/H/S gaps",
-          "date": "2026-07-31",
-          "done": false
+          "name": "1-page reflection on personal H/H/S gaps (built as the Rob 7/10 one-pager)",
+          "date": "2026-06-16",
+          "done": true
         }
       ],
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by EOQ (7/31)",
-      "updated": "2026-06-15"
+      "updated": "2026-06-16"
     }
   ],
   "kpis": [
