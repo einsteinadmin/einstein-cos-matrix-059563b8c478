@@ -1,14 +1,135 @@
 {
-  "schema_version": "1.0",
-  "owner": { "name": "Mike Vandenbroader", "title": "DFWT Regional Mgr · Head of Ops", "cos": "Gerald" },
+  "schema_version": "2.0",
+  "owner": {
+    "name": "Mike Vandenbroader",
+    "title": "DFWT Regional Manager + Head of Operations",
+    "cos": "Gerald"
+  },
   "period": "Q2 2026",
-  "last_updated": "2026-01-01T00:00:00-05:00",
-  "updated_by": "(stub — not yet populated)",
-  "cadence_days": 1,
-  "_status": "stub — awaiting first /wrap from Gerald",
-  "_note": "Stub created during Phase 1 setup. When Gerald comes online, he replaces this with Mike's actual rocks — bootstrap from Cameron's dashboard-data.js leadership[] entry for Mike.",
-  "goals": [],
-  "kpis": [],
+  "period_start": "2026-05-01",
+  "period_end": "2026-07-31",
+  "last_updated": "2026-06-22",
+  "updated_by": "Gerald",
+  "cadence_days": 7,
+  "goals": [
+    {
+      "id": "rock-1",
+      "number": 1,
+      "name": "Personnel Management — Manager Hiring, New Manager Development, PA Accountability (Garland + Tampa focus)",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 75,
+      "assessment": "Manager hire complete — Tabi Enoh (Dallas FM) onboarding, training wrapping. DFWT staffing mostly super green; gaps are lead-locked, not pipeline issues. PA cadence established across branches.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Tabi Enoh onboarded as Dallas FM", "date": "2026-06-18", "done": true },
+        { "name": "PA cadence active all 5 branches", "date": "2026-06-30", "done": false }
+      ],
+      "superGreen": "All 5 branches fully staffed at target FTE, PA complete for all managers, 0 C-players unaddressed",
+      "green": "Hiring gaps at or below 1 per branch, PA complete for all direct reports, no unresolved C-player situations",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "rock-2",
+      "number": 2,
+      "name": "Einstein Games Season 4 Launch (DFWT)",
+      "critical": true,
+      "self_status": "supergreen",
+      "confidence": 5,
+      "percent_complete": 63,
+      "assessment": "Week 5/8 live. FW Meerkats #1 (3-0), Tampa Pirates #2 (2-1), Garland Gorillas #3 (1-1-1), MCK Geese #4 (1-1-1), DAL Squirrels #5 (1-2). Reviews = 0/13 everywhere — coaching focus this week.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Season 4 launched", "date": "2026-05-12", "done": true },
+        { "name": "Midseason check-in (Week 4)", "date": "2026-06-16", "done": true },
+        { "name": "Season 4 final (Week 8)", "date": "2026-07-14", "done": false }
+      ],
+      "superGreen": "All 5 DFWT branches engaged, 3+ branches in top 5 company-wide, reviews metric above 50% company avg at season end",
+      "green": "All 5 branches active and tracking stats weekly through Week 8",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "rock-3",
+      "number": 3,
+      "name": "Fleet Safety Part 2 — Resolidifying Habits, Training, Reweighting, Sample Sizes",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 50,
+      "assessment": "Company score 88, 10% high-risk drivers. Retraining module development in progress. Reweighting and sample size validation ongoing. HOU/FW Samsara setup still pending.",
+      "blockers": ["HOU/FW Samsara equipment setup pending"],
+      "milestones": [
+        { "name": "Q1 final audit complete", "date": "2026-04-24", "done": true },
+        { "name": "Retraining module deployed", "date": "2026-07-01", "done": false },
+        { "name": "Sample size reweighting validated", "date": "2026-07-15", "done": false }
+      ],
+      "superGreen": "Company score above 90, high-risk drivers below 8%, all branches at Green or above, retraining module live",
+      "green": "Company score above 85, high-risk drivers below 12%, no branch in RED for 2+ consecutive weeks",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "rock-4",
+      "number": 4,
+      "name": "Mover Training Handbook / Training Video Library",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 60,
+      "assessment": "Full app built (exceeded scaffold scope). Cameron's 8-section review posted on pulse 11927756793 — 5 P0 fixes and Super App decision pending Mike's read. GitHub Pages changelog live at einsteinadmin.github.io/einstein-mover-training-hq-8fe42f5c/.",
+      "blockers": ["Cameron review unread — 5 P0 fixes + Super App decision pending"],
+      "milestones": [
+        { "name": "App scaffold complete", "date": "2026-04-30", "done": true },
+        { "name": "Cameron review received", "date": "2026-06-17", "done": true },
+        { "name": "P0 fixes actioned", "date": "2026-06-30", "done": false },
+        { "name": "Branch beta launch", "date": "2026-07-07", "done": false }
+      ],
+      "superGreen": "App in active use at 2+ branches, video library complete, feedback loop established with field managers",
+      "green": "App beta live at 1 branch, core training tracks complete, Cameron approval received",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "rock-5",
+      "number": 5,
+      "name": "Ideal Team Player Reading",
+      "critical": false,
+      "self_status": "red",
+      "confidence": 2,
+      "percent_complete": 25,
+      "assessment": "3 chapters read. Behind pace. ITP Reading Part 3-5 on board since 6/19 — not completed yet. Committed to super green (full read + reflection) by EOQ.",
+      "blockers": ["Time — has not been prioritized"],
+      "milestones": [
+        { "name": "Chapters 1-3 read", "date": "2026-06-15", "done": true },
+        { "name": "Chapters 3-5 read", "date": "2026-06-19", "done": false },
+        { "name": "Full book + reflection complete", "date": "2026-07-31", "done": false }
+      ],
+      "superGreen": "Full book read, reflection written, at least one team conversation seeded from the content",
+      "green": "Full book read by EOQ",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "rock-6",
+      "number": 6,
+      "name": "Fleet Damage Tracking App — Beta (BONUS)",
+      "critical": false,
+      "self_status": "red",
+      "confidence": 1,
+      "percent_complete": 0,
+      "assessment": "Not started. Bonus goal — will revisit once Mover Training app reaches beta with Cameron's P0 fixes resolved.",
+      "blockers": ["Mover Training app P0 fixes must land first"],
+      "milestones": [
+        { "name": "Beta prototype complete", "date": "2026-07-31", "done": false }
+      ],
+      "superGreen": "Beta live and collecting data from at least 2 branches",
+      "green": "Beta built and shared with damage claims team for feedback",
+      "updated": "2026-06-22"
+    }
+  ],
+  "kpis": [
+    { "name": "Praise Goal Q2", "current": 46, "target": 48, "unit": "entries", "self_status": "green" },
+    { "name": "DFWT Region % to Sales Target", "current": 67.6, "target": 73.0, "unit": "percent", "self_status": "yellow" },
+    { "name": "Company Fleet Safety Score", "current": 88, "target": 90, "unit": "score", "self_status": "green" }
+  ],
   "adopted": [],
   "network_acks": []
 }

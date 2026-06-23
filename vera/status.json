@@ -1,14 +1,163 @@
 {
   "schema_version": "1.0",
-  "owner": { "name": "Brian Herzig", "title": "CTXH Regional Mgr · Culture Head", "cos": "Vera" },
+  "owner": {
+    "name": "Brian Herzig",
+    "title": "CTXH Regional Mgr · Culture Head",
+    "cos": "Vera"
+  },
   "period": "Q2 2026",
-  "last_updated": "2026-01-01T00:00:00-05:00",
-  "updated_by": "(stub — not yet populated)",
+  "period_start": "2026-05-01",
+  "period_end": "2026-07-31",
+  "last_updated": "2026-06-22T08:00:00-05:00",
+  "updated_by": "Vera (/gm — catch-up, moved from vera/status.json per Albert's SCB ask)",
   "cadence_days": 1,
-  "_status": "stub — awaiting first /wrap from Vera (Brian's call whether to join Phase 1 or wait)",
-  "_note": "Stub created during Phase 1 setup. Vera was originally deferred to Phase 2 for maturity reasons; Cameron flagged the possibility of including her in Phase 1. If she joins, replaces this with Brian's actual rocks.",
-  "goals": [],
+  "goals": [
+    {
+      "id": "brian-emc-games-s3",
+      "number": 1,
+      "name": "Einstein Games Season 3 Launch (CTXH)",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 40,
+      "assessment": "Season launched 5/23 with 8-week structure. National champion determined by 7/11. TD feedback app working in NA/LEA/SAR as of 6/18. Dependent on Matisen EMMA migration for full data flow.",
+      "blockers": [],
+      "milestones": [
+        { "name": "All 5 CTXH branches submitting weekly Games numbers consistently", "date": "2026-06-15", "done": true },
+        { "name": "Mid-season check — CTXH standings reviewed w/ BMs (~6/20)", "date": "2026-06-22", "done": false },
+        { "name": "Final standings + CTXH champion confirmed by 7/11", "date": "2026-07-11", "done": false }
+      ],
+      "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
+      "green": "Company-wide 7+ with CTXH branches at 7+",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "brian-hiring-personnel",
+      "number": 2,
+      "name": "Hiring + Personnel Budgets + People Analyzer",
+      "critical": true,
+      "self_status": "yellow",
+      "confidence": 3,
+      "percent_complete": 35,
+      "assessment": "Region tracking toward green. Individual branch stability varies — Houston and some CTXH branches shaky on staffing. 105% stable net staffing target framework in place. Douglas Melrose WC injury pending resolution.",
+      "blockers": [
+        "Individual branch staffing levels inconsistent",
+        "Douglas Melrose (HOU) WC injury — extend offer needed"
+      ],
+      "milestones": [
+        { "name": "All CTXH branches at 100%+ staffing by June", "date": "2026-06-30", "done": false },
+        { "name": "eNPS survey completed and cleared", "date": "2026-06-30", "done": false },
+        { "name": "Monthly headcount + People Analyzer review with each BM", "date": "2026-07-15", "done": false }
+      ],
+      "superGreen": "All branches at 100%+ staffing, eNPS cleared by May",
+      "green": "100%+ staffing with eNPS by June",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "brian-scrum-accountability-pt4",
+      "number": 3,
+      "name": "Scrum Accountability Pt 4 — Manager Certification",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 3,
+      "percent_complete": 30,
+      "assessment": "Scorecard audits running via /scrum-check skill. O3s with BMs not yet completed. Bandwidth is the constraint.",
+      "blockers": [
+        "Bandwidth — competing Q2 priorities limiting time to advance certification work",
+        "O3s with all 5 BMs not yet scheduled"
+      ],
+      "milestones": [
+        { "name": "All 5 CTXH BMs completed certification requirements", "date": "2026-07-31", "done": false },
+        { "name": "Grading cadence established and running consistently", "date": "2026-06-30", "done": false },
+        { "name": "EOQ certification summary submitted", "date": "2026-07-31", "done": false }
+      ],
+      "superGreen": "",
+      "green": "Scorecard audits and grading cadence establishment complete",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "brian-branch-visits",
+      "number": 4,
+      "name": "Branch Visits / Audits",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 10,
+      "assessment": "SCTX Schedule Review pending (Critical, LOW 3 — next action). Confident this finishes green — scheduling is the main lever.",
+      "blockers": [],
+      "milestones": [
+        { "name": "SCTX Schedule Review completed", "date": "2026-06-26", "done": false },
+        { "name": "3 CTXH locations visited with scorecard audits and huddle assessments", "date": "2026-07-15", "done": false },
+        { "name": "Findings summarized and shared with BMs", "date": "2026-07-25", "done": false }
+      ],
+      "superGreen": "",
+      "green": "3 locations with scorecard audits and huddle assessments",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "brian-training-day-overhaul",
+      "number": 5,
+      "name": "Training Day Overhaul + Calendar Organization",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 55,
+      "assessment": "Training Day Calendar pulse due today (6/22, LOW 3). Sunset Trial Days discussion still open. TD feedback app live and working in NA/LEA/SAR. Bandwidth is the constraint.",
+      "blockers": [
+        "Sunset Trial Days discussion/game plan not yet resolved (HIGH, LOW 2)",
+        "Bandwidth — not enough time to execute alongside other Q2 priorities"
+      ],
+      "milestones": [
+        { "name": "TD format finalized with stations, quizzes, and scorecard", "date": "2026-06-30", "done": false },
+        { "name": "Training calendar organized and distributed to BMs", "date": "2026-06-22", "done": false },
+        { "name": "First TD run completed under new format", "date": "2026-07-15", "done": false }
+      ],
+      "superGreen": "",
+      "green": "Formalized TD flow with stations, quizzes, scorecards, and Games integration",
+      "updated": "2026-06-22"
+    },
+    {
+      "id": "brian-ideal-team-player",
+      "number": 6,
+      "name": "Ideal Team Player Reading",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 25,
+      "assessment": "In progress. Reading alongside Cameron and Mike — active Roundtable thread.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Complete fable section (Part 1, ~150 pages)", "date": "2026-07-01", "done": false },
+        { "name": "Complete model section", "date": "2026-07-20", "done": false },
+        { "name": "1-page EOQ reflection drafted and shared with Cameron", "date": "2026-07-31", "done": false }
+      ],
+      "superGreen": "Green by 5/30 + EOQ reflection on personal gaps",
+      "green": "Book completed by EOQ",
+      "updated": "2026-06-22"
+    }
+  ],
   "kpis": [],
-  "adopted": [],
+  "adopted": [
+    {
+      "tool": "Monday.com",
+      "notes": "Sky Board (1146915251) — primary task tracking surface. Daily /gm pulls Today + This Week groups."
+    },
+    {
+      "tool": "Gmail / Google Calendar",
+      "notes": "regionalteam@einsteinmoving.com — primary inbox and calendar for CTXH coordination."
+    },
+    {
+      "tool": "Slack",
+      "notes": "Einstein Roundtable (C03SYKH4CDU), The Watercooler (C010EBQMH0R). Vera has bot access."
+    },
+    {
+      "tool": "Google Drive",
+      "notes": "CTXH schedule sheet + shared docs. Connected via MCP."
+    },
+    {
+      "tool": "EOD Audit Skill",
+      "notes": "Daily audit of EOD/MHI reports from all 5 CTXH branches. 100-pt scorecard."
+    }
+  ],
   "network_acks": []
 }
