@@ -317,11 +317,14 @@ function agoLabel(iso){
 
 function freshness(lastUpdated, cadenceDays){
   if(!lastUpdated) return {tier:'none',label:'no report'};
+  // <24 clock-hours old is ALWAYS fresh — the business-day counter counts midnight
+  // boundaries, so a row updated last night would otherwise read "1 day old" by morning.
+  if(Date.now()-new Date(lastUpdated).getTime() < 24*60*60*1000) return {tier:'fresh',label:agoLabel(lastUpdated)};
   const days = businessDaysSince(lastUpdated);  // business days, not calendar
   const cadence = cadenceDays || CADENCE_DEFAULT;
   let tier='fresh';
   if(days >= cadence*2) tier='stale';
-  else if(days >= cadence) tier='aging';
+  else if(days > cadence) tier='aging';
   return {tier,label:agoLabel(lastUpdated)};
 }
 
@@ -349,10 +352,11 @@ function classifyHealth({agent, data, error}){
   const cadence = data.cadence_days || CADENCE_DEFAULT;
   const hs = humanSignal(data);
   const humanDays = hs.iso ? businessDaysSince(hs.iso) : null;
+  const under24h = Date.now()-new Date(data.last_updated).getTime() < 24*60*60*1000; // updated last night ≠ aging
   let tier;
   if(days >= HEALTH_SILENT_DAYS) tier='silent';
   else if(hs.kind === 'unconfirmed') tier='harvested';
-  else if(days >= cadence) tier='aging';
+  else if(days > cadence && !under24h) tier='aging';  // strictly greater: "yesterday" on a daily cadence is still on cadence
   else tier='live';
   return {tier, label:agoLabel(data.last_updated), days, human:hs, humanDays};
 }
