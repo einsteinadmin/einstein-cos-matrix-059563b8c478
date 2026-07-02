@@ -151,7 +151,7 @@
     <div class="legend" style="margin:4px 0 30px">
       <span><span class="cell c-adopted">live</span> current data, human-vouched (pushed at /wrap, or harvest confirmed)</span>
       <span><span class="cell" style="background:#e8effc;color:#2E63B8">harvested</span> row refreshed by Albert, awaiting a leader confirm — fine as a steady state, NOT a chase</span>
-      <span><span class="cell c-in_progress">aging</span> past cadence, not yet silent</span>
+      <span><span class="cell c-in_progress">aging</span> 2+ business days old (same bar for everyone)</span>
       <span><span class="cell c-behind">silent</span> BOTH lanes dark past the chase line → ask the principal</span>
       <span><span class="cell c-na">awaiting bootstrap</span> not onboarded to the pull model yet</span>
     </div>
@@ -283,8 +283,10 @@ const PATTERN_LABELS = {
   'slack-naming-v063': 'Slack naming v0.6.3'
 };
 
-const CADENCE_DEFAULT = 2;  // staleness threshold for matrix heartbeat
-const HEALTH_SILENT_DAYS = 9;  // chase threshold in BUSINESS days: a *working* agent silent this long → go ask the principal
+// Uniform standards for EVERYONE (Cameron 7/2) — per-agent cadence_days no longer changes the bar.
+// <24 clock-hours = always live · aging at 2+ business days · silent/stale at 5+ business days.
+const HEALTH_AGING_DAYS  = 2;
+const HEALTH_SILENT_DAYS = 5;  // chase threshold in BUSINESS days: BOTH lanes dark this long → go ask the principal
 
 // ===== HELPERS =====
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
@@ -315,16 +317,15 @@ function agoLabel(iso){
   return bd<=0 ? 'today' : `${bd} business day${bd===1?'':'s'} ago`;
 }
 
-function freshness(lastUpdated, cadenceDays){
+function freshness(lastUpdated){
   if(!lastUpdated) return {tier:'none',label:'no report'};
   // <24 clock-hours old is ALWAYS fresh — the business-day counter counts midnight
   // boundaries, so a row updated last night would otherwise read "1 day old" by morning.
   if(Date.now()-new Date(lastUpdated).getTime() < 24*60*60*1000) return {tier:'fresh',label:agoLabel(lastUpdated)};
   const days = businessDaysSince(lastUpdated);  // business days, not calendar
-  const cadence = cadenceDays || CADENCE_DEFAULT;
   let tier='fresh';
-  if(days >= cadence*2) tier='stale';
-  else if(days > cadence) tier='aging';
+  if(days >= HEALTH_SILENT_DAYS) tier='stale';
+  else if(days >= HEALTH_AGING_DAYS) tier='aging';
   return {tier,label:agoLabel(lastUpdated)};
 }
 
@@ -349,14 +350,13 @@ function classifyHealth({agent, data, error}){
                String(data.last_updated||'').startsWith('2026-01-01');
   if(stub) return {tier:'pending', label:'awaiting bootstrap', days:null};
   const days = businessDaysSince(data.last_updated);  // business days only — weekends don't age an agent
-  const cadence = data.cadence_days || CADENCE_DEFAULT;
   const hs = humanSignal(data);
   const humanDays = hs.iso ? businessDaysSince(hs.iso) : null;
   const under24h = Date.now()-new Date(data.last_updated).getTime() < 24*60*60*1000; // updated last night ≠ aging
   let tier;
   if(days >= HEALTH_SILENT_DAYS) tier='silent';
   else if(hs.kind === 'unconfirmed') tier='harvested';
-  else if(days > cadence && !under24h) tier='aging';  // strictly greater: "yesterday" on a daily cadence is still on cadence
+  else if(days >= HEALTH_AGING_DAYS && !under24h) tier='aging';
   else tier='live';
   return {tier, label:agoLabel(data.last_updated), days, human:hs, humanDays};
 }
@@ -512,7 +512,7 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
     return sum + truthAdopted.filter(a=>a.state==='adopted' && adoptedSet.has(a.pattern)).length;
   },0);
   const adoptionPct = cellsTotal ? Math.round(100*cellsAdopted/cellsTotal) : (reportingNonTruth.length===0 ? null : 0);
-  const staleCount = results.filter(r=>r.data && freshness(r.data.last_updated, r.data.cadence_days).tier==='stale').length;
+  const staleCount = results.filter(r=>r.data && freshness(r.data.last_updated).tier==='stale').length;
   const awaitingConfirm = results.filter(r=>r.data && r.data.provenance && r.data.provenance.method==='harvest' && r.data.provenance.confirm_status!=='confirmed').length;
   const pendingTotal = results.filter(r=>r.data && !r.agent.truth).reduce((s,r)=>s+pendingFor(r.data).total,0);
 
@@ -572,7 +572,7 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
     if(placeholder){
       html += `<td><span class="hb none">${error?'(fetch err)':'no report'}</span></td>`;
     } else {
-      const f = freshness(data.last_updated, data.cadence_days);
+      const f = freshness(data.last_updated);
       html += `<td><span class="hb ${f.tier}">${esc(f.label)}</span></td>`;
     }
     html += '</tr>';
