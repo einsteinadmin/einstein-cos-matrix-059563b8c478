@@ -122,6 +122,9 @@
   .hcard .action{margin-top:7px;font-size:12.5px;font-weight:700;}
   /* tiers */
   .hcard.live{border-left-color:var(--sg);}      .hcard.live .pill{background:#e3f5e9;color:#1f7a3d;}
+  .hcard.harvested{border-left-color:#2E63B8;}   .hcard.harvested .pill{background:#e8effc;color:#2E63B8;}
+  .hcard.harvested .action{color:#2E63B8;}
+  .hcard .meta .src{display:block;margin-top:3px;font-size:11.5px;color:var(--muted);}
   .hcard.aging{border-left-color:var(--yellow);} .hcard.aging .pill{background:#fff3da;color:#9a6a00;}
   .hcard.silent{border-left-color:var(--red);}   .hcard.silent .pill{background:#fde6e2;color:#b03220;}
   .hcard.silent .action{color:var(--red);}
@@ -136,7 +139,7 @@
 <div class="topbar">
   <div class="wrap">
     <h1>COS Network — Health &amp; Adoption</h1>
-    <div class="sub">Is each agent alive and reporting — and who do I go ask if not. Then: who's adopted what. Pulled from each COS's <code style="font-family:'Roboto Mono',monospace">status.json</code>.</div>
+    <div class="sub">Two signals per agent: <b>data freshness</b> (is the row current — push or harvest, either lane) and <b>human vouch</b> (when a person last stood behind it — a /wrap push or a confirm). Chase fires only when BOTH lanes go dark. Pulled from each COS's <code style="font-family:'Roboto Mono',monospace">status.json</code>.</div>
   </div>
 </div>
 
@@ -146,9 +149,10 @@
     <h2>Network health</h2>
     <div id="healthGrid" class="health-grid"></div>
     <div class="legend" style="margin:4px 0 30px">
-      <span><span class="cell c-adopted">live</span> reporting on cadence</span>
+      <span><span class="cell c-adopted">live</span> current data, human-vouched (pushed at /wrap, or harvest confirmed)</span>
+      <span><span class="cell" style="background:#e8effc;color:#2E63B8">harvested</span> row refreshed by Albert, awaiting a leader confirm — fine as a steady state, NOT a chase</span>
       <span><span class="cell c-in_progress">aging</span> past cadence, not yet silent</span>
-      <span><span class="cell c-behind">silent</span> crossed the chase threshold → ask the principal</span>
+      <span><span class="cell c-behind">silent</span> BOTH lanes dark past the chase line → ask the principal</span>
       <span><span class="cell c-na">awaiting bootstrap</span> not onboarded to the pull model yet</span>
     </div>
     <h2>Adoption matrix</h2>
@@ -264,8 +268,8 @@ const AGENTS = [
   { cos:'Clark',    principal:'Paul',    url:'./clark/status.json' },
   { cos:'CoS-MH1',  principal:'Matisen', url:'./cos-mh1/status.json' },
   { cos:'Vera',     principal:'Brian',   url:'./vera/status.json', note:'tentative Phase 1' },
-  { cos:'Gary',     principal:'Amanda',  url:'./gary/status.json', note:'Phase 2 — onboarding' },
-  { cos:'Linda',    principal:'Anne',    url:'./linda/status.json', note:'live 6/4 — awaiting bootstrap' }
+  { cos:'Gary',     principal:'Amanda',  url:'./gary/status.json', note:'wrap step install pending (SCB 12433006429)' },
+  { cos:'Linda',    principal:'Anne',    url:'./linda/status.json', note:'bootstrapped 7/1' }
 ];
 
 // Pattern label overrides — purely cosmetic, lets us prettify pattern ids.
@@ -321,8 +325,21 @@ function freshness(lastUpdated, cadenceDays){
   return {tier,label:agoLabel(lastUpdated)};
 }
 
+// Human signal: when did a PERSON last stand behind this row? (7/2 freshness-vs-confirmed split)
+// - pushed rows (no harvest provenance): the /wrap approval gate makes every push human-vouched → last_updated
+// - harvested rows: confirmed_at once the leader confirms; before that, the leader's last self-report (baseline_date)
+function humanSignal(data){
+  const p = data.provenance;
+  if(!p || p.method !== 'harvest') return { iso: data.last_updated, kind: 'pushed' };
+  if(p.confirm_status === 'confirmed') return { iso: p.confirmed_at || data.last_updated, kind: 'confirmed' };
+  return { iso: p.baseline_date || null, kind: 'unconfirmed' };
+}
+
 // Classify an agent's reporting health. Distinguishes a WORKING agent gone dark
 // (→ chase the principal) from one NOT YET bootstrapped (→ Track C onboarding).
+// Two-signal model (7/2): DATA freshness (push OR harvest — either lane counts) and
+// HUMAN vouch (push/confirm). Chase = only when the data itself is dark past the line;
+// a fresh-but-unconfirmed harvest row is the 'harvested' steady state, never an alarm.
 function classifyHealth({agent, data, error}){
   if(error || !data) return {tier:'unreachable', label:"can't read status.json", days:null};
   const stub = /stub/i.test(data.updated_by||'') ||
@@ -330,30 +347,41 @@ function classifyHealth({agent, data, error}){
   if(stub) return {tier:'pending', label:'awaiting bootstrap', days:null};
   const days = businessDaysSince(data.last_updated);  // business days only — weekends don't age an agent
   const cadence = data.cadence_days || CADENCE_DEFAULT;
+  const hs = humanSignal(data);
+  const humanDays = hs.iso ? businessDaysSince(hs.iso) : null;
   let tier;
   if(days >= HEALTH_SILENT_DAYS) tier='silent';
+  else if(hs.kind === 'unconfirmed') tier='harvested';
   else if(days >= cadence) tier='aging';
   else tier='live';
-  return {tier, label:agoLabel(data.last_updated), days};
+  return {tier, label:agoLabel(data.last_updated), days, human:hs, humanDays};
 }
 
 function renderHealth(results){
-  const PILL = {live:'live', aging:'aging', silent:'silent', pending:'not onboarded', unreachable:'unreachable'};
+  const PILL = {live:'live', harvested:'harvested', aging:'aging', silent:'silent', pending:'not onboarded', unreachable:'unreachable'};
   const cards = results.map(r=>{
     const h = classifyHealth(r);
     const a = r.agent;
     let action = '';
     if(h.tier==='silent')      action = `<div class="action">→ Ask ${esc(a.principal)} — is ${esc(a.cos)} still running?</div>`;
+    else if(h.tier==='harvested') action = `<div class="action">→ Fold a confirm into the next 1:1 — not a chase</div>`;
     else if(h.tier==='pending')action = `<div class="action">→ Bootstrap pending (Track C)</div>`;
     else if(h.tier==='unreachable') action = `<div class="action">→ Repo/file unreachable — check the pull</div>`;
     const seen = h.label ? `<span class="seen">${esc(h.label)}</span>` : '—';
     const metaLine = (h.tier==='pending') ? 'never published yet'
                    : (h.tier==='unreachable') ? 'no readable report'
-                   : `last reported ${seen}`;
+                   : `data ${seen}`;
+    // second line: the human-vouch signal (7/2 split)
+    let srcLine = '';
+    if(h.human){
+      if(h.human.kind==='pushed')      srcLine = `<span class="src">✓ human-vouched — pushed at /wrap</span>`;
+      else if(h.human.kind==='confirmed') srcLine = `<span class="src">✓ harvest confirmed by ${esc(a.principal)} ${esc(agoLabel(h.human.iso))}</span>`;
+      else srcLine = `<span class="src">harvest — last human touch ${h.human.iso ? esc(agoLabel(h.human.iso)) : 'unknown'}</span>`;
+    }
     return `<div class="hcard ${h.tier}">
       <div class="name">${esc(a.cos)}<small>${esc(a.principal)}${a.note?' · '+esc(a.note):''}</small></div>
       <span class="pill">${PILL[h.tier]}</span>
-      <div class="meta">${metaLine}</div>
+      <div class="meta">${metaLine}${srcLine}</div>
       ${action}
     </div>`;
   }).join('');
@@ -371,10 +399,12 @@ function renderHealth(results){
     banner.className = 'alert-banner red show';
     banner.innerHTML = `<b>${silent.length} agent${silent.length>1?'s have':' has'} gone dark past the ${HEALTH_SILENT_DAYS}-business-day line:</b>${rows}`;
   } else {
-    const live = results.filter(r=>classifyHealth(r).tier==='live').length;
-    const pend = results.filter(r=>classifyHealth(r).tier==='pending').length;
+    const tiers = results.map(r=>classifyHealth(r).tier);
+    const live = tiers.filter(t=>t==='live').length;
+    const harv = tiers.filter(t=>t==='harvested').length;
+    const pend = tiers.filter(t=>t==='pending').length;
     banner.className = 'alert-banner green show';
-    banner.innerHTML = `<b>No agent past the chase line.</b> ${live} reporting on cadence${pend?`, ${pend} awaiting bootstrap`:''}. Nothing to chase right now.`;
+    banner.innerHTML = `<b>No agent past the chase line.</b> ${live} human-vouched${harv?`, ${harv} harvested (awaiting a leader confirm — fold into the next 1:1, not a chase)`:''}${pend?`, ${pend} awaiting bootstrap`:''}. Nothing to chase right now.`;
   }
 }
 
@@ -479,6 +509,7 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
   },0);
   const adoptionPct = cellsTotal ? Math.round(100*cellsAdopted/cellsTotal) : (reportingNonTruth.length===0 ? null : 0);
   const staleCount = results.filter(r=>r.data && freshness(r.data.last_updated, r.data.cadence_days).tier==='stale').length;
+  const awaitingConfirm = results.filter(r=>r.data && r.data.provenance && r.data.provenance.method==='harvest' && r.data.provenance.confirm_status!=='confirmed').length;
   const pendingTotal = results.filter(r=>r.data && !r.agent.truth).reduce((s,r)=>s+pendingFor(r.data).total,0);
 
   const adoptDisplay = adoptionPct===null ? '—' : `${adoptionPct}%`;
@@ -487,7 +518,8 @@ Promise.all(AGENTS.map(fetchAgent)).then(results=>{
     <div class="stat"><div class="label">Adoption (vs Albert)</div><div class="v ${adoptionPct===null?'':(adoptionPct>=80?'good':(adoptionPct>=50?'warn':'bad'))}">${adoptDisplay}</div></div>
     <div class="stat"><div class="label">In flight</div><div class="v">${PATTERNS_LIVE.length}</div></div>
     <div class="stat"><div class="label">Universal (retired)</div><div class="v good" title="${esc(PATTERNS_RETIRED.map(p=>p.label).join(', ')||'none yet')}">${PATTERNS_RETIRED.length}</div></div>
-    <div class="stat"><div class="label">Stale reports</div><div class="v ${staleCount?'bad':'good'}">${staleCount}</div></div>
+    <div class="stat"><div class="label">Stale data</div><div class="v ${staleCount?'bad':'good'}">${staleCount}</div></div>
+    <div class="stat"><div class="label">Awaiting confirm</div><div class="v ${awaitingConfirm?'warn':'good'}" title="harvested rows a leader hasn't confirmed yet — steady state, not a chase">${awaitingConfirm}</div></div>
     <div class="stat"><div class="label">Pending items</div><div class="v ${pendingTotal>0?'warn':'good'}">${pendingTotal}</div></div>
   `;
 

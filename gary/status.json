@@ -23,7 +23,9 @@
       "CLAUDE.md active threads (Botpress watch item 7/1; weights-workshop deferral 6/24)"
     ],
     "rule": "self_status and confidence are CARRIED from Amanda's last self-report unless evidence says otherwise; proposed status changes are flagged per-goal, never silent. percent_complete marked albert-estimate where bumped.",
-    "usage_signal": "cos-amanda: 12 commits 6/4\u20136/23 (regular /wrap + save cadence), quiet 6/24\u20137/1. COS is genuinely in use; the stale status.json was a pipeline artifact, not an adoption signal."
+    "usage_signal": "cos-amanda: 12 commits 6/4\u20136/23 (regular /wrap + save cadence), quiet 6/24\u20137/1. COS is genuinely in use; the stale status.json was a pipeline artifact, not an adoption signal.",
+    "confirmed_at": "2026-07-02T11:15:00-05:00",
+    "baseline_date": "2026-06-18"
   },
   "goals": [
     {
