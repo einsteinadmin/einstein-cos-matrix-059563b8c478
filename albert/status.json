@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-01T23:15:00-05:00",
+  "last_updated": "2026-07-02T16:55:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 65,
-      "assessment": "⭐ REFRAMED 6/30 (Cameron): shifted from 'Dojo + COS scaling' to 'COS network feeding a WORLD MODEL.' The UPWARD push is starting to work — 6 of 7 leadership COS publishing status.json + digest/meeting notes flowing up to Cameron reliably. Now: (a) start layering DOWN to their directs (Tier 2), (b) wire the QGR packet + a first EMMA feed so branch scorecards can run weekly/monthly, not just at quarter-end. DOJO DEPRIORITIZED — team is self-building skills + Cameron maintains a large skill library he pushes ad hoc; /dojo recommender + MCP-generator no longer the focus. Fresh pull 7/1: Gerald FIXED his schema + is LIVE; Linda (Anne) = the lone holdout (NO-FILE, never bootstrapped) — SCB ask 12422629436 posted + Cameron pinged Anne directly 7/1. EMMA API blocker = OpenSearch sync (LiftUp); per-position read-only workaround in motion (Matisen 1:1 6/30). Next lever = the 7/1 world-model sit-down.",
+      "assessment": "⭐ 7/2 MILESTONE: ALL 7 leadership COS now publishing status.json — Linda's landed 7/1 (verified in the network pull, matrix published), closing the last holdout. Reframe (6/30) stands: COS network feeds a WORLD MODEL; feed doctrine locked — /wrap push primary · harvest safety net · confirm asks ≤~1/leader/mo. Wrap-reliability pilot LIVE (Clark/Windows ∥ Albert/macOS sentinel hook — first live Albert hook run tonight 7/2; assess 7/10 → template PR wk of 7/13). /project-hq skill shipped network-wide (v0.12.0 + SCB broadcast). New bug: Gerald's /gm hit 'SCB too large for context' — SCB ask 12434137416 awaiting his details. Next levers: Matisen sit-down FRI 7/3 (QGR-packet first-feed decision) + Tier-2 layer-down kickoff w/ Anne 7/9. EMMA API blocker unchanged (OpenSearch sync / LiftUp; per-position read-only workaround in motion).",
       "blockers": [
         "EMMA API access blocked by an OpenSearch sync issue (LiftUp) — read-only workaround in motion",
         "QGR-packet automation depends on the EMMA feed landing"
@@ -54,7 +54,7 @@
       ],
       "superGreen": "(1) Every direct's COS regularly interacted-with + reliably pushing status upward (proven), AND the model starting to layer DOWN to their directs (Tier 2 begun); (2) QGR packet partially attached so next quarter's QGR runs faster/easier — weekly/monthly branch scorecards emerging (not just an end-of-quarter scorecard).",
       "green": "All 7 leadership COS live + regularly feeding the world model (status.json pushes + digest/meeting notes flowing upward reliably); world-model strategy documented; QGR-packet automation scoped + first EMMA feed (API access or per-position read-only workaround) wired.",
-      "updated": "2026-06-30"
+      "updated": "2026-07-02"
     },
     {
       "id": "cameron-ai-wedge",
@@ -151,7 +151,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 67,
-      "assessment": "6/30: hybrid homepage BUILT + refined — direction LOCKED (Brand-Story chassis + Journey elements; complex multi-floor scroll dropped, confirmed 3 ways incl. the 10-consultant debate + KP). 5 supporting pages now IN BUILD off the Part-2 blueprints (target 7/6, running with a parallel agent). Animation/sparks-of-joy pass deferred to a Later HQ step (do it after the pages exist). KP closed 6/29–7/3; Laura back later. Ongoing — not complete.",
+      "assessment": "7/2: DRAFTING PHASE CLOSED — full-site pre-flight audit (14-agent fleet) ran and every fix landed same-day; hub rewritten as the review launchpad; note layer upgraded (real feedback modal + 💬 pins on all 10 pages); Cameron gave it a further Fable-5 fresh-eyes pass 7/2 AM. NEXT = Cameron's in-depth review, staged 7/3 ('In-depth page review → paste feedback to Albert' pulse) — then sparks tier 2 → Liana copy pass → KP design pass + handoff. KP closed 6/29–7/3; direction locked, on track for green.",
       "blockers": [
         "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
@@ -176,7 +176,7 @@
       ],
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "updated": "2026-06-30"
+      "updated": "2026-07-02"
     },
     {
       "id": "cameron-itp-reading",
