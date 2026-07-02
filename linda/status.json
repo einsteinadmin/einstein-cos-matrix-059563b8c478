@@ -2,13 +2,136 @@
   "schema_version": "1.0",
   "owner": { "name": "Anne Bosse", "title": "Director of Employee Experience", "cos": "Linda" },
   "period": "Q2 2026",
-  "last_updated": "2026-01-01T00:00:00-05:00",
-  "updated_by": "(stub — not yet populated)",
+  "last_updated": "2026-07-01T15:00:00-05:00",
+  "updated_by": "Linda (/wrap — bootstrap)",
   "cadence_days": 1,
-  "_status": "stub — awaiting first /wrap publish from Linda",
-  "_note": "Stub created 6/11/2026 (Linda went live 6/4 but was missing from the dashboard roster — caught during the org-chart build). Bootstrap from BOOTSTRAP.md once the publish step ships post-Clark-pilot.",
-  "goals": [],
+  "goals": [
+    {
+      "id": "anne-hr-generalist-hire",
+      "number": 1,
+      "name": "Hire HR Generalist",
+      "critical": true,
+      "self_status": "supergreen",
+      "confidence": 5,
+      "percent_complete": 100,
+      "assessment": "6/23: Jalissa onboarded + taking recruiting (Anne refrains unless tagged). This week: teach her Rippling + Monday (DoD = she understands our Monday processes). Daily morning meetings in place; may delegate board automations to Linda. SG locked.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Jalissa trained on Rippling + Monday processes", "date": "2026-07-15", "done": false }
+      ],
+      "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
+      "green": "Hired + onboarding started by EOQ",
+      "updated": "2026-07-01"
+    },
+    {
+      "id": "anne-hiring-culture-trial-period",
+      "number": 2,
+      "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 65,
+      "assessment": "6/29 sync: Go-live SET for July 6 — messaging out July 1 (framed as phase-1 of a multi-phase rollout). Anne drafts mgr + mover messaging, Matisen updates onboarding checklist, Brian reviews + aligns in sync-ups. Interview process shortened to 2 steps, Concentra HPE network built (activation in ClearCompany pending), Extended Trial Period (60-day, check-ins 1wk/2wk/30d/60d) designed.",
+      "blockers": [
+        "Extended Trial Period check-ins not yet built into Rippling's performance management module",
+        "Meeting with Mike needed to finalize gating between training handbook + 60-day period timing"
+      ],
+      "milestones": [
+        { "name": "BM messaging sent", "date": "2026-07-01", "done": false },
+        { "name": "Go-live: new interview process + HPE", "date": "2026-07-06", "done": false }
+      ],
+      "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
+      "green": "Interview process updated to hire for culture + Rippling Performance Module live",
+      "updated": "2026-07-01"
+    },
+    {
+      "id": "anne-clearco-funnel-viz",
+      "number": 3,
+      "name": "ClearCo Hiring Funnel Visualization",
+      "critical": false,
+      "self_status": "supergreen",
+      "confidence": 2,
+      "percent_complete": 35,
+      "assessment": "6/23: Gated on Matisen (back Thu 6/25). ClearCo has reached out multiple times for him to connect — Anne schedules the sync once he's back; needs a fallback if timing slips. NOTE: source status field says supergreen but assessment reads stalled/gated — flagged mismatch, unresolved as of bootstrap.",
+      "blockers": [
+        "Gated on Matisen's bandwidth/availability",
+        "Status/assessment mismatch in source data — Anne to clarify actual state with Cameron"
+      ],
+      "milestones": [
+        { "name": "Sync with Matisen on funnel dashboard build", "date": "2026-07-08", "done": false },
+        { "name": "Funnel dashboard live with cost-per-hire/time-to-fill/stage %", "date": "2026-07-31", "done": false }
+      ],
+      "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
+      "green": "Funnel visualized with cost per hire + time to fill + stage %",
+      "updated": "2026-07-01"
+    },
+    {
+      "id": "anne-mover-promotion-metrics",
+      "number": 4,
+      "name": "Mover Promotion Guidance Metrics",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 10,
+      "assessment": "6/23: Still stalled. Schedule w/ Paul week of 6/29 once bandwidth opens post N. Austin office move. Needs comp philosophy locked first.",
+      "blockers": [
+        "Comp philosophy needs to be locked before this can move",
+        "Waiting on Paul's bandwidth post N. Austin office move"
+      ],
+      "milestones": [
+        { "name": "Schedule working session with Paul", "date": "2026-07-08", "done": false }
+      ],
+      "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
+      "green": "Promotion metrics framework built",
+      "updated": "2026-07-01"
+    },
+    {
+      "id": "anne-onboarding-experience",
+      "number": 5,
+      "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 60,
+      "assessment": "6/23: Offer-letter expiration cut 7d→48h, physical/drug-screen language added. DoD: CHOICES module game-plan uploaded this week (Cameron re-sent the culture-video link). Comp/benefits recordings w/ Austin after he's back 6/25. Tracking toward Super Green.",
+      "blockers": [
+        "CHOICES module game-plan not yet uploaded",
+        "Comp/benefits recordings pending with Austin"
+      ],
+      "milestones": [
+        { "name": "CHOICES module game-plan uploaded", "date": "2026-07-08", "done": false },
+        { "name": "Comp/benefits recordings completed with Austin", "date": "2026-07-15", "done": false }
+      ],
+      "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
+      "green": "CHOICES live in onboarding, ≥75% completion in first 30 days",
+      "updated": "2026-07-01"
+    },
+    {
+      "id": "anne-itp-reading",
+      "number": 6,
+      "name": "Ideal Team Player Reading (Bonus)",
+      "critical": false,
+      "self_status": "supergreen",
+      "confidence": 5,
+      "percent_complete": 100,
+      "assessment": "7/1: Complete — book read, 1-page H/H/S reflection done. Super Green.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Read book + submit 1-page H/H/S reflection", "date": "2026-06-30", "done": true }
+      ],
+      "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
+      "green": "Read by 5/30",
+      "updated": "2026-07-01"
+    }
+  ],
   "kpis": [],
-  "adopted": [],
+  "adopted": [
+    { "pattern": "template", "version": "2026-07-01-merge", "state": "adopted" },
+    { "pattern": "wrap-git-push", "state": "adopted" },
+    { "pattern": "gm-step-0", "state": "adopted" },
+    { "pattern": "status-file", "version": "v1.0", "state": "adopted" },
+    { "pattern": "scb-open-asks-two-lane", "state": "adopted" },
+    { "pattern": "slack-drop-zone", "state": "adopted" }
+  ],
   "network_acks": []
 }

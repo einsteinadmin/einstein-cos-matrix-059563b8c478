@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-07-01",
   "updated_by": "Gerald",
   "cadence_days": 7,
   "goals": [
@@ -37,8 +37,8 @@
       "critical": true,
       "self_status": "supergreen",
       "confidence": 5,
-      "percent_complete": 63,
-      "assessment": "Week 5/8 live. FW Meerkats #1 (3-0), Tampa Pirates #2 (2-1), Garland Gorillas #3 (1-1-1), MCK Geese #4 (1-1-1), DAL Squirrels #5 (1-2). Reviews = 0/13 everywhere — coaching focus this week.",
+      "percent_complete": 87,
+      "assessment": "Week 7/8 live. Tampa Pirates #1 (4-1, 56.0), FW Meerkats #2 (4-1, 42.0), Garland Gorillas #3 (3-1-1, 38.0), MCK Geese #4 (2-2-1, 42.0), DAL Squirrels #5 (1-4, 33.0). Tampa Reviews breakthrough: 11/13 (32%!) — MCK 4/13 first points. DAL/FW/GAR still 0 on Reviews. Garland Driver 6/13 (81%), MCK Driver 5/13 (77%) — both need coaching.",
       "blockers": [],
       "milestones": [
         { "name": "Season 4 launched", "date": "2026-05-12", "done": true },
@@ -47,7 +47,7 @@
       ],
       "superGreen": "All 5 DFWT branches engaged, 3+ branches in top 5 company-wide, reviews metric above 50% company avg at season end",
       "green": "All 5 branches active and tracking stats weekly through Week 8",
-      "updated": "2026-06-22"
+      "updated": "2026-07-01"
     },
     {
       "id": "rock-3",
@@ -75,9 +75,9 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 60,
-      "assessment": "Full app built (exceeded scaffold scope). Cameron's 8-section review posted on pulse 11927756793 — 5 P0 fixes and Super App decision pending Mike's read. GitHub Pages changelog live at einsteinadmin.github.io/einstein-mover-training-hq-8fe42f5c/.",
-      "blockers": ["Cameron review unread — 5 P0 fixes + Super App decision pending"],
+      "percent_complete": 65,
+      "assessment": "Training App pulse back in Today with expanded scope: 'Super App Chassis (SOP + BETA TESTING)' — wLOW=30, qg=30. Cameron's 8-section review posted on pulse 11927756793 — 5 P0 fixes and Super App decision pending. GitHub Pages changelog live but needs update through 6/25+6/29+7/1 sessions.",
+      "blockers": ["HQ changelog needs update (through 6/22 only)", "P0 fixes + Super App decision from Cameron review pending"],
       "milestones": [
         { "name": "App scaffold complete", "date": "2026-04-30", "done": true },
         { "name": "Cameron review received", "date": "2026-06-17", "done": true },
@@ -86,7 +86,7 @@
       ],
       "superGreen": "App in active use at 2+ branches, video library complete, feedback loop established with field managers",
       "green": "App beta live at 1 branch, core training tracks complete, Cameron approval received",
-      "updated": "2026-06-22"
+      "updated": "2026-07-01"
     },
     {
       "id": "rock-5",
@@ -96,7 +96,7 @@
       "self_status": "red",
       "confidence": 2,
       "percent_complete": 25,
-      "assessment": "3 chapters read. Behind pace. ITP Reading Part 3-5 on board since 6/19 — not completed yet. Committed to super green (full read + reflection) by EOQ.",
+      "assessment": "3 chapters read. Behind pace. ITP Reading Part 3-5 in This Week dated 7/1 (Critical, 5 LOW, qg=5). Committed to super green (full read + reflection) by EOQ.",
       "blockers": ["Time — has not been prioritized"],
       "milestones": [
         { "name": "Chapters 1-3 read", "date": "2026-06-15", "done": true },
@@ -126,8 +126,8 @@
     }
   ],
   "kpis": [
-    { "name": "Praise Goal Q2", "current": 46, "target": 48, "unit": "entries", "self_status": "green" },
-    { "name": "DFWT Region % to Sales Target", "current": 67.6, "target": 73.0, "unit": "percent", "self_status": "yellow" },
+    { "name": "Praise Goal Q2", "current": 50, "target": 48, "unit": "entries", "self_status": "supergreen" },
+    { "name": "DFWT Region % to Sales Target (June Final)", "current": 49.3, "target": 73.0, "unit": "percent", "self_status": "red", "note": "June final avg: DAL 53.18%, GAR 59.53%, TPA 49.48%, MCK 43.34%, FW 41.04%. All below Q2 pace (~67% expected)." },
     { "name": "Company Fleet Safety Score", "current": 88, "target": 90, "unit": "score", "self_status": "green" }
   ],
   "adopted": [],

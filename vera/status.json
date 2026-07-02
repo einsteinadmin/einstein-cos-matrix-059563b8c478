@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-22T08:00:00-05:00",
-  "updated_by": "Vera (/gm — catch-up, moved from vera/status.json per Albert's SCB ask)",
+  "last_updated": "2026-06-25T09:00:00-05:00",
+  "updated_by": "Vera (/gm — catch-up wrap covering 6/23–6/24; no /wrap ran those days)",
   "cadence_days": 1,
   "goals": [
     {
@@ -20,11 +20,12 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 40,
-      "assessment": "Season launched 5/23 with 8-week structure. National champion determined by 7/11. TD feedback app working in NA/LEA/SAR as of 6/18. Dependent on Matisen EMMA migration for full data flow.",
+      "assessment": "Season launched 5/23 with 8-week structure. Games closing out Monday 6/29 night, results posted Tuesday 7/1. Review deadline pending Brian's call. TD feedback app working in NA/LEA/SAR as of 6/18.",
       "blockers": [],
       "milestones": [
         { "name": "All 5 CTXH branches submitting weekly Games numbers consistently", "date": "2026-06-15", "done": true },
         { "name": "Mid-season check — CTXH standings reviewed w/ BMs (~6/20)", "date": "2026-06-22", "done": false },
+        { "name": "Games close Monday night 6/29, results posted 7/1", "date": "2026-06-29", "done": false },
         { "name": "Final standings + CTXH champion confirmed by 7/11", "date": "2026-07-11", "done": false }
       ],
       "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
@@ -39,8 +40,9 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 35,
-      "assessment": "Region tracking toward green. Individual branch stability varies — Houston and some CTXH branches shaky on staffing. 105% stable net staffing target framework in place. Douglas Melrose WC injury pending resolution.",
+      "assessment": "N. Austin BM search now active — Calvin transitioning out, BM application announcement going out 6/25. Internal candidates briefed (Nick and Rance). Houston and some CTXH branches shaky on staffing. Douglas Melrose WC injury pending.",
       "blockers": [
+        "N. Austin BM vacancy — internal application process launched 6/25",
         "Individual branch staffing levels inconsistent",
         "Douglas Melrose (HOU) WC injury — extend offer needed"
       ],
