@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-30T18:05:00-05:00",
-  "updated_by": "Albert (/wrap — edited by Cameron)",
+  "last_updated": "2026-07-01T23:15:00-05:00",
+  "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 65,
-      "assessment": "⭐ REFRAMED 6/30 (Cameron): shifted from 'Dojo + COS scaling' to 'COS network feeding a WORLD MODEL.' The UPWARD push is starting to work — 6 of 7 leadership COS publishing status.json + digest/meeting notes flowing up to Cameron reliably. Now: (a) start layering DOWN to their directs (Tier 2), (b) wire the QGR packet + a first EMMA feed so branch scorecards can run weekly/monthly, not just at quarter-end. DOJO DEPRIORITIZED — team is self-building skills + Cameron maintains a large skill library he pushes ad hoc; /dojo recommender + MCP-generator no longer the focus. Gerald (Mike) = lone off-schema status.json holdout. EMMA API blocker = OpenSearch sync (LiftUp); per-position read-only workaround in motion (Matisen 1:1 6/30). Next lever = the 7/1 world-model sit-down.",
+      "assessment": "⭐ REFRAMED 6/30 (Cameron): shifted from 'Dojo + COS scaling' to 'COS network feeding a WORLD MODEL.' The UPWARD push is starting to work — 6 of 7 leadership COS publishing status.json + digest/meeting notes flowing up to Cameron reliably. Now: (a) start layering DOWN to their directs (Tier 2), (b) wire the QGR packet + a first EMMA feed so branch scorecards can run weekly/monthly, not just at quarter-end. DOJO DEPRIORITIZED — team is self-building skills + Cameron maintains a large skill library he pushes ad hoc; /dojo recommender + MCP-generator no longer the focus. Fresh pull 7/1: Gerald FIXED his schema + is LIVE; Linda (Anne) = the lone holdout (NO-FILE, never bootstrapped) — SCB ask 12422629436 posted + Cameron pinged Anne directly 7/1. EMMA API blocker = OpenSearch sync (LiftUp); per-position read-only workaround in motion (Matisen 1:1 6/30). Next lever = the 7/1 world-model sit-down.",
       "blockers": [
         "EMMA API access blocked by an OpenSearch sync issue (LiftUp) — read-only workaround in motion",
         "QGR-packet automation depends on the EMMA feed landing"
@@ -186,7 +186,7 @@
       "self_status": "supergreen",
       "confidence": 5,
       "percent_complete": 100,
-      "assessment": "Bonus rock — now SUPER GREEN. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/16 COMPLETE: book finished (~6 wks early), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Deliverables done; 7/10 is a working review Cameron brings his thinking to. Pulse 11752596124 marked Done.",
+      "assessment": "Bonus rock — now SUPER GREEN. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/16 COMPLETE: book finished (~6 wks early), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Deliverables done; 7/10 is a working review Cameron brings his thinking to. Pulse 11752596124 marked Done. 7/1: Rob's 7/15 CRIT assignment completed — low virtue Smart 4.33, CRIT run w/ Albert-as-Lencioni, slim 90-day plan locked (7/15→Oct 14 review). Rock itself stays complete.",
       "blockers": [
         "Reading time competes with the heavy weekly load — pace it to stay ahead of EOQ"
       ],
@@ -204,7 +204,7 @@
       ],
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by EOQ (7/31)",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     }
   ],
   "kpis": [
