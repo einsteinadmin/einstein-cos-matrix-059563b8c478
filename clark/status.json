@@ -1,12 +1,31 @@
 {
   "schema_version": "1.0",
-  "owner": { "name": "Paul Morin", "title": "CFO/COO · Co-Owner", "cos": "Clark" },
+  "owner": {
+    "name": "Paul Morin",
+    "title": "CFO/COO \u00b7 Co-Owner",
+    "cos": "Clark"
+  },
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-16T11:37:50-05:00",
-  "updated_by": "Clark (/wrap)",
-  "cadence_days": 2,
+  "last_updated": "2026-07-01T23:45:00-05:00",
+  "updated_by": "Albert (HARVEST DRAFT \u2014 pilot, unconfirmed)",
+  "cadence_days": 7,
+  "provenance": {
+    "method": "harvest",
+    "drafted": "2026-07-01",
+    "confirm_status": "unconfirmed",
+    "confirmed_by": null,
+    "baseline": "Clark's own status.json, 2026-06-16 (self-reported)",
+    "sources": [
+      "cos-clark repo activity (8 commits 6/16\u20136/30; /gm run 6/30 \u2014 Clark in ACTIVE use, /wrap status step skipped)",
+      "goals-dashboard dashboard-data.json (Albert-maintained)",
+      "6/30 Prosper finance call digest + 7/1 huddle (N. Austin facility ready, trucks listed, reforecast timeline)"
+    ],
+    "rule": "self_status and confidence CARRIED from Paul's last self-report unless evidence says otherwise; proposed changes flagged per-goal, never silent.",
+    "usage_signal": "cos-clark: commits on 6/16, 6/17 (x4), 6/22, 6/23 (x3), 6/24, 6/30 (x2) \u2014 Paul ran /gm YESTERDAY. The 15-day-stale status.json measured the /wrap publish step, not adoption. Clark is one of the most-used spokes in the network.",
+    "baseline_date": "2026-06-16"
+  },
   "goals": [
     {
       "id": "paul-mover-comp",
@@ -16,27 +35,43 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 85,
-      "assessment": "Well on its way, about 85% done and solidly on target for Green. To reach Super Green we still need to build the promotions-tied-to-performance framework and the promotion-process video, then communicate it to the team. Confident (4/5) we get to Super Green.",
-      "blockers": ["Promotions-tied-to-performance framework + promotion-process video not yet built or communicated to the team — required for Super Green"],
-      "milestones": [ { "name": "Build promotions-tied-to-performance + promotion-process video and communicate to team", "date": "2026-07-31", "done": false } ],
+      "assessment": "Green, ~85% \u2014 carried from 6/16 self-report; no contrary evidence since. Remaining for Super Green: promotions-tied-to-performance framework + promotion-process video, then team comms. Note: mover-promotion reference was saved into Clark 6/16 (/gm triage) \u2014 the SG build has its inputs.",
+      "provenance_note": "carried from self-report 6/16; SG-gap unchanged",
+      "blockers": [
+        "Promotions-tied-to-performance framework + promotion-process video not yet built or communicated \u2014 required for Super Green"
+      ],
+      "milestones": [
+        {
+          "name": "Build promotions-tied-to-performance + promotion-process video and communicate to team",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
       "superGreen": "Pay bands updated, promotions tied to performance, promo process video, communicated",
       "green": "Updated pay finalized, pay docs updated, scorecards created, targets set and communicated",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     },
     {
       "id": "paul-naustin-movein",
       "number": 2,
-      "name": "N. Austin Office — Move-In",
+      "name": "N. Austin Office \u2014 Move-In",
       "critical": true,
-      "self_status": "green",
+      "self_status": "supergreen",
       "confidence": 5,
       "percent_complete": 100,
-      "assessment": "Hit Super Green. Moved in on June 15 and we're good to go.",
+      "assessment": "Super Green CONFIRMED \u2014 moved in 6/15; 7/1 huddle: facility fully READY (CO permit issued, 8 trucks on site).",
+      "provenance_note": "PROPOSED green\u2192supergreen: Paul's own 6/16 assessment said 'hit Super Green' but self_status field still read green; 7/1 huddle confirms facility ready. Correcting the field to match his own words.",
       "blockers": [],
-      "milestones": [ { "name": "Move-in complete", "date": "2026-06-15", "done": true } ],
+      "milestones": [
+        {
+          "name": "Move-in complete",
+          "date": "2026-06-15",
+          "done": true
+        }
+      ],
       "superGreen": "Moved in by June 15",
       "green": "Moved in by end of June",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     },
     {
       "id": "paul-branch-visits",
@@ -46,27 +81,45 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 0,
-      "assessment": "Nothing logged yet (0%), but doing a North Austin visit with Brian this week or next, and I can easily get one or two more in over the next few weeks. Green or Super Green is very achievable.",
-      "blockers": [],
-      "milestones": [ { "name": "North Austin branch visit + ride-along with Brian", "date": "2026-06-30", "done": false } ],
+      "assessment": "CANNOT VERIFY \u2014 6/16 plan was a N. Austin visit + ride-along with Brian 'this week or next.' No evidence in any harvested source that it happened. Calendar pressure: Paul out 7/7 (Seattle 7/5\u20137/8 w/ Cameron), QGR prep mid-July. Green needs 2 visits + 2 ride-alongs in ~4 remaining weeks.",
+      "provenance_note": "ASK PAUL \u2014 this is one of the two fields harvest cannot see",
+      "blockers": [
+        "No visit logged yet; travel 7/5\u20137/8 compresses the remaining window"
+      ],
+      "milestones": [
+        {
+          "name": "North Austin branch visit + ride-along with Brian",
+          "date": "2026-06-30",
+          "done": false
+        }
+      ],
       "superGreen": "3 visits + 3 ride-alongs + listen-and-learn lunches",
       "green": "2 visits + 2 ride-alongs",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     },
     {
       "id": "paul-geo-expansion",
       "number": 4,
-      "name": "Geographic Expansion Strategy — Deepen vs. Widen + Evaluate 5-7 Acquisition Opportunities",
+      "name": "Geographic Expansion Strategy \u2014 Deepen vs. Widen + Evaluate 5-7 Acquisition Opportunities",
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 0,
-      "assessment": "Haven't started yet — trying to kick it off this week. Super Green (7 evaluated) is highly unlikely, but Green (5 evaluated + deepen vs. widen stance + Houston case study) should be achievable.",
-      "blockers": ["Not yet kicked off; needs Albert to help draft research questions and source opportunities, may need brokers"],
-      "milestones": [ { "name": "Kick off acquisition evaluation and define deepen vs. widen approach", "date": "2026-06-30", "done": false } ],
+      "assessment": "Yellow, AT RISK \u2014 6/16: 'trying to kick it off this week'; no kickoff evidence in any harvested source since. ~4 weeks left; Green needs 5 opportunities evaluated + deepen-vs-widen stance + Houston case study, with the Q3 reforecast (~7/20) and QGR prep competing for the same window. If it hasn't started by return-from-Seattle (7/9), Green is in real jeopardy \u2014 flag for the 7/15 pre-work as a candidate honest Red or a scoped-down finish.",
+      "provenance_note": "ASK PAUL \u2014 kickoff status unknown; carried yellow but flagged trending-red on timeline math",
+      "blockers": [
+        "Not yet kicked off (as of last evidence); needs Albert/Clark research-question drafting + opportunity sourcing; may need brokers"
+      ],
+      "milestones": [
+        {
+          "name": "Kick off acquisition evaluation and define deepen vs. widen approach",
+          "date": "2026-06-30",
+          "done": false
+        }
+      ],
       "superGreen": "7 acquisition opportunities evaluated, clear deepen vs. widen stance documented",
       "green": "5 acquisition opportunities evaluated, deepen vs. widen stance defined, Houston organic vs. acquisition case study complete",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     },
     {
       "id": "paul-ideal-team-player",
@@ -76,12 +129,19 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 65,
-      "assessment": "On page 140 — on pace for Green. Super Green (read by 5/30) is already past. Will finish the book plus the one-page reflection by end of quarter.",
+      "assessment": "Green \u2014 carried from 6/16 (page 140, on pace). Finish + one-page reflection due by EOQ.",
+      "provenance_note": "carried from self-report 6/16",
       "blockers": [],
-      "milestones": [ { "name": "Finish book + 1-page reflection on personal Humility/Hunger/Smarts gaps", "date": "2026-07-31", "done": false } ],
+      "milestones": [
+        {
+          "name": "Finish book + 1-page reflection on personal Humility/Hunger/Smarts gaps",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
       "superGreen": "Read by 5/30",
       "green": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     },
     {
       "id": "paul-money-collection",
@@ -90,13 +150,22 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 0,
-      "assessment": "Haven't started anything yet, but confident we'll land Green or Super Green by end of quarter.",
-      "blockers": ["Not yet started"],
-      "milestones": [ { "name": "Build the three improvements: swipe % reporting automation, manual-vs-swipe cost quantified, late-invoice Monday pulse automation", "date": "2026-07-31", "done": false } ],
+      "percent_complete": 5,
+      "assessment": "Not started as of 6/16; adjacent motion since (6/30 accounting sync touched Rippling CC coding + uncategorized transactions) but none of the three Green deliverables (swipe % reporting automation, manual-vs-swipe cost quantified, late-invoice Monday pulse automation) has evidence of starting. ~4 weeks left on a self-status of green/5 \u2014 same honest-check flag as goal 4.",
+      "provenance_note": "carried but flagged: green/confidence-5 with 0 deliverables started and 4 weeks left deserves a gut-check",
+      "blockers": [
+        "Not yet started (as of last evidence)"
+      ],
+      "milestones": [
+        {
+          "name": "Build the three improvements: swipe % reporting automation, manual-vs-swipe cost quantified, late-invoice Monday pulse automation",
+          "date": "2026-07-31",
+          "done": false
+        }
+      ],
       "superGreen": "Monthly branch rankings, monthly/live swipe % rankings, coaching process documented",
       "green": "Cost quantified and shared for manual vs. swipe, automated swipe % reporting, automation to create a Monday pulse when an invoice-late email hits the inbox",
-      "updated": "2026-06-16"
+      "updated": "2026-07-01"
     }
   ],
   "kpis": [],
