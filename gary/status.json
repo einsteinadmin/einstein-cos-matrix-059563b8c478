@@ -8,25 +8,9 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-02T11:15:00-05:00",
-  "updated_by": "Albert (harvest) \u2014 CONFIRMED by Amanda 7/2",
+  "last_updated": "2026-07-03T16:30:00-05:00",
+  "updated_by": "Gary (/wrap)",
   "cadence_days": 7,
-  "provenance": {
-    "method": "harvest",
-    "drafted": "2026-07-01",
-    "confirm_status": "confirmed",
-    "confirmed_by": "Amanda Ware (Slack C0B86CMK89M, 2026-07-02): answered both unseen fields, no corrections to the rest",
-    "baseline": "Gary's own status.json, 2026-06-18 (self-reported)",
-    "sources": [
-      "goals-dashboard dashboard-data.json (Albert-maintained, per-goal assessments dated 6/23)",
-      "cos-amanda repo activity (commits through 6/23 \u2014 Gary in active use; /wrap status step not re-run since 6/18)",
-      "CLAUDE.md active threads (Botpress watch item 7/1; weights-workshop deferral 6/24)"
-    ],
-    "rule": "self_status and confidence are CARRIED from Amanda's last self-report unless evidence says otherwise; proposed status changes are flagged per-goal, never silent. percent_complete marked albert-estimate where bumped.",
-    "usage_signal": "cos-amanda: 12 commits 6/4\u20136/23 (regular /wrap + save cadence), quiet 6/24\u20137/1. COS is genuinely in use; the stale status.json was a pipeline artifact, not an adoption signal.",
-    "confirmed_at": "2026-07-02T11:15:00-05:00",
-    "baseline_date": "2026-06-18"
-  },
   "goals": [
     {
       "id": "amanda-call-grading",
@@ -36,11 +20,11 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 70,
-      "assessment": "Green \u2014 grading engine LIVE (per 6/23 dashboard). Calibration 15-call spot-check still pending. Next: huddle w/ Nhel on the call-grading distribution plan (weekly/monthly cadence). Dashboard flags May company-wide $ conversions at 80.78% of target (Red floor) as the real lever to watch. Note: Cameron's weights-workshop tool is built and ready; Amanda deferred the reweight 6/24 as not-a-priority-now.",
-      "provenance_note": "assessment refreshed from dashboard 6/23 + thread notes; self_status/confidence carried from 6/18 self-report; percent_complete 60\u219270 is Albert's estimate (engine live)",
+      "assessment": "Green — grading engine LIVE. Calibration 15-call spot-check still pending. Next: huddle w/ Nhel on call-grading distribution plan. Dashboard flags May company-wide $ conversions at 80.78% of target (Red floor) as the real lever to watch. Cameron's weights-workshop tool built and ready; Amanda deferred reweight 6/24. New integration ask posted to SCB 7/3: link Dialpad grades to Emma estimates + actuals.",
       "blockers": [
         "Calibration spot-check (15 calls) not yet run",
-        "Distribution plan w/ Nhel not yet locked"
+        "Distribution plan w/ Nhel not yet locked",
+        "Cameron's reply on GitHub Pages privacy question still pending (pulse 12206626312)"
       ],
       "milestones": [
         {
@@ -51,8 +35,7 @@
         {
           "name": "Publish report to GitHub Pages",
           "date": "2026-06-25",
-          "done": true,
-          "provenance_note": "repo commit 6/19: 'Pages live' \u2014 marked done from evidence"
+          "done": true
         },
         {
           "name": "Distribute to Nhel + weekly audit cadence running",
@@ -62,7 +45,7 @@
       ],
       "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
       "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running",
-      "updated": "2026-07-01"
+      "updated": "2026-07-03"
     },
     {
       "id": "amanda-replace-leadferno",
@@ -71,24 +54,21 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "Green, trending Super Green \u2014 \u2b50 Botpress contract SIGNED (6/23) + Antonin's implementation questions answered; billing starts within 7 days of signature. Next: schedule + run the implementation kickoff. \u26a0 Live risk carried on Cameron's watch list 7/1: the un-disable-able Auto-Recharge ceiling = the cost-explosion item to nail during implementation.",
-      "provenance_note": "contract-signed is hard evidence (dashboard 6/23); percent_complete 50\u219260 Albert-estimate; status carried",
+      "percent_complete": 65,
+      "assessment": "Green, trending Super Green — Botpress contract SIGNED (6/29). Implementation kickoff ran today (7/3) with Matisen. Matisen + technical team meet 7/7 (1PM ET) on API integrations. Target launch: first week of August 2026. Project HQ built at projects/botpress-implementation/botpress-hq.html.",
       "blockers": [
-        "Implementation kickoff w/ Botpress managed services not yet scheduled",
         "Auto-Recharge ceiling must be capped/controlled during implementation (cost-explosion risk)"
       ],
       "milestones": [
         {
           "name": "Sign Botpress contract",
-          "date": "2026-06-22",
-          "done": true,
-          "provenance_note": "signed 6/23 per dashboard \u2014 marked done from evidence"
+          "date": "2026-06-29",
+          "done": true
         },
         {
           "name": "Implementation kickoff with Botpress managed services team",
-          "date": "2026-07-01",
-          "done": false
+          "date": "2026-07-03",
+          "done": true
         },
         {
           "name": "Chatbot live and deflecting Leadferno volume",
@@ -98,7 +78,7 @@
       ],
       "superGreen": "Replacement chatbot live, deflecting 80%+ of Leadferno volume, Leadferno fully sunset by EOQ",
       "green": "Replacement chatbot selected, contracted, AI configuration in progress",
-      "updated": "2026-07-01"
+      "updated": "2026-07-03"
     },
     {
       "id": "amanda-email-design",
@@ -108,17 +88,15 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 80,
-      "assessment": "Green CONFIRMED (Amanda 7/2): Matisen made the token/format decision (\"over my head, but he has made one\"). Gate cleared \u2014 next is implementation: RFQ template live in EMMA, then company-wide rollout.",
-      "provenance_note": "status change yellow\u2192green CONFIRMED by Amanda 7/2; format decision made",
+      "assessment": "Green — Matisen made the token/format decision. Gate cleared. Next: RFQ template live in EMMA, then company-wide rollout.",
       "blockers": [
-        "Implementation post format decision \u2014 RFQ template next (Matisen/Fabian)"
+        "Implementation post format decision — RFQ template next (Matisen/Fabian)"
       ],
       "milestones": [
         {
           "name": "Matisen resolves tokens + format decision",
           "date": "2026-06-25",
-          "done": true,
-          "provenance_note": "confirmed by Amanda 7/2 \u2014 decision made"
+          "done": true
         },
         {
           "name": "RFQ template live in EMMA",
@@ -133,7 +111,7 @@
       ],
       "superGreen": "Rolled out company-wide with measurable impact",
       "green": "Houston test complete, company-wide decision made",
-      "updated": "2026-07-02"
+      "updated": "2026-07-03"
     },
     {
       "id": "amanda-cx-theme",
@@ -143,8 +121,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 70,
-      "assessment": "Green \u2014 First Class Precision running strong; Nhel owns weekly announcements + cadence. Dashboard note 6/23: held at Green (not SG) until an OUTCOME metric surfaces, not just leaderboard activity. ~4 weeks of competition left.",
-      "provenance_note": "carried + dashboard 6/23 note folded in; percent_complete 60\u219270 Albert-estimate (time-based)",
+      "assessment": "Green — First Class Precision running strong. Nhel owns weekly announcements + cadence. ~4 weeks of competition left.",
       "blockers": [],
       "milestones": [
         {
@@ -155,7 +132,7 @@
       ],
       "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
       "green": "Theme launched and adopted with defined metrics",
-      "updated": "2026-07-01"
+      "updated": "2026-07-03"
     },
     {
       "id": "amanda-ideal-team-player",
@@ -165,17 +142,15 @@
       "self_status": "yellow",
       "confidence": 5,
       "percent_complete": 50,
-      "assessment": "Yellow \u2014 reading DONE (confirmed by Amanda 7/2, finished by end of June). One-page H/H/S reflection remains (due 7/25) \u2014 completing it satisfies the Super Green definition as written (Read by EOQ + reflection).",
-      "provenance_note": "CONFIRMED by Amanda 7/2 \u2014 reading complete",
+      "assessment": "Yellow — reading DONE (confirmed 7/2). One-page H/H/S reflection still needed (due 7/25). Huddle 7/3: Cameron clarified the ask — personal reflection (3 lowest H/H/S scores) + run Gary as Lencioni to build a 3-month action plan. Organizational layer (interview process / People Analyzer changes) is Anne's ask, not Amanda's.",
       "blockers": [
-        "Time \u2014 sales and claims workload absorbs discretionary hours"
+        "Time — sales and claims workload absorbs discretionary hours"
       ],
       "milestones": [
         {
           "name": "Complete reading",
           "date": "2026-06-30",
-          "done": true,
-          "provenance_note": "confirmed by Amanda 7/2"
+          "done": true
         },
         {
           "name": "Write one-page reflection on personal H/H/S gaps",
@@ -185,7 +160,7 @@
       ],
       "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
       "green": "Read by 5/30",
-      "updated": "2026-07-02"
+      "updated": "2026-07-03"
     }
   ],
   "kpis": [],
