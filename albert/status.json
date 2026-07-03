@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-02T16:55:00-05:00",
+  "last_updated": "2026-07-03T17:05:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,8 +19,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "⭐ 7/2 MILESTONE: ALL 7 leadership COS now publishing status.json — Linda's landed 7/1 (verified in the network pull, matrix published), closing the last holdout. Reframe (6/30) stands: COS network feeds a WORLD MODEL; feed doctrine locked — /wrap push primary · harvest safety net · confirm asks ≤~1/leader/mo. Wrap-reliability pilot LIVE (Clark/Windows ∥ Albert/macOS sentinel hook — first live Albert hook run tonight 7/2; assess 7/10 → template PR wk of 7/13). /project-hq skill shipped network-wide (v0.12.0 + SCB broadcast). New bug: Gerald's /gm hit 'SCB too large for context' — SCB ask 12434137416 awaiting his details. Next levers: Matisen sit-down FRI 7/3 (QGR-packet first-feed decision) + Tier-2 layer-down kickoff w/ Anne 7/9. EMMA API blocker unchanged (OpenSearch sync / LiftUp; per-position read-only workaround in motion).",
+      "percent_complete": 67,
+      "assessment": "7/3: All 7 leadership COS healthy w/ the /wrap status-refresh step installed in every repo (matrix re-pushed — strongest network state on record). QGR data feed SETTLED ASYNC (the Matisen sit-down proved unnecessary) — template + wired-vs-person breakdown posted to SCB w/ the data-wiring spec attached; feed = weekly CSV → EMMA MCP in weeks (Robert mtg Mon 7/6 10am); TUR=hours confirmed. Async-first meeting pattern proven (Matisen check-in = a 23-min A-grade 1:1) + codified into /meeting-prep + memory. Sentinel auto-push hook ran clean again. Feed doctrine holds: /wrap push primary · harvest safety net · confirm ≤~1/leader/mo. Next: Matisen's first CSV lands wk of 7/6 → confirm the pull end-to-end; Tier-2 layer-down kickoff w/ Anne 7/9. EMMA API blocker unchanged (OpenSearch sync / LiftUp; per-position read-only workaround in motion).",
       "blockers": [
         "EMMA API access blocked by an OpenSearch sync issue (LiftUp) — read-only workaround in motion",
         "QGR-packet automation depends on the EMMA feed landing"
@@ -64,7 +64,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 55,
-      "assessment": "Co-owned with Matisen R1. 6/12: 2 of 3 wedges moving — sales-call grading LIVE at scale (2 calls/wk x 33 reps, Wk1 report done, privacy model set: private repo, reps-see-own access model); applicant-pipeline dashboard (cost-per-hire/time-to-fill) in data validation; third wedge = damages/reviews auto-populate into EMMA. Lead triage rolled out (availability add = Fabian next week). 6/30: a supporting QG slipped — Matisen's AI Call Grading / Claims Build #1 went Green→RED (Claims RAG deprioritized; games-automation + a RAG-vs-quote-sheet + email-grading reframe keep a path back).",
+      "assessment": "Co-owned with Matisen R1. 6/12: 2 of 3 wedges moving — sales-call grading LIVE at scale (2 calls/wk x 33 reps, Wk1 report done, privacy model set: private repo, reps-see-own access model); applicant-pipeline dashboard (cost-per-hire/time-to-fill) in data validation; third wedge = damages/reviews auto-populate into EMMA. Lead triage rolled out (availability add = Fabian next week). 6/30: a supporting QG slipped — Matisen's AI Call Grading / Claims Build #1 went Green→RED (Claims RAG deprioritized; games-automation + a RAG-vs-quote-sheet + email-grading reframe keep a path back). 7/3: Matisen shipped the manager sales-target dashboards (company + individual QTD scorecards) same-day — a supporting-QG win feeding the sales-conversion wedge; call-grading validated at 90%+ legit-call pull.",
       "blockers": [
         "QG dependency map not yet documented end-to-end"
       ],
@@ -151,7 +151,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 67,
-      "assessment": "7/2: DRAFTING PHASE CLOSED — full-site pre-flight audit (14-agent fleet) ran and every fix landed same-day; hub rewritten as the review launchpad; note layer upgraded (real feedback modal + 💬 pins on all 10 pages); Cameron gave it a further Fable-5 fresh-eyes pass 7/2 AM. NEXT = Cameron's in-depth review, staged 7/3 ('In-depth page review → paste feedback to Albert' pulse) — then sparks tier 2 → Liana copy pass → KP design pass + handoff. KP closed 6/29–7/3; direction locked, on track for green.",
+      "assessment": "7/2: DRAFTING PHASE CLOSED — full-site pre-flight audit (14-agent fleet) ran and every fix landed same-day; hub rewritten as the review launchpad; note layer upgraded (real feedback modal + 💬 pins on all 10 pages); Cameron gave it a further Fable-5 fresh-eyes pass 7/2 AM. 7/3: Website Rock logged for the week (drafting work banked); Cameron's in-depth review slipped to the weekend (the one item needing him) → then sparks tier 2 → Liana copy → KP design pass + handoff. Getting the site to Project-HQ-ready for KP is the near goal. KP closed 6/29–7/3; direction locked, on track for green.",
       "blockers": [
         "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
