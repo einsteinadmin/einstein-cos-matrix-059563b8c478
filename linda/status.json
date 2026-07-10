@@ -1,9 +1,13 @@
 {
   "schema_version": "1.0",
-  "owner": { "name": "Anne Bosse", "title": "Director of Employee Experience", "cos": "Linda" },
+  "owner": {
+    "name": "Anne Bosse",
+    "title": "Director of Employee Experience",
+    "cos": "Linda"
+  },
   "period": "Q2 2026",
-  "last_updated": "2026-07-03T08:00:00-05:00",
-  "updated_by": "Linda (/gm catch-up covering 7/2 — full refresh next /wrap)",
+  "last_updated": "2026-07-10T09:54:42-05:00",
+  "updated_by": "Linda (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -17,7 +21,11 @@
       "assessment": "6/23: Jalissa onboarded + taking recruiting (Anne refrains unless tagged). This week: teach her Rippling + Monday (DoD = she understands our Monday processes). Daily morning meetings in place; may delegate board automations to Linda. SG locked.",
       "blockers": [],
       "milestones": [
-        { "name": "Jalissa trained on Rippling + Monday processes", "date": "2026-07-15", "done": false }
+        {
+          "name": "Jalissa trained on Rippling + Monday processes",
+          "date": "2026-07-15",
+          "done": false
+        }
       ],
       "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
       "green": "Hired + onboarding started by EOQ",
@@ -31,14 +39,22 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 65,
-      "assessment": "6/29 sync: Go-live SET for July 6 — messaging out July 1 (framed as phase-1 of a multi-phase rollout). Anne drafts mgr + mover messaging, Matisen updates onboarding checklist, Brian reviews + aligns in sync-ups. Interview process shortened to 2 steps, Concentra HPE network built (activation in ClearCompany pending), Extended Trial Period (60-day, check-ins 1wk/2wk/30d/60d) designed.",
+      "assessment": "6/29 sync: Go-live SET for July 6 \u2014 messaging out July 1 (framed as phase-1 of a multi-phase rollout). Anne drafts mgr + mover messaging, Matisen updates onboarding checklist, Brian reviews + aligns in sync-ups. Interview process shortened to 2 steps, Concentra HPE network built (activation in ClearCompany pending), Extended Trial Period (60-day, check-ins 1wk/2wk/30d/60d) designed.",
       "blockers": [
         "Extended Trial Period check-ins not yet built into Rippling's performance management module",
         "Meeting with Mike needed to finalize gating between training handbook + 60-day period timing"
       ],
       "milestones": [
-        { "name": "BM messaging sent", "date": "2026-07-01", "done": false },
-        { "name": "Go-live: new interview process + HPE", "date": "2026-07-06", "done": false }
+        {
+          "name": "BM messaging sent",
+          "date": "2026-07-01",
+          "done": false
+        },
+        {
+          "name": "Go-live: new interview process + HPE",
+          "date": "2026-07-06",
+          "done": false
+        }
       ],
       "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
       "green": "Interview process updated to hire for culture + Rippling Performance Module live",
@@ -52,14 +68,22 @@
       "self_status": "supergreen",
       "confidence": 2,
       "percent_complete": 35,
-      "assessment": "6/23: Gated on Matisen (back Thu 6/25). ClearCo has reached out multiple times for him to connect — Anne schedules the sync once he's back; needs a fallback if timing slips. NOTE: source status field says supergreen but assessment reads stalled/gated — flagged mismatch, unresolved as of bootstrap.",
+      "assessment": "6/23: Gated on Matisen (back Thu 6/25). ClearCo has reached out multiple times for him to connect \u2014 Anne schedules the sync once he's back; needs a fallback if timing slips. NOTE: source status field says supergreen but assessment reads stalled/gated \u2014 flagged mismatch, unresolved as of bootstrap.",
       "blockers": [
         "Gated on Matisen's bandwidth/availability",
-        "Status/assessment mismatch in source data — Anne to clarify actual state with Cameron"
+        "Status/assessment mismatch in source data \u2014 Anne to clarify actual state with Cameron"
       ],
       "milestones": [
-        { "name": "Sync with Matisen on funnel dashboard build", "date": "2026-07-08", "done": false },
-        { "name": "Funnel dashboard live with cost-per-hire/time-to-fill/stage %", "date": "2026-07-31", "done": false }
+        {
+          "name": "Sync with Matisen on funnel dashboard build",
+          "date": "2026-07-08",
+          "done": false
+        },
+        {
+          "name": "Funnel dashboard live with cost-per-hire/time-to-fill/stage %",
+          "date": "2026-07-31",
+          "done": false
+        }
       ],
       "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
       "green": "Funnel visualized with cost per hire + time to fill + stage %",
@@ -70,20 +94,29 @@
       "number": 4,
       "name": "Mover Promotion Guidance Metrics",
       "critical": false,
-      "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 10,
-      "assessment": "6/23: Still stalled. Schedule w/ Paul week of 6/29 once bandwidth opens post N. Austin office move. Needs comp philosophy locked first.",
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 75,
+      "assessment": "7/9-10: Cameron endorsed the accrual recommendation ('I am in for this') on DP 11444961977. Paul confirmed term payout of unused PTO is current practice and stays; his open design question is when accrual starts (at LG promotion vs a rung early). Anne proposed back-end accrual unlocked at promotion (7/10 reply), awaiting Paul/Cameron + Prosper cost validation. Jan 1 2027 rollout agreed. Context: 7/8 model posted (all 44 LG/ML, real Rippling hours x wages: accrual ~$38K/yr vs ~$43K full-bucket run-rate, term payouts trivial). Workshop 7/3: 10 decisions locked, HQ ownership Anne/Linda. Remaining: #04 fast-track thresholds + #05 weights pend Matisen's backtest (session scheduling paused by Anne 7/9); #09 locks once accrual-start + cost validation land.",
       "blockers": [
-        "Comp philosophy needs to be locked before this can move",
-        "Waiting on Paul's bandwidth post N. Austin office move"
+        "Matisen backtest (#04 fast-track thresholds + Dream Team mapping, #05 weights + market skew) \u2014 ask live; session scheduling paused by Anne 7/9",
+        "#09 PTO: accrual-start design question (Paul) + Prosper cost validation pending"
       ],
       "milestones": [
-        { "name": "Schedule working session with Paul", "date": "2026-07-08", "done": false }
+        {
+          "name": "Design workshop (Cameron + Anne + Paul)",
+          "date": "2026-07-03",
+          "done": true
+        },
+        {
+          "name": "Matisen backtest + Ben cost model land",
+          "date": "2026-07-15",
+          "done": false
+        }
       ],
       "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
       "green": "Promotion metrics framework built",
-      "updated": "2026-07-01"
+      "updated": "2026-07-10"
     },
     {
       "id": "anne-onboarding-experience",
@@ -93,17 +126,25 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 60,
-      "assessment": "6/23: Offer-letter expiration cut 7d→48h, physical/drug-screen language added. DoD: CHOICES module game-plan uploaded this week (Cameron re-sent the culture-video link). Comp/benefits recordings w/ Austin after he's back 6/25. Tracking toward Super Green.",
+      "assessment": "6/23: Offer-letter expiration cut 7d\u219248h, physical/drug-screen language added. DoD: CHOICES module game-plan uploaded this week (Cameron re-sent the culture-video link). Comp/benefits recordings w/ Austin after he's back 6/25. Tracking toward Super Green.",
       "blockers": [
         "CHOICES module game-plan not yet uploaded",
         "Comp/benefits recordings pending with Austin"
       ],
       "milestones": [
-        { "name": "CHOICES module game-plan uploaded", "date": "2026-07-08", "done": false },
-        { "name": "Comp/benefits recordings completed with Austin", "date": "2026-07-15", "done": false }
+        {
+          "name": "CHOICES module game-plan uploaded",
+          "date": "2026-07-08",
+          "done": false
+        },
+        {
+          "name": "Comp/benefits recordings completed with Austin",
+          "date": "2026-07-15",
+          "done": false
+        }
       ],
-      "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
-      "green": "CHOICES live in onboarding, ≥75% completion in first 30 days",
+      "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, \u226590% completion in first 30 days",
+      "green": "CHOICES live in onboarding, \u226575% completion in first 30 days",
       "updated": "2026-07-01"
     },
     {
@@ -114,10 +155,14 @@
       "self_status": "supergreen",
       "confidence": 5,
       "percent_complete": 100,
-      "assessment": "7/1: Complete — book read, 1-page H/H/S reflection done. Super Green.",
+      "assessment": "7/1: Complete \u2014 book read, 1-page H/H/S reflection done. Super Green.",
       "blockers": [],
       "milestones": [
-        { "name": "Read book + submit 1-page H/H/S reflection", "date": "2026-06-30", "done": true }
+        {
+          "name": "Read book + submit 1-page H/H/S reflection",
+          "date": "2026-06-30",
+          "done": true
+        }
       ],
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by 5/30",
@@ -126,12 +171,32 @@
   ],
   "kpis": [],
   "adopted": [
-    { "pattern": "template", "version": "2026-07-01-merge", "state": "adopted" },
-    { "pattern": "wrap-git-push", "state": "adopted" },
-    { "pattern": "gm-step-0", "state": "adopted" },
-    { "pattern": "status-file", "version": "v1.0", "state": "adopted" },
-    { "pattern": "scb-open-asks-two-lane", "state": "adopted" },
-    { "pattern": "slack-drop-zone", "state": "adopted" }
+    {
+      "pattern": "template",
+      "version": "2026-07-01-merge",
+      "state": "adopted"
+    },
+    {
+      "pattern": "wrap-git-push",
+      "state": "adopted"
+    },
+    {
+      "pattern": "gm-step-0",
+      "state": "adopted"
+    },
+    {
+      "pattern": "status-file",
+      "version": "v1.0",
+      "state": "adopted"
+    },
+    {
+      "pattern": "scb-open-asks-two-lane",
+      "state": "adopted"
+    },
+    {
+      "pattern": "slack-drop-zone",
+      "state": "adopted"
+    }
   ],
   "network_acks": []
 }

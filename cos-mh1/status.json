@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-06-29T16:44:45-05:00",
-  "updated_by": "Matisen (/wrap)",
+  "last_updated": "2026-07-08T08:30:00-05:00",
+  "updated_by": "Matisen (/gm catch-up wrap covering 2026-07-07)",
   "cadence_days": 1,
   "goals": [
     {
@@ -41,7 +41,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 75,
-      "assessment": "On track for Super Green. Weekly pricing-analysis cadence is live (Green met). Variable-pricing changes queued for rollout next week; now folding personnel forecasting into the dynamic pricing model. Caveat: personnel/FTE inputs currently depend on Rippling hours, which are unreliable during the 6/29 punch-clock outage.",
+      "assessment": "On track for Super Green. Weekly pricing-analysis cadence is live (Green met). Variable-pricing changes queued for rollout; personnel forecasting folding into the dynamic pricing model. 7/7: unsynced-contract hour estimates implemented (242 jobs, +2,566 man-hours) — corrects the TUR-hours input feeding the pricing model. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable during the 6/29 punch-clock outage.",
       "blockers": [],
       "milestones": [
         {
@@ -86,7 +86,7 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 60,
-      "assessment": "Strong progress. HR-Ops hiring dashboard prototype approved by Anne (6/26); applicant info + Indeed spend now pulling (blended cost-per-hire ~$423/applicant). ClearCompany v1 API live read-only since 5/28; webhook + custom-object (CAT 1-4) access requested. Rippling integration leg launching today. Green needs both APIs fully hooked + a core-metrics dashboard live.",
+      "assessment": "Strong progress. HR Command Center productionized + published to hosted pages (7/6); handed over to Linda (API access) + Anne (review). ClearCompany→Rippling new-hire sync in flight: field map + vendor webhook spec PDF done 7/8, awaiting Make.com webhook URL. Green needs both APIs fully hooked + core-metrics dashboard live.",
       "blockers": [
         "Rippling API key handoff from Anne (gates Benefits/Hours tab)",
         "ClearCompany custom-object (CAT 1-4) access + webhook config not yet granted",
@@ -111,7 +111,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 60,
-      "assessment": "On track for Super Green. Several of the 8 threads shipped/in-flight (mobile app build, dashboards). Robert/Vlad sync (6/19) complete. Refining the remaining thread count + ship dates.",
+      "assessment": "On track for Super Green. Scorecards thread shipped 7/3 (sales-target dashboard + individual manager scorecards, published). Several other threads shipped/in-flight (mobile app build, dashboards). Robert/Vlad sync (6/19) complete. Refining the remaining thread count + ship dates.",
       "blockers": [],
       "milestones": [
         {
