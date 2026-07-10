@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-03T17:05:00-05:00",
-  "updated_by": "Albert (/wrap)",
+  "last_updated": "2026-07-09T21:30:00-05:00",
+  "updated_by": "Albert (/wrap 7/9)",
   "cadence_days": 1,
   "goals": [
     {
@@ -54,7 +54,8 @@
       ],
       "superGreen": "(1) Every direct's COS regularly interacted-with + reliably pushing status upward (proven), AND the model starting to layer DOWN to their directs (Tier 2 begun); (2) QGR packet partially attached so next quarter's QGR runs faster/easier — weekly/monthly branch scorecards emerging (not just an end-of-quarter scorecard).",
       "green": "All 7 leadership COS live + regularly feeding the world model (status.json pushes + digest/meeting notes flowing upward reliably); world-model strategy documented; QGR-packet automation scoped + first EMMA feed (API access or per-position read-only workaround) wired.",
-      "updated": "2026-07-02"
+      "updated": "2026-07-02",
+      "note": "6/6 spokes reporting on pull model 7/9 — strongest state; agent-to-agent handovers live (Gary→CoS-MH1, CoS-MH1→Linda)."
     },
     {
       "id": "cameron-ai-wedge",
@@ -141,7 +142,8 @@
       ],
       "superGreen": "5 branch visits + 5 listen-and-learns + 5 O3s with all directs",
       "green": "3 branch visits + 3 listen-and-learns + quarterly O3s",
-      "updated": "2026-05-19"
+      "updated": "2026-05-19",
+      "note": "Final visits on Dallas trip 7/13–15."
     },
     {
       "id": "cameron-website-redesign",
@@ -176,7 +178,8 @@
       ],
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "updated": "2026-07-02"
+      "updated": "2026-07-02",
+      "note": "Cut-list iterating; KP/Laura solo workshop Mon 7/13 10am — push to component handoff (Emma starts Mon PM/Tue)."
     },
     {
       "id": "cameron-itp-reading",
