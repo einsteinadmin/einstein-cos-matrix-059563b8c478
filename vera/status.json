@@ -2,14 +2,14 @@
   "schema_version": "1.0",
   "owner": {
     "name": "Brian Herzig",
-    "title": "CTXH Regional Mgr \u00b7 Culture Head",
+    "title": "CTXH Regional Mgr · Culture Head",
     "cos": "Vera"
   },
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-02T15:35:00-05:00",
-  "updated_by": "Albert (HARVEST \u2014 unconfirmed)",
+  "last_updated": "2026-07-15T08:45:00-05:00",
+  "updated_by": "Vera (/gm walk-through with Brian, 7/15 — QGR-day refresh, all 6 rocks)",
   "cadence_days": 1,
   "goals": [
     {
@@ -17,108 +17,66 @@
       "number": 1,
       "name": "Einstein Games Season 3 Launch (CTXH)",
       "critical": true,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 70,
-      "assessment": "Green \u2014 season closing: games ended 6/29, results posted 7/1; playoff brackets due 7/7 (pure scores, no multipliers); champ crowned 7/11, results 7/21. Scoring-dispute protest process locked 6/24 (EOD-Tuesday challenge deadline from 7/7).",
-      "blockers": [],
+      "percent_complete": 88,
+      "assessment": "Season in playoffs — championship is San Antonio vs Fort Worth, 3rd-place game is Leander vs Tampa. Company score 9.8, but CTXH regional average is 6.6: NA 5.0 and HOU 6.2 sit below the 7 bar; SA 7.0, SAN 7.0, LEA 7.8. A damage-data discrepancy broke mid-season and the root cause hasn't been found — Brian's call is to let the season finish (discrepancy likely even across all teams) and reconcile afterward, which may shift final scores slightly.",
+      "blockers": [
+        "Damage-data discrepancy broke mid-season, root cause not located — reconcile after playoffs; may adjust final scores",
+        "NA (5.0) and HOU (6.2) below the 7 EMC-score bar, pulling CTXH regional average to 6.6"
+      ],
       "milestones": [
-        {
-          "name": "All 5 CTXH branches submitting weekly Games numbers consistently",
-          "date": "2026-06-15",
-          "done": true
-        },
-        {
-          "name": "Mid-season check \u2014 CTXH standings reviewed w/ BMs (~6/20)",
-          "date": "2026-06-22",
-          "done": false
-        },
-        {
-          "name": "Games close Monday night 6/29, results posted 7/1",
-          "date": "2026-06-29",
-          "done": false
-        },
-        {
-          "name": "Final standings + CTXH champion confirmed by 7/11",
-          "date": "2026-07-11",
-          "done": false
-        }
+        { "name": "All 5 CTXH branches submitting weekly Games numbers consistently", "date": "2026-06-15", "done": true },
+        { "name": "Mid-season check — CTXH standings reviewed w/ BMs", "date": "2026-06-22", "done": true },
+        { "name": "Regular season closed 6/29, results posted 7/1", "date": "2026-06-29", "done": true },
+        { "name": "Playoffs complete + final standings/champion confirmed (post damage reconciliation)", "date": "2026-07-18", "done": false }
       ],
       "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
       "green": "Company-wide 7+ with CTXH branches at 7+",
-      "updated": "2026-07-02",
-      "provenance_note": "carried green; % 40\u219270 albert-estimate (season end-stage); detail from threads + dashboard"
+      "updated": "2026-07-15"
     },
     {
       "id": "brian-hiring-personnel",
       "number": 2,
       "name": "Hiring + Personnel Budgets + People Analyzer",
       "critical": true,
-      "self_status": "red",
-      "confidence": 3,
-      "percent_complete": 35,
-      "assessment": "PROPOSED yellow\u2192red (Cameron's dashboard carries this as a RED critical): BM grading tool 'really close to workable' (7/2 huddle \u2014 Fable 5 audit next); timeline slowed \u2014 tool 7/1\u20132 \u2192 advance convos wk 7/6 \u2192 interviews ~wk 7/12; Calvin bridges past 7/31. N. Austin BM search active, internal candidates briefed.",
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 65,
+      "assessment": "N. Austin BM decision made — moving forward with Daniel B (leadership aligned per Paul). Hiring-budget attainment Q2-to-date is strong: SAN 108%, SA 104%, HOU 103%, NA 102%, LEA 91.7% (only branch under 100%). eNPS follow-ups complete across all CTXH locations.",
       "blockers": [
-        "N. Austin BM vacancy \u2014 internal application process launched 6/25",
-        "Individual branch staffing levels inconsistent",
-        "Douglas Melrose (HOU) WC injury \u2014 extend offer needed"
+        "LEA hiring-budget attainment at 91.7% — only CTXH branch under 100%",
+        "Douglas Melrose (HOU) WC injury — offer status still open"
       ],
       "milestones": [
-        {
-          "name": "All CTXH branches at 100%+ staffing by June",
-          "date": "2026-06-30",
-          "done": false
-        },
-        {
-          "name": "eNPS survey completed and cleared",
-          "date": "2026-06-30",
-          "done": false
-        },
-        {
-          "name": "Monthly headcount + People Analyzer review with each BM",
-          "date": "2026-07-15",
-          "done": false
-        }
+        { "name": "All CTXH branches at 100%+ staffing", "date": "2026-06-30", "done": false },
+        { "name": "eNPS survey completed + all CTXH follow-ups done", "date": "2026-06-30", "done": true },
+        { "name": "N. Austin BM hire decided (Daniel B)", "date": "2026-07-15", "done": true }
       ],
       "superGreen": "All branches at 100%+ staffing, eNPS cleared by May",
       "green": "100%+ staffing with eNPS by June",
-      "updated": "2026-07-02",
-      "provenance_note": "STATUS CHANGE PROPOSED (yellow\u2192red) from Cameron's dashboard + watch list \u2014 needs Brian's confirm"
+      "updated": "2026-07-15"
     },
     {
       "id": "brian-scrum-accountability-pt4",
       "number": 3,
-      "name": "Scrum Accountability Pt 4 \u2014 Manager Certification",
+      "name": "Scrum Accountability Pt 4 — Manager Certification",
       "critical": false,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 30,
-      "assessment": "PROPOSED yellow\u2192green (dashboard 6/23): Vera scrum-scorecard skill running across all branches (Sergio, Houston, N. Austin, S. Austin) + best-practices reference now on GitHub Pages (6/30 commit). O3 completion still the open leg.",
+      "confidence": 4,
+      "percent_complete": 55,
+      "assessment": "Weekly scorecards running across all 5 CTXH BMs (4–5 evaluations each). As of last week all teams have adjusted board hygiene/organization: LEA 100%, SAN 97%, HOU 97%, NA 92%, SA 83%. This week's deliverable: stand up the training board + new-manager-training details, to beta-test with Jalissa in recruiting.",
       "blockers": [
-        "Bandwidth \u2014 competing Q2 priorities limiting time to advance certification work",
-        "O3s with all 5 BMs not yet scheduled"
+        "Manager-certification curriculum not yet built — training board + new-mgr-training content in progress this week (Jalissa beta)"
       ],
       "milestones": [
-        {
-          "name": "All 5 CTXH BMs completed certification requirements",
-          "date": "2026-07-31",
-          "done": false
-        },
-        {
-          "name": "Grading cadence established and running consistently",
-          "date": "2026-06-30",
-          "done": false
-        },
-        {
-          "name": "EOQ certification summary submitted",
-          "date": "2026-07-31",
-          "done": false
-        }
+        { "name": "All 5 CTXH BMs completed certification requirements", "date": "2026-07-31", "done": false },
+        { "name": "Grading cadence established and running consistently", "date": "2026-06-30", "done": true },
+        { "name": "New-manager training board built + beta-tested (Jalissa)", "date": "2026-07-22", "done": false }
       ],
       "superGreen": "",
       "green": "Scorecard audits and grading cadence establishment complete",
-      "updated": "2026-07-02",
-      "provenance_note": "STATUS CHANGE PROPOSED (yellow\u2192green) from dashboard 6/23 + repo evidence \u2014 needs Brian's confirm"
+      "updated": "2026-07-15"
     },
     {
       "id": "brian-branch-visits",
@@ -127,30 +85,17 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "Green, tracking Super Green \u2014 3 of 5 done per dashboard 6/23; needs S. Austin + Houston. ASK: did the S. Austin visit happen last week as planned?",
+      "percent_complete": 75,
+      "assessment": "3 of 5 CTXH branches visited this quarter with scorecard audits + huddle assessments — the green bar (3 locations) is met. No travel this week; targeting San Antonio next week to reach 4 of 5 for the quarter. SCTX Schedule Review runs biweekly.",
       "blockers": [],
       "milestones": [
-        {
-          "name": "SCTX Schedule Review completed",
-          "date": "2026-06-26",
-          "done": false
-        },
-        {
-          "name": "3 CTXH locations visited with scorecard audits and huddle assessments",
-          "date": "2026-07-15",
-          "done": false
-        },
-        {
-          "name": "Findings summarized and shared with BMs",
-          "date": "2026-07-25",
-          "done": false
-        }
+        { "name": "SCTX Schedule Review completed (biweekly)", "date": "2026-07-16", "done": false },
+        { "name": "3 CTXH locations visited with scorecard audits and huddle assessments", "date": "2026-07-15", "done": true },
+        { "name": "Findings summarized and shared with BMs", "date": "2026-07-25", "done": false }
       ],
       "superGreen": "",
       "green": "3 locations with scorecard audits and huddle assessments",
-      "updated": "2026-07-02",
-      "provenance_note": "carried green; % 10\u219260 from dashboard 6/23 (3 done); one ASK field"
+      "updated": "2026-07-15"
     },
     {
       "id": "brian-training-day-overhaul",
@@ -158,77 +103,51 @@
       "name": "Training Day Overhaul + Calendar Organization",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 60,
-      "assessment": "Yellow \u2014 7/2 huddle: fixing the Training Day app + DB going out so next week's TD is organized; Legend-of-the-Week rotation codified (branch legends on TD weeks, leadership legends weekly). TD feedback app live in NA/LEA/SAR.",
+      "confidence": 3,
+      "percent_complete": 68,
+      "assessment": "TD app live for July and August — agenda, giveaways/team votes, meal planning, and feedback link all in. TD feedback app developed and pushed live as part of the TD organization. Sunset Trial Days discussion still open; stations/quizzes/scorecard not yet added to the format.",
       "blockers": [
-        "Sunset Trial Days discussion/game plan not yet resolved (HIGH, LOW 2)",
-        "Bandwidth \u2014 not enough time to execute alongside other Q2 priorities"
+        "Sunset Trial Days discussion/game plan not yet resolved",
+        "Format not fully formalized — stations/quizzes/scorecard still to add"
       ],
       "milestones": [
-        {
-          "name": "TD format finalized with stations, quizzes, and scorecard",
-          "date": "2026-06-30",
-          "done": false
-        },
-        {
-          "name": "Training calendar organized and distributed to BMs",
-          "date": "2026-06-22",
-          "done": false
-        },
-        {
-          "name": "First TD run completed under new format",
-          "date": "2026-07-15",
-          "done": false
-        }
+        { "name": "TD format finalized with stations, quizzes, and scorecard", "date": "2026-06-30", "done": false },
+        { "name": "Training calendar organized + app distributed to BMs (July + August)", "date": "2026-07-15", "done": true },
+        { "name": "First TD run completed under new format", "date": "2026-07-15", "done": false }
       ],
       "superGreen": "",
       "green": "Formalized TD flow with stations, quizzes, scorecards, and Games integration",
-      "updated": "2026-07-02",
-      "provenance_note": "carried yellow; refreshed from 7/2 huddle"
+      "updated": "2026-07-15"
     },
     {
       "id": "brian-ideal-team-player",
       "number": 6,
       "name": "Ideal Team Player Reading",
       "critical": false,
-      "self_status": "supergreen",
-      "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "PROPOSED green\u2192supergreen (dashboard 6/23): Section 4, page 91, steady pace alongside Cameron + Mike.",
+      "self_status": "green",
+      "confidence": 5,
+      "percent_complete": 80,
+      "assessment": "Page 165 of 218. 2nd assessment complete. One-page CRIT/reflection sent to Rob ahead of the deadline for today's session. On track to finish the book by 7/31.",
       "blockers": [],
       "milestones": [
-        {
-          "name": "Complete fable section (Part 1, ~150 pages)",
-          "date": "2026-07-01",
-          "done": false
-        },
-        {
-          "name": "Complete model section",
-          "date": "2026-07-20",
-          "done": false
-        },
-        {
-          "name": "1-page EOQ reflection drafted and shared with Cameron",
-          "date": "2026-07-31",
-          "done": false
-        }
+        { "name": "Complete fable section (Part 1, ~150 pages)", "date": "2026-07-01", "done": true },
+        { "name": "Complete model section (finish book, p.218)", "date": "2026-07-31", "done": false },
+        { "name": "1-page reflection drafted and shared (sent to Rob)", "date": "2026-07-15", "done": true }
       ],
       "superGreen": "Green by 5/30 + EOQ reflection on personal gaps",
       "green": "Book completed by EOQ",
-      "updated": "2026-07-02",
-      "provenance_note": "STATUS CHANGE PROPOSED (green\u2192supergreen) from dashboard 6/23 \u2014 needs Brian's confirm"
+      "updated": "2026-07-15"
     }
   ],
   "kpis": [],
   "adopted": [
     {
       "tool": "Monday.com",
-      "notes": "Sky Board (1146915251) \u2014 primary task tracking surface. Daily /gm pulls Today + This Week groups."
+      "notes": "Sky Board (1146915251) — primary task tracking surface. Daily /gm pulls Today + This Week groups."
     },
     {
       "tool": "Gmail / Google Calendar",
-      "notes": "regionalteam@einsteinmoving.com \u2014 primary inbox and calendar for CTXH coordination."
+      "notes": "regionalteam@einsteinmoving.com — primary inbox and calendar for CTXH coordination."
     },
     {
       "tool": "Slack",
@@ -243,21 +162,5 @@
       "notes": "Daily audit of EOD/MHI reports from all 5 CTXH branches. 100-pt scorecard."
     }
   ],
-  "network_acks": [],
-  "provenance": {
-    "method": "harvest",
-    "drafted": "2026-07-02",
-    "confirm_status": "unconfirmed",
-    "confirmed_by": null,
-    "confirmed_at": null,
-    "baseline": "Vera's own status.json, 2026-06-25 (self-reported catch-up wrap)",
-    "baseline_date": "2026-06-25",
-    "sources": [
-      "goals-dashboard dashboard-data.json (Albert-maintained; 6/23 + 7/2 huddle assessments)",
-      "cos-vera repo activity (wraps through 6/29 \u2014 Vera in active use; status refresh stopped riding along after 6/25, same terminal-step family as Clark)",
-      "CLAUDE.md threads (Games S3 protest process 6/24; 7/1-7/2 huddles: BM tool timeline, playoffs 7/7)"
-    ],
-    "rule": "self_status/confidence CARRIED from Vera's 6/25 self-report unless evidence says otherwise; proposed changes flagged per-goal, never silent.",
-    "usage_signal": "cos-vera: commits 6/22, 6/25 (x2), 6/26 (x2), 6/30 (x2) \u2014 regular wrap cadence. Stale row = refresh-step leak, not adoption."
-  }
+  "network_acks": []
 }

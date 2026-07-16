@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-03T16:30:00-05:00",
+  "last_updated": "2026-07-15T17:00:00-05:00",
   "updated_by": "Gary (/wrap)",
   "cadence_days": 7,
   "goals": [
@@ -18,13 +18,14 @@
       "name": "AI Call Grading + Regular Reporting (Conversions/Estimate Accuracy)",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
+      "confidence": 3,
       "percent_complete": 70,
-      "assessment": "Green — grading engine LIVE. Calibration 15-call spot-check still pending. Next: huddle w/ Nhel on call-grading distribution plan. Dashboard flags May company-wide $ conversions at 80.78% of target (Red floor) as the real lever to watch. Cameron's weights-workshop tool built and ready; Amanda deferred reweight 6/24. New integration ask posted to SCB 7/3: link Dialpad grades to Emma estimates + actuals.",
+      "assessment": "Green, confidence softened — grading engine still running steady, incorporated rubric tweaks from Nhel/Tetet feedback. Rollout/expansion into a full weekly cadence is at a standstill — no bandwidth while the sales class training is running. No calibration/working session with Cameron yet. No reply yet from Matisen/CoS-MH1 on the 7/3 Emma integration ask (link call grades to quoted estimate + actual).",
       "blockers": [
-        "Calibration spot-check (15 calls) not yet run",
-        "Distribution plan w/ Nhel not yet locked",
-        "Cameron's reply on GitHub Pages privacy question still pending (pulse 12206626312)"
+        "Rollout/expansion paused — no bandwidth during ongoing sales class training",
+        "Calibration spot-check (15 calls) / Cameron working session not yet run",
+        "No reply yet from Matisen/CoS-MH1 on the Emma integration ask (posted 7/3)",
+        "GitHub Pages hosting still pending Cameron's privacy reply (pulse 12206626312) — decoupled from grading cadence per 7/3 decision, no longer blocking the weekly run itself"
       ],
       "milestones": [
         {
@@ -45,7 +46,7 @@
       ],
       "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
       "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running",
-      "updated": "2026-07-03"
+      "updated": "2026-07-13"
     },
     {
       "id": "amanda-replace-leadferno",
@@ -54,10 +55,11 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "Green, trending Super Green — Botpress contract SIGNED (6/29). Implementation kickoff ran today (7/3) with Matisen. Matisen + technical team meet 7/7 (1PM ET) on API integrations. Target launch: first week of August 2026. Project HQ built at projects/botpress-implementation/botpress-hq.html.",
+      "percent_complete": 72,
+      "assessment": "Green — 7/7 API integrations meeting with Matisen landed the strategy: since Leadferno's conversation history isn't directly exportable, Matisen has Claude working through the raw conversations to extract training data. That work started today (7/13), no completion ETA yet. Target launch: first week of August 2026 still holds. Project HQ built at projects/botpress-implementation/botpress-hq.html.",
       "blockers": [
-        "Auto-Recharge ceiling must be capped/controlled during implementation (cost-explosion risk)"
+        "Auto-Recharge ceiling must be capped/controlled during implementation (cost-explosion risk)",
+        "Leadferno conversation-history extraction (via Claude, started 7/13) has no completion ETA yet"
       ],
       "milestones": [
         {
@@ -71,6 +73,11 @@
           "done": true
         },
         {
+          "name": "API integrations meeting — Leadferno conversation-history strategy locked",
+          "date": "2026-07-07",
+          "done": true
+        },
+        {
           "name": "Chatbot live and deflecting Leadferno volume",
           "date": "2026-07-31",
           "done": false
@@ -78,7 +85,7 @@
       ],
       "superGreen": "Replacement chatbot live, deflecting 80%+ of Leadferno volume, Leadferno fully sunset by EOQ",
       "green": "Replacement chatbot selected, contracted, AI configuration in progress",
-      "updated": "2026-07-03"
+      "updated": "2026-07-13"
     },
     {
       "id": "amanda-email-design",
@@ -86,11 +93,11 @@
       "name": "New Email Design + Copy Polish + Rollout (KP-owned)",
       "critical": false,
       "self_status": "green",
-      "confidence": 4,
+      "confidence": 3,
       "percent_complete": 80,
-      "assessment": "Green — Matisen made the token/format decision. Gate cleared. Next: RFQ template live in EMMA, then company-wide rollout.",
+      "assessment": "Green, softening — fully in Matisen's hands now, out of Amanda's direct control. Last check-in: RFQ template should land before end of quarter, no hard date committed. Original 7/10 milestone slipped.",
       "blockers": [
-        "Implementation post format decision — RFQ template next (Matisen/Fabian)"
+        "RFQ template milestone slipped from 7/10 — no firm date, targeting end of quarter per Matisen's last check-in"
       ],
       "milestones": [
         {
@@ -100,7 +107,7 @@
         },
         {
           "name": "RFQ template live in EMMA",
-          "date": "2026-07-10",
+          "date": "2026-07-31",
           "done": false
         },
         {
@@ -111,7 +118,7 @@
       ],
       "superGreen": "Rolled out company-wide with measurable impact",
       "green": "Houston test complete, company-wide decision made",
-      "updated": "2026-07-03"
+      "updated": "2026-07-13"
     },
     {
       "id": "amanda-cx-theme",
@@ -132,20 +139,18 @@
       ],
       "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
       "green": "Theme launched and adopted with defined metrics",
-      "updated": "2026-07-03"
+      "updated": "2026-07-13"
     },
     {
       "id": "amanda-ideal-team-player",
       "number": 5,
       "name": "Ideal Team Player Reading",
       "critical": false,
-      "self_status": "yellow",
+      "self_status": "green",
       "confidence": 5,
-      "percent_complete": 50,
-      "assessment": "Yellow — reading DONE (confirmed 7/2). One-page H/H/S reflection still needed (due 7/25). Huddle 7/3: Cameron clarified the ask — personal reflection (3 lowest H/H/S scores) + run Gary as Lencioni to build a 3-month action plan. Organizational layer (interview process / People Analyzer changes) is Anne's ask, not Amanda's.",
-      "blockers": [
-        "Time — sales and claims workload absorbs discretionary hours"
-      ],
+      "percent_complete": 100,
+      "assessment": "Complete — reading done (confirmed 7/2), one-page H/H/S reflection rewritten 7/15 (fresh Lencioni-persona interview, new commitments and triggers) and redesigned into a polished one-page PDF. Ready to submit — timing remains Amanda's call, due date 7/25 was the outer bound and is no longer a risk.",
+      "blockers": [],
       "milestones": [
         {
           "name": "Complete reading",
@@ -155,12 +160,12 @@
         {
           "name": "Write one-page reflection on personal H/H/S gaps",
           "date": "2026-07-25",
-          "done": false
+          "done": true
         }
       ],
       "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
       "green": "Read by 5/30",
-      "updated": "2026-07-03"
+      "updated": "2026-07-15"
     }
   ],
   "kpis": [],

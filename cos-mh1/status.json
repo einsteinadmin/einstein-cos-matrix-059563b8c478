@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-08T08:30:00-05:00",
-  "updated_by": "Matisen (/gm catch-up wrap covering 2026-07-07)",
+  "last_updated": "2026-07-13T15:59:00-05:00",
+  "updated_by": "Matisen (pre-sync status refresh, covering 7/9–7/13)",
   "cadence_days": 1,
   "goals": [
     {
@@ -40,8 +40,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 75,
-      "assessment": "On track for Super Green. Weekly pricing-analysis cadence is live (Green met). Variable-pricing changes queued for rollout; personnel forecasting folding into the dynamic pricing model. 7/7: unsynced-contract hour estimates implemented (242 jobs, +2,566 man-hours) — corrects the TUR-hours input feeding the pricing model. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable during the 6/29 punch-clock outage.",
+      "percent_complete": 80,
+      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/13: major build-out of the dynamic pricing/forecast model — revenue-model spine re-pulled (155,920 rows, July day-12), per-branch projections (PCM) across all 10 branches, model bake-off/ensemble, and a crew-out placeholder correction to the TUR/FTE capacity input (beyond-horizon 'personnel' closures reclassified as placeholders, not shortfalls). Advances the SG 'dynamic model + surface bottlenecks earlier' bar. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
       "blockers": [],
       "milestones": [
         {
@@ -52,7 +52,7 @@
       ],
       "superGreen": "Build out TUR Capacity tool (marketing/availability) and dynamic pricing model to inform weekly pricing-check cadences; build a skill for long-term management surfacing bottlenecks earlier",
       "green": "Just TUR Capacity tool and regular pricing cadences in place",
-      "updated": "2026-06-29"
+      "updated": "2026-07-13"
     },
     {
       "id": "matisen-call-grading-claims-rag",
@@ -110,8 +110,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "On track for Super Green. Scorecards thread shipped 7/3 (sales-target dashboard + individual manager scorecards, published). Several other threads shipped/in-flight (mobile app build, dashboards). Robert/Vlad sync (6/19) complete. Refining the remaining thread count + ship dates.",
+      "percent_complete": 70,
+      "assessment": "On track for Super Green. 7/9–7/13 multiple threads advanced: Branch KPIs (branch book + hosted status dashboards refreshed, per-branch projections surfaced), Sales Review (sales-targets refresh + individual manager scorecards; Klepac/Pope June verified), Einstein Games (week-7 shipped), mobile-app build (Field App workshop 7/10). Scorecards shipped 7/3. Remaining threads (Zip Zone Map, Relocation Trend Data, Docs/Handbook) still need firm ship dates for full SG.",
       "blockers": [],
       "milestones": [
         {

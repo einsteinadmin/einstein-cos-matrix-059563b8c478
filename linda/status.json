@@ -6,8 +6,8 @@
     "cos": "Linda"
   },
   "period": "Q2 2026",
-  "last_updated": "2026-07-13T10:15:00-05:00",
-  "updated_by": "Linda (/gm)",
+  "last_updated": "2026-07-14T17:20:00-05:00",
+  "updated_by": "Linda (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -24,7 +24,7 @@
         {
           "name": "Jalissa trained on Rippling + Monday processes",
           "date": "2026-07-15",
-          "done": false
+          "done": true
         }
       ],
       "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
@@ -38,10 +38,10 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "6/29 sync: Go-live SET for July 6 \u2014 messaging out July 1 (framed as phase-1 of a multi-phase rollout). Anne drafts mgr + mover messaging, Matisen updates onboarding checklist, Brian reviews + aligns in sync-ups. Interview process shortened to 2 steps, Concentra HPE network built (activation in ClearCompany pending), Extended Trial Period (60-day, check-ins 1wk/2wk/30d/60d) designed.",
+      "percent_complete": 70,
+      "assessment": "7/13: 65\u219270 \u2014 the Rippling perf-module blocker is VOID: Mike's mover app covers the full Extended Trial check-in cadence (1wk/2wk/1mo/2mo), confirmed by Anne 7/13. Remaining: wire Extended Trial check-ins into the app + rewrite Green criteria wording with Cameron (still says 'Rippling Performance Module live'); Rippling module credits being reallocated. Prior state (6/29 sync): go-live set July 6, interview process shortened to 2 steps, Concentra HPE network built (activation in ClearCompany pending), Extended Trial Period (60-day, check-ins 1wk/2wk/30d/60d) designed.",
       "blockers": [
-        "Extended Trial Period check-ins not yet built into Rippling's performance management module",
+        "7/13: Rippling perf-module blocker VOID — Mike's mover app covers the full Extended Trial check-in cadence (1wk/2wk/1mo/2mo). Remaining: wire Extended Trial check-ins into the app + rewrite the rock's Green criteria wording ('Rippling Performance Module live') with Cameron",
         "Meeting with Mike needed to finalize gating between training handbook + 60-day period timing"
       ],
       "milestones": [
@@ -58,7 +58,7 @@
       ],
       "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
       "green": "Interview process updated to hire for culture + Rippling Performance Module live",
-      "updated": "2026-07-01"
+      "updated": "2026-07-13"
     },
     {
       "id": "anne-clearco-funnel-viz",
@@ -100,7 +100,7 @@
       "assessment": "7/10 Anne+Paul meeting RESOLVED the #09 PTO design (notes = DP 11444961977 update 5365380678): accrual starts at promotion (Paul's open question closed by design) \u00b7 rollover up to 5 days/40 hrs with expiration mirroring salaried policy \u00b7 35-hr baseline = 1,820 hrs/yr (~1 PTO hr per 23-25 worked at ML) \u00b7 possible one-time front-load for tenured staff at transition. Cameron already endorsed the accrual approach 7/9 ('I am in for this'); Paul confirmed term payout of unused PTO stays. Jan 1 2027 rollout agreed. Remaining on #09: Linda re-runs cost model on 1,820 basis + rollover (7/8 model used 2,000 hrs, no rollover), then plan goes to Cameron for sign-off; Prosper cost-validation question still unanswered. #04 fast-track thresholds + #05 weights still pend Matisen's backtest (session scheduling paused by Anne 7/9). Workshop 7/3: 10 decisions locked, HQ ownership Anne/Linda.",
       "blockers": [
         "Matisen backtest (#04 fast-track thresholds + Dream Team mapping, #05 weights + market skew) \u2014 ask live; session scheduling paused by Anne 7/9",
-        "#09 PTO: cost model re-run on 7/10 parameters (1,820 basis + rollover) \u2192 Cameron sign-off + Prosper cost validation"
+        "#09 PTO: plan to Cameron for sign-off + Prosper cost validation (Anne 7/13: no model re-run needed \u2014 accrual design agreed w/ Paul, cost delta is incremental)"
       ],
       "milestones": [
         {
@@ -125,17 +125,17 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "6/23: Offer-letter expiration cut 7d\u219248h, physical/drug-screen language added. DoD: CHOICES module game-plan uploaded this week (Cameron re-sent the culture-video link). Comp/benefits recordings w/ Austin after he's back 6/25. Tracking toward Super Green.",
+      "percent_complete": 70,
+      "assessment": "7/14 CORRECTION \u2014 the '15%/miss' record was stale: the onboarding experience is LIVE for every new hire from 7/1 forward via the new-hire workflow; manager video assignment was a QA double-check pass. Two gaps: (1) weekly completion tracking just instrumented \u2014 recurring Friday pulse (Jalissa, automation live, first run 7/17); quiz bug still open; no \u226575% completion evidence yet; (2) Super Green gap \u2014 Comp & Benefits + Perf Mgmt expectation videos not recorded: mic ordered, Anne records before EOQ, Austin edits (may land just past 7/31). In motion, not idle.",
       "blockers": [
-        "CHOICES module game-plan not yet uploaded",
-        "Comp/benefits recordings pending with Austin"
+        "Comp & Benefits + Perf Mgmt videos not yet recorded (mic ordered; Austin edits after; may land just past 7/31)",
+        "Completion evidence not yet collected \u2014 first weekly check runs 7/17 (quiz-completion bug still open)"
       ],
       "milestones": [
         {
           "name": "CHOICES module game-plan uploaded",
           "date": "2026-07-08",
-          "done": false
+          "done": true
         },
         {
           "name": "Comp/benefits recordings completed with Austin",
@@ -145,7 +145,7 @@
       ],
       "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, \u226590% completion in first 30 days",
       "green": "CHOICES live in onboarding, \u226575% completion in first 30 days",
-      "updated": "2026-07-01"
+      "updated": "2026-07-14"
     },
     {
       "id": "anne-itp-reading",
@@ -195,6 +195,10 @@
     },
     {
       "pattern": "slack-drop-zone",
+      "state": "adopted"
+    },
+    {
+      "pattern": "wrap-auto-push-sentinel",
       "state": "adopted"
     }
   ],
