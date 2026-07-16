@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-13T17:43:19-05:00",
-  "updated_by": "Albert (/wrap 7/13)",
+  "last_updated": "2026-07-15T18:55:00-05:00",
+  "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -23,7 +23,8 @@
       "assessment": "7/13: Shipped /status + /save staleness fix (COS template v0.13.0) root-causing the stale-row write-skip bug; dashboard Phase 2 live (leadership[] auto-derives from the COS feed); EMMA first feed landed + validator-clean 7/13 (proves the QGR data-validation pipeline); setup audit executed (CLAUDE.md -73%, 6/6 reporting). Confidence held at 4: reconciliation pending Wed 7/16 + v0.13.0 not yet installed network-wide (4 spokes still skipping the status write).",
       "blockers": [
         "EMMA feed landed for pipeline validation 7/13; full intake gated on reconciliation ~7/16",
-        "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write"
+        "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write",
+        "Mike diagnosed two silent-state bugs 7/15: (1) /gm Step 0 (COS watermark advance) has been silently skipped since 6/24 — a skipped step looks identical to a clean one, and its own tripwire lives inside the skipped step; (2) the SCB watermark exists in 3 locations (git-tracked memory/, auto-memory, inline in CLAUDE.md) with nothing reconciling them. His fix ask — sync the repo copy, collapse to one canonical location, add a /gm receipt line — is pending Cameron's answer."
       ],
       "milestones": [
         {
@@ -191,7 +192,7 @@
       "percent_complete": 100,
       "assessment": "Bonus rock — now SUPER GREEN. Green = read by EOQ (7/31); SG = + 1-page reflection on personal Humility/Hunger/Smarts gaps. 6/16 COMPLETE: book finished (~6 wks early), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Deliverables done; 7/10 is a working review Cameron brings his thinking to. Pulse 11752596124 marked Done. 7/1: Rob's 7/15 CRIT assignment completed — low virtue Smart 4.33, CRIT run w/ Albert-as-Lencioni, slim 90-day plan locked (7/15→Oct 14 review). Rock itself stays complete.",
       "blockers": [
-        "Reading time competes with the heavy weekly load — pace it to stay ahead of EOQ"
+        "ITP 90-day plan went live 7/15 (exercise ran at Rob's session). Action B — the anonymous 180 EQ survey — is NOT stood up; Rob now owns it after Anne flagged she won't trust an AI-run survey coming from Cameron. Without it, 'read the room / draw out dissent' has no measurement. Color-code check-ins ~8/15 and ~9/15; formal re-eval at Rob's October session."
       ],
       "milestones": [
         {
