@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-15T18:55:00-05:00",
+  "last_updated": "2026-07-16T20:05:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,8 +19,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 73,
-      "assessment": "7/13: Shipped /status + /save staleness fix (COS template v0.13.0) root-causing the stale-row write-skip bug; dashboard Phase 2 live (leadership[] auto-derives from the COS feed); EMMA first feed landed + validator-clean 7/13 (proves the QGR data-validation pipeline); setup audit executed (CLAUDE.md -73%, 6/6 reporting). Confidence held at 4: reconciliation pending Wed 7/16 + v0.13.0 not yet installed network-wide (4 spokes still skipping the status write).",
+      "percent_complete": 76,
+      "assessment": "7/16: Recap lane SHIPPED network-wide (1:1 recap pulses on directs' boards, review-only, auto mode; group syncs → Roundtable Slack) — Anne endorsed it live as a manager best practice. Network setup-audit broadcast out to all directs (findings due 8/7). Content-freshness bug class root-caused on Linda's row (fresh timestamp over stale per-goal assessments — invisible to the freshness guard) → template-bump debt logged + fix ask posted. Gerald tool-inventory ask posted (central-data-bus first move). AI/tool-governance Q3 workstream candidate filed to Master Backlog. Mike confirmed the COS-driven sync model live in his 1:1. Prior: 7/13 /status+/save staleness fix (v0.13.0), dashboard Phase 2 auto-derive, EMMA first feed validator-clean.",
       "blockers": [
         "EMMA feed landed for pipeline validation 7/13; full intake gated on reconciliation ~7/16",
         "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write",
@@ -66,7 +66,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 55,
-      "assessment": "Co-owned with Matisen R1. 6/12: 2 of 3 wedges moving — sales-call grading LIVE at scale (2 calls/wk x 33 reps, Wk1 report done, privacy model set: private repo, reps-see-own access model); applicant-pipeline dashboard (cost-per-hire/time-to-fill) in data validation; third wedge = damages/reviews auto-populate into EMMA. Lead triage rolled out (availability add = Fabian next week). 6/30: a supporting QG slipped — Matisen's AI Call Grading / Claims Build #1 went Green→RED (Claims RAG deprioritized; games-automation + a RAG-vs-quote-sheet + email-grading reframe keep a path back). 7/3: Matisen shipped the manager sales-target dashboards (company + individual QTD scorecards) same-day — a supporting-QG win feeding the sales-conversion wedge; call-grading validated at 90%+ legit-call pull.",
+      "assessment": "7/16: AI/tool-governance workstream candidate filed (Master Backlog 12556198241 — central data bus + EMMA toolkit + monthly Big Rocks review; QGR decides). New wedge designed live in Mike's 1:1: estimate-this-job training feature (walkthrough video → mover estimates → manager grades; feeds estimate-accuracy theme). Mission Control gained growth-question tracking + Personal Focus Scoreboard (chips/talk-time) — coaching wedge deepening. Prior: sales-call grading live at scale (2 calls/wk × 33 reps); applicant-pipeline dashboard w/ Matisen.",
       "blockers": [
         "QG dependency map not yet documented end-to-end"
       ],
