@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-13T15:59:00-05:00",
-  "updated_by": "Matisen (pre-sync status refresh, covering 7/9–7/13)",
+  "last_updated": "2026-07-17T18:30:00-05:00",
+  "updated_by": "Matisen (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -40,8 +40,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 80,
-      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/13: major build-out of the dynamic pricing/forecast model — revenue-model spine re-pulled (155,920 rows, July day-12), per-branch projections (PCM) across all 10 branches, model bake-off/ensemble, and a crew-out placeholder correction to the TUR/FTE capacity input (beyond-horizon 'personnel' closures reclassified as placeholders, not shortfalls). Advances the SG 'dynamic model + surface bottlenecks earlier' bar. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
+      "percent_complete": 85,
+      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
       "blockers": [],
       "milestones": [
         {
@@ -52,7 +52,7 @@
       ],
       "superGreen": "Build out TUR Capacity tool (marketing/availability) and dynamic pricing model to inform weekly pricing-check cadences; build a skill for long-term management surfacing bottlenecks earlier",
       "green": "Just TUR Capacity tool and regular pricing cadences in place",
-      "updated": "2026-07-13"
+      "updated": "2026-07-17"
     },
     {
       "id": "matisen-call-grading-claims-rag",
