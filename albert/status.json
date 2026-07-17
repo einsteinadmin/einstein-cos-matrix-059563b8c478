@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-16T20:05:00-05:00",
+  "last_updated": "2026-07-17T18:45:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,10 +19,10 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 76,
-      "assessment": "7/16: Recap lane SHIPPED network-wide (1:1 recap pulses on directs' boards, review-only, auto mode; group syncs → Roundtable Slack) — Anne endorsed it live as a manager best practice. Network setup-audit broadcast out to all directs (findings due 8/7). Content-freshness bug class root-caused on Linda's row (fresh timestamp over stale per-goal assessments — invisible to the freshness guard) → template-bump debt logged + fix ask posted. Gerald tool-inventory ask posted (central-data-bus first move). AI/tool-governance Q3 workstream candidate filed to Master Backlog. Mike confirmed the COS-driven sync model live in his 1:1. Prior: 7/13 /status+/save staleness fix (v0.13.0), dashboard Phase 2 auto-derive, EMMA first feed validator-clean.",
+      "percent_complete": 77,
+      "assessment": "7/17: 6/6 spokes reporting (pull ran 2x today, matrix live). Linda applied the content-freshness fix SAME-DAY. Cherny 5-step adoption ladder adopted as the network maturity map (feeds governance candidate 12556198241). Recap-pulse lane corrected to draft-first per Cameron. Matisen cleared Clark's 2-week-old asks (Rippling hours: reuse Games pipeline; DMARC: invalid duplicate record, p=none — fix on his board). Gerald 16d stale = real status-write bug (Mike wraps daily), thread open. 7/16: Recap lane SHIPPED network-wide (1:1 recap pulses on directs' boards, review-only, auto mode; group syncs → Roundtable Slack) — Anne endorsed it live as a manager best practice. Network setup-audit broadcast out to all directs (findings due 8/7). Content-freshness bug class root-caused on Linda's row (fresh timestamp over stale per-goal assessments — invisible to the freshness guard) → template-bump debt logged + fix ask posted. Gerald tool-inventory ask posted (central-data-bus first move). AI/tool-governance Q3 workstream candidate filed to Master Backlog. Mike confirmed the COS-driven sync model live in his 1:1. Prior: 7/13 /status+/save staleness fix (v0.13.0), dashboard Phase 2 auto-derive, EMMA first feed validator-clean.",
       "blockers": [
-        "EMMA feed landed for pipeline validation 7/13; full intake gated on reconciliation ~7/16",
+        "EMMA feed landed for pipeline validation 7/13; full intake gated on the ~7/20 drop + May reconciliation",
         "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write",
         "Mike diagnosed two silent-state bugs 7/15: (1) /gm Step 0 (COS watermark advance) has been silently skipped since 6/24 — a skipped step looks identical to a clean one, and its own tripwire lives inside the skipped step; (2) the SCB watermark exists in 3 locations (git-tracked memory/, auto-memory, inline in CLAUDE.md) with nothing reconciling them. His fix ask — sync the repo copy, collapse to one canonical location, add a /gm receipt line — is pending Cameron's answer."
       ],
@@ -65,8 +65,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 55,
-      "assessment": "7/16: AI/tool-governance workstream candidate filed (Master Backlog 12556198241 — central data bus + EMMA toolkit + monthly Big Rocks review; QGR decides). New wedge designed live in Mike's 1:1: estimate-this-job training feature (walkthrough video → mover estimates → manager grades; feeds estimate-accuracy theme). Mission Control gained growth-question tracking + Personal Focus Scoreboard (chips/talk-time) — coaching wedge deepening. Prior: sales-call grading live at scale (2 calls/wk × 33 reps); applicant-pipeline dashboard w/ Matisen.",
+      "percent_complete": 58,
+      "assessment": "7/17: eNPS Q2 shipped survey→published in 4 days, fully AI-built (one-pager v1.2 hosted + card-by-card response-review tool). TUR staffing-per-truck forecast model kicked off w/ Matisen (~4 wks) — fixes FTE targets built on full-truck assumptions. Governance workstream now has a field mandate: survey's 3-voice 'one brain for resources' ask converges w/ leadership tool-sprawl worries. 7/16: AI/tool-governance workstream candidate filed (Master Backlog 12556198241 — central data bus + EMMA toolkit + monthly Big Rocks review; QGR decides). New wedge designed live in Mike's 1:1: estimate-this-job training feature (walkthrough video → mover estimates → manager grades; feeds estimate-accuracy theme). Mission Control gained growth-question tracking + Personal Focus Scoreboard (chips/talk-time) — coaching wedge deepening. Prior: sales-call grading live at scale (2 calls/wk × 33 reps); applicant-pipeline dashboard w/ Matisen.",
       "blockers": [
         "QG dependency map not yet documented end-to-end"
       ],
@@ -232,9 +232,9 @@
       "id": "cameron-enps",
       "name": "eNPS",
       "target": "45+",
-      "actual": null,
-      "self_status": "unknown",
-      "note": "Q1 mover survey closed mid-April. Mover eNPS +46 (Q1). Q2 results pending."
+      "actual": "+81 (manager/CET survey, 7/17 — up from 80 Jan; 52 resp, 1 detractor)",
+      "self_status": "green",
+      "note": "Target 45+. Manager/CET Q2 = +81. Mover Q2 survey still pending — KPI scored on manager/CET only for now. Last mandatory cycle; voluntary going forward (participation = new signal)."
     }
   ],
   "adopted": [
