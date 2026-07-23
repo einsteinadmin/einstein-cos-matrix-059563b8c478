@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-17T18:30:00-05:00",
-  "updated_by": "Matisen (/wrap)",
+  "last_updated": "2026-07-22T07:15:00-05:00",
+  "updated_by": "CoS-MH1 (catch-up wrap covering 7/21)",
   "cadence_days": 1,
   "goals": [
     {
@@ -41,7 +41,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 85,
-      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
+      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/21: TUR v2 skill packaged (ratified revenue→trucks→FTE→personnel chain) + heavy QGR conversion/rate analysis feeding Cameron's packet. 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
       "blockers": [],
       "milestones": [
         {
@@ -111,7 +111,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 70,
-      "assessment": "On track for Super Green. 7/9–7/13 multiple threads advanced: Branch KPIs (branch book + hosted status dashboards refreshed, per-branch projections surfaced), Sales Review (sales-targets refresh + individual manager scorecards; Klepac/Pope June verified), Einstein Games (week-7 shipped), mobile-app build (Field App workshop 7/10). Scorecards shipped 7/3. Remaining threads (Zip Zone Map, Relocation Trend Data, Docs/Handbook) still need firm ship dates for full SG.",
+      "assessment": "On track for Super Green. 7/9–7/13 multiple threads advanced: Branch KPIs (branch book + hosted status dashboards refreshed, per-branch projections surfaced), Sales Review (sales-targets refresh + individual manager scorecards; Klepac/Pope June verified), Einstein Games (week-7 shipped), mobile-app build (Field App workshop 7/10). 7/18–7/19 weekend sprint: Field App replica real-data puller (PII-sanitized, QA env) + field-events bridge hardened end-to-end (strict path grammar, idempotency ledger, CORS pin, reducer-parity golden tests) — 18 commits. Scorecards shipped 7/3. Remaining threads (Zip Zone Map, Relocation Trend Data, Docs/Handbook) still need firm ship dates for full SG.",
       "blockers": [],
       "milestones": [
         {
