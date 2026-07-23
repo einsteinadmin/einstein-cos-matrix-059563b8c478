@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-20T23:15:00-05:00",
-  "updated_by": "Albert (/wrap)",
+  "last_updated": "2026-07-23T00:30:25-05:00",
+  "updated_by": "Albert (/wrap — Cameron pre-approved, away from keyboard)",
   "cadence_days": 1,
   "goals": [
     {
@@ -65,10 +65,12 @@
       "critical": true,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 72,
-      "assessment": "7/20 AAR PROJ: GREEN. Wedge evidence now includes the full QGR prep automation stack built in one day: 81 two-layer MB summaries, strategy-lens sweep (390 items), curation receipt loop, People Analyzer 1-5 rebuild.",
+      "percent_complete": 78,
+      "assessment": "7/23: QGR prep stack now SHIPPED and hosted, not just built. Q2 materials live at /q2-materials/ (packet + 10 branch scorecards + Q2/Q1 financial decks) rendering from ONE validated manifest (v0.8.3, validator clean) — the Q1 failure mode (numbers hand-copied between artifacts) is structurally closed. Triage Room at v1.8.2 with a department funnel and a live 23-row Dependency Board. Sales-target attainment basis RULED (booked-to-date vs quarter target, pulled at close), unblocking a composite input that was empty in BOTH Q1 and Q2. qgr-packet-builder skill now encodes the model-tiering doctrine + 2 new data-integrity tripwires. Prior 7/20 evidence stands (81 MB summaries, strategy-lens sweep, curation receipt loop, People Analyzer rebuild).",
       "blockers": [
-        "QG dependency map not yet documented end-to-end"
+        "QG dependency map EXISTS as the Triage Room Dependency Board (23 cross-leader rows, hosted) but has not been walked/ratified with Paul + the leaders — 'documented end-to-end' is the ratification, not the artifact.",
+        "Two Cameron decisions block the packet from final: cover grade (B- held as DRAFT pending the NOI question — bad truck planning vs. a deliberate mid-quarter call to invest in movers) and eNPS off-survey treatment (all 10 branch composites offline; 3 options + a recommendation staged in HQ Phase 2).",
+        "Matisen's triage slate is the only leader lane left unwalked."
       ],
       "milestones": [
         {
@@ -89,7 +91,7 @@
       ],
       "superGreen": "Audit complete by 5/15; all 10 supporting QG dependencies mapped; 7+ supporting QGs Green by EOQ; AI Wedge requirements documented + approved",
       "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
-      "updated": "2026-06-30"
+      "updated": "2026-07-23"
     },
     {
       "id": "cameron-vp-rollout",
