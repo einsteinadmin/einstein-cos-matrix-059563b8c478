@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-23T00:30:25-05:00",
-  "updated_by": "Albert (/wrap — Cameron pre-approved, away from keyboard)",
+  "last_updated": "2026-07-23T22:23:36-05:00",
+  "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
     {
@@ -65,12 +65,11 @@
       "critical": true,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 78,
-      "assessment": "7/23: QGR prep stack now SHIPPED and hosted, not just built. Q2 materials live at /q2-materials/ (packet + 10 branch scorecards + Q2/Q1 financial decks) rendering from ONE validated manifest (v0.8.3, validator clean) — the Q1 failure mode (numbers hand-copied between artifacts) is structurally closed. Triage Room at v1.8.2 with a department funnel and a live 23-row Dependency Board. Sales-target attainment basis RULED (booked-to-date vs quarter target, pulled at close), unblocking a composite input that was empty in BOTH Q1 and Q2. qgr-packet-builder skill now encodes the model-tiering doctrine + 2 new data-integrity tripwires. Prior 7/20 evidence stands (81 MB summaries, strategy-lens sweep, curation receipt loop, People Analyzer rebuild).",
+      "percent_complete": 82,
+      "assessment": "7/23 PM: The QGR financial stack is now DEPLOYED, validated, and feed-complete. Ben validated the NOI-miss decomposition line-by-line from the full GL (P&O = Philippines team via 64029, mirror confirmed mechanically; mover comp 'validated as written — lead with it'), hardening Lens 3 B− and answering the cover-grade question (deliberate investment, not bad truck planning). Red-lined deck + packet v2.1.2 + HQ v3.51 pushed live with byte-exact live-vs-local verification. The last two feed gaps closed same-day: Matisen's rebuilt Marketing CPL & ROAS dashboard (folded as deck §2.4 — CPL $17/$19, LTV:CAC ≈13:1) and Jaci's truck-accident log (packet 4B Real-World Outcomes — retires the insurance-claims placeholder). Frontline cascade packet built + adversarially audited (redaction-clean) with present/edit modes in build. Prior 7/23 AM evidence stands.",
       "blockers": [
         "QG dependency map EXISTS as the Triage Room Dependency Board (23 cross-leader rows, hosted) but has not been walked/ratified with Paul + the leaders — 'documented end-to-end' is the ratification, not the artifact.",
-        "Two Cameron decisions block the packet from final: cover grade (B- held as DRAFT pending the NOI question — bad truck planning vs. a deliberate mid-quarter call to invest in movers) and eNPS off-survey treatment (all 10 branch composites offline; 3 options + a recommendation staged in HQ Phase 2).",
-        "Matisen's triage slate is the only leader lane left unwalked."
+        "eNPS off-survey treatment still open (3 options + rec staged in HQ Phase 2). Cover grade B− is now READY TO FINALIZE — Ben's GL validation answered the NOI question (deliberate investment + forecasting miss, not bad truck planning)."
       ],
       "milestones": [
         {
