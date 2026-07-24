@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-15T08:45:00-05:00",
-  "updated_by": "Vera (/gm walk-through with Brian, 7/15 — QGR-day refresh, all 6 rocks)",
+  "last_updated": "2026-07-24T08:45:00-05:00",
+  "updated_by": "Vera (7/24 — Games Rock 1 flipped to GREEN on final EOQ scoring: CTXH 7.07)",
   "cadence_days": 1,
   "goals": [
     {
@@ -17,23 +17,20 @@
       "number": 1,
       "name": "Einstein Games Season 3 Launch (CTXH)",
       "critical": true,
-      "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 88,
-      "assessment": "Season in playoffs — championship is San Antonio vs Fort Worth, 3rd-place game is Leander vs Tampa. Company score 9.8, but CTXH regional average is 6.6: NA 5.0 and HOU 6.2 sit below the 7 bar; SA 7.0, SAN 7.0, LEA 7.8. A damage-data discrepancy broke mid-season and the root cause hasn't been found — Brian's call is to let the season finish (discrepancy likely even across all teams) and reconcile afterward, which may shift final scores slightly.",
-      "blockers": [
-        "Damage-data discrepancy broke mid-season, root cause not located — reconcile after playoffs; may adjust final scores",
-        "NA (5.0) and HOU (6.2) below the 7 EMC-score bar, pulling CTXH regional average to 6.6"
-      ],
+      "self_status": "green",
+      "confidence": 5,
+      "percent_complete": 100,
+      "assessment": "FINAL (7/23): Season closed and scored. EOQ scoring basis decided as the average of the weekly averages — Company 7.59 GREEN, CTXH regional 7.07 GREEN (Matisen confirming final per-branch numbers). Under the finalized basis the region cleared the 7 bar; the earlier 6.6 reflected a pre-decision calculation. San Antonio won the CTXH championship. The mid-season damage-data discrepancy was resolved by the scoring-basis decision (even across teams).",
+      "blockers": [],
       "milestones": [
         { "name": "All 5 CTXH branches submitting weekly Games numbers consistently", "date": "2026-06-15", "done": true },
         { "name": "Mid-season check — CTXH standings reviewed w/ BMs", "date": "2026-06-22", "done": true },
         { "name": "Regular season closed 6/29, results posted 7/1", "date": "2026-06-29", "done": true },
-        { "name": "Playoffs complete + final standings/champion confirmed (post damage reconciliation)", "date": "2026-07-18", "done": false }
+        { "name": "Season scored + final standings/champion confirmed (SA champion; CTXH 7.07 green)", "date": "2026-07-23", "done": true }
       ],
       "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
       "green": "Company-wide 7+ with CTXH branches at 7+",
-      "updated": "2026-07-15"
+      "updated": "2026-07-24"
     },
     {
       "id": "brian-hiring-personnel",
