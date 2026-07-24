@@ -6,7 +6,7 @@
     "cos": "Linda"
   },
   "period": "Q2 2026",
-  "last_updated": "2026-07-21T17:15:00-05:00",
+  "last_updated": "2026-07-22T21:30:00-05:00",
   "updated_by": "Linda (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -122,10 +122,10 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 78,
-      "assessment": "7/21 Q2 AAR: confirmed Green — CHOICES onboarding completion measured at 77% in the first 30 days, clearing the ≥75% Green bar. Comp & Benefits video recording 7/21-7/22, Perf Mgmt need met via Mike's mover app rather than Rippling's module (same substitution pattern as Goal 2). Super Green needs completion to climb to ≥90% plus the video shipping — both carry into Q3, alongside reconciling live pay-announcement mechanics with the new mover-promotion framework.",
+      "percent_complete": 80,
+      "assessment": "7/21 Q2 AAR: confirmed Green — CHOICES onboarding completion measured at 77% in the first 30 days, clearing the ≥75% Green bar. Comp & Benefits + Performance Mgmt video decks built and finalized 7/22 (recording + Austin edits still pending). Perf Mgmt need met via Mike's mover app rather than Rippling's module (same substitution pattern as Goal 2). Super Green needs completion to climb to ≥90% plus both videos shipping — both carry into Q3, alongside reconciling live pay-announcement mechanics with the new mover-promotion framework.",
       "blockers": [
-        "Comp & Benefits video not yet recorded (recording 7/21-7/22, Austin edits after — may land just past 7/31)",
+        "Comp & Benefits + Performance Mgmt video decks built and finalized (7/22) — recording itself + Austin edits still pending, may land just past 7/31",
         "Completion measured at 77% — needs to climb to ≥90% for Super Green",
         "Perf Mgmt need met via Mike's mover app substitution rather than Rippling's module"
       ],
@@ -148,7 +148,7 @@
       ],
       "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
       "green": "CHOICES live in onboarding, ≥75% completion in first 30 days",
-      "updated": "2026-07-21"
+      "updated": "2026-07-22"
     },
     {
       "id": "anne-itp-reading",
