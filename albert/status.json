@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-23T22:23:36-05:00",
+  "last_updated": "2026-07-24T18:55:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -65,8 +65,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 82,
-      "assessment": "7/23 PM: The QGR financial stack is now DEPLOYED, validated, and feed-complete. Ben validated the NOI-miss decomposition line-by-line from the full GL (P&O = Philippines team via 64029, mirror confirmed mechanically; mover comp 'validated as written — lead with it'), hardening Lens 3 B− and answering the cover-grade question (deliberate investment, not bad truck planning). Red-lined deck + packet v2.1.2 + HQ v3.51 pushed live with byte-exact live-vs-local verification. The last two feed gaps closed same-day: Matisen's rebuilt Marketing CPL & ROAS dashboard (folded as deck §2.4 — CPL $17/$19, LTV:CAC ≈13:1) and Jaci's truck-accident log (packet 4B Real-World Outcomes — retires the insurance-claims placeholder). Frontline cascade packet built + adversarially audited (redaction-clean) with present/edit modes in build. Prior 7/23 AM evidence stands.",
+      "percent_complete": 85,
+      "assessment": "7/24: gm//wrap reliability ROOT-CAUSED (no harness bug — silent step-skipping + stale spoke files + watermark bootstrap trap; full 12-attempt history mapped). Fix scheduled 8/3 (pulse 12622339383): Gerald's receipt line + sentinel/Stop-hook into the template + 5-spoke files-on-disk audit. CHOICES shared-device fix deployed live same day. Scout shipped the 3x repetition-tax rule.",
       "blockers": [
         "QG dependency map EXISTS as the Triage Room Dependency Board (23 cross-leader rows, hosted) but has not been walked/ratified with Paul + the leaders — 'documented end-to-end' is the ratification, not the artifact.",
         "eNPS off-survey treatment still open (3 options + rec staged in HQ Phase 2). Cover grade B− is now READY TO FINALIZE — Ben's GL validation answered the NOI question (deliberate investment + forecasting miss, not bad truck planning)."
@@ -154,8 +154,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 67,
-      "assessment": "7/2: DRAFTING PHASE CLOSED — full-site pre-flight audit (14-agent fleet) ran and every fix landed same-day; hub rewritten as the review launchpad; note layer upgraded (real feedback modal + 💬 pins on all 10 pages); Cameron gave it a further Fable-5 fresh-eyes pass 7/2 AM. 7/3: Website Rock logged for the week (drafting work banked); Cameron's in-depth review slipped to the weekend (the one item needing him) → then sparks tier 2 → Liana copy → KP design pass + handoff. Getting the site to Project-HQ-ready for KP is the near goal. KP closed 6/29–7/3; direction locked, on track for green. 7/20 AAR PROJ: GREEN as re-scoped — design done + dev contracted is the honest Q2 bar (site-live was never realistic vs the 13-wk KP sprint).",
+      "percent_complete": 69,
+      "assessment": "7/24: KP homepage design LANDED (Emma Butler, 7/23, Figma proto) — first deliverable of KP's visual-layer phase; Cameron review pulse open (visual-direction feedback only, structure treated as settled). Laura-workshop debrief still outstanding (3rd week).",
       "blockers": [
         "KP availability gap — Laura on vacation the next few weeks + KP closed the week of July 4; momentum kept via the workshop-the-whole-site approach",
         "Redesign invoice + project board still pending from Laura",
