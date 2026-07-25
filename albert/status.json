@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-24T18:55:00-05:00",
+  "last_updated": "2026-07-24T21:05:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 85,
-      "assessment": "7/20 AAR PROJ: SUPER GREEN. 6/6 spokes reporting; Cherny ladder adopted as maturity map; the entire QGR Day-1/2 prep machine (AAR compile, eNPS merge, MB overhaul + lens columns, Triage Room, receipt loop) ran on network tooling.",
+      "assessment": "7/24 eve: THE PULL MODEL'S AUTHORITY BUG FOUND + CLOSED — date-only freshness guard let spoke self-reports erase Cameron's ratified grades (Anne's two 7/17 Reds silently flipped back Green by the 7/20 derive). Fix: grade-lock rule 0 (locked status never moves, assessment text still flows), rename alias map, and the dashboard is now the 5th audited carrier — sync_qg_from_ledger.py --check verifies every ratified grade by id-join and a failed audit BLOCKS the publish. Quarter-rollover tooling built + tested (roll-quarter.py strips all locks so Q3 can't inherit them and mute the spokes). Earlier 7/24: 7/7 spokes live, QGR Day-1/2 prep machine ran on network tooling.",
       "blockers": [
         "EMMA feed landed for pipeline validation 7/13; full intake gated on the ~7/20 drop + May reconciliation",
         "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write",
@@ -66,7 +66,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 85,
-      "assessment": "7/24: gm//wrap reliability ROOT-CAUSED (no harness bug — silent step-skipping + stale spoke files + watermark bootstrap trap; full 12-attempt history mapped). Fix scheduled 8/3 (pulse 12622339383): Gerald's receipt line + sentinel/Stop-hook into the template + 5-spoke files-on-disk audit. CHOICES shared-device fix deployed live same day. Scout shipped the 3x repetition-tax rule.",
+      "assessment": "7/24 eve: Q2 GRADES RATIFIED FINAL by Cameron — all 7 leaders, company QG 32/40 = 80.0%, zero open grade disputes. QG rate is now DERIVED from one ledger (qg-results-2026-Q2.json) with a cross-carrier drift audit, not hand-typed. Earlier 7/24: gm//wrap reliability root-caused (silent step-skipping + stale spoke files + watermark trap); fix lands 8/3 (pulse 12622339383). CHOICES shared-device fix live. Scout shipped the 3× repetition-tax rule.",
       "blockers": [
         "QG dependency map EXISTS as the Triage Room Dependency Board (23 cross-leader rows, hosted) but has not been walked/ratified with Paul + the leaders — 'documented end-to-end' is the ratification, not the artifact.",
         "eNPS off-survey treatment still open (3 options + rec staged in HQ Phase 2). Cover grade B− is now READY TO FINALIZE — Ben's GL validation answered the NOI question (deliberate investment + forecasting miss, not bad truck planning)."
