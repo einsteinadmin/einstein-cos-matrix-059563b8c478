@@ -8,8 +8,8 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-22T07:15:00-05:00",
-  "updated_by": "CoS-MH1 (catch-up wrap covering 7/21)",
+  "last_updated": "2026-07-27T09:00:00-05:00",
+  "updated_by": "CoS-MH1 (catch-up wrap covering 7/24)",
   "cadence_days": 1,
   "goals": [
     {
@@ -41,7 +41,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 85,
-      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/21: TUR v2 skill packaged (ratified revenue→trucks→FTE→personnel chain) + heavy QGR conversion/rate analysis feeding Cameron's packet. 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
+      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/24: revenue-landing 4-bucket month-end tool shipped (read-only Mongo→inputs, one evergreen page); gap-v2 Rev 31 rolling-30 + Aug/Sep/Oct tracker rebuilt on the TUR v2 spine; Slack forecast-bot shipped end-to-end (menu dispatcher, Socket Mode, Pages publish, failure→pulse path). 7/21: TUR v2 skill packaged (ratified revenue→trucks→FTE→personnel chain) + heavy QGR conversion/rate analysis feeding Cameron's packet. 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
       "blockers": [],
       "milestones": [
         {
@@ -52,7 +52,7 @@
       ],
       "superGreen": "Build out TUR Capacity tool (marketing/availability) and dynamic pricing model to inform weekly pricing-check cadences; build a skill for long-term management surfacing bottlenecks earlier",
       "green": "Just TUR Capacity tool and regular pricing cadences in place",
-      "updated": "2026-07-17"
+      "updated": "2026-07-24"
     },
     {
       "id": "matisen-call-grading-claims-rag",
