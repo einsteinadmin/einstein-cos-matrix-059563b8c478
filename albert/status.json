@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-24T21:05:00-05:00",
+  "last_updated": "2026-07-28T23:45:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 85,
-      "assessment": "7/24 eve: THE PULL MODEL'S AUTHORITY BUG FOUND + CLOSED — date-only freshness guard let spoke self-reports erase Cameron's ratified grades (Anne's two 7/17 Reds silently flipped back Green by the 7/20 derive). Fix: grade-lock rule 0 (locked status never moves, assessment text still flows), rename alias map, and the dashboard is now the 5th audited carrier — sync_qg_from_ledger.py --check verifies every ratified grade by id-join and a failed audit BLOCKS the publish. Quarter-rollover tooling built + tested (roll-quarter.py strips all locks so Q3 can't inherit them and mute the spokes). Earlier 7/24: 7/7 spokes live, QGR Day-1/2 prep machine ran on network tooling.",
+      "assessment": "7/28 EOD: the QGR room machine runs end-to-end on network tooling — every leader's hub export fanned out through the new standing 3-surface intake step (ballot room · leadership-PA self-eval fold · PA-directs live view); a 7-leader, 30-direct data cycle moved with zero hand transcription. Facilitator loop proven; LOADED room files staged for the room machine. Prior 7/24 authority-bug fix holding.",
       "blockers": [
         "EMMA feed landed for pipeline validation 7/13; full intake gated on the ~7/20 drop + May reconciliation",
         "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write",
@@ -65,11 +65,11 @@
       "critical": true,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 85,
-      "assessment": "7/24 eve: Q2 GRADES RATIFIED FINAL by Cameron — all 7 leaders, company QG 32/40 = 80.0%, zero open grade disputes. QG rate is now DERIVED from one ledger (qg-results-2026-Q2.json) with a cross-carrier drift audit, not hand-typed. Earlier 7/24: gm//wrap reliability root-caused (silent step-skipping + stale spoke files + watermark trap); fix lands 8/3 (pulse 12622339383). CHOICES shared-device fix live. Scout shipped the 3× repetition-tax rule.",
+      "percent_complete": 90,
+      "assessment": "7/28 EOD: QGR Day-1 machine FULLY STAGED — Q2 family redlined + deployed live byte-exact (packet v2.6.2 · deck · Debrief v1.8 · 10 scorecards; rate story rebuilt on four mechanisms, TUR retired from composite, company composite RULED B+ equal-thirds). ALL 7 ballots + ALL 5 PA-directs returned, parser-verified, folded through the new 3-surface intake fan-out. Room surfaces live: Decision Board w/ mislabeled-chip triage + per-question timers · Goal Confirmation Board · PA room-audit (verdicts, live notes, score-edit overlay that never touches a leader's file). Roundtable QGR runs 7/29–30; July close ~8/1 finalizes composites ÷80.",
       "blockers": [
         "QG dependency map EXISTS as the Triage Room Dependency Board (23 cross-leader rows, hosted) but has not been walked/ratified with Paul + the leaders — 'documented end-to-end' is the ratification, not the artifact.",
-        "eNPS off-survey treatment still open (3 options + rec staged in HQ Phase 2). Cover grade B− is now READY TO FINALIZE — Ben's GL validation answered the NOI question (deliberate investment + forecasting miss, not bad truck planning)."
+        "Company composite ruled B+ 7/28; letters finalize ÷80 at July close (~8/1)."
       ],
       "milestones": [
         {
