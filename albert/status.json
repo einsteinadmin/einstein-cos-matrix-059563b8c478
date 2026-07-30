@@ -8,7 +8,7 @@
   "period": "Q2 2026",
   "period_start": "2026-05-01",
   "period_end": "2026-07-31",
-  "last_updated": "2026-07-28T23:45:00-05:00",
+  "last_updated": "2026-07-30T16:55:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,8 +19,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 85,
-      "assessment": "7/28 EOD: the QGR room machine runs end-to-end on network tooling — every leader's hub export fanned out through the new standing 3-surface intake step (ballot room · leadership-PA self-eval fold · PA-directs live view); a 7-leader, 30-direct data cycle moved with zero hand transcription. Facilitator loop proven; LOADED room files staged for the room machine. Prior 7/24 authority-bug fix holding.",
+      "percent_complete": 90,
+      "assessment": "7/30 EOD: Q2 QGR Days 1+2 executed end-to-end ON the network tooling — the automation milestone didn't just get wired, it ran the live event: all 7 leaders' goal-rulings exports folded same-hour through the room's own merge code, Decision Board 9/9 ruled + seeded FINAL, Master Backlog fold executed (43 finalized/14 created/2 reused/8 folded), Q3 Cascading sheet rebuilt by script + adversarially audited. Zero hand transcription across a 7-leader, 30-direct cycle. Remaining Q2 scope: 4 spokes still owe the v0.13.0 /status install; EMMA full intake still gated.",
       "blockers": [
         "EMMA feed landed for pipeline validation 7/13; full intake gated on the ~7/20 drop + May reconciliation",
         "v0.13.0 /status not yet installed network-wide — 4 spokes still skipping the status.json write",
@@ -45,7 +45,7 @@
         {
           "name": "QGR packet automation wired for the Q3 QGR",
           "date": "2026-07-29",
-          "done": false
+          "done": true
         },
         {
           "name": "Weekly/monthly branch scorecards prototype (SG)",
@@ -55,7 +55,7 @@
       ],
       "superGreen": "(1) Every direct's COS regularly interacted-with + reliably pushing status upward (proven), AND the model starting to layer DOWN to their directs (Tier 2 begun); (2) QGR packet partially attached so next quarter's QGR runs faster/easier — weekly/monthly branch scorecards emerging (not just an end-of-quarter scorecard).",
       "green": "All 7 leadership COS live + regularly feeding the world model (status.json pushes + digest/meeting notes flowing upward reliably); world-model strategy documented; QGR-packet automation scoped + first EMMA feed (API access or per-position read-only workaround) wired.",
-      "updated": "2026-07-02",
+      "updated": "2026-07-30",
       "note": "6/6 spokes reporting on pull model 7/9 — strongest state; agent-to-agent handovers live (Gary→CoS-MH1, CoS-MH1→Linda)."
     },
     {
@@ -65,11 +65,10 @@
       "critical": true,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 90,
-      "assessment": "7/28 EOD: QGR Day-1 machine FULLY STAGED — Q2 family redlined + deployed live byte-exact (packet v2.6.2 · deck · Debrief v1.8 · 10 scorecards; rate story rebuilt on four mechanisms, TUR retired from composite, company composite RULED B+ equal-thirds). ALL 7 ballots + ALL 5 PA-directs returned, parser-verified, folded through the new 3-surface intake fan-out. Room surfaces live: Decision Board w/ mislabeled-chip triage + per-question timers · Goal Confirmation Board · PA room-audit (verdicts, live notes, score-edit overlay that never touches a leader's file). Roundtable QGR runs 7/29–30; July close ~8/1 finalizes composites ÷80.",
+      "percent_complete": 95,
+      "assessment": "7/30 EOD: the QGR machine DELIVERED — both room days ran clean on the Q2 family (packet v2.6.2 · deck · Debrief · 10 scorecards) with zero numbers disputes; QG finals ratified 32/40 = 80.0%; Q3 slate FINAL in the room (v2.3) incl. Critical #2 ruled (Quarterly Sales Goals aligned w/ the sales competition, G = 100% attainment). Last Q2 scope: July close ~8/1 flips composites to ÷80 and letters go FINAL.",
       "blockers": [
-        "QG dependency map EXISTS as the Triage Room Dependency Board (23 cross-leader rows, hosted) but has not been walked/ratified with Paul + the leaders — 'documented end-to-end' is the ratification, not the artifact.",
-        "Company composite ruled B+ 7/28; letters finalize ÷80 at July close (~8/1)."
+        "Company composite ruled B+ 7/28; letters finalize ÷80 at July close (~8/1). (Ratification blocker RESOLVED 7/30 — cascading goals chart walked with the full room Day 2.)"
       ],
       "milestones": [
         {
@@ -90,7 +89,7 @@
       ],
       "superGreen": "Audit complete by 5/15; all 10 supporting QG dependencies mapped; 7+ supporting QGs Green by EOQ; AI Wedge requirements documented + approved",
       "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
-      "updated": "2026-07-23"
+      "updated": "2026-07-30"
     },
     {
       "id": "cameron-vp-rollout",
