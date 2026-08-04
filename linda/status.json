@@ -6,7 +6,7 @@
     "cos": "Linda"
   },
   "period": "Q2 2026",
-  "last_updated": "2026-07-22T21:30:00-05:00",
+  "last_updated": "2026-08-01T13:04:49-05:00",
   "updated_by": "Linda (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -93,9 +93,9 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 85,
-      "assessment": "7/21 Q2 AAR: confirmed Green — framework built and locked (10 decisions, Option B hours floors applied 7/17), pay docs updated. No cohort promoted yet under the new framework, so Super Green isn't met. Damages-as-a-metric is NOT resolved: Anne recommended it out, but Cameron (7/17 night) and Paul (7/18, 'I disagree strongly') both pushed back wanting it kept in — a live, unresolved disagreement, not a pending rubber-stamp. Q3 lesson: define the 'how' (measurement, cadence, communication) alongside the 'what,' not after.",
+      "assessment": "7/21 Q2 AAR: confirmed Green — framework built and locked (10 decisions, Option B hours floors applied 7/17), pay docs updated. No cohort promoted yet under the new framework, so Super Green isn't met. 7/30 QGR UPDATE: damages is no longer an open fight — Cameron ruled in the room that damages goes IN the promotion gate AND stays in the bonus, superseding the 7/16 direction and Anne's proposed 7/28 compromise (weighted 100-point input instead of a gate). Related ruling: the performance matrix moves to 3 buckets (messaging/timing still open). Dissent was noted in the room (re-adding damages later is harder than removing it now); the plan is to review the first promotion cohort against the gate and fine-tune if good people miss it. Q3 lesson: define the 'how' (measurement, cadence, communication) alongside the 'what,' not after.",
       "blockers": [
-        "Damages-out is CONTESTED, not settled — Cameron and Paul both want it kept in; Anne recommended out. Needs resolution with Paul/Cameron (Paul call pulse 12564296133, 7/21) — not a rubber-stamp confirm",
+        "Damages RULED IN by Cameron 7/30 QGR — gate + bonus both, supersedes 7/16 direction and Anne's proposed compromise. Backtest #04/#05 must now model damages as a promotion-gate input, not a threshold overlay (per SCB 12443072650 update from Cameron)",
         "Matisen backtest (#04 fast-track thresholds + Dream Team mapping, #05 weights + market skew) — paused by Anne, gated on MH1 punch-clock all-clear",
         "Evaluation cadence unresolved: quarterly (session lean) vs biweekly (7/3 lock)"
       ],
@@ -113,7 +113,7 @@
       ],
       "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
       "green": "Promotion metrics framework built",
-      "updated": "2026-07-21"
+      "updated": "2026-08-01"
     },
     {
       "id": "anne-onboarding-experience",
