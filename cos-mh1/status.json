@@ -5,145 +5,151 @@
     "title": "Director of IT",
     "cos": "CoS-MH1"
   },
-  "period": "Q2 2026",
-  "period_start": "2026-05-01",
-  "period_end": "2026-07-31",
-  "last_updated": "2026-07-31T09:00:00-05:00",
-  "updated_by": "CoS-MH1 (catch-up wrap covering 7/29-7/30)",
+  "period": "Q3 2026",
+  "period_start": "2026-08-01",
+  "period_end": "2026-10-31",
+  "last_updated": "2026-08-17T12:45:00-05:00",
+  "updated_by": "Matisen (/status)",
   "cadence_days": 1,
   "goals": [
     {
-      "id": "matisen-ai-wedge-audit",
+      "id": "matisen-q3-admin",
       "number": 1,
-      "name": "AI Wedge Audit + MVP Scoping (Validate Pre-Selected Builds)",
+      "name": "QG and Support Blocks \u2014 Admin",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 90,
-      "assessment": "Tracking Super Green. Audit done; the 3 pre-selected builds (Call Grading, Claims RAG, Anne's Hiring Funnel Dashboard) validated + in active build (call-grading first report ran + spot-checked). Remaining for SG: confirm the additional-wedge sweep (4-6) scored by effort/impact.",
-      "blockers": [],
+      "confidence": 3,
+      "percent_complete": 30,
+      "assessment": "A and C converge on one build: the weekly scorecard is being baked into hub.einsteinmoving.com rather than shipped as a separate surface. The hub stands up, stats are shipping over, the Games update lands today; scorecard migration and the AI Use Policy draft follow. C is the shared build with Cameron's Data Bus rock (pulse 12556198241): Matisen ships bus/registry infrastructure, Cameron's goal owns governance. Open item on A is rollout and access with Cameron, not scoping. B gated on Wednesday's LiftUp meeting. D moves this week \u2014 registering EMMA with Sage Intacct.",
+      "blockers": [
+        "A. Scorecard rollout/access plan pending a Cameron touch-base \u2014 build path is settled (baked into the hub), audience and cadence are not",
+        "D. Sage/EMMA still pre-integration \u2014 EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
+      ],
       "milestones": [
         {
-          "name": "Confirm the additional-wedge sweep (4–6) is documented + scored",
-          "date": "2026-07-31",
+          "name": "A. QG packet prep + weekly scorecard automations",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) \u2014 $28K",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "C. Central Data Bus, Tool Registry, and AI Use Policy",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "D. Sage integration with EMMA",
+          "date": "2026-10-31",
           "done": false
         }
       ],
-      "superGreen": "Audit complete by 5/30; 3 builds validated + MVP-scoped; sweep surfaces 4–6 additional wedges scored by effort + impact; first build kicked off by 5/30",
-      "green": "Audit complete by 5/30; 3 builds validated + MVP-scoped; sweep surfaces 4+ wedges scored by effort + impact; first build kicked off by EOQ",
-      "updated": "2026-06-29"
+      "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
+      "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
+      "updated": "2026-08-17"
     },
     {
-      "id": "matisen-variable-pricing",
+      "id": "matisen-q3-sales-marketing",
       "number": 2,
-      "name": "Variable Pricing Full Rollout + Weekly Review Cadence and Overall Pricing Strategy",
+      "name": "QG and Support Blocks \u2014 Sales and Marketing",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 85,
-      "assessment": "On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/29-7/30: R9 revenue-model round completed and deployed — seasonal re-basing, Stage B/C reconciliation, Stage D open/closed man-hours from real crew-out data, per-branch driver decomposition page live in the hub; plan comparison retired the April adjustment (Operating Plan is now the sole reference); truck purchase-sheet rules finalized (89->87); cancel->rebook analysis (12% rebook / 88% never). 7/24: revenue-landing 4-bucket month-end tool shipped (read-only Mongo→inputs, one evergreen page); gap-v2 Rev 31 rolling-30 + Aug/Sep/Oct tracker rebuilt on the TUR v2 spine; Slack forecast-bot shipped end-to-end (menu dispatcher, Socket Mode, Pages publish, failure→pulse path). 7/21: TUR v2 skill packaged (ratified revenue→trucks→FTE→personnel chain) + heavy QGR conversion/rate analysis feeding Cameron's packet. 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
-      "blockers": [],
+      "confidence": 3,
+      "percent_complete": 38,
+      "assessment": "A: targeting within MPE of the forecasting models by quarter end. B: quote accuracy shared with Nhel; call-grading automation and conversion on the sales target dashboard still to build. C: email rollout pending confirmation with Fabian — lead triage is queued ahead of it. D: chatbot in QA testing for Phase 1. Dependency: Amanda.",
+      "blockers": [
+        "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
+      ],
       "milestones": [
         {
-          "name": "Fold personnel forecasting into the pricing model + lock the long-term management skill",
-          "date": "2026-07-31",
+          "name": "A. Revenue and sales forecasting accuracy",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "B. Update Sales Dashboard (migrate quote accuracy, call grading, conversion)",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "C. New email rollouts",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "D. Replace LeadFerno with AI chatbot on website",
+          "date": "2026-10-31",
           "done": false
         }
       ],
-      "superGreen": "Build out TUR Capacity tool (marketing/availability) and dynamic pricing model to inform weekly pricing-check cadences; build a skill for long-term management surfacing bottlenecks earlier",
-      "green": "Just TUR Capacity tool and regular pricing cadences in place",
-      "updated": "2026-07-24"
+      "superGreen": "100% Green or higher (4 of 4)",
+      "green": "75% Green or higher (3 of 4)",
+      "updated": "2026-08-17"
     },
     {
-      "id": "matisen-call-grading-claims-rag",
+      "id": "matisen-q3-performance-people",
       "number": 3,
-      "name": "AI Call Grading + Claims RAG (Wedge Build #1)",
-      "critical": false,
+      "name": "QG and Support Blocks \u2014 Performance and Employee Management",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 41,
+      "assessment": "A: ClearCompany to Rippling webhook is live (8/10) \u2014 confirming it triggers and that the workflow automations fire when Anne is back from vacation. B: promotion ladder / 100-point transition \u2014 meeting with Anne and Paul Wednesday. C: Custom Object migration started; next is standing up and sending custom Rippling credentials to Mike for the Mover App integration. D: Mover App testing underway \u2014 card reader picked up last week to test the payment portal, QA flow, and data connections. Dependencies: Anne, Mike.",
+      "blockers": [
+        "A. Webhook verification gated on Anne's return from vacation",
+        "C. Rippling API token scopes \u2014 Custom Objects returns 403 and the Performance Log path lacks files + employee-documents; Matisen is granting the scopes now"
+      ],
+      "milestones": [
+        {
+          "name": "A. ClearCompany to Rippling connection",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "B. Close out promotion ladder / 100-point transition",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "C. Performance log tracking to Rippling \u2014 O3, PL, Praise, Coaching",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "D. Mobile app training and team rollout",
+          "date": "2026-10-31",
+          "done": false
+        }
+      ],
+      "superGreen": "100% Green or higher (4 of 4)",
+      "green": "75% Green or higher (3 of 4)",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "matisen-q3-praise",
+      "number": 4,
+      "name": "Praise Targets",
+      "critical": true,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 50,
-      "assessment": "AI call grading running (first report ran + >=15-call spot-check) ~50%. Claims-team RAG still queued behind current Einstein Games work. Green needs 80%+ calls auto-graded weekly + RAG live for claims + the Nhel/Carly coaching loop.",
+      "percent_complete": 0,
+      "assessment": "0 of 48 submitted for Q3. ~25 CHOICES-anchored candidates staged since 8/10; plan is to submit 12 this week. Measured on the Praise Board or a new PL in Rippling \u2014 but the Praise Board's clear-on-status automation is dead and its count conflates intent with delivery, so the rock cannot be scored until a measurement source is owned.",
       "blockers": [
-        "Claims RAG build not yet started — queued behind current Einstein Games updates",
-        "Weekly coaching loop with Nhel (sales) + Carly (claims) not yet operational on graded data"
+        "No automated praise count wired for Q3 \u2014 measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned"
       ],
       "milestones": [
         {
-          "name": "Start Claims-team RAG build (after Einstein Games updates)",
-          "date": "2026-07-31",
+          "name": "Reach 48 praise (Green) / 60 praise (Super Green) by 2026-10-31",
+          "date": "2026-10-31",
           "done": false
         }
       ],
-      "superGreen": "100% of sales + claims calls auto-graded weekly; RAG database live surfacing magic-moment + early-claim signals; weekly coaching loop with Nhel + Carly using the data",
-      "green": "80%+ of sales calls auto-graded weekly; RAG database live for claims; coaching loop established with Nhel + Carly",
-      "updated": "2026-06-29"
-    },
-    {
-      "id": "matisen-clearco-rippling-dashboard",
-      "number": 4,
-      "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
-      "critical": false,
-      "self_status": "yellow",
-      "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "Strong progress. HR Command Center productionized + published to hosted pages (7/6); handed over to Linda (API access) + Anne (review). ClearCompany→Rippling new-hire sync in flight: field map + vendor webhook spec PDF done 7/8, awaiting Make.com webhook URL. Green needs both APIs fully hooked + core-metrics dashboard live.",
-      "blockers": [
-        "Rippling API key handoff from Anne (gates Benefits/Hours tab)",
-        "ClearCompany custom-object (CAT 1-4) access + webhook config not yet granted",
-        "Rippling punch-clock outage (6/29) corrupting hours data — hits Benefits/Hours + ACA eligibility"
-      ],
-      "milestones": [
-        {
-          "name": "Ship Anne's dashboard + connect the Rippling API leg",
-          "date": "2026-07-31",
-          "done": false
-        }
-      ],
-      "superGreen": "Both APIs hooked up; Anne self-serve dashboard live with cost-per-hire, time-to-fill, stage % per branch, campaign performance; weekly auto-refresh",
-      "green": "Both APIs hooked up; dashboard live with core funnel metrics; manual refresh acceptable",
-      "updated": "2026-06-29"
-    },
-    {
-      "id": "matisen-production-line-cleanup",
-      "number": 5,
-      "name": "Production Line Cleanup — 8 Loose Threads",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 70,
-      "assessment": "On track for Super Green. 7/9–7/13 multiple threads advanced: Branch KPIs (branch book + hosted status dashboards refreshed, per-branch projections surfaced), Sales Review (sales-targets refresh + individual manager scorecards; Klepac/Pope June verified), Einstein Games (week-7 shipped), mobile-app build (Field App workshop 7/10). 7/18–7/19 weekend sprint: Field App replica real-data puller (PII-sanitized, QA env) + field-events bridge hardened end-to-end (strict path grammar, idempotency ledger, CORS pin, reducer-parity golden tests) — 18 commits. Scorecards shipped 7/3. Remaining threads (Zip Zone Map, Relocation Trend Data, Docs/Handbook) still need firm ship dates for full SG.",
-      "blockers": [],
-      "milestones": [
-        {
-          "name": "Confirm remaining threads + ship dates with Robert + Vlad",
-          "date": "2026-06-19",
-          "done": true
-        }
-      ],
-      "superGreen": "All 8 loose threads (Sales Review, Branch KPIs, Einstein Games, Scorecards, Marketing Dashboard, Zip Zone Map, Relocation Trend Data, Documentation/Handbook) shipped or formally archived by EOQ",
-      "green": "5+ of 8 loose threads shipped or archived by EOQ; remaining 3 have clear ship dates",
-      "updated": "2026-06-29"
-    },
-    {
-      "id": "matisen-ideal-team-player",
-      "number": 6,
-      "name": "Ideal Team Player Reading",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 90,
-      "assessment": "Nearly complete. At 170/219 pages; finishing the read + the 1-page reflection on personal Humility/Hunger/Smarts gaps (6/20 target slipped; reflection still pending). Tracking Super Green (read + reflection by EOQ).",
-      "blockers": [],
-      "milestones": [
-        {
-          "name": "Finish book + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-          "date": "2026-06-20",
-          "done": false
-        }
-      ],
-      "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-      "green": "Read by 5/30",
-      "updated": "2026-06-29"
+      "superGreen": "125% \u2014 60 praise",
+      "green": "100% \u2014 48 praise",
+      "updated": "2026-08-17"
     }
   ],
   "kpis": [],

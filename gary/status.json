@@ -5,170 +5,217 @@
     "title": "Dir. of CX",
     "cos": "Gary"
   },
-  "period": "Q2 2026",
-  "period_start": "2026-05-01",
-  "period_end": "2026-07-31",
-  "last_updated": "2026-07-15T17:00:00-05:00",
-  "updated_by": "Gary (/wrap)",
+  "period": "Q3 2026",
+  "period_start": "2026-08-01",
+  "period_end": "2026-10-31",
+  "last_updated": "2026-08-17T14:20:00-05:00",
+  "updated_by": "Gary (/status — Q3 rollover)",
   "cadence_days": 7,
+  "source_of_truth": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified in QGR room 7/30)",
   "goals": [
     {
-      "id": "amanda-call-grading",
+      "id": "amanda-call-grading-volume",
       "number": 1,
-      "name": "AI Call Grading + Regular Reporting (Conversions/Estimate Accuracy)",
+      "name": "Call Grading at Volume — Distribution + Coaching Loop",
       "critical": true,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 70,
-      "assessment": "Green, confidence softened — grading engine still running steady, incorporated rubric tweaks from Nhel/Tetet feedback. Rollout/expansion into a full weekly cadence is at a standstill — no bandwidth while the sales class training is running. No calibration/working session with Cameron yet. No reply yet from Matisen/CoS-MH1 on the 7/3 Emma integration ask (link call grades to quoted estimate + actual).",
+      "percent_complete": 20,
+      "assessment": "Yellow — the engine works, the loop doesn't. Week 1 grading run completed 6/11 (50 calls across 32 reps; Nicole Cruz the only rep hitting all 3 differentiators, Save Your Ass 0/50 company-wide). No Week 2+ run has shipped since, so the distribution + coaching loop this goal is actually named for is not yet running. Cadence was originally stalled behind the GitHub Pages privacy question; that was decoupled 7/3 and is no longer the blocker — bandwidth is. Note: no company-wide average score has been measured yet, so there is currently no baseline to read against the 65% / 75% bars.",
       "blockers": [
-        "Rollout/expansion paused — no bandwidth during ongoing sales class training",
-        "Calibration spot-check (15 calls) / Cameron working session not yet run",
-        "No reply yet from Matisen/CoS-MH1 on the Emma integration ask (posted 7/3)",
-        "GitHub Pages hosting still pending Cameron's privacy reply (pulse 12206626312) — decoupled from grading cadence per 7/3 decision, no longer blocking the weekly run itself"
+        "No Week 2+ grading run since 6/11 — weekly cadence not established",
+        "Chauany Shivers + Brianne Newbro not yet in data/dialpad-grading-roster.json (need their Dialpad IDs)",
+        "No measured company-wide average score yet — 65% / 75% bars have no baseline to read against",
+        "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk all pending a 60-min calibration session with Cameron + Nhel + Tetet",
+        "Emma integration ask to Matisen/CoS-MH1 outstanding since 7/3 — bumped 8/17 (SCB pulse 12442800385)"
       ],
       "milestones": [
         {
-          "name": "Spot-check 15 calls for calibration",
-          "date": "2026-06-20",
-          "done": false
-        },
-        {
-          "name": "Publish report to GitHub Pages",
-          "date": "2026-06-25",
+          "name": "Week 1 grading run complete (50 calls / 32 reps)",
+          "date": "2026-06-11",
           "done": true
         },
         {
-          "name": "Distribute to Nhel + weekly audit cadence running",
-          "date": "2026-07-15",
+          "name": "New hires added to grading roster",
+          "date": "2026-08-31",
+          "done": false
+        },
+        {
+          "name": "Weekly run + distribution cadence running",
+          "date": "2026-09-15",
+          "done": false
+        },
+        {
+          "name": "Company average (CET + Managers) measured against bars",
+          "date": "2026-10-31",
           "done": false
         }
       ],
-      "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
-      "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running",
-      "updated": "2026-07-13"
+      "superGreen": "Improve the company (CET and Managers) average score to 75%",
+      "green": "Improve the company (CET and Managers) average score to 65%",
+      "updated": "2026-08-17",
+      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron."
     },
     {
-      "id": "amanda-replace-leadferno",
+      "id": "amanda-chatbot-launch",
       "number": 2,
-      "name": "Replace Leadferno with Chatbot (80% deflection)",
-      "critical": true,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 72,
-      "assessment": "Green — 7/7 API integrations meeting with Matisen landed the strategy: since Leadferno's conversation history isn't directly exportable, Matisen has Claude working through the raw conversations to extract training data. That work started today (7/13), no completion ETA yet. Target launch: first week of August 2026 still holds. Project HQ built at projects/botpress-implementation/botpress-hq.html.",
+      "name": "Chatbot Launch + Leadferno Sunset (carry, finish line)",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 3,
+      "percent_complete": 75,
+      "assessment": "Yellow — past its own target date, not blocked. Target launch was the first week of August; it is 8/17 and the bot is still in testing, so the Green bar ('running consistently with bugs fixed') is not met. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
       "blockers": [
-        "Auto-Recharge ceiling must be capped/controlled during implementation (cost-explosion risk)",
-        "Leadferno conversation-history extraction (via Claude, started 7/13) has no completion ETA yet"
+        "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
+        "Confirmation that Paul delivered the Messenger token to Nidha's team",
+        "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
       ],
       "milestones": [
         {
-          "name": "Sign Botpress contract",
+          "name": "Botpress contract signed",
           "date": "2026-06-29",
           "done": true
         },
         {
-          "name": "Implementation kickoff with Botpress managed services team",
-          "date": "2026-07-03",
-          "done": true
-        },
-        {
-          "name": "API integrations meeting — Leadferno conversation-history strategy locked",
-          "date": "2026-07-07",
+          "name": "FAQ + workflow package delivered to Botpress",
+          "date": "2026-08-03",
           "done": true
         },
         {
           "name": "Chatbot live and deflecting Leadferno volume",
-          "date": "2026-07-31",
+          "date": "2026-08-07",
+          "done": false
+        },
+        {
+          "name": "Leadferno sunset",
+          "date": "2026-10-31",
           "done": false
         }
       ],
-      "superGreen": "Replacement chatbot live, deflecting 80%+ of Leadferno volume, Leadferno fully sunset by EOQ",
-      "green": "Replacement chatbot selected, contracted, AI configuration in progress",
-      "updated": "2026-07-13"
+      "superGreen": "Phase 2 underway, Emma connection",
+      "green": "Chatbot running consistently with bugs fixed",
+      "updated": "2026-08-17"
     },
     {
-      "id": "amanda-email-design",
+      "id": "amanda-email-suite",
       "number": 3,
-      "name": "New Email Design + Copy Polish + Rollout (KP-owned)",
+      "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
       "critical": false,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 80,
-      "assessment": "Green, softening — fully in Matisen's hands now, out of Amanda's direct control. Last check-in: RFQ template should land before end of quarter, no hard date committed. Original 7/10 milestone slipped.",
+      "percent_complete": 60,
+      "assessment": "Yellow — real progress, not yet at the Green bar. The confirmation email redesign is built and matches the new RFQ visual system, but it is still being iterated with Amanda and has not been approved or queued in EMMA, which is what Green requires. Currently a private Artifact. Sharing it out to Kickpoint is snagged on an org-level setting: Claude's 'anyone with the link' sharing is disabled company-wide, so external delivery needs the raw-file workaround.",
       "blockers": [
-        "RFQ template milestone slipped from 7/10 — no firm date, targeting end of quarter per Matisen's last check-in"
+        "Redesign not yet finalized or approved — not in the EMMA updates queue",
+        "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
+        "Dependency on Matisen for EMMA-side rollout"
       ],
       "milestones": [
         {
-          "name": "Matisen resolves tokens + format decision",
-          "date": "2026-06-25",
+          "name": "Confirmation email redesign drafted against new RFQ system",
+          "date": "2026-08-17",
           "done": true
         },
         {
-          "name": "RFQ template live in EMMA",
-          "date": "2026-07-31",
+          "name": "Approved + shared with Kickpoint",
+          "date": "2026-08-31",
           "done": false
         },
         {
-          "name": "Full rollout company-wide",
-          "date": "2026-07-31",
+          "name": "In EMMA updates queue for go-live",
+          "date": "2026-09-30",
           "done": false
         }
       ],
-      "superGreen": "Rolled out company-wide with measurable impact",
-      "green": "Houston test complete, company-wide decision made",
-      "updated": "2026-07-13"
+      "superGreen": "Email is live",
+      "green": "Email approved, in Emma updates queue for going live",
+      "updated": "2026-08-17"
     },
     {
-      "id": "amanda-cx-theme",
+      "id": "amanda-estimating",
       "number": 4,
-      "name": "CX Q2 Theme Rollout",
+      "name": "Estimating improvements",
       "critical": false,
-      "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 70,
-      "assessment": "Green — First Class Precision running strong. Nhel owns weekly announcements + cadence. ~4 weeks of competition left.",
-      "blockers": [],
+      "self_status": "yellow",
+      "confidence": 3,
+      "percent_complete": 10,
+      "assessment": "Yellow — early, and the main input is not in place yet. Amanda is working with Matisen to get daily call grading delivered; that feed is what makes the coaching side of this rock workable, since the plan is to coach the lower estimators off regular, transparent numbers. About 10% in at roughly 18% through the quarter. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green) — these are the ratified Q3 targets and are not on the same basis as the 54% / 56% bars used in Q2. Worth carrying the room's own caveat: estimating is a delayed result, so work done now will not show up in accuracy numbers for two weeks to a month or more, and movement should be expected to lag the effort.",
+      "blockers": [
+        "Daily call grading delivery from Matisen not yet in place — needed to coach lower estimators off regular numbers",
+        "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
+        "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')"
+      ],
       "milestones": [
         {
-          "name": "Leaderboard updates weekly through end of competition",
-          "date": "2026-07-31",
+          "name": "Accuracy reaches 46% Green bar",
+          "date": "2026-10-31",
           "done": false
         }
       ],
-      "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
-      "green": "Theme launched and adopted with defined metrics",
-      "updated": "2026-07-13"
+      "superGreen": "Improved estimating to 48%",
+      "green": "Improve estimating to 46%",
+      "updated": "2026-08-17"
     },
     {
-      "id": "amanda-ideal-team-player",
+      "id": "amanda-sales-performance-engagement",
       "number": 5,
-      "name": "Ideal Team Player Reading",
+      "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
       "critical": false,
       "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 100,
-      "assessment": "Complete — reading done (confirmed 7/2), one-page H/H/S reflection rewritten 7/15 (fresh Lencioni-persona interview, new commitments and triggers) and redesigned into a polished one-page PDF. Ready to submit — timing remains Amanda's call, due date 7/25 was the outer bound and is no longer a risk.",
-      "blockers": [],
+      "confidence": 4,
+      "percent_complete": 30,
+      "assessment": "Green — engagement is live and the first concrete workstream starts this week. Two working sessions with Jeff over the last two weeks; Einstein's operational roadblocks genuinely reset his read of the engagement. Out of those sessions we picked the two lowest-hanging pieces to start with: (1) adjusting our triages to pull intent out of the contacts we are already generating leads from — more signal from existing traffic rather than new sources; and (2) sales training for the CET. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
+      "blockers": [
+        "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
+        "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
+      ],
       "milestones": [
         {
-          "name": "Complete reading",
-          "date": "2026-06-30",
+          "name": "Scoping meeting with Northwood",
+          "date": "2026-07-31",
           "done": true
         },
         {
-          "name": "Write one-page reflection on personal H/H/S gaps",
-          "date": "2026-07-25",
+          "name": "Two working sessions with Jeff — priorities selected",
+          "date": "2026-08-14",
           "done": true
+        },
+        {
+          "name": "CET sales training begins (2 groups, Tue/Wed)",
+          "date": "2026-08-18",
+          "done": false
+        },
+        {
+          "name": "Triage adjustments live for intent capture",
+          "date": "2026-09-30",
+          "done": false
+        },
+        {
+          "name": "CET training block complete (4-5 weeks)",
+          "date": "2026-09-23",
+          "done": false
         }
       ],
-      "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
-      "green": "Read by 5/30",
-      "updated": "2026-07-15"
+      "superGreen": "TBD — bars not set on chart",
+      "green": "TBD — bars not set on chart",
+      "updated": "2026-08-17"
     }
   ],
   "kpis": [],
   "adopted": [],
-  "network_acks": []
+  "network_acks": [],
+  "cut_this_quarter": [
+    {
+      "name": "Incentivize Manager Sales — Quarterly Sales Comp (if not removed entirely)",
+      "chart_number": 1,
+      "cut_date": "2026-08-17",
+      "reason": "Not being pursued this quarter (Amanda's call). Was her only Critical-flagged rock; the Critical flag moved to the adopted call-grading rock."
+    },
+    {
+      "name": "Push out training certifications run by Tetet and Carly",
+      "chart_number": 5,
+      "cut_date": "2026-08-17",
+      "reason": "Removed from Amanda's Q3 slate (Amanda's call)."
+    }
+  ]
 }

@@ -5,137 +5,165 @@
     "title": "CTXH Regional Mgr · Culture Head",
     "cos": "Vera"
   },
-  "period": "Q2 2026",
-  "period_start": "2026-05-01",
-  "period_end": "2026-07-31",
-  "last_updated": "2026-07-24T08:45:00-05:00",
-  "updated_by": "Vera (7/24 — Games Rock 1 flipped to GREEN on final EOQ scoring: CTXH 7.07)",
+  "period": "Q3 2026",
+  "period_start": "2026-08-01",
+  "period_end": "2026-10-31",
+  "last_updated": "2026-08-17T13:05:00-05:00",
+  "updated_by": "Vera (8/17 — REALIGNED to the Q3 Cascading Team Goals chart per Cameron/Albert's 8/17 instruction. Goal names, numbering, critical flags, and Green/Super Green bars now match the chart ratified in the QGR room 7/30. Rock 1 renamed from 'Management Hiring / Mgmt Dev / SA Ops + Manager Bench' to the chart name 'ATX Flex Manager + SA Ops Manager Development'. Order re-sequenced to chart order. Statuses and % complete supplied by Brian.)",
+  "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
     {
-      "id": "brian-emc-games-s3",
+      "id": "brian-connection-cadence",
       "number": 1,
-      "name": "Einstein Games Season 3 Launch (CTXH)",
-      "critical": true,
-      "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 100,
-      "assessment": "FINAL (7/23): Season closed and scored. EOQ scoring basis decided as the average of the weekly averages — Company 7.59 GREEN, CTXH regional 7.07 GREEN (Matisen confirming final per-branch numbers). Under the finalized basis the region cleared the 7 bar; the earlier 6.6 reflected a pre-decision calculation. San Antonio won the CTXH championship. The mid-season damage-data discrepancy was resolved by the scoring-basis decision (even across teams).",
-      "blockers": [],
-      "milestones": [
-        { "name": "All 5 CTXH branches submitting weekly Games numbers consistently", "date": "2026-06-15", "done": true },
-        { "name": "Mid-season check — CTXH standings reviewed w/ BMs", "date": "2026-06-22", "done": true },
-        { "name": "Regular season closed 6/29, results posted 7/1", "date": "2026-06-29", "done": true },
-        { "name": "Season scored + final standings/champion confirmed (SA champion; CTXH 7.07 green)", "date": "2026-07-23", "done": true }
+      "name": "Connection Cadence — quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 5,
+      "assessment": "Planning scaffolded, execution not started. Project HQ built locally (tools/connection-cadence-hq.html) covering 5 regions, 37 attendees, est. $1,850-2,775 at $50-75/head, Mon-Thu evenings. Live pulse stood up. No event scheduled yet, no roundtable agenda redesigned, no roundtables conducted. Next: build a choice pulse per region group (sports / interactive / comedy) to send out.",
+      "blockers": [
+        "Event budget not yet approved ($50-75/manager)",
+        "No regional event dates set"
       ],
-      "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
-      "green": "Company-wide 7+ with CTXH branches at 7+",
-      "updated": "2026-07-24"
+      "milestones": [
+        { "name": "Connection Cadence Project HQ built", "date": "2026-08-10", "done": true },
+        { "name": "1 event scheduled per region (all local managers across local departments)", "date": "2026-10-19", "done": false },
+        { "name": "BM-roundtable agenda redesigned for engagement", "date": "2026-10-19", "done": false },
+        { "name": "2 BM roundtables scheduled, agenda built, conducted w/ manager feedback + action items", "date": "2026-10-19", "done": false }
+      ],
+      "superGreen": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 3 BM roundtable meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
+      "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
+      "flywheel": "⑥ Reinvest Profit in People & Innovation",
+      "live_pulse": "12750316279",
+      "updated": "2026-08-17"
     },
     {
-      "id": "brian-hiring-personnel",
+      "id": "brian-atx-flex-sa-ops-dev",
       "number": 2,
-      "name": "Hiring + Personnel Budgets + People Analyzer",
+      "name": "ATX Flex Manager + SA Ops Manager Development",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 45,
+      "assessment": "Seats moving. Daniel Behseresht confirmed N. Austin BM (8/10). Hector Zavala moved Field Manager into S. Austin Ops (8/11). Calvin Hughes moved NA BM to Remote Flex (8/11). SA Field Manager posting ran on ClearCo with applications closing EOD 8/14 — applicant pool now ready to work. Remaining: fill the SA FM seat with a documented 30/60/90, keep Daniel's and Hector's 30/60/90 checkpoints on schedule, and build/review action plans for C players in the region.",
+      "blockers": [
+        "SA FM applicant pool needs review + interviews scheduled",
+        "C-player action plans not yet built"
+      ],
+      "milestones": [
+        { "name": "NA BM seat filled (Daniel Behseresht)", "date": "2026-08-10", "done": true },
+        { "name": "SA Ops seat filled (Hector Zavala)", "date": "2026-08-11", "done": true },
+        { "name": "SA FM posting live, applications closed 8/14", "date": "2026-08-14", "done": true },
+        { "name": "SA FM seat filled with documented 30/60/90 plan", "date": "2026-10-19", "done": false },
+        { "name": "Action plans built + in review for C players in region", "date": "2026-10-19", "done": false }
+      ],
+      "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
+      "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
+      "flywheel": "❔ Other",
+      "live_pulse": "12746835385",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "brian-ctxh-theme-mgmt",
+      "number": 3,
+      "name": "CTXH Quarterly Theme Mgmt — Ensure All Managers Hit QGs",
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "N. Austin BM decision made — moving forward with Daniel B (leadership aligned per Paul). Hiring-budget attainment Q2-to-date is strong: SAN 108%, SA 104%, HOU 103%, NA 102%, LEA 91.7% (only branch under 100%). eNPS follow-ups complete across all CTXH locations.",
-      "blockers": [
-        "LEA hiring-budget attainment at 91.7% — only CTXH branch under 100%",
-        "Douglas Melrose (HOU) WC injury — offer status still open"
-      ],
-      "milestones": [
-        { "name": "All CTXH branches at 100%+ staffing", "date": "2026-06-30", "done": false },
-        { "name": "eNPS survey completed + all CTXH follow-ups done", "date": "2026-06-30", "done": true },
-        { "name": "N. Austin BM hire decided (Daniel B)", "date": "2026-07-15", "done": true }
-      ],
-      "superGreen": "All branches at 100%+ staffing, eNPS cleared by May",
-      "green": "100%+ staffing with eNPS by June",
-      "updated": "2026-07-15"
-    },
-    {
-      "id": "brian-scrum-accountability-pt4",
-      "number": 3,
-      "name": "Scrum Accountability Pt 4 — Manager Certification",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 55,
-      "assessment": "Weekly scorecards running across all 5 CTXH BMs (4–5 evaluations each). As of last week all teams have adjusted board hygiene/organization: LEA 100%, SAN 97%, HOU 97%, NA 92%, SA 83%. This week's deliverable: stand up the training board + new-manager-training details, to beta-test with Jalissa in recruiting.",
-      "blockers": [
-        "Manager-certification curriculum not yet built — training board + new-mgr-training content in progress this week (Jalissa beta)"
-      ],
-      "milestones": [
-        { "name": "All 5 CTXH BMs completed certification requirements", "date": "2026-07-31", "done": false },
-        { "name": "Grading cadence established and running consistently", "date": "2026-06-30", "done": true },
-        { "name": "New-manager training board built + beta-tested (Jalissa)", "date": "2026-07-22", "done": false }
-      ],
-      "superGreen": "",
-      "green": "Scorecard audits and grading cadence establishment complete",
-      "updated": "2026-07-15"
-    },
-    {
-      "id": "brian-branch-visits",
-      "number": 4,
-      "name": "Branch Visits / Audits",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 75,
-      "assessment": "3 of 5 CTXH branches visited this quarter with scorecard audits + huddle assessments — the green bar (3 locations) is met. No travel this week; targeting San Antonio next week to reach 4 of 5 for the quarter. SCTX Schedule Review runs biweekly.",
+      "percent_complete": 40,
+      "assessment": "On track for the 8/19 manager sandbox deadline. Instructions pushed to managers Friday 8/14, the pulse is live on every branch board, and Brian is tracking a named roster of who still owes it. Confirmed complete: Dustin Street, Frank Williams, Chris Anderson, Garrison Cobe. Brian's read is that all managers finish in time. Mover enrollment follows 8/20, then the ≥70%-through-stage-4 push to EOQ. NOTE: this rock is specifically about TRAINING CAMP completion despite the pulse title — general QG-accountability work does not count toward it.",
       "blockers": [],
+      "watch": "Cameron Klepac self-reported 🔴 red / 0% on his Mover Training App rock (8/17) — he simply hasn't started the module yet. It's on his Today list with two days to the deadline; Brian is confident it lands on time. Noted here only so the SA board update and this feed tell the same story.",
       "milestones": [
-        { "name": "SCTX Schedule Review completed (biweekly)", "date": "2026-07-16", "done": false },
-        { "name": "3 CTXH locations visited with scorecard audits and huddle assessments", "date": "2026-07-15", "done": true },
-        { "name": "Findings summarized and shared with BMs", "date": "2026-07-25", "done": false }
+        { "name": "Manager sandbox instructions pushed to all branches", "date": "2026-08-14", "done": true },
+        { "name": "Dustin Street, Frank Williams, Chris Anderson, Garrison Cobe complete sandbox training", "date": "2026-08-17", "done": true },
+        { "name": "100% of manager sandbox training completed", "date": "2026-08-19", "done": false },
+        { "name": "100% of active movers enrolled in training app", "date": "2026-08-20", "done": false },
+        { "name": "≥70% of enrolled movers through stage 4", "date": "2026-10-31", "done": false },
+        { "name": "Full training pipeline (Lead Ready) + Scrum recert", "date": "2026-10-19", "done": false }
       ],
-      "superGreen": "",
-      "green": "3 locations with scorecard audits and huddle assessments",
-      "updated": "2026-07-15"
+      "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
+      "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
+      "flywheel": "① Attract & Develop Great Movers",
+      "live_pulse": "12750301851",
+      "updated": "2026-08-17"
     },
     {
-      "id": "brian-training-day-overhaul",
+      "id": "brian-branch-audits",
+      "number": 4,
+      "name": "CTXH Branch Audits — 3 of 5 Branches per Quarter",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 0,
+      "assessment": "Not started. Requires formal branch audits — scorecard audit + circle-up + huddle audit per location — plus a redesigned branch-visit evaluation dashboard. NOTE: QG meetings and Training Day visits do NOT count toward this goal. Roughly 2.5 months of runway left; needs 3 locations for green, all 5 for super green.",
+      "blockers": [
+        "No branch audits scheduled yet"
+      ],
+      "milestones": [
+        { "name": "3 locations visited + scorecard audits + 3 circle-ups + 3 huddle audits", "date": "2026-10-19", "done": false },
+        { "name": "Redesigned branch-visit evaluation dashboard built", "date": "2026-10-19", "done": false }
+      ],
+      "superGreen": "All 5 locations visited + scorecard audits (4 or higher score) + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
+      "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
+      "flywheel": "② Deliver the Smart Move Experience",
+      "live_pulse": "12750317266",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "brian-scrum-accountability-pt3",
       "number": 5,
-      "name": "Training Day Overhaul + Calendar Organization",
+      "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 40,
+      "assessment": "Rollout infrastructure complete, distribution is the remaining gate. Mock training board trimmed to 32 pulses and expanded with Owner + Definition-of-Done columns for Sky Board parity; duplicated for all 15 CTXH managers (5 BMs + 10 Ops/FM/Flex). Board Fix-It Checklist published. Certifications section built into the SCRUM dashboard to log manager, position, test date, score, grade, and 6-month recert date. Rollout announcement drafted and previewed. Next: invite all 15 managers to their boards, post the real delegation pulse, and start logging recert results.",
+      "blockers": [
+        "15 manager board invites not yet sent — nothing moves until they are",
+        "Rollout announcement still previewed only, not posted to the Delegation Board"
+      ],
+      "milestones": [
+        { "name": "Mock training board built, trimmed, and duplicated for all 15 managers", "date": "2026-08-14", "done": true },
+        { "name": "Board Fix-It Checklist published", "date": "2026-08-14", "done": true },
+        { "name": "Dashboard Certifications section built", "date": "2026-08-14", "done": true },
+        { "name": "All 15 managers invited to their boards + announcement posted", "date": "2026-08-21", "done": false },
+        { "name": "100% of frontline managers through the training module", "date": "2026-10-19", "done": false },
+        { "name": "All 10 branch boards re-certified", "date": "2026-10-19", "done": false }
+      ],
+      "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
+      "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
+      "flywheel": "⑥ Reinvest Profit in People & Innovation",
+      "live_pulse": "12750326806",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "brian-praise-goal",
+      "number": 6,
+      "name": "Praise Goal",
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 68,
-      "assessment": "TD app live for July and August — agenda, giveaways/team votes, meal planning, and feedback link all in. TD feedback app developed and pushed live as part of the TD organization. Sunset Trial Days discussion still open; stations/quizzes/scorecard not yet added to the format.",
+      "percent_complete": 25,
+      "assessment": "12 of 48 cards delivered this quarter. Per-manager: Dustin Street 3, Chris Anderson 2, Daniel Behseresht 2, Rance Pope 2, Lukas Konrad 1, plus 1 to a non-manager. 10 of 15 managers still at zero (Frank Williams, Sergio Buenrostro, Nick Dagel, Garrison Cobe, Joel Villatoro, Hector Zavala, Cameron Klepac, Alex Tran, Jespah Lara, Calvin Hughes). Green requires at least 1 card for every manager, so those 10 are the binding constraint, not the raw count.",
+      "chart_note": "TRACKED GOAL — not present on the Q3 Cascading Team Goals sheet. Added 8/10, after the 7/30 QGR ratification. This is a real tracked goal, NOT a mid-quarter pivot or bonus goal; the chart's 'Bonus Goals / Mid-Quarter Pivots' block remains empty.",
       "blockers": [
-        "Sunset Trial Days discussion/game plan not yet resolved",
-        "Format not fully formalized — stations/quizzes/scorecard still to add"
+        "10 of 15 managers still have zero cards — blocks green regardless of total count"
       ],
       "milestones": [
-        { "name": "TD format finalized with stations, quizzes, and scorecard", "date": "2026-06-30", "done": false },
-        { "name": "Training calendar organized + app distributed to BMs (July + August)", "date": "2026-07-15", "done": true },
-        { "name": "First TD run completed under new format", "date": "2026-07-15", "done": false }
+        { "name": "12 of 48 cards delivered", "date": "2026-08-17", "done": false },
+        { "name": "48 praise cards delivered + at least 1 per manager in region", "date": "2026-10-31", "done": false },
+        { "name": "56 cards + at least 3 per manager (super green)", "date": "2026-10-31", "done": false }
       ],
-      "superGreen": "",
-      "green": "Formalized TD flow with stations, quizzes, scorecards, and Games integration",
-      "updated": "2026-07-15"
-    },
-    {
-      "id": "brian-ideal-team-player",
-      "number": 6,
-      "name": "Ideal Team Player Reading",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 80,
-      "assessment": "Page 165 of 218. 2nd assessment complete. One-page CRIT/reflection sent to Rob ahead of the deadline for today's session. On track to finish the book by 7/31.",
-      "blockers": [],
-      "milestones": [
-        { "name": "Complete fable section (Part 1, ~150 pages)", "date": "2026-07-01", "done": true },
-        { "name": "Complete model section (finish book, p.218)", "date": "2026-07-31", "done": false },
-        { "name": "1-page reflection drafted and shared (sent to Rob)", "date": "2026-07-15", "done": true }
-      ],
-      "superGreen": "Green by 5/30 + EOQ reflection on personal gaps",
-      "green": "Book completed by EOQ",
-      "updated": "2026-07-15"
+      "superGreen": "56 praise cards delivered, at least 3 per manager in region",
+      "green": "48 praise cards delivered, at least 1 per manager in region",
+      "red": "Fewer than 48 cards delivered",
+      "live_pulse": "12761931235",
+      "updated": "2026-08-17"
     }
   ],
+  "bonus_goals": [],
   "kpis": [],
   "adopted": [
     {
@@ -157,6 +185,10 @@
     {
       "tool": "EOD Audit Skill",
       "notes": "Daily audit of EOD/MHI reports from all 5 CTXH branches. 100-pt scorecard."
+    },
+    {
+      "tool": "QG Weekly Tracker",
+      "notes": "Self-serve per-manager weekly QG AAR run in each manager's own Claude Project, published to their branch board. Live and self-running as of 8/17."
     }
   ],
   "network_acks": []
