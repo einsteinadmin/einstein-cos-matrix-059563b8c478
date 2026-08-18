@@ -6,7 +6,7 @@
     "cos": "Linda"
   },
   "period": "Q2 2026",
-  "last_updated": "2026-08-01T13:04:49-05:00",
+  "last_updated": "2026-08-18T08:30:00-05:00",
   "updated_by": "Linda (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -38,22 +38,28 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 70,
-      "assessment": "7/21 Q2 AAR: confirmed Green. Interview process updated; performance-tracking need met via Mike's mover app (the Rippling Performance Module it was written against went void 7/13). 100-pt system not live company-wide, so Super Green isn't met. Trial-day sunset is a full company-wide launch at the start of Q3, not a beta. Q3 lesson: don't lose sight of other goals while heads-down on one — this one lost ground while Anne focused on hiring Jalissa for the first ~6 weeks of the quarter.",
+      "percent_complete": 75,
+      "assessment": "7/21 Q2 AAR: confirmed Green. Interview process updated; performance-tracking need met via Mike's mover app (the Rippling Performance Module it was written against went void 7/13). 100-pt system not live company-wide, so Super Green isn't met. Trial-day sunset is a full company-wide launch at the start of Q3, not a beta. 8/18 update: while Anne was on leave (8/12-8/17), the culture interview got finalized (explicit driver's-license/MVR/background/smoking questions added, low-value personality questions cut) — pending a manager huddle to lock + program into ClearCompany. Manager-facing comms doc also finalized 8/18: full Extended Trial check-in expectations (attendance, training-app progression, Core Values, damages score, role satisfaction, peer feedback, mgmt expectations) plus a new end-of-training Lead-readiness gate (Core Values + Get It/Want It/Can Do It). Green/Super Green bars reworded 8/18 to name the mover app instead of Rippling — not yet confirmed with Cameron.",
       "blockers": [
-        "7/13: Rippling perf-module blocker VOID — Mike's mover app covers the full Extended Trial check-in cadence (1wk/2wk/1mo/2mo). Remaining: wire Extended Trial check-ins into the app + rewrite the rock's Green criteria wording ('Rippling Performance Module live') with Cameron",
-        "Possible branch-level inconsistency — some branches may have already sunset trial days ahead of HPE network readiness; audit created 7/21 (pulse 12590480283) to check before Q3 launch"
+        "8/18: Green/Super Green bars reworded to say 'Extended Trial check-ins live in the mover app' instead of the stale 'Rippling Performance Module live' — not yet confirmed with Cameron. Remaining: wire Extended Trial check-ins into the app itself",
+        "Possible branch-level inconsistency — some branches may have already sunset trial days ahead of HPE network readiness; audit created 7/21 (pulse 12590480283), still no status as of 8/18",
+        "Culture interview questions not yet locked — pending Frank/Grant/Eric/Garrison feedback huddle before programming into ClearCompany"
       ],
       "milestones": [
         {
           "name": "HPE go-live + BM comms/gating (trial days sunset)",
           "date": "2026-08-01",
           "done": false
+        },
+        {
+          "name": "Culture interview finalized (housekeeping + storytelling questions set)",
+          "date": "2026-08-12",
+          "done": true
         }
       ],
-      "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
-      "green": "Interview process updated to hire for culture + Rippling Performance Module live",
-      "updated": "2026-07-21"
+      "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Extended Trial check-ins live in the mover app",
+      "green": "Interview process updated to hire for culture + Extended Trial check-ins live in the mover app",
+      "updated": "2026-08-18"
     },
     {
       "id": "anne-clearco-funnel-viz",

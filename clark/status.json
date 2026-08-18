@@ -1,121 +1,116 @@
 {
   "schema_version": "1.0",
   "owner": { "name": "Paul Morin", "title": "CFO/COO · Co-Owner", "cos": "Clark" },
-  "period": "Q2 2026",
-  "period_start": "2026-05-01",
-  "period_end": "2026-07-31",
-  "last_updated": "2026-07-16T17:30:00-05:00",
+  "period": "Q3 2026",
+  "period_start": "2026-08-01",
+  "period_end": "2026-10-31",
+  "last_updated": "2026-08-17T23:10:00-05:00",
   "updated_by": "Clark (/wrap)",
+  "_provenance": {
+    "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
+    "cross_checked_against": "ai-chief-of-staff/network/rollover/2026-Q3/paul-status-q3-DRAFT.json (Albert, 8/17) — structure matches goal-for-goal",
+    "confirmed_by_principal": true
+  },
   "cadence_days": 2,
   "goals": [
     {
-      "id": "paul-mover-comp",
+      "id": "paul-q3-1",
       "number": 1,
-      "name": "Annual Mover Comp Review",
+      "name": "Annual Mover Comp Review — Pay Structure + Promotion Paths",
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 90,
-      "assessment": "7/16: Promotions-tied-to-performance framework is built. Still need to verify final promotion decisions against historicals — Anne is waiting on a data pull from Matisen, who's backlogged; may move forward without it depending on how tomorrow's Anne/Matisen conversation goes. On track for Green; Super Green still depends on the promotion-process video getting built and communicated to the team.",
+      "percent_complete": 80,
+      "assessment": "8/17: On track for Green. Super Green (criteria met by 9/15) is a tougher reach. Anne is back in the office tomorrow (8/18) to jumpstart this again. Main blocker is carving out dedicated time with Matisen to work through historicals.",
       "blockers": [
-        "Historicals verification for final promotion decisions — dependent on a Matisen data pull, timing uncertain, may proceed without it",
-        "Promotion-process video not yet built or communicated — required for Super Green"
+        "Need dedicated time with Matisen to work through historicals — main blocker to Super Green"
       ],
       "milestones": [
-        { "name": "Build promotions-tied-to-performance framework + promotion-process video and communicate to team", "date": "2026-07-31", "done": false },
-        { "name": "Verify final promotion decisions against historicals (pending Anne/Matisen data pull)", "date": "2026-07-17", "done": false }
+        { "name": "Pay structure + Promotion Paths documented and communicated to the team; recurring tracking cadence operational", "date": "2026-10-31", "done": false },
+        { "name": "Green criteria met (Super Green threshold)", "date": "2026-09-15", "done": false }
       ],
-      "superGreen": "Pay bands updated, promotions tied to performance, promo process video, communicated",
-      "green": "Updated pay finalized, pay docs updated, scorecards created, targets set and communicated",
-      "updated": "2026-07-16"
+      "superGreen": "Green criteria met by 9/15 (mid-quarter)",
+      "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence",
+      "dependencies": ["Anne", "Matisen"],
+      "mb_pulse": "11752733644",
+      "updated": "2026-08-17"
     },
     {
-      "id": "paul-naustin-movein",
+      "id": "paul-q3-2",
       "number": 2,
-      "name": "N. Austin Office — Move-In",
-      "critical": true,
-      "self_status": "super_green",
-      "confidence": 5,
-      "percent_complete": 100,
-      "assessment": "7/16: No movement — already Super Green, moved in 6/15. Hit Super Green. Moved in on June 15 and we're good to go.",
-      "blockers": [],
-      "milestones": [ { "name": "Move-in complete", "date": "2026-06-15", "done": true } ],
-      "superGreen": "Moved in by June 15",
-      "green": "Moved in by end of June",
-      "updated": "2026-07-16"
+      "name": "Improve BM Financial Accountability Meetings — Proactive Approach",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 80,
+      "assessment": "8/17: On track for Green — first financial review meetings (covering July) with managers underway. Need to coordinate with Cameron and Matisen on compiling and integrating the rest of the scorecard for managers to see monthly, not just the financial review — that integration is the main blocker if this is going to reach beyond the financial piece alone.",
+      "blockers": [
+        "Rest-of-scorecard integration beyond the financial review — needs coordination with Cameron and Matisen"
+      ],
+      "milestones": [
+        { "name": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs, run by RMs", "date": "2026-10-31", "done": false }
+      ],
+      "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting",
+      "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both",
+      "dependencies": ["Brian", "Mike"],
+      "mb_pulse": "11728394236",
+      "updated": "2026-08-17"
     },
     {
-      "id": "paul-branch-visits",
+      "id": "paul-q3-3",
       "number": 3,
+      "name": "Improve Invoicing + AR Collections Tracking",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 20,
+      "assessment": "8/17: Early — haven't made many moves yet. A basic guide for the collections steps is started. No major blockers; should land Green, possibly Super Green.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Unpaid-bill workflow documented end-to-end and team trained; tracker covers all outstanding invoices", "date": "2026-10-31", "done": false }
+      ],
+      "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
+      "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
+      "mb_pulse": "11728362120",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "paul-q3-4",
+      "number": 4,
+      "name": "Acquisition Case Study — New Branch vs. Acquisition Model",
+      "critical": true,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 30,
+      "assessment": "8/17: Already evaluating one real opportunity out of New York, with multiple more lined up to evaluate. No major blockers. Should land Green, more likely than not to reach Super Green.",
+      "blockers": [],
+      "milestones": [
+        { "name": "Houston organic-vs-acquisition case study complete; 3 acquisition opportunities evaluated, at least 1 of 3 current/live", "date": "2026-10-31", "done": false }
+      ],
+      "superGreen": "5 opportunities evaluated",
+      "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
+      "mb_pulse": "11728336219",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "paul-q3-5",
+      "number": 5,
       "name": "Branch Visits",
       "critical": false,
       "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 67,
-      "assessment": "7/16: Green confirmed — 2 of 3 planned branch visits complete (Leander + DFW/Dallas trip with Cameron on 7/14). The third visit will not happen this quarter, so Super Green (3 visits + 3 ride-alongs) is off the table. Locking this in at Green.",
-      "blockers": [],
-      "milestones": [
-        { "name": "Leander visit + ride-along with Brian", "date": "2026-06-30", "done": true },
-        { "name": "DFW branch visits with Cameron (World Cup trip)", "date": "2026-07-15", "done": true },
-        { "name": "Third branch visit — not planned this quarter", "date": "2026-07-31", "done": false }
-      ],
-      "superGreen": "3 visits + 3 ride-alongs + listen-and-learn lunches",
-      "green": "2 visits + 2 ride-alongs",
-      "updated": "2026-07-16"
-    },
-    {
-      "id": "paul-geo-expansion",
-      "number": 4,
-      "name": "Geographic Expansion Strategy — Deepen vs. Widen + Evaluate 5-7 Acquisition Opportunities",
-      "critical": false,
-      "self_status": "red",
-      "confidence": 1,
-      "percent_complete": 5,
-      "assessment": "7/16: Moving this to Red. No structured evaluation work has started; the 7/10 kickoff milestone has passed with no movement. With 2 weeks left in Q2, neither Green (5 evaluated) nor Super Green (7 evaluated) is reachable. Calling this Red for the quarter.",
+      "confidence": 4,
+      "percent_complete": 10,
+      "assessment": "8/17: Tampa branch visit scheduled 9/1-9/2, followed by the Moving Titans Conference 9/2 evening through 9/4. Still need to schedule the second (and possibly third) branch visit. No major blockers.",
       "blockers": [
-        "No structured evaluation started — 7/10 kickoff milestone missed",
-        "Insufficient time remaining in Q2 to reach Green threshold"
+        "Second (and possibly third) branch visit not yet scheduled"
       ],
       "milestones": [
-        { "name": "Kick off structured evaluation of 5 acquisition targets", "date": "2026-07-10", "done": false },
-        { "name": "Deepen vs. widen stance documented with Cameron", "date": "2026-07-31", "done": false }
+        { "name": "Tampa branch visit", "date": "2026-09-01", "done": false },
+        { "name": "2 visits complete (Green threshold)", "date": "2026-10-31", "done": false }
       ],
-      "superGreen": "7 acquisition opportunities evaluated, clear deepen vs. widen stance documented",
-      "green": "5 acquisition opportunities evaluated, deepen vs. widen stance defined, Houston organic vs. acquisition case study complete",
-      "updated": "2026-07-16"
-    },
-    {
-      "id": "paul-ideal-team-player",
-      "number": 5,
-      "name": "Ideal Team Player Reading",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 5,
-      "percent_complete": 100,
-      "assessment": "7/16: Green confirmed — book finished (7/13) and the 1-page reflection on personal Humility/Hunger/Smarts gaps is also done. Goal complete ahead of EOQ. Super Green's 5/30 target was missed, so this lands at Green, not Super Green.",
-      "blockers": [],
-      "milestones": [ { "name": "Finish book + 1-page reflection on personal Humility/Hunger/Smarts gaps", "date": "2026-07-13", "done": true } ],
-      "superGreen": "Read by 5/30",
-      "green": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-      "updated": "2026-07-16"
-    },
-    {
-      "id": "paul-money-collection",
-      "number": 6,
-      "name": "Easy Wins on Money Collection Process",
-      "critical": false,
-      "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 20,
-      "assessment": "7/16: Yellow. Work has started on the three improvements, but progress is behind pace — may not finish before end of quarter.",
-      "blockers": [
-        "Behind pace on all three sub-improvements",
-        "May not complete before EOQ"
-      ],
-      "milestones": [ { "name": "Build the three improvements: swipe % reporting automation, manual-vs-swipe cost quantified, late-invoice Monday pulse automation", "date": "2026-07-31", "done": false } ],
-      "superGreen": "Monthly branch rankings, monthly/live swipe % rankings, coaching process documented",
-      "green": "Cost quantified and shared for manual vs. swipe, automated swipe % reporting, automation to create a Monday pulse when an invoice-late email hits the inbox",
-      "updated": "2026-07-16"
+      "superGreen": "3 visits",
+      "green": "2 visits",
+      "updated": "2026-08-17"
     }
   ],
   "kpis": [],
