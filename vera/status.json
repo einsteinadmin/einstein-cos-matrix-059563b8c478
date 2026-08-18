@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-17T13:05:00-05:00",
-  "updated_by": "Vera (8/17 — REALIGNED to the Q3 Cascading Team Goals chart per Cameron/Albert's 8/17 instruction. Goal names, numbering, critical flags, and Green/Super Green bars now match the chart ratified in the QGR room 7/30. Rock 1 renamed from 'Management Hiring / Mgmt Dev / SA Ops + Manager Bench' to the chart name 'ATX Flex Manager + SA Ops Manager Development'. Order re-sequenced to chart order. Statuses and % complete supplied by Brian.)",
+  "last_updated": "2026-08-17T17:40:00-05:00",
+  "updated_by": "Vera (8/17 EOD wrap - Rock 2 moved: SA FM hire went from applicant pile to working slate. 8 applications graded, tenure confirmed vs HR, eligibility screen applied (Sullivan Lowe out), Q2 26 EMC Games scores loaded, Project HQ + standalone weighted scorecard built. 45% -> 55%, confidence 3 -> 4. No other rock moved today.)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -27,10 +27,26 @@
         "No regional event dates set"
       ],
       "milestones": [
-        { "name": "Connection Cadence Project HQ built", "date": "2026-08-10", "done": true },
-        { "name": "1 event scheduled per region (all local managers across local departments)", "date": "2026-10-19", "done": false },
-        { "name": "BM-roundtable agenda redesigned for engagement", "date": "2026-10-19", "done": false },
-        { "name": "2 BM roundtables scheduled, agenda built, conducted w/ manager feedback + action items", "date": "2026-10-19", "done": false }
+        {
+          "name": "Connection Cadence Project HQ built",
+          "date": "2026-08-10",
+          "done": true
+        },
+        {
+          "name": "1 event scheduled per region (all local managers across local departments)",
+          "date": "2026-10-19",
+          "done": false
+        },
+        {
+          "name": "BM-roundtable agenda redesigned for engagement",
+          "date": "2026-10-19",
+          "done": false
+        },
+        {
+          "name": "2 BM roundtables scheduled, agenda built, conducted w/ manager feedback + action items",
+          "date": "2026-10-19",
+          "done": false
+        }
       ],
       "superGreen": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 3 BM roundtable meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
       "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
@@ -44,19 +60,50 @@
       "name": "ATX Flex Manager + SA Ops Manager Development",
       "critical": false,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 45,
-      "assessment": "Seats moving. Daniel Behseresht confirmed N. Austin BM (8/10). Hector Zavala moved Field Manager into S. Austin Ops (8/11). Calvin Hughes moved NA BM to Remote Flex (8/11). SA Field Manager posting ran on ClearCo with applications closing EOD 8/14 — applicant pool now ready to work. Remaining: fill the SA FM seat with a documented 30/60/90, keep Daniel's and Hector's 30/60/90 checkpoints on schedule, and build/review action plans for C players in the region.",
+      "confidence": 4,
+      "percent_complete": 55,
+      "assessment": "SA FM hire moved from an applicant pile to a working slate today. Eight internal applicants across four branches; all applications and résumés graded on a 40-point rubric, tenure confirmed against the HR record, and the eligibility bar applied (six consecutive months in the Lead role) — Sullivan Lowe screened out at 0.22 years, seven remain. Q2 26 EMC Games scores loaded. Built a Project HQ and a standalone weighted scorecard covering application, résumé, tenure, on-site evals, peer review and games. Seats already closed: Daniel Behseresht N. Austin BM (8/10), Hector Zavala into S. Austin Ops (8/11), Calvin Hughes to Remote Flex (8/11). Remaining: peer review, interviews, decision, and the documented 30/60/90 that the green bar actually requires.",
       "blockers": [
-        "SA FM applicant pool needs review + interviews scheduled",
-        "C-player action plans not yet built"
+        "On-site evaluation averages and peer review scores still needed — the scorecard is running on 3 of 6 categories",
+        "C-player action plans not yet built",
+        "Two Fort Worth applicants are cross-region (Mike's) — relocation viability unresolved"
       ],
       "milestones": [
-        { "name": "NA BM seat filled (Daniel Behseresht)", "date": "2026-08-10", "done": true },
-        { "name": "SA Ops seat filled (Hector Zavala)", "date": "2026-08-11", "done": true },
-        { "name": "SA FM posting live, applications closed 8/14", "date": "2026-08-14", "done": true },
-        { "name": "SA FM seat filled with documented 30/60/90 plan", "date": "2026-10-19", "done": false },
-        { "name": "Action plans built + in review for C players in region", "date": "2026-10-19", "done": false }
+        {
+          "name": "NA BM seat filled (Daniel Behseresht)",
+          "date": "2026-08-10",
+          "done": true
+        },
+        {
+          "name": "SA Ops seat filled (Hector Zavala)",
+          "date": "2026-08-11",
+          "done": true
+        },
+        {
+          "name": "SA FM posting live, applications closed 8/14",
+          "date": "2026-08-14",
+          "done": true
+        },
+        {
+          "name": "All 8 applications graded + tenure confirmed + eligibility screen applied",
+          "date": "2026-08-17",
+          "done": true
+        },
+        {
+          "name": "Peer review sent and compiled",
+          "date": "2026-08-31",
+          "done": false
+        },
+        {
+          "name": "SA FM seat filled with documented 30/60/90 plan",
+          "date": "2026-10-19",
+          "done": false
+        },
+        {
+          "name": "Action plans built + in review for C players in region",
+          "date": "2026-10-19",
+          "done": false
+        }
       ],
       "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
       "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
@@ -76,12 +123,36 @@
       "blockers": [],
       "watch": "Cameron Klepac self-reported 🔴 red / 0% on his Mover Training App rock (8/17) — he simply hasn't started the module yet. It's on his Today list with two days to the deadline; Brian is confident it lands on time. Noted here only so the SA board update and this feed tell the same story.",
       "milestones": [
-        { "name": "Manager sandbox instructions pushed to all branches", "date": "2026-08-14", "done": true },
-        { "name": "Dustin Street, Frank Williams, Chris Anderson, Garrison Cobe complete sandbox training", "date": "2026-08-17", "done": true },
-        { "name": "100% of manager sandbox training completed", "date": "2026-08-19", "done": false },
-        { "name": "100% of active movers enrolled in training app", "date": "2026-08-20", "done": false },
-        { "name": "≥70% of enrolled movers through stage 4", "date": "2026-10-31", "done": false },
-        { "name": "Full training pipeline (Lead Ready) + Scrum recert", "date": "2026-10-19", "done": false }
+        {
+          "name": "Manager sandbox instructions pushed to all branches",
+          "date": "2026-08-14",
+          "done": true
+        },
+        {
+          "name": "Dustin Street, Frank Williams, Chris Anderson, Garrison Cobe complete sandbox training",
+          "date": "2026-08-17",
+          "done": true
+        },
+        {
+          "name": "100% of manager sandbox training completed",
+          "date": "2026-08-19",
+          "done": false
+        },
+        {
+          "name": "100% of active movers enrolled in training app",
+          "date": "2026-08-20",
+          "done": false
+        },
+        {
+          "name": "≥70% of enrolled movers through stage 4",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "Full training pipeline (Lead Ready) + Scrum recert",
+          "date": "2026-10-19",
+          "done": false
+        }
       ],
       "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
       "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
@@ -102,8 +173,16 @@
         "No branch audits scheduled yet"
       ],
       "milestones": [
-        { "name": "3 locations visited + scorecard audits + 3 circle-ups + 3 huddle audits", "date": "2026-10-19", "done": false },
-        { "name": "Redesigned branch-visit evaluation dashboard built", "date": "2026-10-19", "done": false }
+        {
+          "name": "3 locations visited + scorecard audits + 3 circle-ups + 3 huddle audits",
+          "date": "2026-10-19",
+          "done": false
+        },
+        {
+          "name": "Redesigned branch-visit evaluation dashboard built",
+          "date": "2026-10-19",
+          "done": false
+        }
       ],
       "superGreen": "All 5 locations visited + scorecard audits (4 or higher score) + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
       "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
@@ -125,12 +204,36 @@
         "Rollout announcement still previewed only, not posted to the Delegation Board"
       ],
       "milestones": [
-        { "name": "Mock training board built, trimmed, and duplicated for all 15 managers", "date": "2026-08-14", "done": true },
-        { "name": "Board Fix-It Checklist published", "date": "2026-08-14", "done": true },
-        { "name": "Dashboard Certifications section built", "date": "2026-08-14", "done": true },
-        { "name": "All 15 managers invited to their boards + announcement posted", "date": "2026-08-21", "done": false },
-        { "name": "100% of frontline managers through the training module", "date": "2026-10-19", "done": false },
-        { "name": "All 10 branch boards re-certified", "date": "2026-10-19", "done": false }
+        {
+          "name": "Mock training board built, trimmed, and duplicated for all 15 managers",
+          "date": "2026-08-14",
+          "done": true
+        },
+        {
+          "name": "Board Fix-It Checklist published",
+          "date": "2026-08-14",
+          "done": true
+        },
+        {
+          "name": "Dashboard Certifications section built",
+          "date": "2026-08-14",
+          "done": true
+        },
+        {
+          "name": "All 15 managers invited to their boards + announcement posted",
+          "date": "2026-08-21",
+          "done": false
+        },
+        {
+          "name": "100% of frontline managers through the training module",
+          "date": "2026-10-19",
+          "done": false
+        },
+        {
+          "name": "All 10 branch boards re-certified",
+          "date": "2026-10-19",
+          "done": false
+        }
       ],
       "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
       "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
@@ -152,9 +255,21 @@
         "10 of 15 managers still have zero cards — blocks green regardless of total count"
       ],
       "milestones": [
-        { "name": "12 of 48 cards delivered", "date": "2026-08-17", "done": false },
-        { "name": "48 praise cards delivered + at least 1 per manager in region", "date": "2026-10-31", "done": false },
-        { "name": "56 cards + at least 3 per manager (super green)", "date": "2026-10-31", "done": false }
+        {
+          "name": "12 of 48 cards delivered",
+          "date": "2026-08-17",
+          "done": false
+        },
+        {
+          "name": "48 praise cards delivered + at least 1 per manager in region",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "56 cards + at least 3 per manager (super green)",
+          "date": "2026-10-31",
+          "done": false
+        }
       ],
       "superGreen": "56 praise cards delivered, at least 3 per manager in region",
       "green": "48 praise cards delivered, at least 1 per manager in region",
