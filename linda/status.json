@@ -2,214 +2,161 @@
   "schema_version": "1.0",
   "owner": {
     "name": "Anne Bosse",
-    "title": "Director of Employee Experience",
+    "title": "Dir. of Employee Experience",
     "cos": "Linda"
   },
-  "period": "Q2 2026",
-  "last_updated": "2026-08-18T08:30:00-05:00",
+  "period": "Q3 2026",
+  "period_start": "2026-08-01",
+  "period_end": "2026-10-31",
+  "last_updated": "2026-08-18T21:10:00-05:00",
   "updated_by": "Linda (/wrap)",
-  "cadence_days": 1,
+  "_provenance": {
+    "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
+    "prefilled_by": "Albert",
+    "prefilled_at": "2026-08-17",
+    "confirmed_by_principal": true,
+    "confirmed_at": "2026-08-18",
+    "note": "First Q3 publish. Goals 2 and 5 corrected: original Green-bar text described damages as a weighted 100-point input (the 7/28 compromise), superseded by Cameron's 7/30 QGR ruling (damages in the promotion gate AND the bonus). Goals 1, 3, 4, and 6 had no COS-visible activity this quarter — assessments below are Linda's best-effort first read, explicitly flagged as thin evidence in each assessment, not a verified principal walkthrough of each field. Anne directed publishing as-is rather than a full goal-by-goal interview; revisit at next /wrap or /retro."
+  },
+  "cadence_days": 7,
   "goals": [
     {
-      "id": "anne-hr-generalist-hire",
+      "id": "anne-q3-1",
       "number": 1,
-      "name": "Hire HR Generalist",
-      "critical": true,
-      "self_status": "supergreen",
-      "confidence": 5,
-      "percent_complete": 100,
-      "assessment": "7/21 Q2 AAR: confirmed Super Green. Jalissa has completely taken recruiting off Anne's plate. Honest story: nearly stalled on analysis paralysis (strong candidate pool made Anne doubt her own pick) — team pulled her back to her original criteria during the group-interview debrief. Q3 lesson: start with video interviews, not phone, to counter her own bias toward 'yes' once she sees a face.",
-      "blockers": [],
-      "milestones": [
-        {
-          "name": "Jalissa trained on Rippling + Monday processes",
-          "date": "2026-07-15",
-          "done": true
-        }
-      ],
-      "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
-      "green": "Hired + onboarding started by EOQ",
-      "updated": "2026-07-21"
-    },
-    {
-      "id": "anne-hiring-culture-trial-period",
-      "number": 2,
-      "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
-      "critical": true,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 75,
-      "assessment": "7/21 Q2 AAR: confirmed Green. Interview process updated; performance-tracking need met via Mike's mover app (the Rippling Performance Module it was written against went void 7/13). 100-pt system not live company-wide, so Super Green isn't met. Trial-day sunset is a full company-wide launch at the start of Q3, not a beta. 8/18 update: while Anne was on leave (8/12-8/17), the culture interview got finalized (explicit driver's-license/MVR/background/smoking questions added, low-value personality questions cut) — pending a manager huddle to lock + program into ClearCompany. Manager-facing comms doc also finalized 8/18: full Extended Trial check-in expectations (attendance, training-app progression, Core Values, damages score, role satisfaction, peer feedback, mgmt expectations) plus a new end-of-training Lead-readiness gate (Core Values + Get It/Want It/Can Do It). Green/Super Green bars reworded 8/18 to name the mover app instead of Rippling — not yet confirmed with Cameron.",
+      "name": "Workers Comp Process Improvements — On-Site Incident Workflow + Compliance",
+      "critical": false,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 5,
+      "assessment": "No board or session activity tracked against this goal yet this quarter — this is a placeholder first read, not a real assessment. Correct next cycle if work has actually started (Rippling claim-submission app build with Matisen, OSHA-recordable field spec, on-site incident workflow documentation/BM training).",
       "blockers": [
-        "8/18: Green/Super Green bars reworded to say 'Extended Trial check-ins live in the mover app' instead of the stale 'Rippling Performance Module live' — not yet confirmed with Cameron. Remaining: wire Extended Trial check-ins into the app itself",
-        "Possible branch-level inconsistency — some branches may have already sunset trial days ahead of HPE network readiness; audit created 7/21 (pulse 12590480283), still no status as of 8/18",
-        "Culture interview questions not yet locked — pending Frank/Grant/Eric/Garrison feedback huddle before programming into ClearCompany"
+        "No visibility yet this quarter — needs Anne's real read next cycle"
       ],
-      "milestones": [
-        {
-          "name": "HPE go-live + BM comms/gating (trial days sunset)",
-          "date": "2026-08-01",
-          "done": false
-        },
-        {
-          "name": "Culture interview finalized (housekeeping + storytelling questions set)",
-          "date": "2026-08-12",
-          "done": true
-        }
-      ],
-      "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Extended Trial check-ins live in the mover app",
-      "green": "Interview process updated to hire for culture + Extended Trial check-ins live in the mover app",
+      "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
+      "superGreen": "Green + mover-specific WC training delivered as a Back to School module + a test OSHA-formatted export produced from Q3 data + one real Q3 WC leave case showing correctly in Rippling leave-tracking.",
+      "dependencies": ["Matisen"],
+      "mb_pulse": "11728357310",
+      "sub_blocks": null,
+      "flag": null,
       "updated": "2026-08-18"
     },
     {
-      "id": "anne-clearco-funnel-viz",
+      "id": "anne-q3-2",
+      "number": 2,
+      "name": "100-Point Behavioral System — Q2 Rock 2 Companion",
+      "critical": true,
+      "self_status": "yellow",
+      "confidence": 3,
+      "percent_complete": 50,
+      "assessment": "10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus — corrected the Green bar below, which previously described damages as a weighted 100-point input, the superseded 7/28 compromise language). Blocked on the backtest, which is what stands between here and the Green bar's 'backtested against one real branch' requirement.",
+      "blockers": [
+        "Matisen's backtest paused by Anne, gated on MH1's Rippling punch-clock all-clear (6/29 outage) — blocks backtesting against a real branch",
+        "Evaluation cadence unresolved: quarterly (session lean) vs. biweekly (7/3 lock)"
+      ],
+      "green": "Methodology fully designed — every dimension mapped to point values and weights, with damages implemented as a promotion-gate criterion per Cameron's 7/30 ruling (in the gate and the bonus, not a weighted score input) — signed off by Cameron and Paul, backtested against one real branch by Oct 1.",
+      "superGreen": "Green + live scoring for one full branch + 3 BMs trained to use the score in a real coaching conversation, by Oct 1.",
+      "dependencies": ["Matisen", "Mike", "Cameron", "Paul"],
+      "mb_pulse": "11752777323",
+      "sub_blocks": null,
+      "flag": null,
+      "updated": "2026-08-18"
+    },
+    {
+      "id": "anne-q3-3",
       "number": 3,
-      "name": "ClearCo Hiring Funnel Visualization",
-      "critical": false,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "7/21 Q2 AAR: upgraded to Green — funnel is visualized on cost-per-hire, time-to-fill, and stage % (clears the written Green bar). Full scorecard coverage and clean stage-click data are what's holding Super Green, not the visualization itself. Q3 lesson: be the squeaky wheel — this goal quietly stalled because it leaned on Matisen's already-stretched bandwidth and Anne pulled back rather than push. Jalissa taking over recruiting-admin ownership should improve data quality into Q3.",
+      "name": "Implement Weekly Start/Stop/Keep Conversations — Scaling Up Practice",
+      "critical": true,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 5,
+      "assessment": "No board or session activity tracked against this goal yet this quarter — placeholder first read. Correct next cycle if the practice design, Roundtable adoption, or RM/BM pilot has actually begun.",
       "blockers": [
-        "ClearCompany REST creds still pending from Matisen (SCB ask 12592483510, 7/21)",
-        "Full scorecard coverage not yet met for Super Green",
-        "Underlying stage-click data quality needs cleanup — Jalissa taking over admin ownership in Q3"
+        "No visibility yet this quarter — needs Anne's real read next cycle"
       ],
-      "milestones": [
-        {
-          "name": "Sync with Matisen on funnel dashboard build",
-          "date": "2026-07-24",
-          "done": false
-        },
-        {
-          "name": "Funnel dashboard live with cost-per-hire/time-to-fill/stage %",
-          "date": "2026-07-31",
-          "done": true
-        }
-      ],
-      "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
-      "green": "Funnel visualized with cost per hire + time to fill + stage %",
-      "updated": "2026-07-21"
+      "green": "Practice designed and documented (format, cadence, log structure), adopted by all 7 Roundtable leaders with their directs, piloted with all RMs + at least 3 BMs, tracked via the interim weekly Monday checklist by Aug 31.",
+      "superGreen": "Full adoption — every executive and middle manager company-wide, one logged weekly conversation per direct report, at 80%+ completion, by Oct 1.",
+      "dependencies": ["Matisen"],
+      "mb_pulse": "11728350964",
+      "sub_blocks": null,
+      "flag": null,
+      "updated": "2026-08-18"
     },
     {
-      "id": "anne-mover-promotion-metrics",
+      "id": "anne-q3-4",
       "number": 4,
-      "name": "Mover Promotion Guidance Metrics",
+      "name": "eNPS Voluntary Transition + Engagement Follow-Through",
       "critical": false,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 85,
-      "assessment": "7/21 Q2 AAR: confirmed Green — framework built and locked (10 decisions, Option B hours floors applied 7/17), pay docs updated. No cohort promoted yet under the new framework, so Super Green isn't met. 7/30 QGR UPDATE: damages is no longer an open fight — Cameron ruled in the room that damages goes IN the promotion gate AND stays in the bonus, superseding the 7/16 direction and Anne's proposed 7/28 compromise (weighted 100-point input instead of a gate). Related ruling: the performance matrix moves to 3 buckets (messaging/timing still open). Dissent was noted in the room (re-adding damages later is harder than removing it now); the plan is to review the first promotion cohort against the gate and fine-tune if good people miss it. Q3 lesson: define the 'how' (measurement, cadence, communication) alongside the 'what,' not after.",
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 10,
+      "assessment": "No direct progress tracked this quarter — only tangential context: Linda's SCB ask to Albert about where the employee engagement survey lives (tool + historical results). Cameron replied 7/16 that he was 'actively working on it' to get it into the QGR packet; no update since (over a month stale as of 8/18). Unclear whether that thread is the same platform this goal depends on. Needs Anne's real read plus a check with Cameron on whether that's still moving.",
       "blockers": [
-        "Damages RULED IN by Cameron 7/30 QGR — gate + bonus both, supersedes 7/16 direction and Anne's proposed compromise. Backtest #04/#05 must now model damages as a promotion-gate input, not a threshold overlay (per SCB 12443072650 update from Cameron)",
-        "Matisen backtest (#04 fast-track thresholds + Dream Team mapping, #05 weights + market skew) — paused by Anne, gated on MH1 punch-clock all-clear",
-        "Evaluation cadence unresolved: quarterly (session lean) vs biweekly (7/3 lock)"
+        "Engagement survey platform/historical-data question to Cameron (via Albert, SCB pulse 12530140712) stale since 7/16 — may be a dependency, unconfirmed",
+        "No direct progress tracked this quarter"
       ],
-      "milestones": [
-        {
-          "name": "Design workshop (Cameron + Anne + Paul)",
-          "date": "2026-07-03",
-          "done": true
-        },
-        {
-          "name": "Matisen backtest lands (paused by Anne 7/9; cost-model half landed 7/8)",
-          "date": "2026-07-31",
-          "done": false
-        }
-      ],
-      "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
-      "green": "Promotion metrics framework built",
-      "updated": "2026-08-01"
+      "green": "Platform selected and built by end of August; survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
+      "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
+      "dependencies": [],
+      "mb_pulse": "12626620998",
+      "sub_blocks": null,
+      "flag": null,
+      "updated": "2026-08-18"
     },
     {
-      "id": "anne-onboarding-experience",
+      "id": "anne-q3-5",
       "number": 5,
-      "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
+      "name": "Mover Promotion Framework — First Cohort Live",
       "critical": false,
-      "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 80,
-      "assessment": "7/21 Q2 AAR: confirmed Green — CHOICES onboarding completion measured at 77% in the first 30 days, clearing the ≥75% Green bar. Comp & Benefits + Performance Mgmt video decks built and finalized 7/22 (recording + Austin edits still pending). Perf Mgmt need met via Mike's mover app rather than Rippling's module (same substitution pattern as Goal 2). Super Green needs completion to climb to ≥90% plus both videos shipping — both carry into Q3, alongside reconciling live pay-announcement mechanics with the new mover-promotion framework.",
+      "self_status": "yellow",
+      "confidence": 3,
+      "percent_complete": 60,
+      "assessment": "Framework substantially designed — 10 decisions locked 7/3, hours-floor re-based to Option B 7/17, backtest spec amendment posted. Damages resolved by Cameron's 7/30 ruling (in the gate AND the bonus — corrected the Green bar below, which previously described folding damages into the 100-point score, the superseded 7/28 compromise). Still blocked on the same paused backtest as Goal 2, plus two open HQ decision items not yet ratified.",
       "blockers": [
-        "Comp & Benefits + Performance Mgmt video decks built and finalized (7/22) — recording itself + Austin edits still pending, may land just past 7/31",
-        "Completion measured at 77% — needs to climb to ≥90% for Super Green",
-        "Perf Mgmt need met via Mike's mover app substitution rather than Rippling's module"
+        "Matisen's backtest paused, gated on MH1's punch-clock all-clear — blocks #04/#05 (fast-track thresholds, weights/market skew)",
+        "#16 (lead-vs-total hours for PTL promos) and #17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
+        "Evaluation cadence unresolved: quarterly vs. biweekly"
       ],
-      "milestones": [
-        {
-          "name": "CHOICES module game-plan uploaded",
-          "date": "2026-07-08",
-          "done": true
-        },
-        {
-          "name": "First real completion number measured (77%, clears Green)",
-          "date": "2026-07-21",
-          "done": true
-        },
-        {
-          "name": "Comp/benefits recordings completed with Austin",
-          "date": "2026-07-24",
-          "done": false
-        }
-      ],
-      "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
-      "green": "CHOICES live in onboarding, ≥75% completion in first 30 days",
-      "updated": "2026-07-22"
+      "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
+      "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
+      "dependencies": ["Paul", "Matisen"],
+      "mb_pulse": "11728362147",
+      "sub_blocks": null,
+      "flag": null,
+      "updated": "2026-08-18"
     },
     {
-      "id": "anne-itp-reading",
+      "id": "anne-q3-6",
       "number": 6,
-      "name": "Ideal Team Player Reading (Bonus)",
+      "name": "2027 Open Enrollment",
       "critical": false,
-      "self_status": "supergreen",
-      "confidence": 5,
-      "percent_complete": 100,
-      "assessment": "7/21 Q2 AAR: confirmed Super Green — book read and 1-page H/H/S reflection both done before end of May, well ahead of EOQ. Q3 lesson: nothing different — treating a stretch goal as a quick, decisive win worked.",
-      "blockers": [],
-      "milestones": [
-        {
-          "name": "Read book + submit 1-page H/H/S reflection",
-          "date": "2026-06-30",
-          "done": true
-        }
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 15,
+      "assessment": "Only tangential motion this quarter — the AJG broker transition (Amy Balistrella left 8/14, Cali Beeman + Katie Clark taking over) and the ACA variable-hour classification risk flagged 7/31, both adjacent to but not the same as open-enrollment execution itself. No 2027 plan-year decisions locked with Cameron/Paul yet that this COS is aware of. First Q3 read — needs Anne's confirmation.",
+      "blockers": [
+        "2027 plan-year decisions not yet locked with Cameron and Paul",
+        "ACA variable-hour classification risk (flagged 7/31) unresolved — may affect enrollment comms/eligibility framing",
+        "AJG broker transition still settling (new brokers Cali Beeman + Katie Clark)"
       ],
-      "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-      "green": "Read by 5/30",
-      "updated": "2026-07-21"
+      "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
+      "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
+      "dependencies": ["Paul"],
+      "mb_pulse": null,
+      "sub_blocks": null,
+      "flag": null,
+      "updated": "2026-08-18"
     }
   ],
   "kpis": [],
   "adopted": [
-    {
-      "pattern": "template",
-      "version": "2026-07-01-merge",
-      "state": "adopted"
-    },
-    {
-      "pattern": "wrap-git-push",
-      "state": "adopted"
-    },
-    {
-      "pattern": "gm-step-0",
-      "state": "adopted"
-    },
-    {
-      "pattern": "status-file",
-      "version": "v1.0",
-      "state": "adopted"
-    },
-    {
-      "pattern": "scb-open-asks-two-lane",
-      "state": "adopted"
-    },
-    {
-      "pattern": "slack-drop-zone",
-      "state": "adopted"
-    },
-    {
-      "pattern": "wrap-auto-push-sentinel",
-      "state": "adopted"
-    }
+    { "pattern": "template", "version": "2026-07-01-merge", "state": "adopted" },
+    { "pattern": "wrap-git-push", "state": "adopted" },
+    { "pattern": "gm-step-0", "state": "adopted" },
+    { "pattern": "status-file", "version": "v1.0", "state": "adopted" },
+    { "pattern": "scb-open-asks-two-lane", "state": "adopted" },
+    { "pattern": "slack-drop-zone", "state": "adopted" },
+    { "pattern": "wrap-auto-push-sentinel", "state": "adopted" },
+    { "pattern": "q3-rollover-pull-model", "state": "adopted" }
   ],
   "network_acks": []
 }
