@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-17T17:40:00-05:00",
-  "updated_by": "Vera (8/17 EOD wrap - Rock 2 moved: SA FM hire went from applicant pile to working slate. 8 applications graded, tenure confirmed vs HR, eligibility screen applied (Sullivan Lowe out), Q2 26 EMC Games scores loaded, Project HQ + standalone weighted scorecard built. 45% -> 55%, confidence 3 -> 4. No other rock moved today.)",
+  "last_updated": "2026-08-18T17:35:00-05:00",
+  "updated_by": "Vera (8/18 EOD wrap, addendum — Rock 3 moved: manager sandbox training 10 of 15, remaining four expected by the 8/19 deadline. Sergio Buenrostro logged as a documented exception (approved PTO predating the deadline, completes 8/24). 35% -> 45%.)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -61,12 +61,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 55,
-      "assessment": "SA FM hire moved from an applicant pile to a working slate today. Eight internal applicants across four branches; all applications and résumés graded on a 40-point rubric, tenure confirmed against the HR record, and the eligibility bar applied (six consecutive months in the Lead role) — Sullivan Lowe screened out at 0.22 years, seven remain. Q2 26 EMC Games scores loaded. Built a Project HQ and a standalone weighted scorecard covering application, résumé, tenure, on-site evals, peer review and games. Seats already closed: Daniel Behseresht N. Austin BM (8/10), Hector Zavala into S. Austin Ops (8/11), Calvin Hughes to Remote Flex (8/11). Remaining: peer review, interviews, decision, and the documented 30/60/90 that the green bar actually requires.",
+      "percent_complete": 65,
+      "assessment": "Screening is closed and peer review is in flight across all four branches. Seven of eight applicants qualified (Sullivan Lowe screened out on the six-month Lead bar); no further cut was made at this gate — the cover-letter instruction shipped in the messaging but never made it onto the application link, so a weak application score can't be cleanly read as low effort versus a missed instruction. Scoring model rebuilt to weight only evidence-carrying categories: On-Site Evaluations 30, Peer Review 30, Application 25, EMC Games 15, with résumé/tenure/attempts as reference. Games no longer scales down — 10+ on the 1–13 scale is the top score. Application grade now measures the whole written case wherever the candidate made it, with a missing cover letter recorded as a miss but unweighted. Peer evaluation forms built and sent per branch, each naming the South Austin position explicitly; South Austin and Houston ride Training Days 8/19 and 8/20, North Austin is pulsed to Daniel Behseresht with an 80%-response target, Fort Worth sent direct with Mike in the loop. Rationale posted to the live pulse for Cameron and Anne. Projects added as a distinct stage between peer review and interviews. Seats already closed: Daniel Behseresht N. Austin BM (8/10), Hector Zavala S. Austin Ops (8/11), Calvin Hughes to Remote Flex (8/11). Remaining: peer scores, the project stage, interviews, decision, and the documented 30/60/90 the green bar actually requires.",
       "blockers": [
-        "On-site evaluation averages and peer review scores still needed — the scorecard is running on 3 of 6 categories",
-        "C-player action plans not yet built",
-        "Two Fort Worth applicants are cross-region (Mike's) — relocation viability unresolved"
+        "On-site evaluation averages still missing — the last empty weighted category, and the live pulse commits to a complete grade per applicant by Friday 8/21",
+        "Projects stage undefined — scope, deadline, and whether it becomes a weighted scorecard category or stays a pass/fail gate",
+        "C-player action plans not yet built"
       ],
       "milestones": [
         {
@@ -103,6 +103,16 @@
           "name": "Action plans built + in review for C players in region",
           "date": "2026-10-19",
           "done": false
+        },
+        {
+          "name": "Peer evaluation built and sent to all 4 branches; all 7 candidates advanced",
+          "date": "2026-08-18",
+          "done": true
+        },
+        {
+          "name": "All peer scores in, complete grade per applicant",
+          "date": "2026-08-21",
+          "done": false
         }
       ],
       "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
@@ -118,9 +128,13 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 40,
-      "assessment": "On track for the 8/19 manager sandbox deadline. Instructions pushed to managers Friday 8/14, the pulse is live on every branch board, and Brian is tracking a named roster of who still owes it. Confirmed complete: Dustin Street, Frank Williams, Chris Anderson, Garrison Cobe. Brian's read is that all managers finish in time. Mover enrollment follows 8/20, then the ≥70%-through-stage-4 push to EOQ. NOTE: this rock is specifically about TRAINING CAMP completion despite the pulse title — general QG-accountability work does not count toward it.",
-      "blockers": [],
+      "percent_complete": 45,
+      "assessment": "Manager sandbox training is at 10 of 15 complete as of 8/18 — Rance, Calvin, Chris A., Hector, Frank, Garrison, Dustin, Lukas, Cam K. and Alex T. are through. Daniel B., Nick D., Jespah L. and Joel V. are all expected across the line by the 8/19 deadline. One documented exception: Sergio Buenrostro is out on approved PTO the entire week, and his time off was approved before these completion deadlines were set, so he carries an extended timeline rather than a miss — he completes first thing Monday 8/24. Logged on the live pulse ahead of the deadline rather than after it. With that caveat, 100% of the available manager roster completes by 8/19, keeping Green and Super Green in play. Mover enrollment is not gated on Sergio and proceeds 8/20 as planned. Note the rock is specifically training-camp completion, not general QG accountability.",
+      "blockers": [
+        "Sergio Buenrostro completes 8/24 (approved PTO predating the deadline) — documented exception, not a miss",
+        "Mover enrollment (100% of active movers on 8/20) not yet started",
+        "Adoption floor — 70% of enrolled movers through Stage 4 by EOQ — is the real risk and has not begun"
+      ],
       "watch": "Cameron Klepac self-reported 🔴 red / 0% on his Mover Training App rock (8/17) — he simply hasn't started the module yet. It's on his Today list with two days to the deadline; Brian is confident it lands on time. Noted here only so the SA board update and this feed tell the same story.",
       "milestones": [
         {
@@ -151,6 +165,21 @@
         {
           "name": "Full training pipeline (Lead Ready) + Scrum recert",
           "date": "2026-10-19",
+          "done": false
+        },
+        {
+          "name": "Manager sandbox training 10 of 15 complete",
+          "date": "2026-08-18",
+          "done": true
+        },
+        {
+          "name": "100% of available managers through sandbox training",
+          "date": "2026-08-19",
+          "done": false
+        },
+        {
+          "name": "100% of active movers enrolled in the training app",
+          "date": "2026-08-20",
           "done": false
         }
       ],
