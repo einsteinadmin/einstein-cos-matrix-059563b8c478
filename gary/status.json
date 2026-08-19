@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-17T14:20:00-05:00",
+  "last_updated": "2026-08-17T15:20:00-05:00",
   "updated_by": "Gary (/status — Q3 rollover)",
   "cadence_days": 7,
   "source_of_truth": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified in QGR room 7/30)",
@@ -19,34 +19,32 @@
       "name": "Call Grading at Volume — Distribution + Coaching Loop",
       "critical": true,
       "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 20,
-      "assessment": "Yellow — the engine works, the loop doesn't. Week 1 grading run completed 6/11 (50 calls across 32 reps; Nicole Cruz the only rep hitting all 3 differentiators, Save Your Ass 0/50 company-wide). No Week 2+ run has shipped since, so the distribution + coaching loop this goal is actually named for is not yet running. Cadence was originally stalled behind the GitHub Pages privacy question; that was decoupled 7/3 and is no longer the blocker — bandwidth is. Note: no company-wide average score has been measured yet, so there is currently no baseline to read against the 65% / 75% bars.",
+      "confidence": 4,
+      "percent_complete": 35,
+      "assessment": "Yellow — the cadence IS running; the score is not moving. Correcting an earlier read on this rock: weekly grading has run continuously, not stalled. 267 calls graded to date across runs on 6/5, 6/11, 6/15, 7/20, 7/27, 8/10 and 8/17, with the most recent run completed the morning of 8/17 (59 calls) and weekly HTML reports produced for 6/15, 7/20, 7/27, 8/10 and 8/17. Distribution infrastructure is effectively built and operating. The real gap is the outcome: company-wide average score is 45.8 cumulative and 44.7 across the last three runs, against a Green bar of 65 — a 19.2 point gap. Trend is flat to slightly down (49.6 on 6/11 to 45.3 on 8/17), so the coaching half of this rock is not yet converting grading volume into score movement. One positive signal: Save Your Ass has gone from 0/50 in week 1 to 19/267 company-wide.",
       "blockers": [
-        "No Week 2+ grading run since 6/11 — weekly cadence not established",
-        "Chauany Shivers + Brianne Newbro not yet in data/dialpad-grading-roster.json (need their Dialpad IDs)",
-        "No measured company-wide average score yet — 65% / 75% bars have no baseline to read against",
-        "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk all pending a 60-min calibration session with Cameron + Nhel + Tetet",
+        "Company average flat at ~45 for two months against a 65 Green bar — coaching loop is not yet moving the number",
+        "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
         "Emma integration ask to Matisen/CoS-MH1 outstanding since 7/3 — bumped 8/17 (SCB pulse 12442800385)"
       ],
       "milestones": [
         {
-          "name": "Week 1 grading run complete (50 calls / 32 reps)",
+          "name": "Week 1 grading run (50 calls / 32 reps)",
           "date": "2026-06-11",
           "done": true
         },
         {
-          "name": "New hires added to grading roster",
-          "date": "2026-08-31",
-          "done": false
+          "name": "Weekly grading cadence established",
+          "date": "2026-07-20",
+          "done": true
         },
         {
-          "name": "Weekly run + distribution cadence running",
-          "date": "2026-09-15",
-          "done": false
+          "name": "267 calls graded cumulatively",
+          "date": "2026-08-17",
+          "done": true
         },
         {
-          "name": "Company average (CET + Managers) measured against bars",
+          "name": "Company average reaches 65 Green bar",
           "date": "2026-10-31",
           "done": false
         }
@@ -54,7 +52,16 @@
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
       "updated": "2026-08-17",
-      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron."
+      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
+      "metrics": {
+        "calls_graded_cumulative": 267,
+        "avg_score_cumulative": 45.8,
+        "avg_score_last_3_runs": 44.7,
+        "green_bar": 65,
+        "super_green_bar": 75,
+        "gap_to_green": 19.2,
+        "last_run": "2026-08-17"
+      }
     },
     {
       "id": "amanda-chatbot-launch",
@@ -64,7 +71,7 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 75,
-      "assessment": "Yellow — past its own target date, not blocked. Target launch was the first week of August; it is 8/17 and the bot is still in testing, so the Green bar ('running consistently with bugs fixed') is not met. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+      "assessment": "Yellow — past its own target date, not blocked. This yellow is not a pace call — it is a date this rock set for itself inside Q3 and passed. Target launch was the first week of August; it is 8/17 and the bot is still in testing, so the Green bar ('running consistently with bugs fixed') is not met. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
       "blockers": [
         "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
         "Confirmation that Paul delivered the Messenger token to Nidha's team",
@@ -101,10 +108,10 @@
       "number": 3,
       "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
       "critical": false,
-      "self_status": "yellow",
-      "confidence": 3,
+      "self_status": "green",
+      "confidence": 4,
       "percent_complete": 60,
-      "assessment": "Yellow — real progress, not yet at the Green bar. The confirmation email redesign is built and matches the new RFQ visual system, but it is still being iterated with Amanda and has not been approved or queued in EMMA, which is what Green requires. Currently a private Artifact. Sharing it out to Kickpoint is snagged on an org-level setting: Claude's 'anyone with the link' sharing is disabled company-wide, so external delivery needs the raw-file workaround.",
+      "assessment": "Green — ahead of pace. The confirmation email redesign is built and matches the new RFQ visual system. It has not been approved or queued in EMMA yet, which is what the Green bar ultimately requires, but at 60% done with ~18% of the quarter elapsed this is running ahead of an even burn. Currently a private Artifact. Sharing it out to Kickpoint is snagged on an org-level setting: Claude's 'anyone with the link' sharing is disabled company-wide, so external delivery needs the raw-file workaround. Quarter context: as of 8/17 the quarter is ~18% elapsed (Aug 1 – Oct 31), so this percentage should be read against an early-quarter baseline, not against a completed-quarter figure.",
       "blockers": [
         "Redesign not yet finalized or approved — not in the EMMA updates queue",
         "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
@@ -136,10 +143,10 @@
       "number": 4,
       "name": "Estimating improvements",
       "critical": false,
-      "self_status": "yellow",
+      "self_status": "green",
       "confidence": 3,
       "percent_complete": 10,
-      "assessment": "Yellow — early, and the main input is not in place yet. Amanda is working with Matisen to get daily call grading delivered; that feed is what makes the coaching side of this rock workable, since the plan is to coach the lower estimators off regular, transparent numbers. About 10% in at roughly 18% through the quarter. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green) — these are the ratified Q3 targets and are not on the same basis as the 54% / 56% bars used in Q2. Worth carrying the room's own caveat: estimating is a delayed result, so work done now will not show up in accuracy numbers for two weeks to a month or more, and movement should be expected to lag the effort.",
+      "assessment": "Green — early and on track, with the main input still to land. Amanda is working with Matisen to get daily call grading delivered; that feed is what makes the coaching side of this rock workable, since the plan is to coach the lower estimators off regular, transparent numbers. At ~10% with ~18% of the quarter elapsed this is marginally behind an even burn, but the room's own caveat applies: estimating is a delayed result, so work done now will not show up in accuracy numbers for two weeks to a month or more and is expected to lag. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green) — these are the ratified Q3 targets and are NOT on the same basis as the 54% / 56% bars used in Q2.",
       "blockers": [
         "Daily call grading delivery from Matisen not yet in place — needed to coach lower estimators off regular numbers",
         "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
@@ -217,5 +224,6 @@
       "cut_date": "2026-08-17",
       "reason": "Removed from Amanda's Q3 slate (Amanda's call)."
     }
-  ]
+  ],
+  "period_elapsed_note": "As of 2026-08-17 the quarter is ~18% elapsed (Aug 1 – Oct 31). Percent_complete values are early-quarter figures and are not comparable to end-of-quarter Q2 values."
 }

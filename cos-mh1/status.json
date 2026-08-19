@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-17T12:45:00-05:00",
-  "updated_by": "Matisen (/status)",
+  "last_updated": "2026-08-19T08:30:00-05:00",
+  "updated_by": "Matisen (/gm catch-up)",
   "cadence_days": 1,
   "goals": [
     {
@@ -19,8 +19,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 30,
-      "assessment": "A and C converge on one build: the weekly scorecard is being baked into hub.einsteinmoving.com rather than shipped as a separate surface. The hub stands up, stats are shipping over, the Games update lands today; scorecard migration and the AI Use Policy draft follow. C is the shared build with Cameron's Data Bus rock (pulse 12556198241): Matisen ships bus/registry infrastructure, Cameron's goal owns governance. Open item on A is rollout and access with Cameron, not scoping. B gated on Wednesday's LiftUp meeting. D moves this week \u2014 registering EMMA with Sage Intacct.",
+      "percent_complete": 35,
+      "assessment": "A and C converge on one build: the weekly scorecard is being baked into hub.einsteinmoving.com rather than shipped as a separate surface. The hub stands up, stats are shipping over, and the Games automation shipped 8/18 (mover view, parity proofs, per-branch worklists) \u2014 8/19 verifies the overnight pull-through and wraps the Data Hub integration; scorecard migration and the AI Use Policy draft follow. C is the shared build with Cameron's Data Bus rock (pulse 12556198241): Matisen ships bus/registry infrastructure, Cameron's goal owns governance. Open item on A is rollout and access with Cameron, not scoping. B gated on Wednesday's LiftUp meeting. D moves this week \u2014 registering EMMA with Sage Intacct.",
       "blockers": [
         "A. Scorecard rollout/access plan pending a Cameron touch-base \u2014 build path is settled (baked into the hub), audience and cadence are not",
         "D. Sage/EMMA still pre-integration \u2014 EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
@@ -49,7 +49,7 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-08-17"
+      "updated": "2026-08-19"
     },
     {
       "id": "matisen-q3-sales-marketing",
@@ -59,7 +59,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 38,
-      "assessment": "A: targeting within MPE of the forecasting models by quarter end. B: quote accuracy shared with Nhel; call-grading automation and conversion on the sales target dashboard still to build. C: email rollout pending confirmation with Fabian — lead triage is queued ahead of it. D: chatbot in QA testing for Phase 1. Dependency: Amanda.",
+      "assessment": "A: targeting within MPE of the forecasting models by quarter end. B: quote accuracy shared with Nhel; call-grading automation and conversion on the sales target dashboard still to build. C: email rollout pending confirmation with Fabian \u2014 lead triage is queued ahead of it. D: chatbot in QA testing for Phase 1. Dependency: Amanda.",
       "blockers": [
         "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
       ],
