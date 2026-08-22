@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-19T17:08:30-05:00",
+  "last_updated": "2026-08-21T22:20:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,7 +20,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 25,
-      "assessment": "8/19: Class #2 ran (other cohort); sandbox-gate day executed — Brian 10/15 + 4 due, Sergio documented PTO exception (8/24); Mike flips the mover-app switch 8/20 (all movers pre-added via Gerald), Brian confirms CTXH on the dashboard by Fri. Trinity call-flow map hosted + shared to Amanda + Jeff; Amanda confirming the concern-timing order w/ Jeff + a perfect-score demo ask. Watch: first adoption read (70% Stage-4 floor) after enrollment closes.",
+      "assessment": "8/20: Training Camp poster PRINT PACKAGE shipped (12x18/11x17/letter PDFs + hi-res PNG, Drive folder 1WrJlOC-9hez1bL7Vj239rHBmpmBQgDhJ, Sky pulse 12859236881) — releases the 7/30 print-run hold. 8/21: Mike printing and hanging at every branch. Trinity lane running; the role-play trainer is now the practice surface for it.",
       "blockers": [],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
@@ -34,9 +34,8 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 50,
-      "assessment": "8/19: Lianna's copy COMPLETE across every site page in Emma's Figma + neighborhood copy, emails, direct-mail postcard (wrap hit-list doc). Secret Stache build STARTING; Rich's build/content-entry/QA timeline lands wk of 8/24; dev confirmed inside the SOW. Laura sending an SEO-suggestion Figma duplicate; Cameron reviews + confirms Lianna's final pass 8/20. Elizabeth left KP — Kyra AM, Dana SEO.",
+      "assessment": "8/21: Copy is DONE from Cameron's side — he has pre-approved all site copy; only emails, billboards and ancillary pieces are left for his review, and the FAQ is the one page he hasn't been through. KP tasked with adopting Lianna's verbiage and flagging anything that hurts SEO or where a joke goes too far. That clears the copy-approval blocker. Secret Stache build started; Rich's build/content-entry/QA timeline lands wk of 8/24. Elizabeth Linder left KP 8/19 — Kyra AM, Dana SEO.",
       "blockers": [
-        "Lianna copy approval owed by Cameron",
         "Elizabeth (KP SEO lead) last day 8/19 — transition to Kyra"
       ],
       "superGreen": "Site LAUNCHED by 10/31 (the SOW’s own week-20 schedule, held)",
@@ -51,10 +50,9 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 20,
-      "assessment": "8/19: The Tier-3 shape arrived from the field — Mike's DFWT Command Center is LIVE (Gerald pre-reviews manager boards; 2 sync-ups run on it) and Brian's weekly AAR prompt has every CTXH manager self-reporting in their own Claude project. Cameron consolidating all of it + Matisen's hub + Mission Control into ONE best practice (pulse 12846899618; working session Fri 8/21; API token to Brian). No-COS pre-sync status ask ran first time (Austin — 5-field template). hq_url field asked of all spokes (SCB 12846883672). Claude Tags still not live (target 9/1) — yellow holds.",
+      "assessment": "8/20: Gary's Slack app FIXED (reinstall was the missing step) — blocker cleared. Governance rule out of it: the principal is a collaborator on their own COS Slack app from day one. 8/21: goals dashboard now shows movement/tenure/freshness + a named COS roster; stale goals 26/61 → 0/37. Mike's transcript-privacy boundary ruled and closed. Claude Tags still not live — that is what gates this rock.",
       "blockers": [
-        "Claude Tags not yet enabled in Slack",
-        "Gary (Amanda's COS) Slack scopes broken — fix assigned to Cameron"
+        "Claude Tags not yet enabled in Slack"
       ],
       "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
       "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED — if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
@@ -84,7 +82,7 @@
       "self_status": "red",
       "confidence": 2,
       "percent_complete": 0,
-      "assessment": "8/17: not started. ECP cert module not built. Financial-literacy module scoped 8/17 (Cameron: P&L, balance sheet, fixed vs variable, branch profitability — lemonade-stand device) and pulsed for 10/12. Designated swap-out if the Northwood bonus card promotes.",
+      "assessment": "8/21: DELIBERATE HOLD, not a stall — Cameron's own read at the weekly retro. He has had roughly a week and a half in the office all quarter (kickoff, then vacation, then a catch-up week), and that time went to the website and the sales engagement. Revisit in a couple of weeks. ECP cert module still unbuilt; financial-literacy module scoped 8/17 and pulsed for 10/12.",
       "blockers": [],
       "superGreen": "Green + financial literacy module (2024 lemonade-stand case) + conflict resolution module (movers + CERs) live, with hospitality + ITP modules spec’d as next-quarter backlog",
       "green": "ECP certification module built and piloted with at least one region’s managers",
@@ -97,8 +95,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 45,
-      "assessment": "8/19: Class #2 ran; call-flow map hosted + shared to Amanda + Jeff; Paul posted his written outline; Amanda confirming order w/ Jeff + demo ask before grading beds in. Wimp Junction v1.2.1 live + tested by Amanda in the parking lot.",
+      "percent_complete": 55,
+      "assessment": "8/21: Jeff shipped a 37-slide Quote Call Playbook v2 with a 100-pt C·O·N·C·E·R·N scoring framework. Cameron RULED the concern loop stands — the deck places differentiators post-price, contradicting Jeff's own 8/19 refinement; read as version lag, not disagreement. Framework scoring + the pre/post-call layers PARKED until the team is doing the homework. Ramp-up takeaway adopted with Cameron's correction: ask about the CONCERN, not the product. 85-pt rubric ON ICE — the weekly measure is homework engagement, not a percentage; Amanda owns evolving it. Role-play trainer shipped v1.6 + HQ and went to Jeff and Amanda Ware; Amanda runs 4 scenarios, then Nhel and Tet run 4 each (Sky 12868427241).",
       "blockers": [],
       "superGreen": "Green + lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
       "green": "Engagement kicked off + Sales Playbook delivered + Amanda's Sales Management Operating Plan stood up on the weekly cadence",
