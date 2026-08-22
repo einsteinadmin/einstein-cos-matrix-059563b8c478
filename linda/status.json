@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-18T21:10:00-05:00",
+  "last_updated": "2026-08-20T17:45:00-05:00",
   "updated_by": "Linda (/wrap)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
@@ -108,21 +108,23 @@
       "name": "Mover Promotion Framework — First Cohort Live",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 60,
-      "assessment": "Framework substantially designed — 10 decisions locked 7/3, hours-floor re-based to Option B 7/17, backtest spec amendment posted. Damages resolved by Cameron's 7/30 ruling (in the gate AND the bonus — corrected the Green bar below, which previously described folding damages into the 100-point score, the superseded 7/28 compromise). Still blocked on the same paused backtest as Goal 2, plus two open HQ decision items not yet ratified.",
+      "confidence": 4,
+      "percent_complete": 70,
+      "assessment": "Substantial forward motion 8/19–8/20: Decision #16 (PTL→Junior Lead threshold) resolved — 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved — Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works — plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Still blocked on the same paused backtest as Goal 2, plus the cadence conflict and #17.",
       "blockers": [
         "Matisen's backtest paused, gated on MH1's punch-clock all-clear — blocks #04/#05 (fast-track thresholds, weights/market skew)",
-        "#16 (lead-vs-total hours for PTL promos) and #17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
-        "Evaluation cadence unresolved: quarterly vs. biweekly"
+        "#17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
+        "Evaluation cadence unresolved: monthly (current operating assumption) vs. the 7/3-locked biweekly — Paul's to resolve per the 8/20 damage-attribution brief",
+        "Fast-track performance bar itself not yet set — pending Matisen's look-back data"
       ],
       "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
       "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
       "dependencies": ["Paul", "Matisen"],
       "mb_pulse": "11728362147",
+      "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-18"
+      "updated": "2026-08-20"
     },
     {
       "id": "anne-q3-6",
