@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-17T15:34:12-05:00",
+  "last_updated": "2026-08-24T11:43:45-05:00",
   "updated_by": "Gerald (/status)",
   "cadence_days": 7,
   "goals": [
@@ -19,19 +19,18 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 55,
-      "assessment": "App is live, introduced to the management team at the QGR, and the quarter tracking dashboard is live. The gating milestone is the 8/19 manager sandbox completion: 9 of 23 managers are done company-wide (Leander and San Antonio at 100%; North Austin, Houston, McKinney, Garland, and Tampa still at zero). Managers started logging in and submitting this week and pressure ramps into the deadline. All active movers enroll 8/20; the ≥70% adoption floor shows no red flags yet but is a real reassess point once movers are in the pipeline after the 20th. Managing to Super Green on the training pipeline (full pipeline / Lead-Ready by 10/19); the Scrum recert piece is carved out to the managers' own Scrum goal, so it isn't graded here.",
-      "blockers": ["8/19 manager sandbox gate at 9/23 complete with 5 branches (N. Austin, Houston, McKinney, Garland, Tampa) still at zero"],
+      "percent_complete": 70,
+      "assessment": "Both hard gates cleared; now driving adoption. 100% of managers completed sandbox certification by the 8/19 deadline — every branch through, no stragglers. All active movers went live in the app on 8/20 as planned; Gerald mass-activated the roster through the in-app browser to avoid manual one-by-one adds. We're now in the adoption phase and the honest early read after the first weekend is a slow start — enrollment is live but usage isn't ramping on its own yet. Mike's push this week: (1) morning-huddle itinerary updated to drive the team on it every single day, (2) a weekly-1 manager update in draft to set the expectation cadence, (3) a QA pass across every sign-off that came in over the weekend to confirm managers and movers are using it correctly and that managers are holding the standard on photos and praise submissions. Still Green and working toward Super Green (≥70% of enrolled movers through the full pipeline / Lead-Ready by 10/19); too early in the rollout to call how fast the train moves. Scrum recert is tracked under the managers' own Scrum goal, not here.",
+      "blockers": ["Adoption off to a slow start — depends on managers pushing their teams daily this week; usage not ramping on its own yet"],
       "milestones": [
         {"name": "App live + introduced at QGR", "date": "2026-08-05", "done": true},
-        {"name": "Quarter tracking dashboard live", "date": "2026-08-05", "done": true},
-        {"name": "100% manager sandbox training complete", "date": "2026-08-19", "done": false},
-        {"name": "100% active movers enrolled", "date": "2026-08-20", "done": false},
-        {"name": "≥70% enrolled movers through pipeline (Lead-Ready) by 10/19", "date": "2026-10-19", "done": false}
+        {"name": "100% manager sandbox certification (gate)", "date": "2026-08-19", "done": true},
+        {"name": "100% active movers enrolled/activated", "date": "2026-08-20", "done": true},
+        {"name": "≥70% enrolled movers through pipeline (Lead-Ready)", "date": "2026-10-19", "done": false}
       ],
       "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through full pipeline (Lead-Ready) by 10/19 + Scrum recert by 10/19",
       "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through stage 4 by EOQ",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "q3-fde-boots-on-ground",
@@ -39,42 +38,39 @@
       "name": "Dept-Head/Regional Split — FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 45,
-      "assessment": "Tracking to Super Green: all 5 field weeks are scheduled starting next week (Green is 3, SG is 5). The enabling infrastructure is already live — the full DFWT command center gives a weekly KPI dashboard + composite score reviewed with the branches each week, which drives focus during each visit and sets priority if things shift mid-quarter. Key-issue logging runs through the Road-to-A+ HQ + command center, so capturing and tracking the 1-issue-per-visit requirement is easy and trackable. The main risk is non-goal workload pulling Mike off the process and out of the field weeks.",
+      "confidence": 5,
+      "percent_complete": 50,
+      "assessment": "On track to Super Green with the field weeks starting now. All 5 FDE field weeks are locked and the plan is built and committed. First week is North Dallas, starting 8/25 — Mike will be on-site in Dallas all week (Monday skipped for the Roundtable sync plus getting the driver-safety dashboard and training-progress updates out). The command center feeds a weekly KPI review with the branches that sets each visit's focus and lets priorities shift mid-quarter if the data moves. This week's Dallas deep dive is overtime and schedule management: Dallas runs high on OT relative to the other branches, with the same repeat offenders showing up week over week — which points at either managers approving shift swaps too freely or the biweekly schedule not being adhered to and adjusted through the week to head off OT. Key issues from each visit get logged and tracked in the Road-to-A+ HQ. Green is 3 field weeks across the 10 branches by Oct 1 (each with a key issue logged and resolved or on an action plan); Mike is managing to the Super Green 5. The one real risk is competing non-goal workload pulling him out of the field weeks.",
       "blockers": ["Non-goal workload is the primary risk to staying engaged across all 5 visit weeks"],
       "milestones": [
-        {"name": "DFWT command center live (weekly reporting)", "date": "2026-08-10", "done": true},
-        {"name": "Project HQ + Branch Visit Tour built + all 5 visits scheduled", "date": "2026-08-17", "done": true},
+        {"name": "DFWT command center live + project HQ + Branch Visit Tour + all 5 weeks scheduled", "date": "2026-08-17", "done": true},
+        {"name": "North Dallas field week (Aug 25-28)", "date": "2026-08-25", "done": false},
         {"name": "3 FDE field weeks across 10 branches (Green)", "date": "2026-10-01", "done": false},
         {"name": "5 FDE field weeks across 10 branches (SG)", "date": "2026-10-01", "done": false}
       ],
       "superGreen": "5 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
       "green": "3 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "q3-fleet-safety-p3",
       "number": 3,
       "name": "Fleet Safety Pt 3 — Carry the Red, Restructured",
       "critical": false,
-      "self_status": "red",
-      "confidence": 2,
-      "percent_complete": 12,
-      "assessment": "Honest red and an uphill quarter. Company came in at 86 in week 1 — down from last quarter — and this week's score is still being finalized. A structural headwind: Einstein Games is not live this quarter, removing the main lever that kept the team engaged on safety. The restructure centers on the warning chase, and this is the first week the chase list is being confirmed — whether last week's required warnings were actually issued in Rippling lands today or tomorrow, so chase effectiveness is still unproven. Mike's honest read: this is a fight all quarter to reach Green (≥90 by Oct 1 + zero warning backlog), let alone Super Green.",
-      "blockers": [
-        "Company Samsara score under 90 and trending down from last quarter",
-        "Einstein Games not live this quarter — lost the primary team-engagement lever",
-        "Warning-chase effectiveness unproven until this week's first confirmation"
-      ],
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 55,
+      "assessment": "Turned the corner from red to green. The company quarter Samsara score is 92, and each of the last two weeks came in at 94 — a clear reversal from the mid-80s start. Zero branches sit under an 80 for the quarter, with McKinney the lowest at 82. That clears the Green bar (≥90 by Oct 1) and puts Super Green (≥95) within reach. The open piece is warning-chase discipline: a few managers dropped the ball on issuing their required warnings, so Mike has put follow-up pulses on those managers' boards to close them out, and is auditing Rippling this week to confirm the warnings actually issued line up with what the chase list says should have gone out. Getting to zero unissued-warning backlog is the last gap to fully lock Green and press toward SG. Worth noting the tailwind is gone — Einstein Games isn't live this quarter, so this score is holding without the engagement lever the team had last quarter, which makes the turnaround more meaningful.",
+      "blockers": ["Warning-chase backlog: a few managers behind on issuing warnings in Rippling; follow-up pulses posted, Rippling audit in progress this week"],
       "milestones": [
         {"name": "Q3 dashboard reset + quarter warning-chase list active", "date": "2026-08-10", "done": true},
-        {"name": "First weekly chase-list confirmation (warnings issued in Rippling)", "date": "2026-08-18", "done": false},
-        {"name": "Samsara ≥90 by Oct 1 + zero warning backlog (Green)", "date": "2026-10-01", "done": false}
+        {"name": "Company score clears 90 (92 qtr / 94 last 2 weeks)", "date": "2026-08-24", "done": true},
+        {"name": "Rippling audit — zero unissued-warning backlog", "date": "2026-08-28", "done": false},
+        {"name": "Samsara ≥95 at EOQ (SG)", "date": "2026-10-01", "done": false}
       ],
       "superGreen": "Samsara score at/above 95 by Oct 1 + zero unissued-warning backlog at EOQ",
       "green": "Samsara score at/above 90 by Oct 1 + zero unissued-warning backlog at EOQ",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "q3-sell-remaining-trucks",
@@ -83,21 +79,19 @@
       "critical": false,
       "self_status": "red",
       "confidence": 3,
-      "percent_complete": 15,
-      "assessment": "Aiming to sell all 5 but managing to the Green line of 3. Path to the first sale: the NWT truck is prepped and spoken for, blocked on a check-engine fix that's being worked now; the rest need good photos, then they get posted to Facebook Marketplace to gauge engagement. No buyer-side deadline pressure — Oct 31 (EOQ) is the only clock. Funds the 2026 fleet purchases.",
-      "blockers": [
-        "NWT truck check-engine fix (in progress) must clear before the first sale closes",
-        "Remaining trucks need photos before posting to Marketplace"
-      ],
+      "percent_complete": 20,
+      "assessment": "Still red, but the first-sale blocker is cleared and the rest are about to go live. Aiming to sell all 5, managing to the Green line of 3. The NWT truck — prepped and spoken for — had its check-engine light repaired end of last week and the buyer has been updated; the hope is to close that first sale this week. Photos for the remaining trucks came in last week and get posted to Facebook Marketplace early this week to gauge engagement and offers. It stays red until a truck actually sells, but nothing structural is in the way now. No buyer-side deadline — Oct 31 (EOQ) is the only clock. This rock funds the 2026 fleet purchases.",
+      "blockers": ["No trucks sold yet — NWT sale not closed; remaining trucks not yet posted (photos ready, posting early this week)"],
       "milestones": [
         {"name": "First truck (NWT) prepped + spoken for", "date": "2026-08-10", "done": true},
-        {"name": "Remaining trucks photographed + posted to Marketplace", "date": "2026-08-21", "done": false},
+        {"name": "NWT check-engine repaired + buyer updated", "date": "2026-08-21", "done": true},
+        {"name": "Remaining trucks posted to Marketplace", "date": "2026-08-26", "done": false},
         {"name": "Sell 3 trucks (Green)", "date": "2026-10-31", "done": false},
         {"name": "Sell 5 trucks (SG)", "date": "2026-10-31", "done": false}
       ],
       "superGreen": "Sell 5 trucks",
       "green": "Sell 3 trucks",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "q3-manager-training-sop-sandbox",
@@ -105,19 +99,19 @@
       "name": "Manager Training App — SOP Sandbox Training and reference",
       "critical": false,
       "self_status": "red",
-      "confidence": 3,
-      "percent_complete": 12,
-      "assessment": "Aiming for Super Green (7-8 modules). The project HQ is built, the list of core trainings is defined, and the build order is set. The first module (Samsara Management) is in build now. Pace is the whole game: one module every two weeks gets to the 7-8 set by Oct 31 — tight but workable. Nothing structural is blocking (no tooling or ownership gaps); the only risk is holding that every-other-week cadence.",
-      "blockers": ["No modules deployed yet; hitting the set depends on holding a 1-module-every-2-weeks cadence"],
+      "confidence": 2,
+      "percent_complete": 10,
+      "assessment": "The one that's slipping — flagging it early. No progress last week: the first module (Samsara Management) did not advance. The foundation is in place — project HQ built, the module list and build order set — but the one-module-every-two-weeks cadence needed to reach Green (5-6 modules built and deployed) or Super Green (7-8) by Oct 31 is already under pressure in week one. Mike's honest read: holding that pace will be hard with the company-wide training rollout push and the FDE field weeks competing for the same time, and it's genuinely an open question whether this goal lands given everything else on his plate this quarter. Calling it now rather than letting it surprise anyone late.",
+      "blockers": ["No modules built yet; every-other-week cadence at risk from competing training-rollout + FDE field-week workload"],
       "milestones": [
         {"name": "Project HQ + training list + build order set", "date": "2026-08-15", "done": true},
-        {"name": "First SOP module (Samsara Mgmt) built", "date": "2026-08-21", "done": false},
+        {"name": "First SOP module (Samsara Mgmt) built", "date": "2026-09-01", "done": false},
         {"name": "5-6 core SOP modules built + deployed (Green)", "date": "2026-10-31", "done": false},
         {"name": "7-8 core SOP modules built + deployed (SG)", "date": "2026-10-31", "done": false}
       ],
       "superGreen": "7-8 core process SOP and modules built and deployed",
       "green": "5-6 core process SOP and modules built and deployed",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     }
   ],
   "kpis": [],

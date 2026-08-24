@@ -8,22 +8,24 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-19T08:30:00-05:00",
-  "updated_by": "Matisen (/gm catch-up)",
+  "last_updated": "2026-08-24T12:05:00-05:00",
+  "updated_by": "Matisen (/status)",
   "cadence_days": 1,
   "goals": [
     {
       "id": "matisen-q3-admin",
       "number": 1,
-      "name": "QG and Support Blocks \u2014 Admin",
+      "name": "QG and Support Blocks — Admin",
+      "hq_url": "https://hub.einsteinmoving.com",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 35,
-      "assessment": "A and C converge on one build: the weekly scorecard is being baked into hub.einsteinmoving.com rather than shipped as a separate surface. The hub stands up, stats are shipping over, and the Games automation shipped 8/18 (mover view, parity proofs, per-branch worklists) \u2014 8/19 verifies the overnight pull-through and wraps the Data Hub integration; scorecard migration and the AI Use Policy draft follow. C is the shared build with Cameron's Data Bus rock (pulse 12556198241): Matisen ships bus/registry infrastructure, Cameron's goal owns governance. Open item on A is rollout and access with Cameron, not scoping. B gated on Wednesday's LiftUp meeting. D moves this week \u2014 registering EMMA with Sage Intacct.",
+      "percent_complete": 38,
+      "assessment": "A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team — an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) — no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur.",
       "blockers": [
-        "A. Scorecard rollout/access plan pending a Cameron touch-base \u2014 build path is settled (baked into the hub), audience and cadence are not",
-        "D. Sage/EMMA still pre-integration \u2014 EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
+        "A. Region scorecards built but not delivered — regionals do not have them yet",
+        "B. Paul/Cam EMMA MCP access blocked on the hub — needs a status added and a broken refresh fixed",
+        "D. Sage/EMMA still pre-integration — spec v5 publish remains a human-run script pending the Ben/Fabian chain"
       ],
       "milestones": [
         {
@@ -32,7 +34,7 @@
           "done": false
         },
         {
-          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) \u2014 $28K",
+          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) — $28K",
           "date": "2026-10-31",
           "done": false
         },
@@ -49,19 +51,20 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-08-19"
+      "updated": "2026-08-24"
     },
     {
       "id": "matisen-q3-sales-marketing",
       "number": 2,
-      "name": "QG and Support Blocks \u2014 Sales and Marketing",
+      "name": "QG and Support Blocks — Sales and Marketing",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 38,
-      "assessment": "A: targeting within MPE of the forecasting models by quarter end. B: quote accuracy shared with Nhel; call-grading automation and conversion on the sales target dashboard still to build. C: email rollout pending confirmation with Fabian \u2014 lead triage is queued ahead of it. D: chatbot in QA testing for Phase 1. Dependency: Amanda.",
+      "percent_complete": 46,
+      "assessment": "B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly — no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. C: email rollout queued.",
       "blockers": [
-        "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
+        "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
+        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only"
       ],
       "milestones": [
         {
@@ -87,20 +90,20 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "matisen-q3-performance-people",
       "number": 3,
-      "name": "QG and Support Blocks \u2014 Performance and Employee Management",
+      "name": "QG and Support Blocks — Performance and Employee Management",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 41,
-      "assessment": "A: ClearCompany to Rippling webhook is live (8/10) \u2014 confirming it triggers and that the workflow automations fire when Anne is back from vacation. B: promotion ladder / 100-point transition \u2014 meeting with Anne and Paul Wednesday. C: Custom Object migration started; next is standing up and sending custom Rippling credentials to Mike for the Mover App integration. D: Mover App testing underway \u2014 card reader picked up last week to test the payment portal, QA flow, and data connections. Dependencies: Anne, Mike.",
+      "percent_complete": 44,
+      "assessment": "Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged.",
       "blockers": [
         "A. Webhook verification gated on Anne's return from vacation",
-        "C. Rippling API token scopes \u2014 Custom Objects returns 403 and the Performance Log path lacks files + employee-documents; Matisen is granting the scopes now"
+        "C. Rippling API token scopes — Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
       ],
       "milestones": [
         {
@@ -114,7 +117,7 @@
           "done": false
         },
         {
-          "name": "C. Performance log tracking to Rippling \u2014 O3, PL, Praise, Coaching",
+          "name": "C. Performance log tracking to Rippling — O3, PL, Praise, Coaching",
           "date": "2026-10-31",
           "done": false
         },
@@ -126,19 +129,21 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "matisen-q3-praise",
       "number": 4,
       "name": "Praise Targets",
       "critical": true,
-      "self_status": "yellow",
+      "self_status": "red",
       "confidence": 3,
       "percent_complete": 0,
-      "assessment": "0 of 48 submitted for Q3. ~25 CHOICES-anchored candidates staged since 8/10; plan is to submit 12 this week. Measured on the Praise Board or a new PL in Rippling \u2014 but the Praise Board's clear-on-status automation is dead and its count conflates intent with delivery, so the rock cannot be scored until a measurement source is owned.",
+      "assessment": "RED as of 8/24. Still 0 of 48 delivered with ~26% of Q3 elapsed (Aug 1 - Oct 31); clearing it now requires ~5.4/week for the remaining nine weeks. Not nothing, though: 6 praise entries are drafted and staged as subitems on the delivery pulse (Robert, Jaci, Laura, Amanda, Lukas, Cam), against a target of 12 this week — so the gap is between drafted and submitted, not between nothing and something. The measurement source remains undecided (Praise Board vs a new Rippling PL) and the Praise Board itself is broken and unowned.",
       "blockers": [
-        "No automated praise count wired for Q3 \u2014 measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned"
+        "No automated praise count wired for Q3 — measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned",
+        "0 of 48 delivered at ~26% of quarter elapsed — burn-down now requires ~5.4/week for the remaining 9 weeks",
+        "6 drafted but unsubmitted — submission path blocked on the measurement-source decision"
       ],
       "milestones": [
         {
@@ -147,9 +152,9 @@
           "done": false
         }
       ],
-      "superGreen": "125% \u2014 60 praise",
-      "green": "100% \u2014 48 praise",
-      "updated": "2026-08-17"
+      "superGreen": "125% — 60 praise",
+      "green": "100% — 48 praise",
+      "updated": "2026-08-24"
     }
   ],
   "kpis": [],

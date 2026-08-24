@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-20T17:45:00-05:00",
-  "updated_by": "Linda (/wrap)",
+  "last_updated": "2026-08-24T16:30:00-05:00",
+  "updated_by": "Linda (/status)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -87,12 +87,12 @@
       "name": "eNPS Voluntary Transition + Engagement Follow-Through",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 10,
-      "assessment": "No direct progress tracked this quarter — only tangential context: Linda's SCB ask to Albert about where the employee engagement survey lives (tool + historical results). Cameron replied 7/16 that he was 'actively working on it' to get it into the QGR packet; no update since (over a month stale as of 8/18). Unclear whether that thread is the same platform this goal depends on. Needs Anne's real read plus a check with Cameron on whether that's still moving.",
+      "confidence": 3,
+      "percent_complete": 15,
+      "assessment": "Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first — Monday form, no vendor, historical results in a Drive folder — then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. Cameron's approval included concrete next steps: build mockups/wireframes covering flow, cadence, questions, and data structure, test on a small group first, then iterate. Nothing built yet — this replaces the prior platform-selection path entirely.",
       "blockers": [
-        "Engagement survey platform/historical-data question to Cameron (via Albert, SCB pulse 12530140712) stale since 7/16 — may be a dependency, unconfirmed",
-        "No direct progress tracked this quarter"
+        "Mockups/wireframes for the custom eNPS app not yet started",
+        "No timeline yet for a small-group test or the Aug 31 platform-build target in the Green bar — may need Cameron/Paul input on whether that date still holds given the pivot"
       ],
       "green": "Platform selected and built by end of August; survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
       "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
@@ -100,7 +100,7 @@
       "mb_pulse": "12626620998",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-18"
+      "updated": "2026-08-24"
     },
     {
       "id": "anne-q3-5",
@@ -110,7 +110,7 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 70,
-      "assessment": "Substantial forward motion 8/19–8/20: Decision #16 (PTL→Junior Lead threshold) resolved — 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved — Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works — plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Still blocked on the same paused backtest as Goal 2, plus the cadence conflict and #17.",
+      "assessment": "Substantial forward motion 8/19–8/20: Decision #16 (PTL→Junior Lead threshold) resolved — 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved — Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works — plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Revised 8/21: Paul pushed back on Decision #18's attorney-confirm framing (no attorney gate needed — TX right-to-work, damages can stand alone as a termination reason for gross negligence or a documented pattern); Anne agreed same day. HQ card and evidence bar updated to match. Still blocked on the same paused backtest as Goal 2, plus the cadence conflict and #17.",
       "blockers": [
         "Matisen's backtest paused, gated on MH1's punch-clock all-clear — blocks #04/#05 (fast-track thresholds, weights/market skew)",
         "#17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
@@ -124,7 +124,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-20"
+      "updated": "2026-08-21"
     },
     {
       "id": "anne-q3-6",
@@ -132,13 +132,14 @@
       "name": "2027 Open Enrollment",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 15,
-      "assessment": "Only tangential motion this quarter — the AJG broker transition (Amy Balistrella left 8/14, Cali Beeman + Katie Clark taking over) and the ACA variable-hour classification risk flagged 7/31, both adjacent to but not the same as open-enrollment execution itself. No 2027 plan-year decisions locked with Cameron/Paul yet that this COS is aware of. First Q3 read — needs Anne's confirmation.",
+      "confidence": 3,
+      "percent_complete": 20,
+      "assessment": "First real working session with Cali Beeman (Gallagher) ran 8/21 — substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document — both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul.",
       "blockers": [
         "2027 plan-year decisions not yet locked with Cameron and Paul",
-        "ACA variable-hour classification risk (flagged 7/31) unresolved — may affect enrollment comms/eligibility framing",
-        "AJG broker transition still settling (new brokers Cali Beeman + Katie Clark)"
+        "ACA variable-hour classification strategy not yet decided (6-month measurement period proposed, needs Cameron/Paul)",
+        "ERISA wrap plan document + Section 125 POP document don't exist yet — both queued with ETC, not yet drafted",
+        "Rippling rehire-coding fix not yet made (needs plan-language confirmation from Cali first)"
       ],
       "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
       "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
@@ -146,7 +147,7 @@
       "mb_pulse": null,
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-18"
+      "updated": "2026-08-21"
     }
   ],
   "kpis": [],
