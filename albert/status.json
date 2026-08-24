@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-21T22:20:00-05:00",
+  "last_updated": "2026-08-24T17:15:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -50,13 +50,13 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 20,
-      "assessment": "8/20: Gary's Slack app FIXED (reinstall was the missing step) — blocker cleared. Governance rule out of it: the principal is a collaborator on their own COS Slack app from day one. 8/21: goals dashboard now shows movement/tenure/freshness + a named COS roster; stale goals 26/61 → 0/37. Mike's transcript-privacy boundary ruled and closed. Claude Tags still not live — that is what gates this rock.",
+      "assessment": "8/24: First EXTERNAL share of the network - the COS one-pager was built, published (obscure + noindex) and sent to Zack Oliva (peer CEO, Rob Lynch intro) - a live consulting-thesis signal. Claude Tags pilot setup w/ Matisen pulsed for Wed 8/27. Blocker unchanged: Tags not yet enabled in Slack.",
       "blockers": [
         "Claude Tags not yet enabled in Slack"
       ],
       "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
       "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED — if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "cameron-q3-4",
@@ -66,13 +66,13 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 30,
-      "assessment": "8/19: Matisen has Einstein Games fully automated → bundling into the Data Hub → branch/company scorecards targeted LIVE by Fri 8/21 (validation pending) — the first automated feed into the packet family. Hub access gated to Einstein + KP vendor emails (Jeff added). Reconciliation watch: Mike's command-center numbers must match the hub once live.",
+      "assessment": "8/24: The network pull now self-heals - the working clone resets to origin before every derive, killing the recurring morning failure that made the daily verdict read ALERT while the live dashboard was fine. 7/7 rows fresh after the sync-day nudge (five leaders re-pushed the same morning; Amanda Ware out). Matisen shipped the call-grading data-join answer (3-lane plan, Monday job tracker = join surface) plus the DMARC fix. Scorecard rollout audience still unruled.",
       "blockers": [
         "Scorecard rollout audience + cadence unruled — scaffold first"
       ],
       "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
       "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
-      "updated": "2026-08-17"
+      "updated": "2026-08-24"
     },
     {
       "id": "cameron-q3-5",
