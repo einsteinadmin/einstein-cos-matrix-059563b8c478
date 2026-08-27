@@ -8,7 +8,7 @@
  "period": "Q3 2026",
  "period_start": "2026-08-01",
  "period_end": "2026-10-31",
- "last_updated": "2026-08-26T19:15:00-05:00",
+ "last_updated": "2026-08-27T18:39:41-05:00",
  "updated_by": "Albert (/wrap)",
  "cadence_days": 1,
  "goals": [
@@ -93,12 +93,12 @@
    "critical": false,
    "self_status": "green",
    "confidence": 4,
-   "percent_complete": 60,
-   "assessment": "8/25: Jeff's restart plan accepted — playbook cut to 3 moves, certification copied from the estimating program (test-out, 90% bar, scorecard grows a section per module), wave 1 = Cameron+Amanda+Nhel+Tet on the new Thu 12:30-2:00 double-block cadence, team rolls once leadership is a module ahead. The rubric conflict resolved itself: the old 85-pt rubric stays held and the cert scorecard replaces it. Jeff's three asks (zero-gate, graded-round signers, restart confirm) get answered Thursday. Trainer-app feedback from Amanda/Nhel/Tet still outstanding.",
+   "percent_complete": 65,
+   "assessment": "8/27: Jeff CONFIRMED the call flow same-day — Flow & Scenarios doc approved (five moves, draft weights 35/35/10/10/10 with Amanda, 9 real-call scenarios), flow codified and live in the role-play app (v1.8: confirmed grading, dictation fix, no-concerns caller). Rubric build unblocked; weekly per-rep net-new reporting pulsed to Amanda + Matisen; classes resume ~wk of 9/8 (CET first). Ramp-up takeaway with Jeff, due ~Fri.",
    "blockers": [],
    "superGreen": "Green + lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
    "green": "Engagement kicked off + Sales Playbook delivered + Amanda's Sales Management Operating Plan stood up on the weekly cadence",
-   "updated": "2026-08-25"
+   "updated": "2026-08-27"
   }
  ],
  "kpis": [
