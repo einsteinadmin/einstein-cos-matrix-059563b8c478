@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-26T21:30:00-05:00",
-  "updated_by": "Linda (/wrap)",
+  "last_updated": "2026-08-27T15:00:00-05:00",
+  "updated_by": "Linda (/summary fold-in)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 \u2014 https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -50,15 +50,17 @@
       "name": "100-Point Behavioral System \u2014 Q2 Rock 2 Companion",
       "critical": true,
       "self_status": "yellow",
-      "confidence": 3,
+      "confidence": 4,
       "percent_complete": 50,
-      "assessment": "10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus \u2014 corrected the Green bar below, which previously described damages as a weighted 100-point input, the superseded 7/28 compromise language). Blocked on the backtest, which is what stands between here and the Green bar's 'backtested against one real branch' requirement.",
+      "assessment": "10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus). \u26a0\ufe0f 8/27 (Cameron 1:1): formally confirmed this is NOT a Q3 deliverable \u2014 full system launch targeted January 1, 2027, timed to a 'new year, new performance philosophy' narrative alongside the new handbook, since it's a foundational change (attendance/damages point weights, reset cadence) that needs real branch input, not a rushed Q3 ship. Q3's realistic deliverable is the weighting-input tool: Anne will first run the existing framework through the /consultants council (Cameron confirmed Linda doesn't have this skill yet \u2014 he's sharing it) to refine it, then build a Replit survey where BMs/movers distribute 100 points across weighted metrics (same pattern Cameron used for the branch scorecard at QGR), synthesize the averages, and use disagreements as the workshop agenda.",
       "blockers": [
         "Matisen's backtest paused by Anne, gated on MH1's Rippling punch-clock all-clear (6/29 outage) \u2014 blocks backtesting against a real branch",
-        "Evaluation cadence unresolved: quarterly (session lean) vs. biweekly (7/3 lock)"
+        "Evaluation cadence unresolved: quarterly (session lean) vs. biweekly (7/3 lock)",
+        "Weighting-input survey app not yet built \u2014 Anne's target is next week (week of 9/1)",
+        "/consultants skill not yet installed for Linda \u2014 Cameron to share it"
       ],
-      "green": "Methodology fully designed \u2014 every dimension mapped to point values and weights, with damages implemented as a promotion-gate criterion per Cameron's 7/30 ruling (in the gate and the bonus, not a weighted score input) \u2014 signed off by Cameron and Paul, backtested against one real branch by Oct 1.",
-      "superGreen": "Green + live scoring for one full branch + 3 BMs trained to use the score in a real coaching conversation, by Oct 1.",
+      "green": "Weighting-input methodology refined via the /consultants council, then cascaded to BMs and movers as a point-distribution survey, averages synthesized into a locked framework, and backtested against one real branch \u2014 full system launch targeted January 1, 2027 per Cameron's 8/27 confirmation, not this quarter.",
+      "superGreen": "Green + live scoring piloted on one full branch ahead of the Jan 1, 2027 company-wide launch, with 3 BMs trained to use the score in a real coaching conversation.",
       "dependencies": [
         "Matisen",
         "Mike",
@@ -68,7 +70,7 @@
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-18"
+      "updated": "2026-08-27"
     },
     {
       "id": "anne-q3-3",
@@ -76,24 +78,23 @@
       "name": "Implement Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice",
       "critical": true,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 10,
-      "assessment": "\u26a0\ufe0f 8/26 correction (Cameron + Anne): the goal was misread earlier the same day. What got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist, Rippling-roster-pulled) is NOT the actual design. Real goal, per Cameron 8/26: one weekly Start/Stop/Keep conversation, rotating through the 7 Roundtable leaders one at a time, each paired with a randomly assigned NON-leader employee from anywhere in the company (deliberately cross-functional/cross-geography \u2014 e.g. Brian\u2194a Philippines CX teammate, Amanda\u2194a DFW mover) to keep leadership connected to the front line broadly, not just their own chain. Middle managers don't run these conversations \u2014 they own acting on the feedback that surfaces. The mismatched pattern was retracted on the SCB thread same day (told the other 6 agents to hold off building). Anne + Cameron are aligning further tomorrow (8/27); rebuild starts after that conversation, not before.",
+      "confidence": 3,
+      "percent_complete": 25,
+      "assessment": "\u26a0\ufe0f 8/26 correction (Cameron + Anne): the goal was misread earlier the same day \u2014 what got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist) was NOT the actual design; retracted same day. \u2705 8/27 (huddle + Cameron 1:1): mechanism fully redesigned and locked. Every 2 weeks, each of the 7 Roundtable leaders calls anyone below them company-wide (deliberately cross-functional/cross-geography once comfortable; own-division fine at first) for a 5-minute start/stop/keep \u2014 no scheduling coordination, just find whoever's available. No manual assignment of who-talks-to-whom. Logged via a lightweight Replit submission app (not yet built) that tracks completion (who's done, who's missing) without adding admin work for the leaders. Immediate fires (safety, harassment) get triaged same-week; broader themes are digested quarterly \u2014 data collected through end of September, synthesized in October, folded into Q4 branch-level goals. Cameron explicitly said not to assume there will be themes \u2014 full adoption + honest tracking counts as success on its own, not a themes-found metric.",
       "blockers": [
-        "Corrected mechanism (rotation logic, random cross-functional pairing, middle-manager feedback routing) not yet scoped \u2014 waiting on Anne + Cameron's 8/27 conversation",
-        "Aug 31 Green-bar deadline is now materially tighter \u2014 effectively a same-week restart after the 8/26 correction",
-        "Retraction posted to the other 6 leaders' COS agents 8/26; none should be building yet, but worth confirming none jumped ahead before the correction landed",
-        "Some pilot infrastructure (Rippling API roster-pull pattern, subitem-based tracking mechanic) may still be reusable once the real design is scoped \u2014 not yet evaluated for fit"
+        "Submission app not yet built \u2014 Anne's move, no firm date set yet",
+        "Rollout communication/marketing framing to employees not yet drafted (Anne flagged 8/27 that people will be confused why a director is suddenly calling them \u2014 needs a short 'here's what this is and why' blurb)",
+        "Prior pilot infrastructure (Rippling roster-pull, subitem tracking) built under the retracted design \u2014 not evaluated for reuse under the corrected mechanism"
       ],
-      "green": "Practice designed and documented (format, cadence, log structure), adopted by all 7 Roundtable leaders with their directs, piloted with all RMs + at least 3 BMs, tracked via the interim weekly Monday checklist by Aug 31.",
-      "superGreen": "Full adoption \u2014 every executive and middle manager company-wide, one logged weekly conversation per direct report, at 80%+ completion, by Oct 1.",
+      "green": "Practice designed and documented (5-minute call every 2 weeks, random employee company-wide, logged via a lightweight submission app), adopted by all 7 Roundtable leaders, by September 15.",
+      "superGreen": "Green + full participation tracked with no missed leaders across a full quarter, and at least one theme identified and routed to the Q4 branch-goal digestion process.",
       "dependencies": [
         "Matisen"
       ],
       "mb_pulse": "11728350964",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-26"
+      "updated": "2026-08-27"
     },
     {
       "id": "anne-q3-4",
@@ -103,18 +104,18 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 15,
-      "assessment": "Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first \u2014 Monday form, no vendor, historical results in a Drive folder \u2014 then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. Cameron's approval included concrete next steps: build mockups/wireframes covering flow, cadence, questions, and data structure, test on a small group first, then iterate. Nothing built yet \u2014 this replaces the prior platform-selection path entirely.",
+      "assessment": "Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first \u2014 Monday form, no vendor, historical results in a Drive folder \u2014 then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. \u2705 8/27 (Cameron 1:1): platform-selection target formally moved to September 15 (from end of August) to give Anne real room to build it herself rather than rush it. Concrete next step assigned: feed this call's transcript to Linda, get a spec sheet drafted, then build/test a prototype directly in Replit \u2014 Cameron is deliberately not building it for her so she gets hands-on experience. Anne's own estimate: the week after the 100-point weighting app (~week of 9/8).",
       "blockers": [
-        "Mockups/wireframes for the custom eNPS app not yet started",
-        "No timeline yet for a small-group test or the Aug 31 platform-build target in the Green bar \u2014 may need Cameron/Paul input on whether that date still holds given the pivot"
+        "Mockups/wireframes for the custom eNPS app not yet started \u2014 next in Anne's queue after the 100-point weighting survey",
+        "Spec sheet for Replit not yet drafted"
       ],
-      "green": "Platform selected and built by end of August; survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
+      "green": "Platform selected and built by September 15 (revised from end of August per Cameron 8/27); survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
       "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
       "dependencies": [],
       "mb_pulse": "12626620998",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-24"
+      "updated": "2026-08-27"
     },
     {
       "id": "anne-q3-5",
