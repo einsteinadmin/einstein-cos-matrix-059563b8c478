@@ -8,54 +8,63 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-24T16:30:00-05:00",
-  "updated_by": "Linda (/status)",
+  "last_updated": "2026-08-26T21:30:00-05:00",
+  "updated_by": "Linda (/wrap)",
   "_provenance": {
-    "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
+    "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 \u2014 https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
     "prefilled_at": "2026-08-17",
     "confirmed_by_principal": true,
     "confirmed_at": "2026-08-18",
-    "note": "First Q3 publish. Goals 2 and 5 corrected: original Green-bar text described damages as a weighted 100-point input (the 7/28 compromise), superseded by Cameron's 7/30 QGR ruling (damages in the promotion gate AND the bonus). Goals 1, 3, 4, and 6 had no COS-visible activity this quarter — assessments below are Linda's best-effort first read, explicitly flagged as thin evidence in each assessment, not a verified principal walkthrough of each field. Anne directed publishing as-is rather than a full goal-by-goal interview; revisit at next /wrap or /retro."
+    "note": "First Q3 publish. Goals 2 and 5 corrected: original Green-bar text described damages as a weighted 100-point input (the 7/28 compromise), superseded by Cameron's 7/30 QGR ruling (damages in the promotion gate AND the bonus). Goals 1, 3, 4, and 6 had no COS-visible activity this quarter \u2014 assessments below are Linda's best-effort first read, explicitly flagged as thin evidence in each assessment, not a verified principal walkthrough of each field. Anne directed publishing as-is rather than a full goal-by-goal interview; revisit at next /wrap or /retro."
   },
   "cadence_days": 7,
   "goals": [
     {
       "id": "anne-q3-1",
       "number": 1,
-      "name": "Workers Comp Process Improvements — On-Site Incident Workflow + Compliance",
+      "name": "Workers Comp Process Improvements \u2014 On-Site Incident Workflow + Compliance",
       "critical": false,
       "self_status": "yellow",
       "confidence": 2,
-      "percent_complete": 5,
-      "assessment": "No board or session activity tracked against this goal yet this quarter — this is a placeholder first read, not a real assessment. Correct next cycle if work has actually started (Rippling claim-submission app build with Matisen, OSHA-recordable field spec, on-site incident workflow documentation/BM training).",
+      "percent_complete": 10,
+      "assessment": "First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead \u2014 unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy \u2014 Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. Nothing built or committed to yet \u2014 this is still the strategy conversation, not implementation.",
       "blockers": [
-        "No visibility yet this quarter — needs Anne's real read next cycle"
+        "No decisions locked yet \u2014 recommendations discussed 8/26, not yet chosen from or approved by Anne",
+        "Tool choice (Monday form vs. text line vs. custom Rippling app) not yet made",
+        "Nurse triage line vendor relationship (Concentra or otherwise) not yet explored for after-hours WC use, only for the HPE"
       ],
       "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
       "superGreen": "Green + mover-specific WC training delivered as a Back to School module + a test OSHA-formatted export produced from Q3 data + one real Q3 WC leave case showing correctly in Rippling leave-tracking.",
-      "dependencies": ["Matisen"],
+      "dependencies": [
+        "Matisen"
+      ],
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-18"
+      "updated": "2026-08-26"
     },
     {
       "id": "anne-q3-2",
       "number": 2,
-      "name": "100-Point Behavioral System — Q2 Rock 2 Companion",
+      "name": "100-Point Behavioral System \u2014 Q2 Rock 2 Companion",
       "critical": true,
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 50,
-      "assessment": "10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus — corrected the Green bar below, which previously described damages as a weighted 100-point input, the superseded 7/28 compromise language). Blocked on the backtest, which is what stands between here and the Green bar's 'backtested against one real branch' requirement.",
+      "assessment": "10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus \u2014 corrected the Green bar below, which previously described damages as a weighted 100-point input, the superseded 7/28 compromise language). Blocked on the backtest, which is what stands between here and the Green bar's 'backtested against one real branch' requirement.",
       "blockers": [
-        "Matisen's backtest paused by Anne, gated on MH1's Rippling punch-clock all-clear (6/29 outage) — blocks backtesting against a real branch",
+        "Matisen's backtest paused by Anne, gated on MH1's Rippling punch-clock all-clear (6/29 outage) \u2014 blocks backtesting against a real branch",
         "Evaluation cadence unresolved: quarterly (session lean) vs. biweekly (7/3 lock)"
       ],
-      "green": "Methodology fully designed — every dimension mapped to point values and weights, with damages implemented as a promotion-gate criterion per Cameron's 7/30 ruling (in the gate and the bonus, not a weighted score input) — signed off by Cameron and Paul, backtested against one real branch by Oct 1.",
+      "green": "Methodology fully designed \u2014 every dimension mapped to point values and weights, with damages implemented as a promotion-gate criterion per Cameron's 7/30 ruling (in the gate and the bonus, not a weighted score input) \u2014 signed off by Cameron and Paul, backtested against one real branch by Oct 1.",
       "superGreen": "Green + live scoring for one full branch + 3 BMs trained to use the score in a real coaching conversation, by Oct 1.",
-      "dependencies": ["Matisen", "Mike", "Cameron", "Paul"],
+      "dependencies": [
+        "Matisen",
+        "Mike",
+        "Cameron",
+        "Paul"
+      ],
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
@@ -64,22 +73,27 @@
     {
       "id": "anne-q3-3",
       "number": 3,
-      "name": "Implement Weekly Start/Stop/Keep Conversations — Scaling Up Practice",
+      "name": "Implement Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice",
       "critical": true,
       "self_status": "yellow",
       "confidence": 2,
-      "percent_complete": 5,
-      "assessment": "No board or session activity tracked against this goal yet this quarter — placeholder first read. Correct next cycle if the practice design, Roundtable adoption, or RM/BM pilot has actually begun.",
+      "percent_complete": 10,
+      "assessment": "\u26a0\ufe0f 8/26 correction (Cameron + Anne): the goal was misread earlier the same day. What got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist, Rippling-roster-pulled) is NOT the actual design. Real goal, per Cameron 8/26: one weekly Start/Stop/Keep conversation, rotating through the 7 Roundtable leaders one at a time, each paired with a randomly assigned NON-leader employee from anywhere in the company (deliberately cross-functional/cross-geography \u2014 e.g. Brian\u2194a Philippines CX teammate, Amanda\u2194a DFW mover) to keep leadership connected to the front line broadly, not just their own chain. Middle managers don't run these conversations \u2014 they own acting on the feedback that surfaces. The mismatched pattern was retracted on the SCB thread same day (told the other 6 agents to hold off building). Anne + Cameron are aligning further tomorrow (8/27); rebuild starts after that conversation, not before.",
       "blockers": [
-        "No visibility yet this quarter — needs Anne's real read next cycle"
+        "Corrected mechanism (rotation logic, random cross-functional pairing, middle-manager feedback routing) not yet scoped \u2014 waiting on Anne + Cameron's 8/27 conversation",
+        "Aug 31 Green-bar deadline is now materially tighter \u2014 effectively a same-week restart after the 8/26 correction",
+        "Retraction posted to the other 6 leaders' COS agents 8/26; none should be building yet, but worth confirming none jumped ahead before the correction landed",
+        "Some pilot infrastructure (Rippling API roster-pull pattern, subitem-based tracking mechanic) may still be reusable once the real design is scoped \u2014 not yet evaluated for fit"
       ],
       "green": "Practice designed and documented (format, cadence, log structure), adopted by all 7 Roundtable leaders with their directs, piloted with all RMs + at least 3 BMs, tracked via the interim weekly Monday checklist by Aug 31.",
-      "superGreen": "Full adoption — every executive and middle manager company-wide, one logged weekly conversation per direct report, at 80%+ completion, by Oct 1.",
-      "dependencies": ["Matisen"],
+      "superGreen": "Full adoption \u2014 every executive and middle manager company-wide, one logged weekly conversation per direct report, at 80%+ completion, by Oct 1.",
+      "dependencies": [
+        "Matisen"
+      ],
       "mb_pulse": "11728350964",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-18"
+      "updated": "2026-08-26"
     },
     {
       "id": "anne-q3-4",
@@ -89,10 +103,10 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 15,
-      "assessment": "Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first — Monday form, no vendor, historical results in a Drive folder — then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. Cameron's approval included concrete next steps: build mockups/wireframes covering flow, cadence, questions, and data structure, test on a small group first, then iterate. Nothing built yet — this replaces the prior platform-selection path entirely.",
+      "assessment": "Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first \u2014 Monday form, no vendor, historical results in a Drive folder \u2014 then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. Cameron's approval included concrete next steps: build mockups/wireframes covering flow, cadence, questions, and data structure, test on a small group first, then iterate. Nothing built yet \u2014 this replaces the prior platform-selection path entirely.",
       "blockers": [
         "Mockups/wireframes for the custom eNPS app not yet started",
-        "No timeline yet for a small-group test or the Aug 31 platform-build target in the Green bar — may need Cameron/Paul input on whether that date still holds given the pivot"
+        "No timeline yet for a small-group test or the Aug 31 platform-build target in the Green bar \u2014 may need Cameron/Paul input on whether that date still holds given the pivot"
       ],
       "green": "Platform selected and built by end of August; survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
       "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
@@ -105,26 +119,30 @@
     {
       "id": "anne-q3-5",
       "number": 5,
-      "name": "Mover Promotion Framework — First Cohort Live",
+      "name": "Mover Promotion Framework \u2014 First Cohort Live",
       "critical": false,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 70,
-      "assessment": "Substantial forward motion 8/19–8/20: Decision #16 (PTL→Junior Lead threshold) resolved — 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved — Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works — plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Revised 8/21: Paul pushed back on Decision #18's attorney-confirm framing (no attorney gate needed — TX right-to-work, damages can stand alone as a termination reason for gross negligence or a documented pattern); Anne agreed same day. HQ card and evidence bar updated to match. Still blocked on the same paused backtest as Goal 2, plus the cadence conflict and #17.",
+      "percent_complete": 75,
+      "assessment": "Substantial forward motion 8/19\u20138/20: Decision #16 (PTL\u2192Junior Lead threshold) resolved \u2014 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved \u2014 Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works \u2014 plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Revised 8/21: Paul pushed back on Decision #18's attorney-confirm framing (no attorney gate needed \u2014 TX right-to-work, damages can stand alone as a termination reason for gross negligence or a documented pattern); Anne agreed same day. 8/25: three more rounds of direct decisions from Anne \u2014 fast-track performance bars set as provisional working numbers (9/9/10/10), Master Lead's standard bar lowered 9.5\u21929.0, Lead General's Master-Lead fast-track hours locked at 1,365, HOF decided as purely honorary (not a job title), Decision #16 fully closed out (PTL hours don't carry into Senior Lead's hour count), and a real table-structure bug found and fixed (Master Lead/Lead General row data had been swapped). Two of today's calls reverse positions Paul was explicit about on 8/20 (bar values, look-back window) \u2014 heads-up posted to the rock pulse, his reply pending.",
       "blockers": [
-        "Matisen's backtest paused, gated on MH1's punch-clock all-clear — blocks #04/#05 (fast-track thresholds, weights/market skew)",
+        "Matisen's backtest paused, gated on MH1's punch-clock all-clear \u2014 needed to confirm/recalibrate the now-provisional fast-track bars, plus #05's weights/market skew",
         "#17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
-        "Evaluation cadence unresolved: monthly (current operating assumption) vs. the 7/3-locked biweekly — Paul's to resolve per the 8/20 damage-attribution brief",
-        "Fast-track performance bar itself not yet set — pending Matisen's look-back data"
+        "Evaluation cadence unresolved: monthly (current operating assumption) vs. the 7/3-locked biweekly \u2014 Paul's to resolve per the 8/20 damage-attribution brief",
+        "Paul's reaction pending on two 8/25 reversals of his 8/20 calls (fast-track bar values, fast-track window length) \u2014 heads-up sent, no reply yet",
+        "Lead General's own standard-track hours (1,820) and performance bar still 'proposed,' pending Cameron"
       ],
-      "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
+      "green": "Framework locked \u2014 damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
       "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
-      "dependencies": ["Paul", "Matisen"],
+      "dependencies": [
+        "Paul",
+        "Matisen"
+      ],
       "mb_pulse": "11728362147",
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-21"
+      "updated": "2026-08-25"
     },
     {
       "id": "anne-q3-6",
@@ -134,16 +152,18 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 20,
-      "assessment": "First real working session with Cali Beeman (Gallagher) ran 8/21 — substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document — both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul.",
+      "assessment": "First real working session with Cali Beeman (Gallagher) ran 8/21 \u2014 substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document \u2014 both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul.",
       "blockers": [
         "2027 plan-year decisions not yet locked with Cameron and Paul",
         "ACA variable-hour classification strategy not yet decided (6-month measurement period proposed, needs Cameron/Paul)",
-        "ERISA wrap plan document + Section 125 POP document don't exist yet — both queued with ETC, not yet drafted",
+        "ERISA wrap plan document + Section 125 POP document don't exist yet \u2014 both queued with ETC, not yet drafted",
         "Rippling rehire-coding fix not yet made (needs plan-language confirmation from Cali first)"
       ],
       "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
       "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
-      "dependencies": ["Paul"],
+      "dependencies": [
+        "Paul"
+      ],
       "mb_pulse": null,
       "sub_blocks": null,
       "flag": null,
@@ -152,14 +172,40 @@
   ],
   "kpis": [],
   "adopted": [
-    { "pattern": "template", "version": "2026-07-01-merge", "state": "adopted" },
-    { "pattern": "wrap-git-push", "state": "adopted" },
-    { "pattern": "gm-step-0", "state": "adopted" },
-    { "pattern": "status-file", "version": "v1.0", "state": "adopted" },
-    { "pattern": "scb-open-asks-two-lane", "state": "adopted" },
-    { "pattern": "slack-drop-zone", "state": "adopted" },
-    { "pattern": "wrap-auto-push-sentinel", "state": "adopted" },
-    { "pattern": "q3-rollover-pull-model", "state": "adopted" }
+    {
+      "pattern": "template",
+      "version": "2026-07-01-merge",
+      "state": "adopted"
+    },
+    {
+      "pattern": "wrap-git-push",
+      "state": "adopted"
+    },
+    {
+      "pattern": "gm-step-0",
+      "state": "adopted"
+    },
+    {
+      "pattern": "status-file",
+      "version": "v1.0",
+      "state": "adopted"
+    },
+    {
+      "pattern": "scb-open-asks-two-lane",
+      "state": "adopted"
+    },
+    {
+      "pattern": "slack-drop-zone",
+      "state": "adopted"
+    },
+    {
+      "pattern": "wrap-auto-push-sentinel",
+      "state": "adopted"
+    },
+    {
+      "pattern": "q3-rollover-pull-model",
+      "state": "adopted"
+    }
   ],
   "network_acks": []
 }
