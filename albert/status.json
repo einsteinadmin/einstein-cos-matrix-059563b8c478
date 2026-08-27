@@ -8,7 +8,7 @@
  "period": "Q3 2026",
  "period_start": "2026-08-01",
  "period_end": "2026-10-31",
- "last_updated": "2026-08-25T18:25:00-05:00",
+ "last_updated": "2026-08-26T19:15:00-05:00",
  "updated_by": "Albert (/wrap)",
  "cadence_days": 1,
  "goals": [
@@ -34,13 +34,11 @@
    "self_status": "green",
    "confidence": 4,
    "percent_complete": 50,
-   "assessment": "8/21: Copy is DONE from Cameron's side — he has pre-approved all site copy; only emails, billboards and ancillary pieces are left for his review, and the FAQ is the one page he hasn't been through. KP tasked with adopting Lianna's verbiage and flagging anything that hurts SEO or where a joke goes too far. That clears the copy-approval blocker. Secret Stache build started; Rich's build/content-entry/QA timeline lands wk of 8/24. Elizabeth Linder left KP 8/19 — Kyra AM, Dana SEO.",
-   "blockers": [
-    "Elizabeth (KP SEO lead) last day 8/19 — transition to Kyra"
-   ],
+   "assessment": "8/26 KP sync: Secret Stache build underway; Rich's build/content-entry/QA timeline gated on a GatherUp review-widget API check (Laura chasing). Laura's SEO-edit Figma live with reasoning comments — Cameron commenting through it (remove ® from Smart Move System; nothing deal-breaking). KP's own Q2 website-oversight goal closed GREEN in-room; KP Q3 goals (incl. website launch) land Fri 8/28 for Cameron's approval. Copy locks before content entry — 'a bit out from that.' Kyra transition functioning (two clean syncs since 8/19).",
+   "blockers": [],
    "superGreen": "Site LAUNCHED by 10/31 (the SOW’s own week-20 schedule, held)",
    "green": "Dev phase complete per the signed SOW ($82,820, dev included, ~20 wks) — FSE block theme on staging, all pages populated, QA underway by EOQ",
-   "updated": "2026-08-17"
+   "updated": "2026-08-26"
   },
   {
    "id": "cameron-q3-3",
@@ -110,23 +108,23 @@
    "target": "65%",
    "actual": null,
    "self_status": "unknown",
-   "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill."
+   "note": "Running-truck ruler PRIMARY, Q3 chart target 66%; hub shows 42.3% Aug on a DIFFERENT ruler — open ruler question with Matisen; don't grade until settled."
   },
   {
    "id": "cameron-conv",
    "name": "Conversion Rate $",
-   "target": "40%",
+   "target": "20%",
    "actual": null,
    "self_status": "unknown",
-   "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring. May (6/1 group sync): conversion just under 19%, record >$3M in services — but still not an apples-to-apples baseline."
+   "note": "Re-baselined 8/3/26 (was 40% — pre-VP ruler). Basis = Conversion by $ PRIMARY (8/25 KPI ruling; 23.6% = Green). Q2-TD read 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead — confirm with Matisen which basis Q3 scores against."
   },
   {
-   "id": "cameron-enps",
-   "name": "eNPS",
-   "target": "45+",
-   "actual": "+81 (manager/CET survey, 7/17 — up from 80 Jan; 52 resp, 1 detractor)",
-   "self_status": "green",
-   "note": "Target 45+. Manager/CET Q2 = +81. Mover Q2 survey still pending — KPI scored on manager/CET only for now. Last mandatory cycle; voluntary going forward (participation = new signal)."
+   "id": "cameron-nps",
+   "name": "Customer NPS",
+   "target": "90+",
+   "actual": "86.4 (hub, binary-at-90 ruling)",
+   "self_status": "red",
+   "note": "REPLACES eNPS 45+ per the 8/3/26 KPI re-baseline. Binary-at-90 ruling (8/25): scorecard bands SG ≥91 · G 88–90.9 · W 86–87.9 · R <86 — 86.4 = the one RED exec KPI."
   }
  ],
  "adopted": [
