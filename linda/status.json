@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-27T15:00:00-05:00",
-  "updated_by": "Linda (/summary fold-in)",
+  "last_updated": "2026-08-28T21:15:00-05:00",
+  "updated_by": "Linda (/wrap — reconciled Goal 3 against the 8/27 cascading-chart edit, confirmed real by Anne; Goal 5's chart copy is stale pre-7/30-ruling language, not applied)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 \u2014 https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -75,19 +75,19 @@
     {
       "id": "anne-q3-3",
       "number": 3,
-      "name": "Implement Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice",
+      "name": "Implement Bi-Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice",
       "critical": true,
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 25,
-      "assessment": "\u26a0\ufe0f 8/26 correction (Cameron + Anne): the goal was misread earlier the same day \u2014 what got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist) was NOT the actual design; retracted same day. \u2705 8/27 (huddle + Cameron 1:1): mechanism fully redesigned and locked. Every 2 weeks, each of the 7 Roundtable leaders calls anyone below them company-wide (deliberately cross-functional/cross-geography once comfortable; own-division fine at first) for a 5-minute start/stop/keep \u2014 no scheduling coordination, just find whoever's available. No manual assignment of who-talks-to-whom. Logged via a lightweight Replit submission app (not yet built) that tracks completion (who's done, who's missing) without adding admin work for the leaders. Immediate fires (safety, harassment) get triaged same-week; broader themes are digested quarterly \u2014 data collected through end of September, synthesized in October, folded into Q4 branch-level goals. Cameron explicitly said not to assume there will be themes \u2014 full adoption + honest tracking counts as success on its own, not a themes-found metric.",
+      "assessment": "\u26a0\ufe0f 8/26 correction (Cameron + Anne): the goal was misread earlier the same day \u2014 what got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist) was NOT the actual design; retracted same day. \u2705 8/27 (huddle + Cameron 1:1): mechanism fully redesigned and locked, then refined further per the cascading-chart edit Cameron made live in the 1:1 (surfaced via network digest 8/28, confirmed real by Anne). Every 2 weeks, each of the 7 Roundtable leaders calls someone **2+ rungs below them \u2014 never a direct report** \u2014 company-wide (deliberately cross-functional/cross-geography once comfortable; own-division fine at first) for a 5-minute start/stop/keep \u2014 no scheduling coordination, just find whoever's available. No manual assignment of who-talks-to-whom. Logged via a lightweight Replit submission app (not yet built) that tracks completion (who's done, who's missing) without adding admin work for the leaders. Immediate fires (safety, harassment) get triaged same-week; broader themes are digested quarterly \u2014 data collected through end of September, synthesized in October, folded into Q4 branch-level goals. Cameron explicitly said not to assume there will be themes \u2014 full adoption + honest tracking counts as success on its own, not a themes-found metric. Renamed Weekly \u2192 Bi-Weekly by Cameron 8/27 PM \u2014 report under this name going forward.",
       "blockers": [
         "Submission app not yet built \u2014 Anne's move, no firm date set yet",
         "Rollout communication/marketing framing to employees not yet drafted (Anne flagged 8/27 that people will be confused why a director is suddenly calling them \u2014 needs a short 'here's what this is and why' blurb)",
         "Prior pilot infrastructure (Rippling roster-pull, subitem tracking) built under the retracted design \u2014 not evaluated for reuse under the corrected mechanism"
       ],
-      "green": "Practice designed and documented (5-minute call every 2 weeks, random employee company-wide, logged via a lightweight submission app), adopted by all 7 Roundtable leaders, by September 15.",
-      "superGreen": "Green + full participation tracked with no missed leaders across a full quarter, and at least one theme identified and routed to the Q4 branch-goal digestion process.",
+      "green": "Practice designed and documented (5-minute call every 2 weeks, someone 2+ rungs below \u2014 never a direct \u2014 company-wide, logged via a lightweight submission app), adopted by all 7 Roundtable leaders, by September 15.",
+      "superGreen": "All Roundtable leaders conducting bi-weekly Start/Stop/Keep calls without missing more than two check-ins total, company-wide, across a full quarter \u2014 with a clear record of trends/themes and who's been talked to (the Replit submission log).",
       "dependencies": [
         "Matisen"
       ],
