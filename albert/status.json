@@ -8,8 +8,8 @@
  "period": "Q3 2026",
  "period_start": "2026-08-01",
  "period_end": "2026-10-31",
- "last_updated": "2026-08-28T13:20:00-05:00",
- "updated_by": "Albert (/gm \u2014 Q3 goal ratification)",
+ "last_updated": "2026-08-28T16:15:00-05:00",
+ "updated_by": "Albert (/retro \u2014 rock swap)",
  "cadence_days": 1,
  "goals": [
   {
@@ -75,30 +75,30 @@
   {
    "id": "cameron-q3-5",
    "number": 5,
-   "name": "Manager Ongoing Education Library (absorbs ECP cert course \u2014 one goal)",
+   "name": "Trinity / Northwood Sales Engagement \u2014 Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
    "critical": false,
-   "self_status": "red",
+   "self_status": "green",
    "confidence": 2,
-   "percent_complete": 0,
-   "assessment": "8/21: DELIBERATE HOLD, not a stall \u2014 Cameron's own read at the weekly retro. He has had roughly a week and a half in the office all quarter (kickoff, then vacation, then a catch-up week), and that time went to the website and the sales engagement. Revisit in a couple of weeks. ECP cert module still unbuilt; financial-literacy module scoped 8/17 and pulsed for 10/12.",
+   "percent_complete": 60,
+   "assessment": "8/28 PROMOTED FROM BONUS \u2192 ROCK #5 (Cameron): \"work on the sales has become huge time commitment (should be own goal).\" One-for-one swap \u2014 Manager Ongoing Education Library moves to the bonus slot; denominator stays 5. Live state: five moves locked w/ weights, call flow CONFIRMED by Jeff 8/27, roleplay app v1.8 in trial w/ Nhel + Tet, rubric build unblocked (Amanda owns), abbreviated class w/ Jeff Thu 9/3 12:30, cohorts resume ~wk of 9/8, weekly per-rep conversion reporting pulsed. \u26a0 Bars carried over verbatim from the bonus slot and are STALE \u2014 Green is substantially met already. Refreshed bars owed from Cameron. Distinct from Amanda's Rock #6 (outcome lane: close rate +2/+3.5 pts).",
    "blockers": [],
-   "superGreen": "Green + financial literacy module (2024 lemonade-stand case) + conflict resolution module (movers + CERs) live, with hospitality + ITP modules spec\u2019d as next-quarter backlog",
-   "green": "ECP certification module built and piloted with at least one region\u2019s managers",
-   "updated": "2026-08-17"
+   "superGreen": "Green + lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
+   "green": "Engagement kicked off + Sales Playbook delivered + Amanda's Sales Management Operating Plan stood up on the weekly cadence",
+   "updated": "2026-08-28"
   },
   {
    "id": "cameron-q3-bonus-northwood",
    "number": 6,
-   "name": "\ud83c\udf81 BONUS \u2014 Northwood Sales Engagement (support Amanda)",
+   "name": "\ud83c\udf81 BONUS \u2014 Manager Ongoing Education Library (absorbs ECP cert course)",
    "critical": false,
-   "self_status": "green",
+   "self_status": "red",
    "confidence": 4,
-   "percent_complete": 65,
-   "assessment": "8/27: Jeff CONFIRMED the call flow same-day \u2014 Flow & Scenarios doc approved (five moves, draft weights 35/35/10/10/10 with Amanda, 9 real-call scenarios), flow codified and live in the role-play app (v1.8: confirmed grading, dictation fix, no-concerns caller). Rubric build unblocked; weekly per-rep net-new reporting pulsed to Amanda + Matisen; classes resume ~wk of 9/8 (CET first). Ramp-up takeaway with Jeff, due ~Fri.",
+   "percent_complete": 0,
+   "assessment": "8/28 MOVED FROM ROCK #5 \u2192 BONUS (Cameron). ~20-hour build he is DELIBERATELY holding while progressing other work \u2014 five weeks zero movement as of 8/28, by choice not drift. Still live and gradeable if he picks it up; no longer counts against the 5-rock denominator.",
    "blockers": [],
-   "superGreen": "Green + lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
-   "green": "Engagement kicked off + Sales Playbook delivered + Amanda's Sales Management Operating Plan stood up on the weekly cadence",
-   "updated": "2026-08-27"
+   "superGreen": "Green + financial literacy module (2024 lemonade-stand case) + conflict resolution module (movers + CERs) live, with hospitality + ITP modules spec'd as next-quarter backlog",
+   "green": "ECP certification module built and piloted with at least one region's managers",
+   "updated": "2026-08-28"
   }
  ],
  "kpis": [
