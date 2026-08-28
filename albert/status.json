@@ -8,8 +8,8 @@
  "period": "Q3 2026",
  "period_start": "2026-08-01",
  "period_end": "2026-10-31",
- "last_updated": "2026-08-28T17:05:00-05:00",
- "updated_by": "Albert (/wrap)",
+ "last_updated": "2026-08-28T17:28:00-05:00",
+ "updated_by": "Albert (/wrap \u2014 Rock #5 bars ratified)",
  "cadence_days": 1,
  "goals": [
   {
@@ -79,11 +79,11 @@
    "critical": false,
    "self_status": "green",
    "confidence": 2,
-   "percent_complete": 60,
-   "assessment": "8/28 PROMOTED FROM BONUS \u2192 ROCK #5 (Cameron): \"work on the sales has become huge time commitment (should be own goal).\" One-for-one swap \u2014 Manager Ongoing Education Library moves to the bonus slot; denominator stays 5. Live state: five moves locked w/ weights, call flow CONFIRMED by Jeff 8/27, roleplay app v1.8 in trial w/ Nhel + Tet, rubric build unblocked (Amanda owns), abbreviated class w/ Jeff Thu 9/3 12:30, cohorts resume ~wk of 9/8, weekly per-rep conversion reporting pulsed. \u26a0 Bars carried over verbatim from the bonus slot and are STALE \u2014 Green is substantially met already. Refreshed bars owed from Cameron. Distinct from Amanda's Rock #6 (outcome lane: close rate +2/+3.5 pts).",
+   "percent_complete": 45,
+   "assessment": "8/28 PROMOTED BONUS \u2192 ROCK #5 and BARS REWRITTEN (both Cameron-approved). The carried-over bonus bars were already substantially met (engagement kicked off + playbook delivered, both in August) \u2014 an auto-Green with two months left. New bars measure the REMAINING Q3 scope. SG keeps the lead-triage/EMMA plan, the one piece genuinely still ahead. Live: five moves locked w/ weights \u00b7 flow CONFIRMED by Jeff 8/27 \u00b7 app v1.8 in trial w/ Nhel + Tet \u00b7 abbreviated class w/ Jeff Thu 9/3 12:30 to build the rubric \u00b7 cohorts resume ~wk of 9/8 \u00b7 weekly conversion reporting pulsed. \u26a0 Distinct from Amanda's Rock #6 (outcome lane).",
    "blockers": [],
-   "superGreen": "Green + lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
-   "green": "Engagement kicked off + Sales Playbook delivered + Amanda's Sales Management Operating Plan stood up on the weekly cadence",
+   "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
+   "green": "Rubric BUILT and in use (Amanda owns) \u00b7 cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) \u00b7 weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
    "updated": "2026-08-28"
   },
   {
