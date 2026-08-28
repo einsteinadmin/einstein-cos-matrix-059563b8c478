@@ -8,8 +8,8 @@
  "period": "Q3 2026",
  "period_start": "2026-08-01",
  "period_end": "2026-10-31",
- "last_updated": "2026-08-28T16:15:00-05:00",
- "updated_by": "Albert (/retro \u2014 rock swap)",
+ "last_updated": "2026-08-28T17:05:00-05:00",
+ "updated_by": "Albert (/wrap)",
  "cadence_days": 1,
  "goals": [
   {
@@ -46,15 +46,15 @@
    "name": "COS/World Model Part 2 \u2014 Tier 3 pilot via Claude Tags (+ power-user BM beta per ballot ruling)",
    "critical": true,
    "self_status": "yellow",
-   "confidence": 3,
+   "confidence": 2,
    "percent_complete": 20,
-   "assessment": "8/24: First EXTERNAL share of the network - the COS one-pager was built, published (obscure + noindex) and sent to Zack Oliva (peer CEO, Rob Lynch intro) - a live consulting-thesis signal. Claude Tags pilot setup w/ Matisen pulsed for Wed 8/27. Blocker unchanged: Tags not yet enabled in Slack.",
+   "assessment": "8/28: confidence dropped 3\u21922. Green requires Claude Tags live in Slack for the COS network BY 9/1 \u2014 that is 4 days out and the setup pulse (Team/Enterprise org + pilot setup w/ Matisen) is untouched in This Week with no daily LOW. Matisen is the dependency and is overloaded enough that Cameron pulled the NPS ask off him this week. Percent deliberately NOT raised: this was the biggest COS week of the quarter (mail route shipped, network-core v0.1.0, the SYSTEM.md constitution + 14 ADRs, iCloud-git protection on both Macs, /consultants live for Linda) but ALL of it is adjacent network infrastructure, not the Tier 3 Claude Tags pilot the Green definition actually names. Grading the rock on what shipped nearby is the drift this system exists to catch.",
    "blockers": [
     "Claude Tags not yet enabled in Slack"
    ],
    "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
    "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED \u2014 if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
-   "updated": "2026-08-24"
+   "updated": "2026-08-28"
   },
   {
    "id": "cameron-q3-4",
@@ -63,14 +63,14 @@
    "critical": false,
    "self_status": "green",
    "confidence": 4,
-   "percent_complete": 40,
-   "assessment": "8/25: The bus opened to Albert \u2014 Matisen cut the albert-hub Cloudflare service token same-day on request; agent feed verified live (feed/latest.json, 200). Hub now wired into /gm Morning Numbers, Cameron's KPI auto-fill, and meeting-prep data blocks; KPI basis rulings locked (TUR running-truck primary vs 66% Q3 target with one open ruler question for Matisen, Conversion by $, NPS binary-at-90). Pricing-decisions + demand-plan pages reviewed in anger on day one (Leander netting bug found and fixed within the hour). Paul's token staged; hub-mcp routes + KP's EMMA MCP land this week. Definitions page = the same-name-different-ruler registry in embryo; scorecard rollout audience still unruled.",
+   "percent_complete": 45,
+   "assessment": "8/28: percent 40\u219245. Green includes 'bus lane #1 (EMMA sales feed) canonical and consumed by network tools.' The hub feed now auto-fills Cameron's KPIs at every /gm \u2014 conversion $ (slide-back), monthly NPS, and both TUR rulers, each carrying its pulled-at stamp. That is a network tool consuming the bus lane rather than the lane merely existing. Registry front door and the AI Use Policy remain the open half.",
    "blockers": [
     "Scorecard rollout audience + cadence unruled \u2014 scaffold first"
    ],
    "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/\u201cteam-shareable\u201d certification process adopted network-wide",
    "green": "Tool registry live as the network front door covering all 7 leaders\u2019 tools (built on Matisen\u2019s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne \u2014 lands BEFORE the Tier-3 BM pilot opens access)",
-   "updated": "2026-08-25"
+   "updated": "2026-08-28"
   },
   {
    "id": "cameron-q3-5",
