@@ -8,24 +8,24 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-24T12:05:00-05:00",
+  "last_updated": "2026-08-31T11:35:00-05:00",
   "updated_by": "Matisen (/status)",
   "cadence_days": 1,
   "goals": [
     {
       "id": "matisen-q3-admin",
       "number": 1,
-      "name": "QG and Support Blocks — Admin",
+      "name": "QG and Support Blocks \u2014 Admin",
       "hq_url": "https://hub.einsteinmoving.com",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 38,
-      "assessment": "A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team — an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) — no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur.",
+      "assessment": "A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team \u2014 an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) \u2014 no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur.",
       "blockers": [
-        "A. Region scorecards built but not delivered — regionals do not have them yet",
-        "B. Paul/Cam EMMA MCP access blocked on the hub — needs a status added and a broken refresh fixed",
-        "D. Sage/EMMA still pre-integration — spec v5 publish remains a human-run script pending the Ben/Fabian chain"
+        "A. Region scorecards built but not delivered \u2014 regionals do not have them yet",
+        "B. Paul/Cam EMMA MCP access blocked on the hub \u2014 needs a status added and a broken refresh fixed",
+        "D. Sage/EMMA still pre-integration \u2014 spec v5 publish remains a human-run script pending the Ben/Fabian chain"
       ],
       "milestones": [
         {
@@ -34,7 +34,7 @@
           "done": false
         },
         {
-          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) — $28K",
+          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) \u2014 $28K",
           "date": "2026-10-31",
           "done": false
         },
@@ -56,15 +56,15 @@
     {
       "id": "matisen-q3-sales-marketing",
       "number": 2,
-      "name": "QG and Support Blocks — Sales and Marketing",
+      "name": "QG and Support Blocks \u2014 Sales and Marketing",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 46,
-      "assessment": "B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly — no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. C: email rollout queued.",
+      "assessment": "B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly \u2014 no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. C: email rollout queued.",
       "blockers": [
         "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
-        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only"
+        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) \u2014 Einstein can edit the knowledge base only"
       ],
       "milestones": [
         {
@@ -95,15 +95,15 @@
     {
       "id": "matisen-q3-performance-people",
       "number": 3,
-      "name": "QG and Support Blocks — Performance and Employee Management",
+      "name": "QG and Support Blocks \u2014 Performance and Employee Management",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 44,
       "assessment": "Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged.",
       "blockers": [
-        "A. Webhook verification gated on Anne's return from vacation",
-        "C. Rippling API token scopes — Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
+        "A. Webhook verification still unconfirmed \u2014 the original gate (Anne on vacation) has cleared; Anne active on the board since 8/26, verification not yet reported done",
+        "C. Rippling API token scopes \u2014 Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
       ],
       "milestones": [
         {
@@ -117,7 +117,7 @@
           "done": false
         },
         {
-          "name": "C. Performance log tracking to Rippling — O3, PL, Praise, Coaching",
+          "name": "C. Performance log tracking to Rippling \u2014 O3, PL, Praise, Coaching",
           "date": "2026-10-31",
           "done": false
         },
@@ -129,7 +129,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-08-24"
+      "updated": "2026-08-31"
     },
     {
       "id": "matisen-q3-praise",
@@ -139,11 +139,11 @@
       "self_status": "red",
       "confidence": 3,
       "percent_complete": 0,
-      "assessment": "RED as of 8/24. Still 0 of 48 delivered with ~26% of Q3 elapsed (Aug 1 - Oct 31); clearing it now requires ~5.4/week for the remaining nine weeks. Not nothing, though: 6 praise entries are drafted and staged as subitems on the delivery pulse (Robert, Jaci, Laura, Amanda, Lukas, Cam), against a target of 12 this week — so the gap is between drafted and submitted, not between nothing and something. The measurement source remains undecided (Praise Board vs a new Rippling PL) and the Praise Board itself is broken and unowned.",
+      "assessment": "Unchanged in substance since 8/24 and now materially worse on the clock: 0 of 48 delivered with 33.7% of Q3 elapsed (31 of 92 days). Required pace has risen from ~5.4/week to ~5.5/week for Green and ~6.9/week for Super Green across the remaining 8.7 weeks. The binding constraint is not delivery effort but the undecided measurement source \u2014 6 praise are drafted and cannot be submitted until Praise Board vs Rippling PL is settled. Held at red / 0% / confidence 3: nothing moved, only the deadline did.",
       "blockers": [
-        "No automated praise count wired for Q3 — measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned",
-        "0 of 48 delivered at ~26% of quarter elapsed — burn-down now requires ~5.4/week for the remaining 9 weeks",
-        "6 drafted but unsubmitted — submission path blocked on the measurement-source decision"
+        "No automated praise count wired for Q3 \u2014 measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned",
+        "0 of 48 delivered at ~34% of quarter elapsed \u2014 burn-down now requires ~5.5/week over the remaining 8.7 weeks (Super Green ~6.9/week)",
+        "6 drafted but unsubmitted \u2014 submission path blocked on the measurement-source decision"
       ],
       "milestones": [
         {
@@ -152,12 +152,23 @@
           "done": false
         }
       ],
-      "superGreen": "125% — 60 praise",
-      "green": "100% — 48 praise",
-      "updated": "2026-08-24"
+      "superGreen": "125% \u2014 60 praise",
+      "green": "100% \u2014 48 praise",
+      "updated": "2026-08-31"
     }
   ],
   "kpis": [],
-  "adopted": [],
+  "adopted": [
+    {
+      "item": "network-core",
+      "version": "0.1.0",
+      "date": "2026-08-31",
+      "state": "partial",
+      "forked": [
+        "hooks/wrap-autopush-hook.sh"
+      ],
+      "note": "MD payloads (gm-step-network-inbox, wrap-step-status-publish) staged unwired at .claude/network-core/; autopush Stop hook DECLINED \u2014 6h TTL would silently drop the push on sessions >6h, which are routine here. Rationale + replacement design in ADR-010 (local). Network constitution (SYSTEM.md + ADR 001-014) adopted read-only to context/network/."
+    }
+  ],
   "network_acks": []
 }

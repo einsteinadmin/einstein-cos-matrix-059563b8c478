@@ -2,29 +2,29 @@
   "schema_version": "1.0",
   "owner": {
     "name": "Brian Herzig",
-    "title": "CTXH Regional Mgr · Culture Head",
+    "title": "CTXH Regional Mgr \u00b7 Culture Head",
     "cos": "Vera"
   },
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-27T18:40:00-05:00",
-  "updated_by": "Vera (/wrap)",
-  "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
+  "last_updated": "2026-08-31T11:12:00-05:00",
+  "updated_by": "Vera (/status)",
+  "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) \u2014 Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
     {
       "id": "brian-connection-cadence",
       "number": 1,
-      "name": "Connection Cadence — quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
+      "name": "Connection Cadence \u2014 quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 35,
-      "assessment": "Two halves to this rock and the manager-roundtable half just moved. The first manager strategy meeting of the quarter is set for Thursday 9/3, 2:30-3:45, all 10 branch managers across both regions, and the agenda has been redesigned rather than repeated — a pair-first format where managers brief each other in pairs, then each presents their partner's notes to the room, with leadership split into two leads and two silent observers. It is built directly against the failure mode these sessions have had: managers vocal offline and silent in the room, handing problems up instead of solving them. Blueprint is published and the plan is posted to the rock pulse; two format calls are still with Mike and Cameron. On the events half, budget is closed at $75 per person and options and candidate dates are compiled across 5 regions and 37 attendees, but no region has voted and no date is locked yet.",
+      "percent_complete": 40,
+      "assessment": "Two halves. The manager-roundtable half now has a locked date: the first BM strategy session of the quarter runs Thursday 9/3 at 2:30 PM, all 10 branch managers across both regions, on a redesigned pair-first agenda \u2014 managers brief each other in pairs, then present their partner's notes to the room, with leadership split into two leads and two silent observers. It is built directly against the failure mode these sessions have had: managers vocal offline and silent in the room, handing problems up instead of solving them. Blueprint is published. Final details confirm today so the delegation-board pulse can go out ahead of Thursday. On the events half, budget is closed at $75 per person and options and candidate dates are compiled across 5 regions and 37 attendees; the choice messaging goes out by end of week to lock dates in September or early October.",
       "blockers": [
-        "9/3 session format not yet confirmed by Mike and Cameron — two open calls: five minutes per presenter or four, and whether pair-first is the format we run",
-        "No regional event dates locked — the choice pulse per region still has not gone out, and that is the step that turns a list into a scheduled date",
+        "Delegation-board pulse for the 9/3 session not yet sent \u2014 confirming details today, 3 days ahead of the session",
+        "No regional event dates locked yet \u2014 choice messaging goes out by EOW to start setting September / early October dates",
         "Second BM roundtable not scheduled; green needs 2 conducted with manager feedback and action items"
       ],
       "milestones": [
@@ -56,14 +56,14 @@
         {
           "name": "Event options + candidate dates compiled; choice pulse to each region",
           "date": "2026-08-28",
-          "done": false
+          "done": true
         }
       ],
       "superGreen": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 3 BM roundtable meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
       "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
-      "flywheel": "⑥ Reinvest Profit in People & Innovation",
+      "flywheel": "\u2465 Reinvest Profit in People & Innovation",
       "live_pulse": "12750316279",
-      "updated": "2026-08-24"
+      "updated": "2026-08-31"
     },
     {
       "id": "brian-atx-flex-sa-ops-dev",
@@ -72,13 +72,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 80,
-      "assessment": "Peer review is complete and the first cut is made. 94 deduped peer ratings across all four branches; on-site evaluation averages pulled from the FM Super Board. Scoring model rebuilt 8/25 — Application dropped to weight 0 (reference only, because the cover-letter instruction never reached the application link), leaving Peer 30 / On-Site 30 / Games 15. A published cut line is now in force: a candidate must average 4.0 or higher on the core-values peer score to reach the projects round. Ben Perez (3.67) and Jeremy Ecker (3.62) did not clear it and are not advancing — the first defensible, criteria-based cut this process has had. Jake Petersen runs the projects round Friday 8/28; all four projects are defined with prompts, time windows, and submission rules, and the candidate email is reconciled to match. Remaining candidates get the same package next.",
+      "percent_complete": 88,
+      "assessment": "Projects round is executing on a full schedule, not just defined. Peer review closed with 94 deduped ratings across four branches and a published 4.0 core-values cut line that removed two candidates on stated criteria \u2014 the first defensible cut this process has had. All four projects carry prompts, time windows, account rules and an AI-use disclosure requirement, with the candidate email reconciled word-for-word to the Monday pulse. Schedule: Jake Petersen submitted 8/29; Trevor Heath runs today 8/31; Isaul (Izzy) Serrano and Gerardo (JR) Picacio tomorrow 9/1; Elijah Rasberry Wednesday 9/2. Every remaining candidate now has a date.",
       "blockers": [
-        "Two on-site data gaps still block a complete grade: Picacio has zero on-site evaluations account-wide (ask Rance); Rasberry has a single eval, a 41 Critical Fail, now carrying 30% of his score (ask Mike)",
-        "How a missing category scores has not been decided — affects Picacio directly",
-        "Non-advancing candidates not yet notified; Chris Anderson runs both conversations 8/28",
-        "C-player action plans not yet built"
+        "Two on-site data gaps still block a complete grade: Picacio has zero on-site evaluations account-wide (ask Rance); Rasberry has a single eval, a 41 Critical Fail, currently carrying 30% of his score (ask Mike)",
+        "How a missing category scores has not been decided \u2014 affects Picacio directly, and he sits for projects 9/1",
+        "How AI use factors into the scorecard is undecided; an AI Use Note is required with every submission but carries no weight yet"
       ],
       "milestones": [
         {
@@ -137,23 +136,23 @@
           "done": false
         }
       ],
-      "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
-      "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
-      "flywheel": "❔ Other",
+      "superGreen": "NA BM, SA Ops, SA FM positions solidified \u2014 all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
+      "green": "NA BM, SA Ops, SA FM positions filled/solidified \u2014 action plans built and in review for C players in my region",
+      "flywheel": "\u2754 Other",
       "live_pulse": "12746835385",
-      "updated": "2026-08-24"
+      "updated": "2026-08-31"
     },
     {
       "id": "brian-ctxh-theme-mgmt",
       "number": 3,
-      "name": "CTXH Quarterly Theme Mgmt — Ensure All Managers Hit QGs",
+      "name": "CTXH Quarterly Theme Mgmt \u2014 Ensure All Managers Hit QGs",
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 70,
-      "assessment": "Both hard deadlines were met. Manager sandbox training finished 15 of 15 — Daniel B., Nick D., Jespah L. and Joel V. closed out on the 8/19 deadline, and Sergio Buenrostro completed 8/24 on his documented extended timeline (approved PTO predating the deadline). 100% of active movers were enrolled in the training app on 8/20 as planned. That clears two of the three green conditions. The whole rock now rests on the third: the adoption floor of ≥70% of enrolled movers through stage 4 by EOQ. That is a 10-week behavior problem, not a deadline problem, and it has not started — which is why confidence stays at 4 rather than rising with the percentage. Note the rock is training-camp completion and adoption, not general QG accountability.",
+      "percent_complete": 75,
+      "assessment": "Training app rollout is updated and running. Mike has stood up a new dashboard that tracks progress week to week, managers have been updated and are starting to post against it, and engagement from the management layer is good. The work now is sustaining mover-side momentum \u2014 continuing to poke movers who stall and clear whatever is blocking them so they stay engaged. Week-to-week visibility on actual mover progress is still a little fuzzy, which is the piece to tighten next.",
       "blockers": [
-        "Adoption floor — ≥70% of enrolled movers through stage 4 by EOQ — not started; this is now the entire risk on the rock"
+        "Visibility on week-to-week mover progress is still fuzzy \u2014 management engagement is good, but mover-level progress is harder to read than it should be"
       ],
       "milestones": [
         {
@@ -177,7 +176,7 @@
           "done": true
         },
         {
-          "name": "≥70% of enrolled movers through stage 4",
+          "name": "\u226570% of enrolled movers through stage 4",
           "date": "2026-10-31",
           "done": false
         },
@@ -197,23 +196,24 @@
           "done": true
         }
       ],
-      "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
-      "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
-      "flywheel": "① Attract & Develop Great Movers",
+      "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor \u226570%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
+      "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor \u226570%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
+      "flywheel": "\u2460 Attract & Develop Great Movers",
       "live_pulse": "12750301851",
-      "updated": "2026-08-24"
+      "updated": "2026-08-31"
     },
     {
       "id": "brian-branch-audits",
       "number": 4,
-      "name": "CTXH Branch Audits — 3 of 5 Branches per Quarter",
+      "name": "CTXH Branch Audits \u2014 3 of 5 Branches per Quarter",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
+      "confidence": 3,
       "percent_complete": 0,
-      "assessment": "Not started. Requires formal branch audits — scorecard audit + circle-up + huddle audit per location — plus a redesigned branch-visit evaluation dashboard. NOTE: QG meetings and Training Day visits do NOT count toward this goal. Roughly 2.5 months of runway left; needs 3 locations for green, all 5 for super green.",
+      "assessment": "Not started, and deliberately so. Brian's call: branches are still settling and his own rocks and goals need the focus right now, so travel is not being prioritized this month. Target is to begin frontline visits mid-to-late September, which leaves roughly six weeks to complete 3 of 5 before quarter end. Not a drift item \u2014 a sequencing decision with a date attached, and he is not concerned about reaching green.",
       "blockers": [
-        "No branch audits scheduled yet"
+        "No visits scheduled yet \u2014 the first booked date is the thing that turns this from a plan into progress",
+        "Requires coordinating Brian's schedule against branch readiness; start target is mid-to-late September"
       ],
       "milestones": [
         {
@@ -229,23 +229,23 @@
       ],
       "superGreen": "All 5 locations visited + scorecard audits (4 or higher score) + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
       "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
-      "flywheel": "② Deliver the Smart Move Experience",
+      "flywheel": "\u2461 Deliver the Smart Move Experience",
       "live_pulse": "12750317266",
-      "updated": "2026-08-17"
+      "updated": "2026-08-31"
     },
     {
       "id": "brian-scrum-accountability-pt3",
       "number": 5,
-      "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
+      "name": "Scrum Accountability Part 3 \u2014 Huddle Grading + Value Tracking",
       "critical": true,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 50,
-      "assessment": "Rollout shipped 8/24 — all 15 managers have their board and the announcement is on the Delegation Board. Two managers are certified: Calvin Hughes 52/60 and Joel Villatoro 54/60 after same-day rework, both re-scored under rubric v1.5. Twelve boards remain. Deadline extended 8/27 from Thursday 8/27 to Monday 8/31 — v1.5 landed mid-cohort on 8/26 and forced the re-score of the first two certs, so holding the rest to Thursday would have graded them against a bar that moved under them. Also corrected a live error in the manager announcement: the last two categories were labeled Bonus when v1.5 makes them 5 points each, 10 of the 60 — anyone who skipped them could not have cleared the 51-point line. A defect was found in the certification quiz — two Paragraph-type questions Google Forms cannot auto-grade, holding 2 of 10 points at zero. The 7 responses received were hand-graded 8/27; the underlying question-type fix is still open.",
+      "confidence": 4,
+      "percent_complete": 65,
+      "assessment": "The system is built and now running live. Rubric v1.5 shipped end to end \u2014 12 criteria, 60 points, uniform 5/3/1 floor, certification line stated everywhere at 85% (51 of 60) \u2014 with all nine artifacts and the score data migrated. Twelve manager boards are due today and grading is underway. Weekly live maintenance reads have begun: Leander scored 54 of 60 (90%, pass, both managers clearing) and San Antonio 50 of 60 (83%, one point under the line). Two managers were previously certified under v1.5 at 52 of 60. Goal for end of week is grades in hand and confirmation that the mock board and updated rubric work as intended before the cadence is rolled out to everyone.",
       "blockers": [
-        "Certification quiz still cannot auto-score two questions — the DLOW/WLOW and deferred-Monday questions are Paragraph type, which Google Forms cannot grade. The 7 existing responses were hand-graded 8/27 so nothing is lost, but every future taker is capped at 8/10 until the question types change or the two are set to 0 points",
-        "12 of 14 manager boards still outstanding, now due Monday 8/31",
-        "Deadline has already moved once; a second slip would put recertification inside the EOQ window"
+        "12 boards due today, grading in progress \u2014 2 of 12 read so far",
+        "Live-read cadence not yet settled: whether the score is the pre-fix or post-fix read is parked until every manager is recertified",
+        "Sales pulses are a cross-branch pattern \u2014 the one critical category managers consistently let go stale; showed on both boards read today"
       ],
       "milestones": [
         {
@@ -296,9 +296,9 @@
       ],
       "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
       "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
-      "flywheel": "⑥ Reinvest Profit in People & Innovation",
+      "flywheel": "\u2465 Reinvest Profit in People & Innovation",
       "live_pulse": "12750326806",
-      "updated": "2026-08-24",
+      "updated": "2026-08-31",
       "hq_url": "https://bherz303.github.io/einstein-scrum-hq-hf9zjgpk/"
     }
   ],
@@ -310,11 +310,11 @@
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 27,
-      "assessment": "13 of 48 cards delivered this quarter. Per-manager: Dustin Street 3, Chris Anderson 2, Daniel Behseresht 2, Rance Pope 2, Hector Zavala 1, Lukas Konrad 1, plus 1 to a non-manager. 9 of 15 managers still at zero (Frank Williams, Sergio Buenrostro, Nick Dagel, Garrison Cobe, Joel Villatoro, Cameron Klepac, Alex Tran, Jespah Lara, Calvin Hughes). At least 1 card per manager is the binding constraint, not the raw count.",
-      "chart_note": "PERSONAL TRACKING ONLY — not a Q3 chart rock and not part of the status Cameron's board tracks. Brian's call 8/24: this is a side goal he tracks himself. Kept in bonus_goals[] so the count stays visible in his own file without reading as a seventh rock.",
+      "percent_complete": 38,
+      "assessment": "18 of 48 cards delivered this quarter. Per-manager: Dustin Street 5, Rance Pope 3, Chris Anderson 2, Daniel Behseresht 2, Frank Williams 1, Hector Zavala 1, Lukas Konrad 1, Sergio Buenrostro 1, Joel Villatoro 1, Alex Tran 1 (one shared card), plus 1 to a non-manager. Five of 15 managers still at zero: Nick Dagel, Garrison Cobe, Cameron Klepac, Jespah Lara, Calvin Hughes. At least 1 card per manager remains the binding constraint, not the raw count.",
+      "chart_note": "PERSONAL TRACKING ONLY \u2014 not a Q3 chart rock and not part of the status Cameron's board tracks. Brian's call 8/24: this is a side goal he tracks himself. Kept in bonus_goals[] so the count stays visible in his own file without reading as a seventh rock.",
       "blockers": [
-        "9 of 15 managers still have zero cards"
+        "5 of 15 managers still have zero cards"
       ],
       "milestones": [
         {
@@ -336,24 +336,29 @@
           "name": "13 of 48 cards delivered",
           "date": "2026-08-24",
           "done": false
+        },
+        {
+          "name": "18 of 48 cards delivered",
+          "date": "2026-08-31",
+          "done": false
         }
       ],
       "superGreen": "56 praise cards delivered, at least 3 per manager in region",
       "green": "48 praise cards delivered, at least 1 per manager in region",
       "red": "Fewer than 48 cards delivered",
       "live_pulse": "12761931235",
-      "updated": "2026-08-24"
+      "updated": "2026-08-31"
     }
   ],
   "kpis": [],
   "adopted": [
     {
       "tool": "Monday.com",
-      "notes": "Sky Board (1146915251) — primary task tracking surface. Daily /gm pulls Today + This Week groups."
+      "notes": "Sky Board (1146915251) \u2014 primary task tracking surface. Daily /gm pulls Today + This Week groups."
     },
     {
       "tool": "Gmail / Google Calendar",
-      "notes": "regionalteam@einsteinmoving.com — primary inbox and calendar for CTXH coordination."
+      "notes": "regionalteam@einsteinmoving.com \u2014 primary inbox and calendar for CTXH coordination."
     },
     {
       "tool": "Slack",
