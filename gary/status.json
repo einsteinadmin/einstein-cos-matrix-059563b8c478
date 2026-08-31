@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-17T15:20:00-05:00",
-  "updated_by": "Gary (/status — Q3 rollover)",
+  "last_updated": "2026-08-31T07:52:00-05:00",
+  "updated_by": "Gary (/wrap)",
   "cadence_days": 7,
   "source_of_truth": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified in QGR room 7/30)",
   "goals": [
@@ -21,11 +21,11 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 35,
-      "assessment": "Yellow — the cadence IS running; the score is not moving. Correcting an earlier read on this rock: weekly grading has run continuously, not stalled. 267 calls graded to date across runs on 6/5, 6/11, 6/15, 7/20, 7/27, 8/10 and 8/17, with the most recent run completed the morning of 8/17 (59 calls) and weekly HTML reports produced for 6/15, 7/20, 7/27, 8/10 and 8/17. Distribution infrastructure is effectively built and operating. The real gap is the outcome: company-wide average score is 45.8 cumulative and 44.7 across the last three runs, against a Green bar of 65 — a 19.2 point gap. Trend is flat to slightly down (49.6 on 6/11 to 45.3 on 8/17), so the coaching half of this rock is not yet converting grading volume into score movement. One positive signal: Save Your Ass has gone from 0/50 in week 1 to 19/267 company-wide.",
+      "assessment": "Yellow — the join is finally answered; the cadence itself just slipped. CoS-MH1 answered the 7/3 Emma-integration ask on 8/21 (6 weeks of silence) with a workable plan: match calls to jobs via the Monday 'Scheduled Jobs — Q3 2026' tracker (board 18427242877) on Customer Phone. Amanda confirmed 8/25 it's a plumbing change, not a rebuild — the grader already captures external_number, just needs to carry it through by call_id. But grading itself stalled: no run happened the week of 8/18-8/24, and there's no confirmed run since 8/17 as of 8/31 — a real cadence gap Amanda owns closing, not just a data question. Company average still 45.8 cumulative against a 65 Green bar; no new score data to move that number one way or the other since 8/17.",
       "blockers": [
-        "Company average flat at ~45 for two months against a 65 Green bar — coaching loop is not yet moving the number",
+        "Grading cadence stalled — last confirmed run 8/17, no run the week of 8/18-8/24 or since",
         "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
-        "Emma integration ask to Matisen/CoS-MH1 outstanding since 7/3 — bumped 8/17 (SCB pulse 12442800385)"
+        "Phone-join plumbing (external_number carried by call_id) not yet built, though the plan is confirmed workable"
       ],
       "milestones": [
         {
@@ -44,6 +44,11 @@
           "done": true
         },
         {
+          "name": "Emma-join plan received + confirmed workable",
+          "date": "2026-08-25",
+          "done": true
+        },
+        {
           "name": "Company average reaches 65 Green bar",
           "date": "2026-10-31",
           "done": false
@@ -51,7 +56,7 @@
       ],
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
-      "updated": "2026-08-17",
+      "updated": "2026-08-31",
       "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
       "metrics": {
         "calls_graded_cumulative": 267,
@@ -70,8 +75,8 @@
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 75,
-      "assessment": "Yellow — past its own target date, not blocked. This yellow is not a pace call — it is a date this rock set for itself inside Q3 and passed. Target launch was the first week of August; it is 8/17 and the bot is still in testing, so the Green bar ('running consistently with bugs fixed') is not met. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+      "percent_complete": 78,
+      "assessment": "Yellow — past its own target date, now carrying a second one. Target launch was the first week of August; that passed with the bot still in testing. Matisen's board now shows a new target of the 2nd week of September, so the Green bar ('running consistently with bugs fixed') stays unmet but the date is at least reset rather than open-ended. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
       "blockers": [
         "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
         "Confirmation that Paul delivered the Messenger token to Nidha's team",
@@ -101,7 +106,7 @@
       ],
       "superGreen": "Phase 2 underway, Emma connection",
       "green": "Chatbot running consistently with bugs fixed",
-      "updated": "2026-08-17"
+      "updated": "2026-08-31"
     },
     {
       "id": "amanda-email-suite",
@@ -170,8 +175,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 30,
-      "assessment": "Green — engagement is live and the first concrete workstream starts this week. Two working sessions with Jeff over the last two weeks; Einstein's operational roadblocks genuinely reset his read of the engagement. Out of those sessions we picked the two lowest-hanging pieces to start with: (1) adjusting our triages to pull intent out of the contacts we are already generating leads from — more signal from existing traffic rather than new sources; and (2) sales training for the CET. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
+      "percent_complete": 45,
+      "assessment": "Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
       "blockers": [
         "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
         "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
@@ -205,7 +210,7 @@
       ],
       "superGreen": "TBD — bars not set on chart",
       "green": "TBD — bars not set on chart",
-      "updated": "2026-08-17"
+      "updated": "2026-08-31"
     }
   ],
   "kpis": [],
@@ -225,5 +230,5 @@
       "reason": "Removed from Amanda's Q3 slate (Amanda's call)."
     }
   ],
-  "period_elapsed_note": "As of 2026-08-17 the quarter is ~18% elapsed (Aug 1 – Oct 31). Percent_complete values are early-quarter figures and are not comparable to end-of-quarter Q2 values."
+  "period_elapsed_note": "As of 2026-08-31 the quarter is ~33% elapsed (Aug 1 – Oct 31). Percent_complete values are early/mid-quarter figures and are not comparable to end-of-quarter Q2 values."
 }
