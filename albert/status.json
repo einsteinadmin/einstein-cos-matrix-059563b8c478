@@ -1,207 +1,207 @@
 {
- "schema_version": "1.0",
- "owner": {
-  "name": "Cameron Brown",
-  "title": "CEO / Co-Owner",
-  "cos": "Albert"
- },
- "period": "Q3 2026",
- "period_start": "2026-08-01",
- "period_end": "2026-10-31",
- "last_updated": "2026-08-28T17:28:00-05:00",
- "updated_by": "Albert (/wrap \u2014 Rock #5 bars ratified)",
- "cadence_days": 1,
- "goals": [
-  {
-   "id": "cameron-q3-1",
-   "number": 1,
-   "name": "Q3 Theme Stewardship \u2014 \u201cTraining Camp\u201d (2-lane rollup)",
-   "critical": false,
-   "self_status": "green",
-   "confidence": 3,
-   "percent_complete": 25,
-   "assessment": "8/20: Training Camp poster PRINT PACKAGE shipped (12x18/11x17/letter PDFs + hi-res PNG, Drive folder 1WrJlOC-9hez1bL7Vj239rHBmpmBQgDhJ, Sky pulse 12859236881) \u2014 releases the 7/30 print-run hold. 8/21: Mike printing and hanging at every branch. Trinity lane running; the role-play trainer is now the practice surface for it.",
-   "blockers": [],
-   "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor \u00b7 Lane 2: >70 avg) \u2014 OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
-   "green": "BOTH lanes hit Green \u2014 Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers\u2019 sandbox gate 8/19 + 70% adoption floor \u00b7 Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
-   "updated": "2026-08-17"
+  "schema_version": "1.0",
+  "owner": {
+    "name": "Cameron Brown",
+    "title": "CEO / Co-Owner",
+    "cos": "Albert"
   },
-  {
-   "id": "cameron-q3-2",
-   "number": 2,
-   "name": "Cameron/KP \u2014 Website Redesign Part 2: Build + LAUNCH (signed SOW)",
-   "critical": false,
-   "self_status": "green",
-   "confidence": 4,
-   "percent_complete": 55,
-   "assessment": "8/28 BARS AMENDED (Cameron ratified). Rich (Secret Stache) confirmed to Laura 8/26: start date 8/31, 10-11 weeks to their final review, 13 weeks is the launch goal (~Nov 30), tracking ahead of schedule on recent projects, gantt chart in week 2-3. The original SG 'site LAUNCHED by 10/31' was written before that clock was known and sits outside the vendor's own range \u2014 so Q3's finish line is reset to a BUILD milestone and LAUNCH moves to a Q4 rock. Bars stay outcome-based (no-caveat grading holds); Red fires if Einstein is the blocker. KP's goal #1 amended to the same language so one piece of work isn't graded two ways. Cameron has pre-approved all site copy; Lianna's website + email copy is the remaining review. Build starts 8/31.",
-   "blockers": [],
-   "superGreen": "Green, plus the build is running AHEAD of Secret Stache's schedule \u2014 QA underway on the full site AND the launch date formally locked (December vs. new-year window decided, not drifting)",
-   "green": "All Einstein-side inputs delivered and the build on schedule as of 10/31 \u2014 copy and content locked and handed to Secret Stache with no Einstein-side blockers \u00b7 FSE block theme built with pages populated on staging \u00b7 build tracking to Rich's gantt with no missed milestones",
-   "updated": "2026-08-28"
-  },
-  {
-   "id": "cameron-q3-3",
-   "number": 3,
-   "name": "COS/World Model Part 2 \u2014 Tier 3 pilot via Claude Tags (+ power-user BM beta per ballot ruling)",
-   "critical": true,
-   "self_status": "yellow",
-   "confidence": 2,
-   "percent_complete": 20,
-   "assessment": "8/28: confidence dropped 3\u21922. Green requires Claude Tags live in Slack for the COS network BY 9/1 \u2014 that is 4 days out and the setup pulse (Team/Enterprise org + pilot setup w/ Matisen) is untouched in This Week with no daily LOW. Matisen is the dependency and is overloaded enough that Cameron pulled the NPS ask off him this week. Percent deliberately NOT raised: this was the biggest COS week of the quarter (mail route shipped, network-core v0.1.0, the SYSTEM.md constitution + 14 ADRs, iCloud-git protection on both Macs, /consultants live for Linda) but ALL of it is adjacent network infrastructure, not the Tier 3 Claude Tags pilot the Green definition actually names. Grading the rock on what shipped nearby is the drift this system exists to catch.",
-   "blockers": [
-    "Claude Tags not yet enabled in Slack"
-   ],
-   "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
-   "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED \u2014 if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
-   "updated": "2026-08-28"
-  },
-  {
-   "id": "cameron-q3-4",
-   "number": 4,
-   "name": "One Truth \u2014 Einstein Data Bus + AI/Tool Governance (registry \u00b7 bus lanes \u00b7 monthly Big Rocks review)",
-   "critical": false,
-   "self_status": "green",
-   "confidence": 4,
-   "percent_complete": 45,
-   "assessment": "8/28: percent 40\u219245. Green includes 'bus lane #1 (EMMA sales feed) canonical and consumed by network tools.' The hub feed now auto-fills Cameron's KPIs at every /gm \u2014 conversion $ (slide-back), monthly NPS, and both TUR rulers, each carrying its pulled-at stamp. That is a network tool consuming the bus lane rather than the lane merely existing. Registry front door and the AI Use Policy remain the open half.",
-   "blockers": [
-    "Scorecard rollout audience + cadence unruled \u2014 scaffold first"
-   ],
-   "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/\u201cteam-shareable\u201d certification process adopted network-wide",
-   "green": "Tool registry live as the network front door covering all 7 leaders\u2019 tools (built on Matisen\u2019s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne \u2014 lands BEFORE the Tier-3 BM pilot opens access)",
-   "updated": "2026-08-28"
-  },
-  {
-   "id": "cameron-q3-5",
-   "number": 5,
-   "name": "Trinity / Northwood Sales Engagement \u2014 Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
-   "critical": false,
-   "self_status": "green",
-   "confidence": 2,
-   "percent_complete": 45,
-   "assessment": "8/28 PROMOTED BONUS \u2192 ROCK #5 and BARS REWRITTEN (both Cameron-approved). The carried-over bonus bars were already substantially met (engagement kicked off + playbook delivered, both in August) \u2014 an auto-Green with two months left. New bars measure the REMAINING Q3 scope. SG keeps the lead-triage/EMMA plan, the one piece genuinely still ahead. Live: five moves locked w/ weights \u00b7 flow CONFIRMED by Jeff 8/27 \u00b7 app v1.8 in trial w/ Nhel + Tet \u00b7 abbreviated class w/ Jeff Thu 9/3 12:30 to build the rubric \u00b7 cohorts resume ~wk of 9/8 \u00b7 weekly conversion reporting pulsed. \u26a0 Distinct from Amanda's Rock #6 (outcome lane).",
-   "blockers": [],
-   "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
-   "green": "Rubric BUILT and in use (Amanda owns) \u00b7 cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) \u00b7 weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
-   "updated": "2026-08-28"
-  },
-  {
-   "id": "cameron-q3-bonus-northwood",
-   "number": 6,
-   "name": "\ud83c\udf81 BONUS \u2014 Manager Ongoing Education Library (absorbs ECP cert course)",
-   "critical": false,
-   "self_status": "red",
-   "confidence": 4,
-   "percent_complete": 0,
-   "assessment": "8/28 MOVED FROM ROCK #5 \u2192 BONUS (Cameron). ~20-hour build he is DELIBERATELY holding while progressing other work \u2014 five weeks zero movement as of 8/28, by choice not drift. Still live and gradeable if he picks it up; no longer counts against the 5-rock denominator.",
-   "blockers": [],
-   "superGreen": "Green + financial literacy module (2024 lemonade-stand case) + conflict resolution module (movers + CERs) live, with hospitality + ITP modules spec'd as next-quarter backlog",
-   "green": "ECP certification module built and piloted with at least one region's managers",
-   "updated": "2026-08-28"
-  }
- ],
- "kpis": [
-  {
-   "id": "cameron-tur",
-   "name": "Truck Utilization Rate",
-   "target": "65%",
-   "actual": null,
-   "self_status": "unknown",
-   "note": "Running-truck ruler PRIMARY, Q3 chart target 66%; hub shows 42.3% Aug on a DIFFERENT ruler \u2014 open ruler question with Matisen; don't grade until settled."
-  },
-  {
-   "id": "cameron-conv",
-   "name": "Conversion Rate $",
-   "target": "20%",
-   "actual": null,
-   "self_status": "unknown",
-   "note": "Re-baselined 8/3/26 (was 40% \u2014 pre-VP ruler). Basis = Conversion by $ PRIMARY (8/25 KPI ruling; 23.6% = Green). Q2-TD read 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead \u2014 confirm with Matisen which basis Q3 scores against."
-  },
-  {
-   "id": "cameron-nps",
-   "name": "Customer NPS",
-   "target": "90+",
-   "actual": "86.4 (hub, binary-at-90 ruling)",
-   "self_status": "red",
-   "note": "REPLACES eNPS 45+ per the 8/3/26 KPI re-baseline. Binary-at-90 ruling (8/25): scorecard bands SG \u226591 \u00b7 G 88\u201390.9 \u00b7 W 86\u201387.9 \u00b7 R <86 \u2014 86.4 = the one RED exec KPI."
-  }
- ],
- "adopted": [
-  {
-   "pattern": "template",
-   "version": "v0.8.2",
-   "state": "adopted",
-   "date": "2026-06-02"
-  },
-  {
-   "pattern": "wrap-git-push",
-   "state": "adopted",
-   "date": "2026-04-23"
-  },
-  {
-   "pattern": "gm-step-0",
-   "state": "adopted",
-   "date": "2026-05-30"
-  },
-  {
-   "pattern": "save-thread-keyed",
-   "state": "adopted",
-   "date": "2026-04-23"
-  },
-  {
-   "pattern": "slack-naming-v063",
-   "state": "adopted",
-   "date": "2026-04-23"
-  },
-  {
-   "pattern": "stub-prompts",
-   "state": "adopted",
-   "date": "2026-05-27"
-  },
-  {
-   "pattern": "status-file",
-   "version": "v1.0",
-   "state": "in_progress",
-   "date": "2026-05-29"
-  }
- ],
- "network_acks": [
-  {
-   "thread": "12112867738",
-   "topic": "Repo consolidation to ai-chief-of-staff private",
-   "state": "acked",
-   "date": "2026-05-26"
-  },
-  {
-   "thread": "12119024983",
-   "topic": "Stub-prompt propagation v0.6.10",
-   "state": "acked",
-   "date": "2026-05-27"
-  },
-  {
-   "thread": "12144982496",
-   "topic": "Step 0 v0.7.2 / two-stage watermark",
-   "state": "acked",
-   "date": "2026-05-30"
-  },
-  {
-   "thread": "12145052785",
-   "topic": "v0.7.3 \u2014 commands watching added",
-   "state": "acked",
-   "date": "2026-05-30"
-  },
-  {
-   "thread": "12109383450",
-   "topic": "/wrap git push audit",
-   "state": "acked",
-   "date": "2026-05-26"
-  },
-  {
-   "thread": "12109448155",
-   "topic": "Slack v0.6.3 retrofit",
-   "state": "acked",
-   "date": "2026-05-26"
-  }
- ]
+  "period": "Q3 2026",
+  "period_start": "2026-08-01",
+  "period_end": "2026-10-31",
+  "last_updated": "2026-08-31T17:29:59-05:00",
+  "updated_by": "Albert (/wrap)",
+  "cadence_days": 1,
+  "goals": [
+    {
+      "id": "cameron-q3-1",
+      "number": 1,
+      "name": "Q3 Theme Stewardship — “Training Camp” (2-lane rollup)",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 25,
+      "assessment": "8/20: Training Camp poster PRINT PACKAGE shipped (12x18/11x17/letter PDFs + hi-res PNG, Drive folder 1WrJlOC-9hez1bL7Vj239rHBmpmBQgDhJ, Sky pulse 12859236881) — releases the 7/30 print-run hold. 8/21: Mike printing and hanging at every branch. Trinity lane running; the role-play trainer is now the practice surface for it.",
+      "blockers": [],
+      "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
+      "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
+      "updated": "2026-08-17"
+    },
+    {
+      "id": "cameron-q3-2",
+      "number": 2,
+      "name": "Cameron/KP — Website Redesign Part 2: Build + LAUNCH (signed SOW)",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 55,
+      "assessment": "8/31: THE BUILD CLOCK STARTED — Secret Stache's 13-week build officially began today (start confirmed by Rich 8/26; gantt lands wk 2-3). Einstein-side inputs moving: Lianna's copy handed to KP with Amanda's confirmation template for the official email templates (8/31 1:1). Weekend wobble handled: site went down Sat AM — Matisen caught it, Kickpoint restored it in ~1 hr. Green = all Einstein-side inputs delivered + build on schedule as of 10/31 — nothing Einstein-side blocking at kickoff. [Prior 8/28: bars amended (Cameron ratified) — SG = ahead of schedule + launch date locked; launch itself moved to a Q4 rock.]",
+      "blockers": [],
+      "superGreen": "Green, plus the build is running AHEAD of Secret Stache's schedule — QA underway on the full site AND the launch date formally locked (December vs. new-year window decided, not drifting)",
+      "green": "All Einstein-side inputs delivered and the build on schedule as of 10/31 — copy and content locked and handed to Secret Stache with no Einstein-side blockers · FSE block theme built with pages populated on staging · build tracking to Rich's gantt with no missed milestones",
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "cameron-q3-3",
+      "number": 3,
+      "name": "COS/World Model Part 2 — Tier 3 pilot via Claude Tags (+ power-user BM beta per ballot ruling)",
+      "critical": true,
+      "self_status": "yellow",
+      "confidence": 2,
+      "percent_complete": 20,
+      "assessment": "8/28: confidence dropped 3→2. Green requires Claude Tags live in Slack for the COS network BY 9/1 — that is 4 days out and the setup pulse (Team/Enterprise org + pilot setup w/ Matisen) is untouched in This Week with no daily LOW. Matisen is the dependency and is overloaded enough that Cameron pulled the NPS ask off him this week. Percent deliberately NOT raised: this was the biggest COS week of the quarter (mail route shipped, network-core v0.1.0, the SYSTEM.md constitution + 14 ADRs, iCloud-git protection on both Macs, /consultants live for Linda) but ALL of it is adjacent network infrastructure, not the Tier 3 Claude Tags pilot the Green definition actually names. Grading the rock on what shipped nearby is the drift this system exists to catch.",
+      "blockers": [
+        "Claude Tags not yet enabled in Slack"
+      ],
+      "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
+      "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED — if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
+      "updated": "2026-08-28"
+    },
+    {
+      "id": "cameron-q3-4",
+      "number": 4,
+      "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes · monthly Big Rocks review)",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 4,
+      "percent_complete": 45,
+      "assessment": "8/28: percent 40→45. Green includes 'bus lane #1 (EMMA sales feed) canonical and consumed by network tools.' The hub feed now auto-fills Cameron's KPIs at every /gm — conversion $ (slide-back), monthly NPS, and both TUR rulers, each carrying its pulled-at stamp. That is a network tool consuming the bus lane rather than the lane merely existing. Registry front door and the AI Use Policy remain the open half.",
+      "blockers": [
+        "Scorecard rollout audience + cadence unruled — scaffold first"
+      ],
+      "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
+      "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
+      "updated": "2026-08-28"
+    },
+    {
+      "id": "cameron-q3-5",
+      "number": 5,
+      "name": "Trinity / Northwood Sales Engagement — Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
+      "critical": false,
+      "self_status": "green",
+      "confidence": 3,
+      "percent_complete": 50,
+      "assessment": "8/31 (Amanda 1:1): the rubric build is ON SCHEDULE for Thursday — Amanda is rebuilding the customer-rapport grading section by Tue 9/2, aligned to the roleplay app's scoring (she self-rejected her first iteration against Jeff's feedback), and she + Nhel + Tet each run 2-4 live calls before Thu 9/3 so the class builds the rubric on real reps. Amanda has tested app v1.8 and sent notes. Cohorts resume ~wk of 9/8 (CET first). Weekly per-rep net-new conversion reporting pulsed to Amanda + Matisen (needed by 9/8). Her OUTCOME-lane bars are now FINAL on every surface (chart / dashboard / MC — propagated 8/31). [Prior 8/28: promoted bonus → Rock #5, bars rewritten to remaining scope.]",
+      "blockers": [],
+      "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
+      "green": "Rubric BUILT and in use (Amanda owns) · cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) · weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "cameron-q3-bonus-northwood",
+      "number": 6,
+      "name": "🎁 BONUS — Manager Ongoing Education Library (absorbs ECP cert course)",
+      "critical": false,
+      "self_status": "red",
+      "confidence": 4,
+      "percent_complete": 0,
+      "assessment": "8/28 MOVED FROM ROCK #5 → BONUS (Cameron). ~20-hour build he is DELIBERATELY holding while progressing other work — five weeks zero movement as of 8/28, by choice not drift. Still live and gradeable if he picks it up; no longer counts against the 5-rock denominator.",
+      "blockers": [],
+      "superGreen": "Green + financial literacy module (2024 lemonade-stand case) + conflict resolution module (movers + CERs) live, with hospitality + ITP modules spec'd as next-quarter backlog",
+      "green": "ECP certification module built and piloted with at least one region's managers",
+      "updated": "2026-08-28"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "cameron-tur",
+      "name": "Truck Utilization Rate",
+      "target": "65%",
+      "actual": null,
+      "self_status": "unknown",
+      "note": "Running-truck ruler PRIMARY, Q3 chart target 66%; hub shows 42.3% Aug on a DIFFERENT ruler — open ruler question with Matisen; don't grade until settled."
+    },
+    {
+      "id": "cameron-conv",
+      "name": "Conversion Rate $",
+      "target": "20%",
+      "actual": null,
+      "self_status": "unknown",
+      "note": "Re-baselined 8/3/26 (was 40% — pre-VP ruler). Basis = Conversion by $ PRIMARY (8/25 KPI ruling; 23.6% = Green). Q2-TD read 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead — confirm with Matisen which basis Q3 scores against."
+    },
+    {
+      "id": "cameron-nps",
+      "name": "Customer NPS",
+      "target": "90+",
+      "actual": "86.4 (hub, binary-at-90 ruling)",
+      "self_status": "red",
+      "note": "REPLACES eNPS 45+ per the 8/3/26 KPI re-baseline. Binary-at-90 ruling (8/25): scorecard bands SG ≥91 · G 88–90.9 · W 86–87.9 · R <86 — 86.4 = the one RED exec KPI."
+    }
+  ],
+  "adopted": [
+    {
+      "pattern": "template",
+      "version": "v0.8.2",
+      "state": "adopted",
+      "date": "2026-06-02"
+    },
+    {
+      "pattern": "wrap-git-push",
+      "state": "adopted",
+      "date": "2026-04-23"
+    },
+    {
+      "pattern": "gm-step-0",
+      "state": "adopted",
+      "date": "2026-05-30"
+    },
+    {
+      "pattern": "save-thread-keyed",
+      "state": "adopted",
+      "date": "2026-04-23"
+    },
+    {
+      "pattern": "slack-naming-v063",
+      "state": "adopted",
+      "date": "2026-04-23"
+    },
+    {
+      "pattern": "stub-prompts",
+      "state": "adopted",
+      "date": "2026-05-27"
+    },
+    {
+      "pattern": "status-file",
+      "version": "v1.0",
+      "state": "in_progress",
+      "date": "2026-05-29"
+    }
+  ],
+  "network_acks": [
+    {
+      "thread": "12112867738",
+      "topic": "Repo consolidation to ai-chief-of-staff private",
+      "state": "acked",
+      "date": "2026-05-26"
+    },
+    {
+      "thread": "12119024983",
+      "topic": "Stub-prompt propagation v0.6.10",
+      "state": "acked",
+      "date": "2026-05-27"
+    },
+    {
+      "thread": "12144982496",
+      "topic": "Step 0 v0.7.2 / two-stage watermark",
+      "state": "acked",
+      "date": "2026-05-30"
+    },
+    {
+      "thread": "12145052785",
+      "topic": "v0.7.3 — commands watching added",
+      "state": "acked",
+      "date": "2026-05-30"
+    },
+    {
+      "thread": "12109383450",
+      "topic": "/wrap git push audit",
+      "state": "acked",
+      "date": "2026-05-26"
+    },
+    {
+      "thread": "12109448155",
+      "topic": "Slack v0.6.3 retrofit",
+      "state": "acked",
+      "date": "2026-05-26"
+    }
+  ]
 }
