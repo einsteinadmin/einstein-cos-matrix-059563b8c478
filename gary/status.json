@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-31T07:52:00-05:00",
+  "last_updated": "2026-08-31T21:45:00-05:00",
   "updated_by": "Gary (/wrap)",
   "cadence_days": 7,
   "source_of_truth": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified in QGR room 7/30)",
@@ -115,12 +115,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 60,
-      "assessment": "Green — ahead of pace. The confirmation email redesign is built and matches the new RFQ visual system. It has not been approved or queued in EMMA yet, which is what the Green bar ultimately requires, but at 60% done with ~18% of the quarter elapsed this is running ahead of an even burn. Currently a private Artifact. Sharing it out to Kickpoint is snagged on an org-level setting: Claude's 'anyone with the link' sharing is disabled company-wide, so external delivery needs the raw-file workaround. Quarter context: as of 8/17 the quarter is ~18% elapsed (Aug 1 – Oct 31), so this percentage should be read against an early-quarter baseline, not against a completed-quarter figure.",
+      "percent_complete": 70,
+      "assessment": "Green — ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded — already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 – Oct 31), so this percentage should be read against a still-early-quarter baseline.",
       "blockers": [
-        "Redesign not yet finalized or approved — not in the EMMA updates queue",
-        "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
-        "Dependency on Matisen for EMMA-side rollout"
+        "Interim Gary mockups blocked on Amanda supplying Leanna's Google Doc link",
+        "Kickpoint's official template build not yet complete",
+        "In EMMA updates queue for go-live still pending"
       ],
       "milestones": [
         {
@@ -131,7 +131,7 @@
         {
           "name": "Approved + shared with Kickpoint",
           "date": "2026-08-31",
-          "done": false
+          "done": true
         },
         {
           "name": "In EMMA updates queue for go-live",
@@ -141,7 +141,7 @@
       ],
       "superGreen": "Email is live",
       "green": "Email approved, in Emma updates queue for going live",
-      "updated": "2026-08-17"
+      "updated": "2026-08-31"
     },
     {
       "id": "amanda-estimating",
@@ -150,14 +150,19 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 10,
-      "assessment": "Green — early and on track, with the main input still to land. Amanda is working with Matisen to get daily call grading delivered; that feed is what makes the coaching side of this rock workable, since the plan is to coach the lower estimators off regular, transparent numbers. At ~10% with ~18% of the quarter elapsed this is marginally behind an even burn, but the room's own caveat applies: estimating is a delayed result, so work done now will not show up in accuracy numbers for two weeks to a month or more and is expected to lag. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green) — these are the ratified Q3 targets and are NOT on the same basis as the 54% / 56% bars used in Q2.",
+      "percent_complete": 15,
+      "assessment": "Green — a real methodology unlock today (8/31 O3), not just more waiting. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom-4 performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments — both fear of a bad big-move experience). This week's green goal is getting regular weekly/biweekly reporting out to reps (not currently shared at all) plus naming the bottom-4 focus group. Still a delayed-result metric — this plan won't move the accuracy number for 2-4+ weeks. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
       "blockers": [
-        "Daily call grading delivery from Matisen not yet in place — needed to coach lower estimators off regular numbers",
         "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
-        "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')"
+        "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')",
+        "Bottom-4 focus group not yet named"
       ],
       "milestones": [
+        {
+          "name": "Concrete bottom-4 coaching plan defined",
+          "date": "2026-08-31",
+          "done": true
+        },
         {
           "name": "Accuracy reaches 46% Green bar",
           "date": "2026-10-31",
@@ -166,7 +171,7 @@
       ],
       "superGreen": "Improved estimating to 48%",
       "green": "Improve estimating to 46%",
-      "updated": "2026-08-17"
+      "updated": "2026-08-31"
     },
     {
       "id": "amanda-sales-performance-engagement",

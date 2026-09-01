@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-31T11:12:00-05:00",
-  "updated_by": "Vera (/status)",
+  "last_updated": "2026-08-31T17:05:00-05:00",
+  "updated_by": "Vera (/wrap)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) \u2014 Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -72,8 +72,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 88,
-      "assessment": "Projects round is executing on a full schedule, not just defined. Peer review closed with 94 deduped ratings across four branches and a published 4.0 core-values cut line that removed two candidates on stated criteria \u2014 the first defensible cut this process has had. All four projects carry prompts, time windows, account rules and an AI-use disclosure requirement, with the candidate email reconciled word-for-word to the Monday pulse. Schedule: Jake Petersen submitted 8/29; Trevor Heath runs today 8/31; Isaul (Izzy) Serrano and Gerardo (JR) Picacio tomorrow 9/1; Elijah Rasberry Wednesday 9/2. Every remaining candidate now has a date.",
+      "percent_complete": 90,
+      "assessment": "Projects round is executing on a full schedule, not just defined. Peer review closed with 94 deduped ratings across four branches and a published 4.0 core-values cut line that removed two candidates on stated criteria \u2014 the first defensible cut this process has had. All four projects carry prompts, time windows, account rules and an AI-use disclosure requirement, with the candidate email reconciled word-for-word to the Monday pulse. Schedule: Jake Petersen submitted 8/29; Trevor Heath runs today 8/31; Isaul (Izzy) Serrano and Gerardo (JR) Picacio tomorrow 9/1; Elijah Rasberry Wednesday 9/2. Every remaining candidate now has a date, and as of 8/31 every one also has a built projects pulse on their home branch board \u2014 Petersen (S. Austin, submitted 8/29), Heath (N. Austin, ran 8/31), Picacio (N. Austin, 9/1), Serrano (Houston, 9/1) and Rasberry (Fort Worth, 9/2). Invitation emails are out for Picacio and Serrano; Rasberry's goes tomorrow so he gets equal prep time. A manager-uploaded screenshot of the typing-test score is now required on every pulse.",
       "blockers": [
         "Two on-site data gaps still block a complete grade: Picacio has zero on-site evaluations account-wide (ask Rance); Rasberry has a single eval, a 41 Critical Fail, currently carrying 30% of his score (ask Mike)",
         "How a missing category scores has not been decided \u2014 affects Picacio directly, and he sits for projects 9/1",
@@ -240,12 +240,14 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "The system is built and now running live. Rubric v1.5 shipped end to end \u2014 12 criteria, 60 points, uniform 5/3/1 floor, certification line stated everywhere at 85% (51 of 60) \u2014 with all nine artifacts and the score data migrated. Twelve manager boards are due today and grading is underway. Weekly live maintenance reads have begun: Leander scored 54 of 60 (90%, pass, both managers clearing) and San Antonio 50 of 60 (83%, one point under the line). Two managers were previously certified under v1.5 at 52 of 60. Goal for end of week is grades in hand and confirmation that the mock board and updated rubric work as intended before the cadence is rolled out to everyone.",
+      "percent_complete": 75,
+      "assessment": "The certification cohort ran end to end today. Eleven mock boards read against rubric v1.5: **eight managers certified** \u2014 Alex Tran 58/60, Rance Pope 56, Nick Dagel 54, and Frank Williams, Chris Anderson, Daniel Behseresht, Calvin Hughes and Joel Villatoro at 52 \u2014 against a planted baseline of 29/60. Three sit on attempt 1 of 2 pending rework (Garrison Cobe 50, Hector Zavala 50, Cameron Klepac 40) and four were extended to 9/1 (Jespah Lara, Lukas Konrad, Dustin Street, Sergio Buenrostro). All five CTXH BMs who sat it passed. Weekly live maintenance reads also started: Leander 54/60 (pass, both managers clear) and San Antonio 50/60. Three rubric rulings shipped today and are codified across the skill, the Manager Reference Sheet, the Training Module, the Fix-It Checklist and both glossaries: auto-generated damage claim pulses are exempt from the duplicates criterion; mock reads grade dates against the trainee's own timeline rather than the RM's read date; and every manager gets two attempts with feedback in between. Individual readouts now require a note on every criterion scoring under 5, no matter how high the total.",
       "blockers": [
-        "12 boards due today, grading in progress \u2014 2 of 12 read so far",
-        "Live-read cadence not yet settled: whether the score is the pre-fix or post-fix read is parked until every manager is recertified",
-        "Sales pulses are a cross-branch pattern \u2014 the one critical category managers consistently let go stale; showed on both boards read today"
+        "4 managers extended to 9/1 \u2014 Jespah Lara, Lukas Konrad, Dustin Street, Sergio Buenrostro; no attempts consumed",
+        "3 managers on attempt 1 awaiting rework and re-score \u2014 Garrison Cobe, Hector Zavala, Cameron Klepac",
+        "Live-read cadence still unsettled: whether the score is the pre-fix or post-fix read is parked until the whole cohort is certified",
+        "Not one of the 11 boards had all 3 QG Live pulses updated \u2014 the single best thing to reinforce with the whole group",
+        "Mock instructions never say whether to work the board in scenario or in real time; the cohort split on it and each board needed a judgment call"
       ],
       "milestones": [
         {
