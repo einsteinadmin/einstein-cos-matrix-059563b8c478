@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-01T18:25:00-05:00",
+  "last_updated": "2026-09-02T18:40:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,12 +19,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 25,
-      "assessment": "9/1: the adoption floor is finally MEASURABLE — Mike's rebuilt dashboard shows 42 of 288 movers on pace (217 behind) one month in; both regionals aligned at today's syncs on the fix: manager daily behind-list work + the Wed handbook-audit split (Brian=DFW, Mike=SCTX) + a team walkthrough of the dashboard at Wednesday's huddle. The 70%-through-pipeline-by-10/19 floor is the theme's real risk, now with a number on it.",
+      "percent_complete": 30,
+      "assessment": "9/2: Dashboard walked through at the huddle w/ corrected numbers — 51 on-track / 30 at 2-a-day / 188 behind / 10 not started (QTD sync bug fixed; was falsely counting from Aug 1). Interventions queued: PM meeting 9/3 targets the 188 · engagement carrot designed by Mike+Gerald by 9/9 (drawing/review-spinner) · Brian adding daily huddle messaging (3 sigs/day, zero-for-2-3-days = disengagement). Heavy data requests deferred to Q4 to protect app performance. The 70%-by-10/19 floor remains the theme's real risk — now with interventions, not just a number.",
       "blockers": [],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
-      "updated": "2026-09-01"
+      "updated": "2026-09-02"
     },
     {
       "id": "cameron-q3-2",
@@ -48,13 +48,13 @@
       "self_status": "yellow",
       "confidence": 2,
       "percent_complete": 20,
-      "assessment": "9/1: the Green clause 'Claude Tags live for the COS network by 9/1' arrived with the setup pulse still untouched (now dated 9/2) — missed as written; needs a re-path or a re-bar ruling. Counterweight: world-model plumbing advanced materially today — the wrap-v2 template now makes assessment NARRATIVES part of the per-goal reassessment (PR #62, merged, routes to all six spokes at the 7:05), and the Mission Control history-sync failure (8/20–9/1 stranded sessions) was root-caused and fixed (verified pill + one-door redirect).",
+      "assessment": "9/2: Two developments. ① The position-sustainability lane merged into the MC push-down project (Cameron ruling, post-Mike-O3): BM-run sync-ups on Mission Control w/ status pushes up the chain = the world-model push-down taking real shape; V1 committed to Mike in ~2 weeks (pulse 12885871657; Mike's live DFWT Command Center = the mockup input). ② Claude Tags setup still untouched (pulse dated 9/2, carried) — the missed 9/1 Green clause still needs a re-path or re-bar ruling. Blocker stands.",
       "blockers": [
         "Claude Tags not yet enabled in Slack"
       ],
       "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
       "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED — if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
-      "updated": "2026-09-01"
+      "updated": "2026-09-02"
     },
     {
       "id": "cameron-q3-4",
