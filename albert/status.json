@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-31T17:29:59-05:00",
+  "last_updated": "2026-09-01T18:25:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -20,11 +20,11 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 25,
-      "assessment": "8/20: Training Camp poster PRINT PACKAGE shipped (12x18/11x17/letter PDFs + hi-res PNG, Drive folder 1WrJlOC-9hez1bL7Vj239rHBmpmBQgDhJ, Sky pulse 12859236881) — releases the 7/30 print-run hold. 8/21: Mike printing and hanging at every branch. Trinity lane running; the role-play trainer is now the practice surface for it.",
+      "assessment": "9/1: the adoption floor is finally MEASURABLE — Mike's rebuilt dashboard shows 42 of 288 movers on pace (217 behind) one month in; both regionals aligned at today's syncs on the fix: manager daily behind-list work + the Wed handbook-audit split (Brian=DFW, Mike=SCTX) + a team walkthrough of the dashboard at Wednesday's huddle. The 70%-through-pipeline-by-10/19 floor is the theme's real risk, now with a number on it.",
       "blockers": [],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
-      "updated": "2026-08-17"
+      "updated": "2026-09-01"
     },
     {
       "id": "cameron-q3-2",
@@ -48,13 +48,13 @@
       "self_status": "yellow",
       "confidence": 2,
       "percent_complete": 20,
-      "assessment": "8/28: confidence dropped 3→2. Green requires Claude Tags live in Slack for the COS network BY 9/1 — that is 4 days out and the setup pulse (Team/Enterprise org + pilot setup w/ Matisen) is untouched in This Week with no daily LOW. Matisen is the dependency and is overloaded enough that Cameron pulled the NPS ask off him this week. Percent deliberately NOT raised: this was the biggest COS week of the quarter (mail route shipped, network-core v0.1.0, the SYSTEM.md constitution + 14 ADRs, iCloud-git protection on both Macs, /consultants live for Linda) but ALL of it is adjacent network infrastructure, not the Tier 3 Claude Tags pilot the Green definition actually names. Grading the rock on what shipped nearby is the drift this system exists to catch.",
+      "assessment": "9/1: the Green clause 'Claude Tags live for the COS network by 9/1' arrived with the setup pulse still untouched (now dated 9/2) — missed as written; needs a re-path or a re-bar ruling. Counterweight: world-model plumbing advanced materially today — the wrap-v2 template now makes assessment NARRATIVES part of the per-goal reassessment (PR #62, merged, routes to all six spokes at the 7:05), and the Mission Control history-sync failure (8/20–9/1 stranded sessions) was root-caused and fixed (verified pill + one-door redirect).",
       "blockers": [
         "Claude Tags not yet enabled in Slack"
       ],
       "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
       "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED — if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
-      "updated": "2026-08-28"
+      "updated": "2026-09-01"
     },
     {
       "id": "cameron-q3-4",
@@ -64,13 +64,13 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 45,
-      "assessment": "8/28: percent 40→45. Green includes 'bus lane #1 (EMMA sales feed) canonical and consumed by network tools.' The hub feed now auto-fills Cameron's KPIs at every /gm — conversion $ (slide-back), monthly NPS, and both TUR rulers, each carrying its pulled-at stamp. That is a network tool consuming the bus lane rather than the lane merely existing. Registry front door and the AI Use Policy remain the open half.",
+      "assessment": "9/1: the data-hub WRAP-UP lane opened at the Matisen sync — punch list started (TUR ruler vs the 66% target · Conversion $ basis · estimate-accuracy tile stuck on pending · attendance tiles at 0.0 · damages-per-hour ruler never ruled) and hub access ships to the LEADERSHIP team this week for wiring + questions. The Einstein Tool Library / shared document registry (ownership + timestamps + deprecation — the payroll post-mortem's root lesson) was ruled INTO this rock's roadmap (pulse 12860761488).",
       "blockers": [
         "Scorecard rollout audience + cadence unruled — scaffold first"
       ],
       "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
       "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
-      "updated": "2026-08-28"
+      "updated": "2026-09-01"
     },
     {
       "id": "cameron-q3-5",
@@ -79,12 +79,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 50,
-      "assessment": "8/31 (Amanda 1:1): the rubric build is ON SCHEDULE for Thursday — Amanda is rebuilding the customer-rapport grading section by Tue 9/2, aligned to the roleplay app's scoring (she self-rejected her first iteration against Jeff's feedback), and she + Nhel + Tet each run 2-4 live calls before Thu 9/3 so the class builds the rubric on real reps. Amanda has tested app v1.8 and sent notes. Cohorts resume ~wk of 9/8 (CET first). Weekly per-rep net-new conversion reporting pulsed to Amanda + Matisen (needed by 9/8). Her OUTCOME-lane bars are now FINAL on every surface (chart / dashboard / MC — propagated 8/31). [Prior 8/28: promoted bonus → Rock #5, bars rewritten to remaining scope.]",
+      "percent_complete": 55,
+      "assessment": "9/1: the measurement lane unblocked — Matisen committed the two conversion buckets (repeat/referral vs net-new, company + per-rep) before ~9/11, which is what makes the engagement's outcome readable. Bri's field data (agenda-opener wording, shopper-vs-feelings reality, hard-close→cancellation tension) logged for Thursday's Jeff session; the differentiator lane opened — Great Guys ruled unusable as a source, Sheet-5 deslop rewrite shipped as the format-standard candidate.",
       "blockers": [],
       "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
       "green": "Rubric BUILT and in use (Amanda owns) · cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) · weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
-      "updated": "2026-08-31"
+      "updated": "2026-09-01"
     },
     {
       "id": "cameron-q3-bonus-northwood",
