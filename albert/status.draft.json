@@ -1,0 +1,55 @@
+{
+ "_held_at": "2026-09-03T17:30:00-05:00",
+ "_note": "Status gate dismissed at 9/3 /wrap — re-present at next /gm or /wrap. Huddle notes draft also held (see _huddle_notes_draft).",
+ "changes": [
+  {
+   "goal": "cameron-q3-1",
+   "percent_complete": [
+    30,
+    35
+   ],
+   "confidence": [
+    3,
+    3
+   ],
+   "assessment": "9/3: BM ROUNDTABLE BETA ran full-cycle — moderator card + 7-dim rubric shipped → two mixed-region rooms → first moderator grades (Brian B/4.4, Mike B/3.9) → debrief rulings: check-ins OFF for tenured w/ new-hire tag · sprint free-range PERMANENT (Mike finalizes after Gerald steelman) · KPI block → wk-1 check-in · inactivity lock → Rippling work-days · format ratified w/ rotation. The manager-education lane now has a working feedback engine. Honest counter: ~63% of movers NOT STARTED entering wk 3 — engagement is the risk; training-day blitzes + fixes are the response. 🔴 retraining-scope ruling must lead Brian's Fri recap (3 BMs held 3 different readings of the quarter's core task)."
+  },
+  {
+   "goal": "cameron-q3-3",
+   "percent_complete": [
+    20,
+    20
+   ],
+   "confidence": [
+    2,
+    2
+   ],
+   "assessment": "9/3: the push-down lane crystallized — project named 'Einstein Meeting OS' (charter: tools/processes/procedures for most meeting structures) and the BM beta produced the first moderator instruments (card + rubric + self-grade-first practice) = world-model-down working at BM level. AI-comms norm delivered to the Roundtable (COS drafts need principal approval + real links; large-audience comms rewritten in the principal's own voice). The Green bar itself (Claude Tags Tier-3 pilot w/ Matisen) still hasn't moved — carried in Today since 9/2."
+  },
+  {
+   "goal": "cameron-q3-4",
+   "percent_complete": [
+    45,
+    45
+   ],
+   "confidence": [
+    4,
+    4
+   ],
+   "assessment": "9/3: NPS hub tile found FROZEN since 8/24 (whole nps_monthly family stale while 288 rows refreshed 9/2 — the 86.4 is an Aug 1–24 partial; Cameron caught it). Flagged to CoS-MH1 (SCB 12968381906) → joins the data-hub wrap-up punch list (TUR ruler · Conversion $ basis · estimate-accuracy pending · NPS pull). Wrap-up walk w/ Matisen targeted ~9/4."
+  },
+  {
+   "goal": "cameron-q3-5",
+   "percent_complete": [
+    55,
+    60
+   ],
+   "confidence": [
+    3,
+    3
+   ],
+   "assessment": "9/3: the rubric took shape at the Jeff class — 3-stage sales map (Listen→Present→Price), stage 1 weighted 80–85% for month one, two numbers per cohort per class (rubric + net-new conversion; Matisen ping Fri, delivery by Tue 9/8). Classes resume Tue/Wed 9/8–9/9 12:30, 4-wk program w/ homework. Sheets 2–4 comment pass delivered pre-session; Amanda leading (carrot structure hers). Her field finding: the new material COMPRESSES calls, not lengthens them."
+  }
+ ],
+ "_huddle_notes_draft": "- [Mike] 180 survey — was due to Rob EOD yesterday; sent? Then confirm all 6 landed w/ Rob.\n- [Brian] BM recap to all 10 BMs today — LEAD with the retraining-scope sentence (never got said at the debrief; Grant's blocked, FW at 6%).\n- [Mike] Training Camp rally: ~63% not started entering wk 3 — fixes coming (work-day lock, free-range); push the training-day blitzes.\n- [Anne + Brian + Mike] Trial-day working session today — confirm it's on (Cameron out by ruling).\n- [Matisen] Post-huddle grabs: the two Trinity numbers by Tue 9/8 · NPS tile frozen since 8/24 (SCB 12968381906).\n- [Amanda] Carrot structure for the classes — temperature check.\n- Praise in-room: Matisen (Bob-Price second) · Lukas via Brian (warning template)."
+}
