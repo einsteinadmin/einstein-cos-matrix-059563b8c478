@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-02T20:30:00-05:00",
-  "updated_by": "Linda (/wrap — reviewed against today's session work: Ryder Miller case escalation to ADA/conduct matter, Danny Peterson separation letter finalized, Respiratory Illness handbook policy drafted, Rippling term/BCBS audit closed by Anne+Jalissa, Sebastian Osuna FMLA update); none of it moves a Q3 rock's trajectory, no changes)",
+  "last_updated": "2026-09-03T20:45:00-05:00",
+  "updated_by": "Linda (/wrap — reviewed against today's session work: Danny Peterson WC separation closed, Mike Larson return-to-work case opened, a real Workers Comp process design session with Brian (two-track model, named build owners), Sebastian Osuna's new late-reported Houston injury, Mutual of Omaha FICA pulse to Paul. Goal 1 (Workers Comp Process Improvements) updated yellow/10%→yellow/20%, confidence 2→3 — first session with concrete decisions and named owners, not just strategy. No other goal touched today.)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -26,13 +26,14 @@
       "name": "Workers Comp Process Improvements — On-Site Incident Workflow + Compliance",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 10,
-      "assessment": "First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead — unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy — Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. Nothing built or committed to yet — this is still the strategy conversation, not implementation. 8/31: Anne's written recommendation is done, socializing with Brian + Mike this week (async agree/disagree via the new workshop-tool pattern), then a handpicked-BM blind-spot pass. Trajectory: tracking yellow — a real plan is moving, but the 9/15 Green bar is close and nothing is built, socialized, or trained yet.",
+      "confidence": 3,
+      "percent_complete": 20,
+      "assessment": "First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead — unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy — Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. 8/31: Anne's written recommendation done, socializing with Brian + Mike. 9/3: first real design session with Brian landed a concrete two-track model — serious injuries (medical intervention needed) trigger an incident report → WC process immediately; minor injuries/close calls get a firm 3-day off-schedule window with a mandatory day-3 check-in that forces a doctor visit if unresolved (generalizes the same 3-day rule Anne is separately applying to two live cases, Mike Larson and Danny Peterson). Concrete build commitments made: Brian owns a Monday intake form for injury/near-miss reporting; Anne + Matisen own the Rippling backend to feed OSHA + Texas Mutual reporting from one source. Preauthorization (calling Concentra ahead of a visit) and close-call cost/frequency tracking (to build the safety-intervention case with BMs) discussed as build targets, not yet built. Also surfaced 9/3: a second, distinct late-reported injury (Sebastian Osuna, Houston) — unreported for ~a month, adjuster non-payment, a possible AFC/Workwell network gap — folded into this same overhaul. Trajectory: tracking yellow — real design commitments now exist with named owners (a step up from 8/26's strategy-only conversation), but the field reporting mechanism is still undecided and nothing is built yet against the 9/15 Green bar.",
       "blockers": [
-        "No decisions locked yet — recommendations discussed 8/26, not yet chosen from or approved by Anne",
-        "Tool choice (Monday form vs. text line vs. custom Rippling app) not yet made",
-        "Nurse triage line vendor relationship (Concentra or otherwise) not yet explored for after-hours WC use, only for the HPE"
+        "Real-time field reporting mechanism for serious injuries still undecided (phone hotline vs. form) — open as of 9/3",
+        "Brian's Monday intake form and the Anne/Matisen Rippling OSHA+Texas Mutual backend both have committed owners as of 9/3 but no build date yet",
+        "Preauthorization workflow and close-call cost tracking are proposed, not implemented",
+        "Sebastian Osuna's late-reported Houston injury (adjuster non-payment, AFC/Workwell-network question) unresolved — live test case for whatever this process becomes"
       ],
       "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
       "superGreen": "Green + mover-specific WC training delivered as a Back to School module + a test OSHA-formatted export produced from Q3 data + one real Q3 WC leave case showing correctly in Rippling leave-tracking.",
@@ -42,7 +43,7 @@
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-26"
+      "updated": "2026-09-03"
     },
     {
       "id": "anne-q3-2",
