@@ -8,9 +8,19 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-31T21:45:00-05:00",
-  "updated_by": "Gary (/wrap)",
+  "last_updated": "2026-09-07T12:44:00-05:00",
+  "updated_by": "Gary (/status — sync push)",
   "cadence_days": 7,
+  "sync_push": {
+    "pulse": {
+      "one": "Get the call grading cadence restarted by tomorrow, 9/8",
+      "dod": "A new Dialpad grading run completes and posts to output/weekly/ by EOD 9/8"
+    },
+    "discussion_points": [
+      "September sales is trending behind — 19.3% now, need 23% by end of day (today's a holiday, but catchable through the week). RMs: push yellow/red teams hard to get back on pace this quarter."
+    ],
+    "win": "Made August sales goal, with 20 people on the team going Super Green."
+  },
   "source_of_truth": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified in QGR room 7/30)",
   "goals": [
     {
@@ -21,9 +31,10 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 35,
-      "assessment": "Yellow — the join is finally answered; the cadence itself just slipped. CoS-MH1 answered the 7/3 Emma-integration ask on 8/21 (6 weeks of silence) with a workable plan: match calls to jobs via the Monday 'Scheduled Jobs — Q3 2026' tracker (board 18427242877) on Customer Phone. Amanda confirmed 8/25 it's a plumbing change, not a rebuild — the grader already captures external_number, just needs to carry it through by call_id. But grading itself stalled: no run happened the week of 8/18-8/24, and there's no confirmed run since 8/17 as of 8/31 — a real cadence gap Amanda owns closing, not just a data question. Company average still 45.8 cumulative against a 65 Green bar; no new score data to move that number one way or the other since 8/17.",
+      "assessment": "Yellow — a methodology pivot, not just a delay. Grading has gone through several structural iterations over the last two weeks as leadership went through Jeff's (Northwood) training. Now restructuring around the three-stage framework Jeff walked leadership through on 9/3: every rep gets a baseline score captured before training, and the next scoring round measures them against their own baseline rather than a flat company average. Company average still sits at 45.8 cumulative against the 65 Green bar — no new score data since 8/17 — but the coaching frame is shifting to self-improvement. Phone-join plumbing and the rubric calibration session are still pending on top of this.",
       "blockers": [
-        "Grading cadence stalled — last confirmed run 8/17, no run the week of 8/18-8/24 or since",
+        "Grading cadence paused while restructuring around Jeff's 3-stage framework — last confirmed run 8/17; next run will score reps against their own pre-training baseline",
+        "New baseline-score methodology not yet finalized or run",
         "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
         "Phone-join plumbing (external_number carried by call_id) not yet built, though the plan is confirmed workable"
       ],
@@ -49,6 +60,16 @@
           "done": true
         },
         {
+          "name": "Restructure grading around Jeff's 3-stage training framework (baseline scores)",
+          "date": "2026-09-03",
+          "done": true
+        },
+        {
+          "name": "Next scoring round run against self-baseline",
+          "date": "TBD",
+          "done": false
+        },
+        {
           "name": "Company average reaches 65 Green bar",
           "date": "2026-10-31",
           "done": false
@@ -56,7 +77,7 @@
       ],
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
-      "updated": "2026-08-31",
+      "updated": "2026-09-07",
       "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
       "metrics": {
         "calls_graded_cumulative": 267,
@@ -73,11 +94,12 @@
       "number": 2,
       "name": "Chatbot Launch + Leadferno Sunset (carry, finish line)",
       "critical": false,
-      "self_status": "yellow",
+      "self_status": "green",
       "confidence": 3,
       "percent_complete": 78,
-      "assessment": "Yellow — past its own target date, now carrying a second one. Target launch was the first week of August; that passed with the bot still in testing. Matisen's board now shows a new target of the 2nd week of September, so the Green bar ('running consistently with bugs fixed') stays unmet but the date is at least reset rather than open-ended. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+      "assessment": "Green — moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle — expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
       "blockers": [
+        "Matisen's corrections delayed by 9/4 payroll issue — back on track expected this week",
         "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
         "Confirmation that Paul delivered the Messenger token to Nidha's team",
         "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
@@ -106,7 +128,7 @@
       ],
       "superGreen": "Phase 2 underway, Emma connection",
       "green": "Chatbot running consistently with bugs fixed",
-      "updated": "2026-08-31"
+      "updated": "2026-09-07"
     },
     {
       "id": "amanda-email-suite",
@@ -115,8 +137,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 70,
-      "assessment": "Green — ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded — already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 – Oct 31), so this percentage should be read against a still-early-quarter baseline.",
+      "percent_complete": 75,
+      "assessment": "Green — ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded — already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign — Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 – Oct 31), so this percentage should be read against a still-early-quarter baseline.",
       "blockers": [
         "Interim Gary mockups blocked on Amanda supplying Leanna's Google Doc link",
         "Kickpoint's official template build not yet complete",
@@ -141,26 +163,31 @@
       ],
       "superGreen": "Email is live",
       "green": "Email approved, in Emma updates queue for going live",
-      "updated": "2026-08-31"
+      "updated": "2026-09-07"
     },
     {
       "id": "amanda-estimating",
       "number": 4,
       "name": "Estimating improvements",
       "critical": false,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 15,
-      "assessment": "Green — a real methodology unlock today (8/31 O3), not just more waiting. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom-4 performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments — both fear of a bad big-move experience). This week's green goal is getting regular weekly/biweekly reporting out to reps (not currently shared at all) plus naming the bottom-4 focus group. Still a delayed-result metric — this plan won't move the accuracy number for 2-4+ weeks. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
+      "percent_complete": 25,
+      "assessment": "Yellow — focus group named, but still early and unproven. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments — both fear of a bad big-move experience). Focus group is now named — Danah, Erik, and Jespah — on the theory that their lower sales numbers may trace back to estimating accuracy. Still a delayed-result metric — this plan won't move the accuracy number for 2-4+ weeks, and the review work with this group hasn't started yet. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
       "blockers": [
         "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
         "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')",
-        "Bottom-4 focus group not yet named"
+        "Manual review with the named focus group (Danah, Erik, Jespah) not yet started"
       ],
       "milestones": [
         {
-          "name": "Concrete bottom-4 coaching plan defined",
+          "name": "Concrete bottom-performer coaching plan defined",
           "date": "2026-08-31",
+          "done": true
+        },
+        {
+          "name": "Focus group named (Danah, Erik, Jespah)",
+          "date": "2026-09-07",
           "done": true
         },
         {
@@ -171,7 +198,7 @@
       ],
       "superGreen": "Improved estimating to 48%",
       "green": "Improve estimating to 46%",
-      "updated": "2026-08-31"
+      "updated": "2026-09-07"
     },
     {
       "id": "amanda-sales-performance-engagement",
@@ -181,7 +208,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 45,
-      "assessment": "Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
+      "assessment": "Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang — that leadership session is also what's driving the call-grading methodology pivot (Goal 1). Rep-level training paused around the leadership session and restarts Tue 9/8, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
       "blockers": [
         "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
         "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
@@ -199,7 +226,7 @@
         },
         {
           "name": "CET sales training begins (2 groups, Tue/Wed)",
-          "date": "2026-08-18",
+          "date": "2026-09-08",
           "done": false
         },
         {
@@ -215,7 +242,7 @@
       ],
       "superGreen": "TBD — bars not set on chart",
       "green": "TBD — bars not set on chart",
-      "updated": "2026-08-31"
+      "updated": "2026-09-07"
     }
   ],
   "kpis": [],

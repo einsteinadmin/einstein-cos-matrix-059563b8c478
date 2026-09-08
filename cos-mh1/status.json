@@ -8,9 +8,22 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-02T07:19:09-05:00",
-  "updated_by": "CoS-EMC-1 (catch-up wrap covering 2026-09-01)",
+  "last_updated": "2026-09-07T12:37:00-05:00",
+  "updated_by": "Matisen (/status)",
   "cadence_days": 1,
+  "sync_push": {
+    "meeting": "Roundtable Sync Up",
+    "meeting_time": "2026-09-07T13:15:00-05:00",
+    "one_thing": {
+      "commitment": "Lead Triage live, Performance Ladder lookback, and Payroll Skill built out and ready for review",
+      "definition_of_done": "Lead Triage is live; the performance-ladder lookback is done; the payroll skill is built out and ready for review"
+    },
+    "discussion_points": [
+      "SCB updates going out to Gerald, Linda, and Gary",
+      "Need to steal some time with Amanda tomorrow AM to get ESP deployed tomorrow AM"
+    ],
+    "win": "We had Fabian for another week before paternity leave — Field App, Emails, and Lead Triage updates all made progress, and we might be able to deploy Emails and Lead Triage this week based on that work. ESP is almost set up, with texting built into Monday."
+  },
   "goals": [
     {
       "id": "matisen-q3-admin",
@@ -21,7 +34,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 38,
-      "assessment": "A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team — an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) — no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur.",
+      "assessment": "A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team — an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) — no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur. 9/06: Einstein OS D1 landed — 12 pure-script scheduled tasks migrated to launchd units (app twins disabled, rollback ready), the Phase 0 security-debt runbook shipped with rotation-verification harnesses proven, and the Prosper Sage unblock package (JayLee reply + CSV-lane memo) is drafted and gated — reliability/infra movement under C and D. 9/7: moved the runner from Claude to a back-end server to evaluate how it would run on a dedicated machine.",
       "blockers": [
         "A. Region scorecards built but not delivered — regionals do not have them yet",
         "B. Paul/Cam EMMA MCP access blocked on the hub — needs a status added and a broken refresh fixed",
@@ -51,7 +64,7 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-08-24"
+      "updated": "2026-09-07"
     },
     {
       "id": "matisen-q3-sales-marketing",
@@ -61,7 +74,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 46,
-      "assessment": "B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly — no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. C: email rollout queued.",
+      "assessment": "B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly — no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. 9/7: emails closer to rollout — more QA later today; ESP has taken priority over call grading; Botpress circle-back comes after ESP rolls out.",
       "blockers": [
         "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
         "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only"
@@ -90,7 +103,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-08-24"
+      "updated": "2026-09-07"
     },
     {
       "id": "matisen-q3-performance-people",
@@ -100,7 +113,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 44,
-      "assessment": "Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis; the Q2 mover bonus locked 9/1 at $82,866.33 with payroll files validated and the /mover-bonus skill + quarter guard shipped. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged.",
+      "assessment": "Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis; the Q2 mover bonus locked 9/1 at $82,866.33 with payroll files validated and the /mover-bonus skill + quarter guard shipped. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged. 9/7: this is the big focus this week — promotion ladder lookback, and wrapping up wiring performance logs back into Rippling.",
       "blockers": [
         "A. Webhook verification still unconfirmed — the original gate (Anne on vacation) has cleared; Anne active on the board since 8/26, verification not yet reported done",
         "C. Rippling API token scopes — Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
@@ -129,21 +142,20 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-09-02"
+      "updated": "2026-09-07"
     },
     {
       "id": "matisen-q3-praise",
       "number": 4,
       "name": "Praise Targets",
       "critical": true,
-      "self_status": "red",
+      "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 0,
-      "assessment": "Unchanged in substance since 8/24 and now materially worse on the clock: 0 of 48 delivered with 33.7% of Q3 elapsed (31 of 92 days). Required pace has risen from ~5.4/week to ~5.5/week for Green and ~6.9/week for Super Green across the remaining 8.7 weeks. The binding constraint is not delivery effort but the undecided measurement source — 6 praise are drafted and cannot be submitted until Praise Board vs Rippling PL is settled. Held at red / 0% / confidence 3: nothing moved, only the deadline did.",
+      "percent_complete": 10,
+      "assessment": "First real movement of the quarter: 5 of 48 praise delivered verbally AND logged to the Praise Board today 9/7 (Fabian x3, Vlad, Elias — each on a distinct CHOICES value with distinct evidence), with a 6th drafted and queued pending verbal delivery (Amanda). The submission path is unblocked — entries now go to the board directly via API, so drafting-to-logged is same-day. Burn-down from here: 43 remaining over ~7.7 weeks = ~5.6/week for Green (~7.1/week Super Green) — steep but now exercised at 5-in-a-day. Red -> yellow on demonstrated throughput; the formal measurement-source decision (Praise Board vs Rippling PL) is still open and is on the sync agenda. Praise scaffolding is hooked up and surfaced during /wrap and /gm — tracking praise more often through the week starts now.",
       "blockers": [
-        "No automated praise count wired for Q3 — measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned",
-        "0 of 48 delivered at ~34% of quarter elapsed — burn-down now requires ~5.5/week over the remaining 8.7 weeks (Super Green ~6.9/week)",
-        "6 drafted but unsubmitted — submission path blocked on the measurement-source decision"
+        "Measurement source formally undecided (Praise Board vs Rippling PL) — board submissions are flowing as the working basis, but the count cannot be graded until this is ruled",
+        "Praise Board clear-on-status automation still broken and unowned — counts must state raw-vs-delivered basis"
       ],
       "milestones": [
         {
@@ -154,7 +166,7 @@
       ],
       "superGreen": "125% — 60 praise",
       "green": "100% — 48 praise",
-      "updated": "2026-08-31"
+      "updated": "2026-09-07"
     }
   ],
   "kpis": [],

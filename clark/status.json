@@ -4,7 +4,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-08-24T09:00:00-05:00",
+  "last_updated": "2026-09-07T12:49:00-05:00",
   "updated_by": "Clark (/status)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
@@ -12,6 +12,14 @@
     "confirmed_by_principal": true
   },
   "cadence_days": 2,
+  "sync_push": {
+    "pulse": {
+      "one": "Complete at least 5 BM financial-accountability meetings this week",
+      "dod": "All 5 meetings held by end of day Friday 9/11"
+    },
+    "discussion_points": [],
+    "win": "Tampa visit went well and Titan Up delivered great insights — plus uncovered that only 21% of hub-detected lates make it onto branch Performance Logs, a big tracking opportunity."
+  },
   "goals": [
     {
       "id": "paul-q3-1",
@@ -19,11 +27,11 @@
       "name": "Annual Mover Comp Review — Pay Structure + Promotion Paths",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
+      "confidence": 5,
       "percent_complete": 80,
-      "assessment": "8/24: Matisen's historical analysis was blocked on the comp/games engine rebuild — CE finally passed each rebuild late last night (8/23). Blocker now cleared; Matisen expects the analysis done by end of this week (~8/28). Paul then runs a look-back analysis on who qualifies. Still on track for Green; Super Green (9/15) remains a tougher reach.",
+      "assessment": "9/7: Matisen still hasn't been able to run the historical analysis. Green remains solid, but Super Green (9/15 milestone) is unlikely at this point. Scheduling a reset with Matisen this week.",
       "blockers": [
-        "Matisen's historical analysis in progress (blocker just cleared), ETA end of this week (~8/28) — Paul's qualification look-back analysis depends on it"
+        "Matisen's historical analysis still not run (was expected ~9/4) — reset being scheduled; Paul's qualification look-back analysis depends on it"
       ],
       "milestones": [
         { "name": "Pay structure + Promotion Paths documented and communicated to the team; recurring tracking cadence operational", "date": "2026-10-31", "done": false },
@@ -33,7 +41,7 @@
       "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence",
       "dependencies": ["Anne", "Matisen"],
       "mb_pulse": "11752733644",
-      "updated": "2026-08-24"
+      "updated": "2026-09-07"
     },
     {
       "id": "paul-q3-2",
@@ -41,9 +49,9 @@
       "name": "Improve BM Financial Accountability Meetings — Proactive Approach",
       "critical": false,
       "self_status": "green",
-      "confidence": 4,
+      "confidence": 5,
       "percent_complete": 80,
-      "assessment": "8/24: Ben was out of the office all last week. Good start on the scorecards; wrapping up manager access now so the team can meet with them this week to review. Still need to check with Cameron and Matisen on integrating the rest of the scorecard used for quarterly/performance analysis, beyond the financial review.",
+      "assessment": "9/7: Ben completed the Q3 label fix on the branch CFO dashboards. Paul checking back in with the managers and scheduling the accountability meetings this week — target is at least 5 completed by Friday 9/11.",
       "blockers": [
         "Rest-of-scorecard integration beyond the financial review — needs coordination with Cameron and Matisen"
       ],
@@ -54,7 +62,7 @@
       "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both",
       "dependencies": ["Brian", "Mike"],
       "mb_pulse": "11728394236",
-      "updated": "2026-08-24"
+      "updated": "2026-09-07"
     },
     {
       "id": "paul-q3-3",
@@ -62,9 +70,9 @@
       "name": "Improve Invoicing + AR Collections Tracking",
       "critical": false,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 20,
-      "assessment": "8/17: Early — haven't made many moves yet. A basic guide for the collections steps is started. No major blockers; should land Green, possibly Super Green.",
+      "confidence": 5,
+      "percent_complete": 60,
+      "assessment": "9/7: General SOP completed — now collecting feedback from the team on it. Matisen built a tracker that will be integrated into the process. 60% done, on target for Green.",
       "blockers": [],
       "milestones": [
         { "name": "Unpaid-bill workflow documented end-to-end and team trained; tracker covers all outstanding invoices", "date": "2026-10-31", "done": false }
@@ -72,7 +80,7 @@
       "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
       "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
       "mb_pulse": "11728362120",
-      "updated": "2026-08-17"
+      "updated": "2026-09-07"
     },
     {
       "id": "paul-q3-4",
@@ -82,15 +90,17 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 30,
-      "assessment": "8/24: Major update — in conversation with Badger Brothers Moving and their PE firm about what a partnership could look like, and to learn how their EBITDA runs 2x Einstein's on the same revenue. Still evaluating the NY opportunity plus others in the pipeline. On track for Green, more likely than not to reach Super Green.",
-      "blockers": [],
+      "assessment": "9/7: Holding at 30%. Commercial moving company hasn't responded to follow-up emails. Titan Up conference (9/2-9/4) completed — gathered strong contacts who have done moving acquisitions, to follow up with for more detail.",
+      "blockers": [
+        "Commercial moving company unresponsive to follow-up emails — details needed to run the analysis"
+      ],
       "milestones": [
         { "name": "Houston organic-vs-acquisition case study complete; 3 acquisition opportunities evaluated, at least 1 of 3 current/live", "date": "2026-10-31", "done": false }
       ],
       "superGreen": "5 opportunities evaluated",
       "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
       "mb_pulse": "11728336219",
-      "updated": "2026-08-24"
+      "updated": "2026-09-07"
     },
     {
       "id": "paul-q3-5",
@@ -98,19 +108,19 @@
       "name": "Branch Visits",
       "critical": false,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 10,
-      "assessment": "8/24: No new visits scheduled beyond Tampa. Flights and hotel now booked for the Tampa visit (9/1-9/2) and the Moving Titans Conference (9/2 evening through 9/4). Second (and possibly third) branch visit still needs scheduling.",
+      "confidence": 5,
+      "percent_complete": 50,
+      "assessment": "9/7: Tampa visit completed 9/1-9/2 — 1 of 2 visits toward Green, 50%. Next branch visit needs scheduling.",
       "blockers": [
         "Second (and possibly third) branch visit not yet scheduled"
       ],
       "milestones": [
-        { "name": "Tampa branch visit", "date": "2026-09-01", "done": false },
+        { "name": "Tampa branch visit", "date": "2026-09-01", "done": true },
         { "name": "2 visits complete (Green threshold)", "date": "2026-10-31", "done": false }
       ],
       "superGreen": "3 visits",
       "green": "2 visits",
-      "updated": "2026-08-24"
+      "updated": "2026-09-07"
     }
   ],
   "kpis": [],
