@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-04T23:45:00-05:00",
+  "last_updated": "2026-09-07T21:42:29-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -50,7 +50,7 @@
       "percent_complete": 55,
       "assessment": "9/7 BAR AMENDED (Cameron). The 7/30 bar measured a plan that its own same-day ballot ruling replaced: it required '3 power-user BMs with their own COS' by 9/1, but the 7/30 ruling was Tags-first, so the bar could not be met no matter how the work went. Amended on the Rock #2 precedent, no-caveat grading intact, and made harder than the original. Now 2-lane. LANE A is well advanced: Claude Tags LIVE 9/6 in the Training Camp Coaches Room, both write lanes PROVEN 9/7 (Coach refused a non-owner's confirmation and wrote nothing; then wrote a real ruling to the repo on the owner's confirm, and created a field-perfect pulse on another). 4 of 10 BMs in as beta testers (Khevan, Dustin, Grant, Sergio), intro scheduled 8:15 AM 9/8. Remaining: the other 6 BMs, and evidence the playbook is growing from BM questions. LANE B is the drag: Mission Control V2.6 live and the sync design package audited, but the harvest pipeline is unbuilt and V1 is not in Mike's hands.",
       "blockers": [
-        "Meeting OS lane: harvest pipeline not built; sync-consolidation V1 not yet delivered to Mike (data-hub to regionals gates it)"
+        "Meeting OS lane: beta #1 ran 9/7 on Cameron's Roundtable (C/3.2) and both display defects are fixed, but sync-consolidation V1 is still not delivered to Mike/Brian — the Thu 9/10 scope session decides the intake field set (data-hub→regionals still gates it)."
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
@@ -63,8 +63,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 52,
-      "assessment": "9/4: emc-prosper-canon LIVE (Ben + Paul invited; freeze #1 = Q2 close-out on Ben's declaration, dates set Tue 9/8) — the shared-source-of-truth milestone. NPS feed unfrozen (Aug final 86.8); Cameron's conversion KPI corrected to the slide-back basis (23.3% Green).",
+      "percent_complete": 55,
+      "assessment": "9/7: shared ids moved onto ONE card — network-core v0.3.0 (ids.json) delivered to all 6 spokes, verified from fresh clones; pattern adopted network-wide from Matisen's ADR-001 (the card, not the enforcer — Cameron's ruling). #2 our own settings card + #3 report-only drift check queued on this rock's pulse 12556198241. 9/4: emc-prosper-canon LIVE (Ben + Paul invited; freeze #1 = Q2 close-out on Ben's declaration, dates set Tue 9/8) — the shared-source-of-truth milestone. NPS feed unfrozen (Aug final 86.8); Cameron's conversion KPI corrected to the slide-back basis (23.3% Green).",
       "blockers": [
         "Scorecard rollout audience + cadence unruled — scaffold first"
       ],
@@ -203,5 +203,14 @@
       "state": "acked",
       "date": "2026-05-26"
     }
-  ]
+  ],
+  "sync_push": {
+    "pulse": {
+      "one": "Website copy finalized + first-week sales training module rebuilt with Jeff and Amanda",
+      "dod": "Successful homework completion by the team after week 2, and the copy audit done"
+    },
+    "discussion_points": [],
+    "win": "Claude Tags set up — the Training Camp Coaches Room is live with Claude in Slack for the first time; plus real Jeff/sales movement",
+    "meeting": "Roundtable group sync 2026-09-07 13:15 CT (recorded at /wrap; the host row was blank during the meeting)"
+  }
 }
