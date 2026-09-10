@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-08T17:23:36-05:00",
+  "last_updated": "2026-09-09T20:24:33-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -18,10 +18,12 @@
       "name": "Q3 Theme Stewardship — “Training Camp” (2-lane rollup)",
       "critical": false,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 40,
+      "confidence": 2,
+      "percent_complete": 42,
       "assessment": "9/4: BM roundtable beta full-cycle 9/3 (moderator card + rubric, 2 rooms, ~350% engagement, format RATIFIED); retraining-scope clarified at 9/4 huddle (stages 2-3 due EOQ; Brian+Mike ruled the skip-fork). Watch: ~63% movers not started entering wk 3 — blitz push on.",
-      "blockers": [],
+      "blockers": [
+        "Adoption is 19% on track / ~40% counting at-risk against a 70%-through-stage-4 floor with 7.5 weeks left (9/9 pull). Manager-first accountability cascade ruled 9/9 — redirect with a date first, then the BM is warned, then that BM warns their own FM. Warnings begin Fri 9/18. Open: confirm 'on track' (daily-signature pace) is the same ruler as the bar's basis before grading against it."
+      ],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
       "updated": "2026-09-02"
@@ -47,11 +49,11 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 60,
+      "percent_complete": 65,
       "assessment": "9/8: BM beta day 1 was the proof for Lane A. Intro posted 8:00; 7 questions in 7 hours (Dustin ×4, Khevan ×1, Mike ×2). THREE write-down gaps closed from real BM questions, each confirmed by Mike and committed to the KB (verification-code loop · Train-the-Trainer source doc · scoreboard '#1 of 1' = access rule not bug; commits 23ccfa7, 7a74160). Stages-2–3 ruling flipped to RULED AND ANNOUNCED the moment Brian's recap posted. Mike ruled in-channel that the channel beats any doc (Dustin retired his Gemini GEM). Lane A Green bar is half-met: write lane 1 from a BM ✓, write lane 2 (a BM feature request captured to a board) not yet, 4 of 10 BMs in. Lane B unchanged and remains the drag: intake unbuilt, sync-consolidation V1 not with Mike; scope session still needs a Thu 9/10 slot.",
       "blockers": [
         "Meeting OS lane: beta #1 ran 9/7 (C/3.2), display defects fixed, but sync-consolidation V1 is still not delivered to Mike/Brian — the Thu 9/10 scope session decides the intake field set (data-hub→regionals still gates it).",
-        "Lane A: write lane 2 (BM feature request → pulse) not yet exercised by a BM; 6 of 10 BMs not yet in the room. Coach cannot open Google Docs (network-level block in Claude in Slack; Cameron as org Owner can allowlist)."
+        "Lane A beta declared done 9/9 by Mike and Brian; Cameron cleared opening Coach to the remaining BMs, ops managers and FMs — rollout task, not a risk. Write lane 2 is ONE go/no-go from met: Sergio (a BM) raised a quiz/comprehension-check feature request in the channel 9/9, Coach correctly classified it as a feature request and is holding for Mike's decision on whether it goes to his board. Still open: 17 rulings sit ANNOUNCEMENT PENDING vs 5 announced — the field runs on stale rules; Coach's weekly-recap exception was ruled 9/9 to close that loop. Coach still cannot open Google Docs."
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
@@ -79,13 +81,14 @@
       "name": "Trinity / Northwood Sales Engagement — Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
       "critical": false,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 70,
+      "confidence": 4,
+      "percent_complete": 76,
       "assessment": "9/8: both 'two numbers' now EXIST. Amanda's call-grading v2 = Jeff's 3-stage map, live for wk 8/30–9/5 (427 pulled · 376 graded · avg 53.6/100 · pass bar 80 · 21 pass; Tue/Wed cohort tabs). Matisen's warm-vs-cold rep conversion page delivered on time 9/8 (hub /reports/rep-conversion-buckets.html; sales team warm 47.2% vs cold 19.1%). Classes resumed 9/8. Albert's read (memo saved 9/8): instrument is right; two scoring fixes before it goes in front of a class (two-layers-deep pays full credit when the agenda question was skipped — 190 of 216; Stage 1 is 40/100 vs the ruled 80–85% month-one weight, so report Stage 1 /40 in class). Cameron delivers to Amanda Wed 9/9 parking lot, Jeff Thu 9/10.",
       "blockers": [
         "Call-grading v2 weighting isn't the ruling (Stage 1 = 40/100, pass bar 80 on the whole map before it's taught → 21 of 376 pass); class number needs to be Stage 1 /40 this month.",
-        "Customer PII (376 transcripts, names/addresses/phones) sits on a public repo + unauthenticated page (noindex set) — private repo or hub behind Cloudflare Access before Thursday.",
-        "Rubric score and conversion not yet joined per rep."
+        "Customer PII (376 transcripts, names/addresses/phones) sits on a public repo + unauthenticated page (noindex set, obscure repo name). Cameron ruled 9/9: normal line item, not an emergency — seeded to the 9/10 parking lot; route = private repo or hub behind Cloudflare Access, Amanda picks, Matisen wires.",
+        "Rubric score and conversion not yet joined per rep.",
+        "Call grader may not tag call type — a rep (Bree) raised 9/9 that the quid pro quo cannot be used on outbound callbacks and asked whether the AI would score her down for it. Amanda answered that the grader distinguishes follow-ups from inbound; unconfirmed. If it is not built, reps are scored on a criterion they cannot meet. Amanda + Matisen 9/10."
       ],
       "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
       "green": "Rubric BUILT and in use (Amanda owns) · cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) · weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
