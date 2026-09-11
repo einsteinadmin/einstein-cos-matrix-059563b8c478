@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-07T12:44:00-05:00",
-  "updated_by": "Gary (/status — sync push)",
+  "last_updated": "2026-09-10T17:35:00-05:00",
+  "updated_by": "Gary (/wrap)",
   "cadence_days": 7,
   "sync_push": {
     "pulse": {
@@ -17,7 +17,7 @@
       "dod": "A new Dialpad grading run completes and posts to output/weekly/ by EOD 9/8"
     },
     "discussion_points": [
-      "September sales is trending behind — 19.3% now, need 23% by end of day (today's a holiday, but catchable through the week). RMs: push yellow/red teams hard to get back on pace this quarter."
+      "September sales is trending behind \u2014 19.3% now, need 23% by end of day (today's a holiday, but catchable through the week). RMs: push yellow/red teams hard to get back on pace this quarter."
     ],
     "win": "Made August sales goal, with 20 people on the team going Super Green."
   },
@@ -26,14 +26,14 @@
     {
       "id": "amanda-call-grading-volume",
       "number": 1,
-      "name": "Call Grading at Volume — Distribution + Coaching Loop",
+      "name": "Call Grading at Volume \u2014 Distribution + Coaching Loop",
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 35,
-      "assessment": "Yellow — a methodology pivot, not just a delay. Grading has gone through several structural iterations over the last two weeks as leadership went through Jeff's (Northwood) training. Now restructuring around the three-stage framework Jeff walked leadership through on 9/3: every rep gets a baseline score captured before training, and the next scoring round measures them against their own baseline rather than a flat company average. Company average still sits at 45.8 cumulative against the 65 Green bar — no new score data since 8/17 — but the coaching frame is shifting to self-improvement. Phone-join plumbing and the rubric calibration session are still pending on top of this.",
+      "assessment": "Yellow \u2014 a methodology pivot, not just a delay. Grading has gone through several structural iterations over the last two weeks as leadership went through Jeff's (Northwood) training. Now restructuring around the three-stage framework Jeff walked leadership through on 9/3: every rep gets a baseline score captured before training, and the next scoring round measures them against their own baseline rather than a flat company average. Company average still sits at 45.8 cumulative against the 65 Green bar \u2014 no new score data since 8/17 \u2014 but the coaching frame is shifting to self-improvement. Phone-join plumbing and the rubric calibration session are still pending on top of this.",
       "blockers": [
-        "Grading cadence paused while restructuring around Jeff's 3-stage framework — last confirmed run 8/17; next run will score reps against their own pre-training baseline",
+        "Grading cadence paused while restructuring around Jeff's 3-stage framework \u2014 last confirmed run 8/17; next run will score reps against their own pre-training baseline",
         "New baseline-score methodology not yet finalized or run",
         "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
         "Phone-join plumbing (external_number carried by call_id) not yet built, though the plan is confirmed workable"
@@ -78,7 +78,7 @@
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
       "updated": "2026-09-07",
-      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
+      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales \u2014 Quarterly Sales Comp' (cut \u2014 not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart \u2014 flagged to Cameron.",
       "metrics": {
         "calls_graded_cumulative": 267,
         "avg_score_cumulative": 45.8,
@@ -97,10 +97,10 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 78,
-      "assessment": "Green — moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle — expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+      "assessment": "Green \u2014 moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle \u2014 expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
       "blockers": [
-        "Matisen's corrections delayed by 9/4 payroll issue — back on track expected this week",
-        "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
+        "Matisen's corrections delayed by 9/4 payroll issue \u2014 back on track expected this week",
+        "Auto-Recharge cost ceiling cannot be disabled \u2014 needs a hard cap agreed before real traffic",
         "Confirmation that Paul delivered the Messenger token to Nidha's team",
         "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
       ],
@@ -133,12 +133,12 @@
     {
       "id": "amanda-email-suite",
       "number": 3,
-      "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
+      "name": "Extend New Email Design System to Full Email Suite \u2014 Shorter, Video-First, Fewer Words",
       "critical": false,
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 75,
-      "assessment": "Green — ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded — already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign — Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 – Oct 31), so this percentage should be read against a still-early-quarter baseline.",
+      "assessment": "Green \u2014 ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded \u2014 already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign \u2014 Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 \u2013 Oct 31), so this percentage should be read against a still-early-quarter baseline.",
       "blockers": [
         "Interim Gary mockups blocked on Amanda supplying Leanna's Google Doc link",
         "Kickpoint's official template build not yet complete",
@@ -173,10 +173,10 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 25,
-      "assessment": "Yellow — focus group named, but still early and unproven. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments — both fear of a bad big-move experience). Focus group is now named — Danah, Erik, and Jespah — on the theory that their lower sales numbers may trace back to estimating accuracy. Still a delayed-result metric — this plan won't move the accuracy number for 2-4+ weeks, and the review work with this group hasn't started yet. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
+      "assessment": "Yellow \u2014 focus group named, but still early and unproven. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments \u2014 both fear of a bad big-move experience). Focus group is now named \u2014 Danah, Erik, and Jespah \u2014 on the theory that their lower sales numbers may trace back to estimating accuracy. Still a delayed-result metric \u2014 this plan won't move the accuracy number for 2-4+ weeks, and the review work with this group hasn't started yet. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
       "blockers": [
-        "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
-        "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')",
+        "Delayed-result metric \u2014 work done now will not register in accuracy numbers for 2-4+ weeks",
+        "No Sky Board pulse yet (chart marks this 'NO PULSE \u2014 create at fold')",
         "Manual review with the named focus group (Danah, Erik, Jespah) not yet started"
       ],
       "milestones": [
@@ -203,15 +203,15 @@
     {
       "id": "amanda-sales-performance-engagement",
       "number": 5,
-      "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
+      "name": "Improve Sales Performance Engagement \u2014 Work with Jeff (Northwood)",
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 45,
-      "assessment": "Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang — that leadership session is also what's driving the call-grading methodology pivot (Goal 1). Rep-level training paused around the leadership session and restarts Tue 9/8, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
+      "percent_complete": 55,
+      "assessment": "Green \u2014 real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda \u2014 Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang \u2014 that leadership session is also what's driving the call-grading methodology pivot (Goal 1). Rep-level training paused around the leadership session and restarts Tue 9/8, split into two groups by day off so everyone can attend \u2014 one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling. 9/10 update: built and shipped a 100-pt CET call-grading rubric directly from Jeff's Call Map (quid pro quo, agenda question, differentiator takeaway, Save Your Ass, close), separate from the old 85-pt company-wide grader. First full run: 427 calls across 13 CET reps, 376 graded, company avg 53.6/100, 21 passing the 80-pt bar. This operationalizes Jeff's training into something measurable \u2014 real evidence the engagement is translating into a working coaching tool, not just training sessions.",
       "blockers": [
-        "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
-        "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
+        "Super Green / Green bars still unset \u2014 were due to land after the 7/31 scoping meeting",
+        "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement \u2014 needs correcting on the chart"
       ],
       "milestones": [
         {
@@ -220,7 +220,7 @@
           "done": true
         },
         {
-          "name": "Two working sessions with Jeff — priorities selected",
+          "name": "Two working sessions with Jeff \u2014 priorities selected",
           "date": "2026-08-14",
           "done": true
         },
@@ -238,11 +238,16 @@
           "name": "CET training block complete (4-5 weeks)",
           "date": "2026-09-23",
           "done": false
+        },
+        {
+          "name": "CET call-grading rubric built from Jeff's Call Map, first full run complete",
+          "date": "2026-09-10",
+          "done": true
         }
       ],
-      "superGreen": "TBD — bars not set on chart",
-      "green": "TBD — bars not set on chart",
-      "updated": "2026-09-07"
+      "superGreen": "TBD \u2014 bars not set on chart",
+      "green": "TBD \u2014 bars not set on chart",
+      "updated": "2026-09-10"
     }
   ],
   "kpis": [],
@@ -250,7 +255,7 @@
   "network_acks": [],
   "cut_this_quarter": [
     {
-      "name": "Incentivize Manager Sales — Quarterly Sales Comp (if not removed entirely)",
+      "name": "Incentivize Manager Sales \u2014 Quarterly Sales Comp (if not removed entirely)",
       "chart_number": 1,
       "cut_date": "2026-08-17",
       "reason": "Not being pursued this quarter (Amanda's call). Was her only Critical-flagged rock; the Critical flag moved to the adopted call-grading rock."
@@ -262,5 +267,5 @@
       "reason": "Removed from Amanda's Q3 slate (Amanda's call)."
     }
   ],
-  "period_elapsed_note": "As of 2026-08-31 the quarter is ~33% elapsed (Aug 1 – Oct 31). Percent_complete values are early/mid-quarter figures and are not comparable to end-of-quarter Q2 values."
+  "period_elapsed_note": "As of 2026-08-31 the quarter is ~33% elapsed (Aug 1 \u2013 Oct 31). Percent_complete values are early/mid-quarter figures and are not comparable to end-of-quarter Q2 values."
 }
