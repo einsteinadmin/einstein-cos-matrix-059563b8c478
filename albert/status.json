@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-09T20:24:33-05:00",
+  "last_updated": "2026-09-10T22:20:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -17,16 +17,16 @@
       "number": 1,
       "name": "Q3 Theme Stewardship — “Training Camp” (2-lane rollup)",
       "critical": false,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 2,
       "percent_complete": 42,
-      "assessment": "9/4: BM roundtable beta full-cycle 9/3 (moderator card + rubric, 2 rooms, ~350% engagement, format RATIFIED); retraining-scope clarified at 9/4 huddle (stages 2-3 due EOQ; Brian+Mike ruled the skip-fork). Watch: ~63% movers not started entering wk 3 — blitz push on.",
+      "assessment": "9/10: Cameron #1, Mike #1 and Brian CTXH #3 moved to honest YELLOW 9/9 — 19% on track / ~40% counting at-risk vs the 70%-through-stage-4 floor (Garland 36 · Dallas 27 · Houston 26 · SA 19 · N.Aus 18 · McK 18 · Leander 14 · FW 13 · Tampa 11 · S.Aus 11). Manager-first accountability ruled: plan+benchmark+date first, then the BM is warned, then that BM warns their own FM. Warnings begin Fri 9/18; Mike drafts one combined announcement, Brian approves. Lane 2 CER grading wk 8/30–9/5 avg 53.6 vs the >60 Green bar (weighting caveat under Rock 5).",
       "blockers": [
         "Adoption is 19% on track / ~40% counting at-risk against a 70%-through-stage-4 floor with 7.5 weeks left (9/9 pull). Manager-first accountability cascade ruled 9/9 — redirect with a date first, then the BM is warned, then that BM warns their own FM. Warnings begin Fri 9/18. Open: confirm 'on track' (daily-signature pace) is the same ruler as the bar's basis before grading against it."
       ],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
-      "updated": "2026-09-02"
+      "updated": "2026-09-10"
     },
     {
       "id": "cameron-q3-2",
@@ -49,15 +49,16 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 65,
-      "assessment": "9/8: BM beta day 1 was the proof for Lane A. Intro posted 8:00; 7 questions in 7 hours (Dustin ×4, Khevan ×1, Mike ×2). THREE write-down gaps closed from real BM questions, each confirmed by Mike and committed to the KB (verification-code loop · Train-the-Trainer source doc · scoreboard '#1 of 1' = access rule not bug; commits 23ccfa7, 7a74160). Stages-2–3 ruling flipped to RULED AND ANNOUNCED the moment Brian's recap posted. Mike ruled in-channel that the channel beats any doc (Dustin retired his Gemini GEM). Lane A Green bar is half-met: write lane 1 from a BM ✓, write lane 2 (a BM feature request captured to a board) not yet, 4 of 10 BMs in. Lane B unchanged and remains the drag: intake unbuilt, sync-consolidation V1 not with Mike; scope session still needs a Thu 9/10 slot.",
+      "percent_complete": 70,
+      "assessment": "9/10: LANE A — Coach opened to EVERY manager ~3:30 PM (all 10 BMs + ops + field managers; Cameron's announcement, Coach's self-intro checked line by line; Mike fired the weekly recap within two minutes). The 'all 10 BMs in by EOQ' bar is MET. Same day, two hard findings fixed: the live channel instructions had been rewritten 4× since 9/7 and never written back (the 9/9 recap exception was committed to a stale file and never ran) — repo now equals live, verified 9,931 chars; and the channel had been granted all 17 private einsteinadmin repos — narrowed to training-camp-kb, hard rule 12 shipped. LANE B — phase 02 LIVE in Mission Control (targets 10/30/10/30/10, visual pass live 13:23); the single file is FROZEN; Replit build ruled with the handover written; two-door intake ruled (manual form for managers without a COS, repo-pull for those with one). Scope session 12925601857 is Critical Mon 9/14 and, per the 180 ruling, now gates leaders running huddles and syncs.",
       "blockers": [
-        "Meeting OS lane: beta #1 ran 9/7 (C/3.2), display defects fixed, but sync-consolidation V1 is still not delivered to Mike/Brian — the Thu 9/10 scope session decides the intake field set (data-hub→regionals still gates it).",
-        "Lane A beta declared done 9/9 by Mike and Brian; Cameron cleared opening Coach to the remaining BMs, ops managers and FMs — rollout task, not a risk. Write lane 2 is ONE go/no-go from met: Sergio (a BM) raised a quiz/comprehension-check feature request in the channel 9/9, Coach correctly classified it as a feature request and is holding for Mike's decision on whether it goes to his board. Still open: 17 rulings sit ANNOUNCEMENT PENDING vs 5 announced — the field runs on stale rules; Coach's weekly-recap exception was ruled 9/9 to close that loop. Coach still cannot open Google Docs."
+        "Lane A write lane 2 (a BM's feature request captured to a board) still has not fired from a real BM — Sergio's 9/9 quiz request is holding for Mike's decision; the all-manager expansion is the fastest path to it. Unverified: whether Claude Tag can pair with a FREE Slack workspace at all — settle before designing around the 10 mover workspaces.",
+        "Lane B: the intake is unbuilt and now gates more than the rock — the 9/10 180 ruling moves Cameron off huddles and group syncs from Wed 9/16, and leaders need a facilitator-ready tool. Replit build starts in a fresh session from HANDOVER-REPLIT-MEETING-OS-BUILD-2026-09-10.md; bridge = a one-page facilitator runbook by Tue 9/15. Sync-consolidation V1 still not delivered to Mike; scope session Critical Mon 9/14.",
+        "Governance: 17 rulings ANNOUNCEMENT PENDING vs 5 announced. The weekly-recap exception is now actually live — verify at the next wrap that Coach quoted Mike's pending rulings and flipped them to ANNOUNCED in rulings-log.md. Coach still cannot open Google Docs."
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
-      "updated": "2026-09-08"
+      "updated": "2026-09-10"
     },
     {
       "id": "cameron-q3-4",
@@ -67,13 +68,13 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 55,
-      "assessment": "9/7: shared ids moved onto ONE card — network-core v0.3.0 (ids.json) delivered to all 6 spokes, verified from fresh clones; pattern adopted network-wide from Matisen's ADR-001 (the card, not the enforcer — Cameron's ruling). #2 our own settings card + #3 report-only drift check queued on this rock's pulse 12556198241. 9/4: emc-prosper-canon LIVE (Ben + Paul invited; freeze #1 = Q2 close-out on Ben's declaration, dates set Tue 9/8) — the shared-source-of-truth milestone. NPS feed unfrozen (Aug final 86.8); Cameron's conversion KPI corrected to the slide-back basis (23.3% Green).",
+      "assessment": "9/10: SCB network asks 23→8 (Cameron: accept a little drift, not every comm loops everyone in). Coach's connector grants audited: the channel could read all 17 private repos → narrowed to training-camp-kb; Monday connector runs as Cameron's account, service account deferred, hard rule 12 as the compensating control. Governance lesson: the grant is the hard guardrail, the prompt is the soft one. Thread #5 closed: Sage revenue = Clover settlements, so EMMA = accrual and Sage = cash; July bridge closes within $2,631. | 9/7: shared ids moved onto ONE card — network-core v0.3.0 (ids.json) delivered to all 6 spokes, verified from fresh clones; pattern adopted network-wide from Matisen's ADR-001 (the card, not the enforcer — Cameron's ruling). #2 our own settings card + #3 report-only drift check queued on this rock's pulse 12556198241. 9/4: emc-prosper-canon LIVE (Ben + Paul invited; freeze #1 = Q2 close-out on Ben's declaration, dates set Tue 9/8) — the shared-source-of-truth milestone. NPS feed unfrozen (Aug final 86.8); Cameron's conversion KPI corrected to the slide-back basis (23.3% Green).",
       "blockers": [
         "Scorecard rollout audience + cadence unruled — scaffold first"
       ],
       "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
       "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
-      "updated": "2026-09-01"
+      "updated": "2026-09-10"
     },
     {
       "id": "cameron-q3-5",
@@ -82,17 +83,18 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 76,
-      "assessment": "9/8: both 'two numbers' now EXIST. Amanda's call-grading v2 = Jeff's 3-stage map, live for wk 8/30–9/5 (427 pulled · 376 graded · avg 53.6/100 · pass bar 80 · 21 pass; Tue/Wed cohort tabs). Matisen's warm-vs-cold rep conversion page delivered on time 9/8 (hub /reports/rep-conversion-buckets.html; sales team warm 47.2% vs cold 19.1%). Classes resumed 9/8. Albert's read (memo saved 9/8): instrument is right; two scoring fixes before it goes in front of a class (two-layers-deep pays full credit when the agenda question was skipped — 190 of 216; Stage 1 is 40/100 vs the ruled 80–85% month-one weight, so report Stage 1 /40 in class). Cameron delivers to Amanda Wed 9/9 parking lot, Jeff Thu 9/10.",
+      "percent_complete": 80,
+      "assessment": "9/10: the 'under 2% of moves' damages proof number is DEAD — verified ≈10% of moves across all of 2025 (it came from the Einstein Games target, never a query). Cut from the script, the new site copy, emails, billboards and the brand-promise Doc; replacement line 'we almost never have damages, and in the rare instance we do, you're already covered'; closed with Jeff the same day. Northwood check-in rulings (B/4.25; Amanda debrief A/4.81): brand promise = the opener (coverage · on-time · no hidden fees), no percentage claims for damages OR on-time until validated (Amanda owns the 3-yr look), 'No Worries Damage Coverage' name kept, Jeff blends old script + new approach and listens to 3 real calls FIRST, stage 3 SYA → email candidate, roleplay app PAUSED. Amanda Ware now runs the engagement off the Monday board (checks in with Jeff Mon 9/14); Cameron steps back to sponsor. 12-min mock call published to the Northwood folder. PII ruled: gate the grading page behind the hub login, do not redact. Call-type worry closed (follow-ups/applicants/vendors aren't graded; new outbound leads are).",
       "blockers": [
         "Call-grading v2 weighting isn't the ruling (Stage 1 = 40/100, pass bar 80 on the whole map before it's taught → 21 of 376 pass); class number needs to be Stage 1 /40 this month.",
-        "Customer PII (376 transcripts, names/addresses/phones) sits on a public repo + unauthenticated page (noindex set, obscure repo name). Cameron ruled 9/9: normal line item, not an emergency — seeded to the 9/10 parking lot; route = private repo or hub behind Cloudflare Access, Amanda picks, Matisen wires.",
-        "Rubric score and conversion not yet joined per rep.",
-        "Call grader may not tag call type — a rep (Bree) raised 9/9 that the quid pro quo cannot be used on outbound callbacks and asked whether the AI would score her down for it. Amanda answered that the grader distinguishes follow-ups from inbound; unconfirmed. If it is not built, reps are scored on a criterion they cannot meet. Amanda + Matisen 9/10."
+        "PII: RULED 9/10 — gate the call-grading page behind the hub login (Einstein emails; Jeff has one), do NOT redact. SCB 13019780241 → Gary breakdown → Amanda → Matisen wires the nightly runner (needs the repo shared to the new account first). Open until the page is behind the login.",
+        "Rubric score and conversion still not joined per rep (Matisen).",
+        "Jeff has never listened to a real call (Amanda's stated block 9/10); recordings for 4 branches were pulled 9/10 and the blend he owes depends on him hearing 3. Jeff also said 'they're going to need more than four weeks' — an extension ask is coming, unpriced.",
+        "The scoreboard has no owner: the grading rubric and rep conversion are two scored things in tension (Amanda + Matisen). Script-blend strategy brief written for /consultants (Trinity Sales Training/script-blend-albert-read-2026-09-10.md)."
       ],
       "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
       "green": "Rubric BUILT and in use (Amanda owns) · cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) · weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
-      "updated": "2026-09-08"
+      "updated": "2026-09-10"
     },
     {
       "id": "cameron-q3-bonus-northwood",
@@ -122,15 +124,15 @@
       "id": "cameron-conv",
       "name": "Conversion Rate $",
       "target": "20%",
-      "actual": null,
-      "self_status": "unknown",
+      "actual": "27.5% (hub 9/10, Conversion by $ basis)",
+      "self_status": "green",
       "note": "Re-baselined 8/3/26 (was 40% — pre-VP ruler). Basis = Conversion by $ PRIMARY (8/25 KPI ruling; 23.6% = Green). Q2-TD read 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead — confirm with Matisen which basis Q3 scores against."
     },
     {
       "id": "cameron-nps",
       "name": "Customer NPS",
       "target": "90+",
-      "actual": "86.4 (hub, binary-at-90 ruling)",
+      "actual": "Aug FINAL 86.8 · Sep MTD 90.5 (10 days in; feed publishes no response count — thin-month caveat, ask to Matisen 13019592768)",
       "self_status": "red",
       "note": "REPLACES eNPS 45+ per the 8/3/26 KPI re-baseline. Binary-at-90 ruling (8/25): scorecard bands SG ≥91 · G 88–90.9 · W 86–87.9 · R <86 — 86.4 = the one RED exec KPI."
     }
