@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-10T17:00:00-05:00",
-  "updated_by": "Linda (/wrap — 1 goal updated: Start/Stop/Keep confidence 4→5, percent 30→45 on real Rippling-sync progress + a fixed adoption-breaking bug; approved by Anne.)",
+  "last_updated": "2026-09-11T17:22:39-05:00",
+  "updated_by": "Linda (/wrap addendum — Workers Comp pct 25→30: preauthorization checklist drafted from tonight's live proof. Approved by Anne.)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -26,13 +26,13 @@
       "name": "Workers Comp Process Improvements — On-Site Incident Workflow + Compliance",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 20,
-      "assessment": "First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead — unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy — Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. 8/31: Anne's written recommendation done, socializing with Brian + Mike. 9/3: first real design session with Brian landed a concrete two-track model — serious injuries (medical intervention needed) trigger an incident report → WC process immediately; minor injuries/close calls get a firm 3-day off-schedule window with a mandatory day-3 check-in that forces a doctor visit if unresolved (generalizes the same 3-day rule Anne is separately applying to two live cases, Mike Larson and Danny Peterson). Concrete build commitments made: Brian owns a Monday intake form for injury/near-miss reporting; Anne + Matisen own the Rippling backend to feed OSHA + Texas Mutual reporting from one source. Preauthorization (calling Concentra ahead of a visit) and close-call cost/frequency tracking (to build the safety-intervention case with BMs) discussed as build targets, not yet built. Also surfaced 9/3: a second, distinct late-reported injury (Sebastian Osuna, Houston) — unreported for ~a month, adjuster non-payment, a possible AFC/Workwell network gap — folded into this same overhaul. Trajectory: tracking yellow — real design commitments now exist with named owners (a step up from 8/26's strategy-only conversation), but the field reporting mechanism is still undecided and nothing is built yet against the 9/15 Green bar.",
+      "confidence": 4,
+      "percent_complete": 30,
+      "assessment": "First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead — unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy — Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. 8/31: Anne's written recommendation done, socializing with Brian + Mike. 9/3: first real design session with Brian landed a concrete two-track model — serious injuries (medical intervention needed) trigger an incident report → WC process immediately; minor injuries/close calls get a firm 3-day off-schedule window with a mandatory day-3 check-in that forces a doctor visit if unresolved (generalizes the same 3-day rule Anne is separately applying to two live cases, Mike Larson and Danny Peterson). Concrete build commitments made: Brian owns a Monday intake form for injury/near-miss reporting; Anne + Matisen own the Rippling backend to feed OSHA + Texas Mutual reporting from one source. Preauthorization (calling Concentra ahead of a visit) and close-call cost/frequency tracking (to build the safety-intervention case with BMs) discussed as build targets, not yet built. Also surfaced 9/3: a second, distinct late-reported injury (Sebastian Osuna, Houston) — unreported for ~a month, adjuster non-payment, a possible AFC/Workwell network gap — folded into this same overhaul. Trajectory: tracking yellow — real design commitments now exist with named owners (a step up from 8/26's strategy-only conversation), but the field reporting mechanism is still undecided and nothing is built yet against the 9/15 Green bar. 9/11 (post-wrap, live incident): a real WC injury came in and Anne personally ran the full sequence herself in ~15 minutes — submitted the pre-authorization, called Concentra to confirm the mover was pre-authorized, gave them the required information, and submitted the claim to Texas Mutual. This is the first real, end-to-end proof that the preauthorization workflow (previously just a proposed build target) actually works and is fast — the open question now is turning a sequence only Anne can run from memory into something Brian's BMs (or the eventual app) can follow without her. Checklist drafted same evening (workers-comp-preauthorization-checklist-2026-09-11.md, repo root) — the four-step sequence written up with sub-actions, but still has open fill-in blanks (exact pre-auth channel, what Concentra needs beyond pre-auth, Texas Mutual's specific form/portal) since those are Anne's process knowledge, not something Linda could fill in blind. Not yet validated with a BM or folded into the in-progress WC training deck.",
       "blockers": [
         "Real-time field reporting mechanism for serious injuries still undecided (phone hotline vs. form) — open as of 9/3",
         "Brian's Monday intake form and the Anne/Matisen Rippling OSHA+Texas Mutual backend both have committed owners as of 9/3 but no build date yet",
-        "Preauthorization workflow and close-call cost tracking are proposed, not implemented",
+        "Preauthorization workflow proven (9/11) and drafted into a checklist same evening — still needs Anne to fill in the process specifics (exact pre-auth channel, Concentra's info requirements, Texas Mutual's submission method) before it's ready to hand to a BM or fold into the WC training deck",
         "Sebastian Osuna's late-reported Houston injury (adjuster non-payment, AFC/Workwell-network question) unresolved — live test case for whatever this process becomes"
       ],
       "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
@@ -43,7 +43,7 @@
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-03"
+      "updated": "2026-09-11"
     },
     {
       "id": "anne-q3-2",
@@ -51,9 +51,9 @@
       "name": "100-Point Behavioral System — Q2 Rock 2 Companion",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 50,
-      "assessment": "10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus). ⚠️ 8/27 (Cameron 1:1): formally confirmed this is NOT a Q3 deliverable — full system launch targeted January 1, 2027, timed to a 'new year, new performance philosophy' narrative alongside the new handbook, since it's a foundational change (attendance/damages point weights, reset cadence) that needs real branch input, not a rushed Q3 ship. Q3's realistic deliverable is the weighting-input tool: Anne will first run the existing framework through the /consultants council to refine it, then build a Replit survey where BMs/movers distribute 100 points across weighted metrics (same pattern Cameron used for the branch scorecard at QGR), synthesize the averages, and use disagreements as the workshop agenda. 8/31 (Cameron sync): confirmed on pace — definition of done this week is the consultants pass + weighting survey mockup, due 9/4. Trajectory: tracking green — on the exact plan Cameron laid out, no signal of slippage.",
+      "confidence": 5,
+      "percent_complete": 65,
+      "assessment": "10 of 11 seeded open questions resolved 9/11 via a full stakeholder review with Cameron (one-pager + live call) plus Anne's own new /hr-consultants council (8 voices) and a targeted break round. Real mechanic changes landed: severe/terminable conduct now carries no points (immediate review gate instead); damages measured via redirect-pattern/aggregation, not single-incident dollar thresholds; score recovery redesigned — no praise buyback, a new separate Recognition Channel, rewards routed through bonus/promotion only; two-person review seat + first-six-months HR-held second seat made explicit; pilot widened from one branch to ~5, deliberately varied, since historical backtesting isn't reliable on current data; a new trailing-window visibility flag closes a pattern-gaming loophole. Framework is now heavily stress-tested by both an internal stakeholder pass and an independent HR-framework council — confidence up to 5. Full launch remains targeted Jan 1, 2027 per Cameron's 8/27 confirmation, not a Q3 deliverable; Q3's job (weighting-input survey) has not yet been built.",
       "blockers": [
         "Matisen's backtest paused by Anne, gated on MH1's Rippling punch-clock all-clear (6/29 outage) — blocks backtesting against a real branch",
         "Evaluation cadence unresolved: quarterly (session lean) vs. biweekly (7/3 lock)",
@@ -70,7 +70,7 @@
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-27"
+      "updated": "2026-09-11"
     },
     {
       "id": "anne-q3-3",
@@ -125,8 +125,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 75,
-      "assessment": "Substantial forward motion 8/19–8/20: Decision #16 (PTL→Junior Lead threshold) resolved — 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved — Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works — plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Revised 8/21: Paul pushed back on Decision #18's attorney-confirm framing (no attorney gate needed — TX right-to-work, damages can stand alone as a termination reason for gross negligence or a documented pattern); Anne agreed same day. 8/25: three more rounds of direct decisions from Anne — fast-track performance bars set as provisional working numbers (9/9/10/10), Master Lead's standard bar lowered 9.5→9.0, Lead General's Master-Lead fast-track hours locked at 1,365, HOF decided as purely honorary (not a job title), Decision #16 fully closed out (PTL hours don't carry into Senior Lead's hour count), and a real table-structure bug found and fixed (Master Lead/Lead General row data had been swapped). Two of today's calls reverse positions Paul was explicit about on 8/20 (bar values, look-back window) — heads-up posted to the rock pulse, his reply pending. 8/31 (Cameron sync): confirmed the only remaining gate before go-live is Matisen's backtest — Cameron is aware Matisen is backed up (Fabian on parental leave) and offered support; once it lands, sequence is Mike/Brian review then a couple thoughtful BMs, then go live. Trajectory: tracking green — 75% done, sole blocker is external (Matisen), Oct 1 bar has real runway.",
+      "percent_complete": 85,
+      "assessment": "9/11: the paused backtest actually ran — two working sessions (Matisen/Anne/Paul) built and live-edited the eligibility/backtest tool. Historical look-back across ~200 promoted employees: 121 would have been promoted early (hours-only basis), 46 late, 7 on time, 26 no-verdict (pre-driver-scoring era). Damages data corrected worse than an earlier report (an archived pre-2025 board wasn't originally merged in). Mechanics clarified: fast-track's 595-hour window now applies uniformly to damages, driving, AND attendance; new Lead General fast-track rule — look-back is the full 1,365 hours, not a rolling 595-hour window, since the top rung demands sustained excellence over the whole period. A real technical constraint surfaced: Rippling's Performance Log purges attendance data after 6 months, capping look-back depth; reworking the PL itself is the fix, not yet scheduled. Rollout decision made: historical backtest numbers will NOT be communicated at launch, just forward metrics. Next: finalize bar values next week, present to Cameron for buy-in.",
       "blockers": [
         "Matisen's backtest paused, gated on MH1's punch-clock all-clear — needed to confirm/recalibrate the now-provisional fast-track bars, plus #05's weights/market skew",
         "#17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
@@ -144,7 +144,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-08-25"
+      "updated": "2026-09-11"
     },
     {
       "id": "anne-q3-6",
@@ -216,5 +216,13 @@
       "confirmed": "2026-09-01",
       "note": "Status colors now answer 'where does this land at end of quarter vs. the ratified bars', not 'am I working on it.' Applied to this run's reassessment."
     }
-  ]
+  ],
+  "sync_push": {
+    "pulse": {
+      "one": "The Start/Stop/Keep app — Anne's personal focus this week",
+      "dod": "The framework around the program, the comms, and the actual app itself are all finalized"
+    },
+    "discussion_points": [],
+    "win": "Kevin told Jalissa the caliber of candidates he's been receiving since she took over his phone screens using the culture interview has been really good — another positive signal for the culture-interview redesign and for the Employee Experience team."
+  }
 }
