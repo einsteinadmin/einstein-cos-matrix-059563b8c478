@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-07T12:55:00-05:00",
-  "updated_by": "Vera (/status)",
+  "last_updated": "2026-09-15T21:55:00-05:00",
+  "updated_by": "Vera (/wrap)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -72,12 +72,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 92,
-      "assessment": "was green/4/90 -> green/4/92 at 40.7% of the quarter elapsed (37 of 91 days). All five candidate projects days are run and ALL PROJECTS ARE GRADED. Remaining work is narrow and sequenced: solidify the scorecard reference, then coordinate interviews with the top 3 candidates - interviews start next week. Tracking to clear Green, which requires the SA FM seat filled with a documented 30/60/90 by 10/19.",
+      "percent_complete": 94,
+      "assessment": "was green/4/92 -> green/4/94 at 49.5% of the quarter elapsed (45 of 91 days). The interview round is no longer pending, it is booked: all three finalists were invited 9/14 with Google Meet links, and Jake Petersen sits Wednesday 9/16 at 11:00 AM. Weighted standings hold at Petersen 89.5, Serrano 86.7, Rasberry 83.6, with the cut recorded on the scorecard (8 -> 7 -> 5 -> 3). Project 4 typing is recorded and deliberately left OUT of the weighted total. Scorecard is at v12 and now confirms its own saves rather than failing silently. RULED 9/15 (Brian): Rasberry's On-Site Evaluation category stays BLANK and unscored - Fort Worth has no FM, so no evals will ever be logged, and the absence is structural rather than a candidate failing. He is ranked across his three remaining categories. Note for the record: this drops his single weakest signal (a lone 41) while Petersen and Serrano both carry real on-site scores on the same 30-weight category. Remaining work is the interviews themselves.",
       "blockers": [
-        "Scorecard reference needs to be solidified before the interview round is scored",
-        "Interviews with the top 3 candidates to be coordinated - starting next week",
-        "How AI use factors into the scorecard is still unweighted (an AI Use Note is required with every submission)"
+        "Interviews run 9/16 onward - Petersen Wednesday 11:00 AM",
+        "Candidate prep emails dropped the sales heads-up, so all three arrive cold on it - press harder in the room",
+        "How AI use factors into the scorecard is still unweighted"
       ],
       "milestones": [
         {
@@ -134,13 +134,23 @@
           "name": "Non-advancing candidates notified directly",
           "date": "2026-08-31",
           "done": true
+        },
+        {
+          "name": "All 3 finalists invited + interview scheduled (Petersen 9/16 11:00 AM)",
+          "date": "2026-09-14",
+          "done": true
+        },
+        {
+          "name": "Project 4 (typing) recorded; P3 rubric ratified with benchmark-anchored scale",
+          "date": "2026-09-14",
+          "done": true
         }
       ],
       "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
       "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
       "flywheel": "❔ Other",
       "live_pulse": "12746835385",
-      "updated": "2026-08-31"
+      "updated": "2026-09-15"
     },
     {
       "id": "brian-ctxh-theme-mgmt",
@@ -150,11 +160,11 @@
       "self_status": "red",
       "confidence": 2,
       "percent_complete": 45,
-      "assessment": "was green/4/75 -> RED/2/45 at 40.7% of the quarter elapsed (37 of 91 days), Brian's own call. Green requires >=70% of enrolled movers through stage 4 by 10/31. Actual stage-4 completion by branch against a 16% company-wide figure: Houston 26%, San Antonio 19%, North Austin 13%, South Austin 13%, Leander 10%. Three of five branches sit BELOW company. Against a 70% bar that is out of reach without intervention, so the color is red regardless of activity - the prior 75% percent-complete reflected the sandbox and enrollment milestones (both closed) and masked the fact that the binding milestone has barely moved. Intervention is live, not pending: updated messaging and rules go out TODAY off last week's BM session to clear the obstacles slowing signatures and speed-to-competency through stage 4, and the 9/4 retraining ruling removed Stages 2 and 3 as requirements so managers stop re-doing sign-offs with tenured movers. Brian is also working the Training Camp view to drive focus onto red team members and lift engagement region-wide. Stage 4 has been opened to everyone.",
+      "assessment": "was green/4/75 -> RED/2/45 at 40.7% of the quarter elapsed (37 of 91 days), Brian's own call. Green requires >=70% of enrolled movers through stage 4 by 10/31. Actual stage-4 completion by branch against a 16% company-wide figure: Houston 40.6% (reconciled 9/15), San Antonio 19%, North Austin 13%, South Austin 13%, Leander 10% - the four non-Houston figures are the 9/7 read and have not been re-pulled. Three of five branches sit BELOW company. Against a 70% bar that is out of reach without intervention, so the color is red regardless of activity - the prior 75% percent-complete reflected the sandbox and enrollment milestones (both closed) and masked the fact that the binding milestone has barely moved. Intervention is live, not pending: updated messaging and rules go out TODAY off last week's BM session to clear the obstacles slowing signatures and speed-to-competency through stage 4, and the 9/4 retraining ruling removed Stages 2 and 3 as requirements so managers stop re-doing sign-offs with tenured movers. Brian is also working the Training Camp view to drive focus onto red team members and lift engagement region-wide. Stage 4 has been opened to everyone. 9/15 update: Brian worked the managers directly on the app and communicated expectations, and the Houston QG reads surfaced a measurement problem that has to be fixed before the number can be trusted - Sergio reported 40.6%, Alex 26% and Joel 26% for the SAME branch metric in the same week. RECONCILED 9/15 (Brian): 40.6% is the right number - Sergio had it, Alex and Joel were both reporting low. So Houston is materially further along than the 9/7 read showed (26% -> 40.6%) and is now roughly 2.5x the company figure. The rock is Red either way with roughly five weeks to the 10/19 bar.",
       "blockers": [
-        "Stage-4 completion is 10-26% by branch vs a 70% Green bar - NA 13%, SA 13%, LEA 10%, SAN 19%, HOU 26%, company 16%",
-        "Three of five CTXH branches are below the company-wide stage-4 figure (NA, SA, Leander)",
-        "Updated messaging + rules to unblock signature speed go out today - effect not yet measurable",
+        "Stage-4 completion still short of the 70% Green bar - Houston 40.6% is the strongest branch by a wide margin; NA 13%, SA 13%, LEA 10%, SAN 19% are the 9/7 read and need re-pulling",
+        "Three of five CTXH branches were below the company-wide stage-4 figure at last read (NA, SA, Leander)",
+        "Alex and Joel were both under-reporting Houston's number - worth checking whether the same mis-read is happening on other branch cards",
         "Approval integrity: the 8/24-8/30 photo audit flagged 98 of 186 manager approvals as batch-run, so raw completion may overstate real competency"
       ],
       "milestones": [
@@ -179,7 +189,7 @@
           "done": true
         },
         {
-          "name": ">=70% of enrolled movers through stage 4 (at 10-26% by branch, company 16%)",
+          "name": ">=70% of enrolled movers through stage 4 (HOU 40.6%; others 10-19% at last read)",
           "date": "2026-10-31",
           "done": false
         },
@@ -197,13 +207,23 @@
           "name": "Sergio Buenrostro completes sandbox training (documented extended timeline)",
           "date": "2026-08-24",
           "done": true
+        },
+        {
+          "name": "Manager expectations communicated directly on the app (9/15)",
+          "date": "2026-09-15",
+          "done": true
+        },
+        {
+          "name": "Houston training-app metric reconciled to 40.6% (Brian)",
+          "date": "2026-09-15",
+          "done": true
         }
       ],
       "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
       "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
       "flywheel": "① Attract & Develop Great Movers",
       "live_pulse": "12750301851",
-      "updated": "2026-08-31"
+      "updated": "2026-09-15"
     },
     {
       "id": "brian-branch-audits",
@@ -244,12 +264,13 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 80,
-      "assessment": "was green/4/75 -> green/4/80 at 40.7% of the quarter elapsed (37 of 91 days). CTXH is COMPLETE: all 15 managers are certified on rubric v1.5, including the three who sat on attempt 1 pending rework - Garrison Cobe, Hector Zavala and Cameron Klepac are all cleared. The board system is working in production. Scope now moves to DFW: all DFW boards get built this week with instructions pushed so those managers start working through them next week. Green requires 100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19 - five branches are done and the remaining five are this week's build, so on track.",
+      "percent_complete": 82,
+      "assessment": "was green/4/80 -> green/4/82 at 49.5% of the quarter elapsed (45 of 91 days). The DFW wave has started producing certifications: Grant Hardison certified 9/15 at 54 of 60 (90%, an A) on his first attempt, off a 29 baseline - a 25-point improvement, valid through 3/15/2027. Houston also got its first LIVE main-board read (as opposed to mock): 50 of 60, a B, qualifying - Sergio 54, Alex 54, Joel 52, all three clearing. The standout there is that all 18 quarterly goal pulses across three managers were updated the same day, the strongest QG discipline on record across any board read. Green still requires all 10 branch boards re-certified by 10/19, and nine of ten DFW boards remain untouched.",
       "blockers": [
-        "DFW board builds + instruction rollout land this week; those managers start next week - the 10/19 bar depends on that wave landing clean",
-        "Live-read cadence still unsettled: whether the score is the pre-fix or post-fix read is parked",
-        "Mock instructions never say whether to work the board in scenario time or real time - one line needed before the next DFW cohort"
+        "Nine of the ten DFW boards are still untouched - that wave is the whole remaining path to the 10/19 bar",
+        "Grant's readout names the planted duplicate, the status-mismatch trap and the Inbox orphans, so it works as a partial answer key - keep it off any DFW group channel until the rest have sat theirs",
+        "Live-read cadence still unsettled: pre-fix or post-fix read is parked",
+        "Mock instructions still never say scenario time vs real time - one line needed before the next DFW cohort"
       ],
       "milestones": [
         {
@@ -296,13 +317,23 @@
           "name": "Scrum HQ republished",
           "date": "2026-08-24",
           "done": true
+        },
+        {
+          "name": "Grant Hardison certified 54/60 (first DFW certification)",
+          "date": "2026-09-15",
+          "done": true
+        },
+        {
+          "name": "Houston first live main-board read logged - 50/60, B, qualifying",
+          "date": "2026-09-15",
+          "done": true
         }
       ],
       "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
       "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750326806",
-      "updated": "2026-08-31",
+      "updated": "2026-09-15",
       "hq_url": "https://bherz303.github.io/einstein-scrum-hq-hf9zjgpk/"
     }
   ],
@@ -314,13 +345,12 @@
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 54,
-      "assessment": "was yellow/3/38 (18 cards) -> yellow/3/54 at 40.7% of the quarter elapsed (37 of 91 days). Verified 26 of 48 delivered this quarter off a board-level pull on the Manager column (the prior 18 came from a query that silently truncated). Per manager: Dustin Street 7, Lukas Konrad 4, Daniel Behseresht 3, Rance Pope 3, Chris Anderson 2, Joel Villatoro 2, Frank Williams 1, Sergio Buenrostro 1, Garrison Cobe 1, Hector Zavala 1, Alex Tran 1, plus 1 to a non-manager. FOUR still at zero: Nick Dagel (paternity - baby born 9/1), Cameron Klepac, Jespah Lara, Calvin Hughes. At least 1 card per manager is the binding constraint for Green; eleven of fifteen sit under 3, which is the Super Green bar. No cards logged since 9/2.",
+      "percent_complete": 69,
+      "assessment": "was yellow/3/62 (30 cards) -> yellow/3/69 at 49.5% of the quarter elapsed. 33 of 48 delivered, verified off a board-level pull on the Manager column (cursor null, no truncation). Brian logged three more on 9/15 - Garrison Cobe, CALVIN HUGHES and Dustin Street. Per manager: Dustin 9, Lukas Konrad 5, Rance Pope 4, Chris Anderson 3, Daniel Behseresht 3, Cameron Klepac 2, Joel Villatoro 2, Garrison Cobe 2, Frank Williams 1, Sergio Buenrostro 1, Hector Zavala 1, Alex Tran 1, Calvin Hughes 1, plus 1 to a non-manager. 13 of 15 managers now have at least one card. TWO remain at zero: Nick Dagel (paternity leave - fair) and JESPAH LARA, who is the only genuinely open gap.",
       "chart_note": "PERSONAL TRACKING ONLY — not a Q3 chart rock and not part of the status Cameron's board tracks. Brian's call 8/24: this is a side goal he tracks himself. Kept in bonus_goals[] so the count stays visible in his own file without reading as a seventh rock.",
       "blockers": [
-        "Four managers still at zero - Nick Dagel, Cameron Klepac, Jespah Lara, Calvin Hughes",
-        "Eleven of fifteen managers are under 3 cards (Super Green needs 3 each)",
-        "No cards logged since 9/2; this is a three-day week"
+        "Jespah Lara is the only manager at zero who is actually available - Nick Dagel is on paternity leave",
+        "Nine of fifteen managers are under 3 cards (Super Green needs 3 each)"
       ],
       "milestones": [
         {
@@ -347,13 +377,23 @@
           "name": "18 of 48 cards delivered",
           "date": "2026-08-31",
           "done": false
+        },
+        {
+          "name": "30 of 48 cards delivered",
+          "date": "2026-09-15",
+          "done": false
+        },
+        {
+          "name": "33 of 48 cards delivered; Calvin Hughes cleared his zero",
+          "date": "2026-09-15",
+          "done": false
         }
       ],
       "superGreen": "56 praise cards delivered, at least 3 per manager in region",
       "green": "48 praise cards delivered, at least 1 per manager in region",
       "red": "Fewer than 48 cards delivered",
       "live_pulse": "12761931235",
-      "updated": "2026-08-31"
+      "updated": "2026-09-15"
     }
   ],
   "kpis": [],
