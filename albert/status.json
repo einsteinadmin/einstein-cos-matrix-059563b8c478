@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-11T20:15:00-05:00",
+  "last_updated": "2026-09-15T17:45:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -18,11 +18,11 @@
       "name": "Q3 Theme Stewardship — “Training Camp” (2-lane rollup)",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 45,
-      "assessment": "9/11: Mike's combined announcement SHIPPED — all 10 BM-raised fixes live (work-days lock, check-ins only for leads-in-training, sprints unlocked, no daily cap, CHOICES reading split, praise deny, all-branch standings, last-signature date, auto-scroll, lockout history); accountability at the manager layer; bar = every branch >50% 'on track or at risk' by EOD Fri 9/18, follow-up meetings with leadership below it. Ruler CONFIRMED by Cameron 9/11. Two things for Mike's 1:1: the announcement's quarter-end sunset on sprint unlock + cap removal contradicts the KB (9/3: 'permanent, not theme-only'); the bar is uniform but Garland/Dallas had a ~3-week beta head start (S. Austin/Tampa at 11% would need to roughly triple in a week). Praise Garland (top company-wide), not just Houston. | 9/10: Cameron #1, Mike #1 and Brian CTXH #3 moved to honest YELLOW 9/9 — 19% on track / ~40% counting at-risk vs the 70%-through-stage-4 floor (Garland 36 · Dallas 27 · Houston 26 · SA 19 · N.Aus 18 · McK 18 · Leander 14 · FW 13 · Tampa 11 · S.Aus 11). Manager-first accountability ruled: plan+benchmark+date first, then the BM is warned, then that BM warns their own FM. Warnings begin Fri 9/18; Mike drafts one combined announcement, Brian approves. Lane 2 CER grading wk 8/30–9/5 avg 53.6 vs the >60 Green bar (weighting caveat under Rock 5).",
+      "confidence": 3,
+      "percent_complete": 50,
+      "assessment": "9/15: Mike's app-update batch + the >50% line moved the number for the first time: behind 181→147, engagement 44%, five of ten branches over the bar three days early. Under it: S.Aus 21, N.Aus 30, Dallas 36, Houston 39, McK 41. Mike's rock Red→Yellow. Warnings start Fri 9/18. Confidence up one notch because there is now a lever that moved the needle, not because the floor is in reach.",
       "blockers": [
-        "Adoption 19% on track / ~40% counting at-risk vs a 70%-through-stage-4 floor (9/9 pull). Manager-first cascade ruled 9/9; Mike's announcement 9/11 set the bar: >50% on-track-or-at-risk per branch by Fri 9/18, follow-up meetings below it. Ruler confirmed 9/11. Open: the beta head start (Dallas/Garland) is not accounted for in the uniform bar; which branches actually get pulled into a meeting is Mike's 1:1 question."
+        "Five branches under the 50% line with three days to the 9/18 deadline (S.Aus 21, N.Aus 30, Dallas 36, Houston 39, McK 41). 70%-through-stage-4 floor by EOQ still far off at 44% engaged."
       ],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
@@ -49,12 +49,12 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 78,
-      "assessment": "9/11: LANE B — THE APP EXISTS. Milestone 1 (two-door intake, 86+12 tests) built 9/10 night, live on Replit 8:50 AM 9/11 (team workspace, Postgres, real OIDC sign-in, Door 2 pulled all 7 spokes with a scoped 90-day token). Scope session done, all six ruled. Milestone 2 = the D1.3 group-sync room (106+27 tests) live by 3:45 PM. Cameron's read: drifted from the mockup, sloppy — Codex design audit done locally the same evening (uncommitted; found 5 real defects the green tests missed). He will most likely run next week's meetings off the old frozen tool until the room earns it. LANE A — recap flip verified (KB 859eae4). Mike's Training Camp announcement shipped 9/11 but its quarter-end sunset contradicts the KB Coach reads (→ Mike 1:1); Mike's KB write invite pending since 9/7. Claude Tag cannot pair with a free Slack workspace (closed 9/11). | 9/10: LANE A — Coach opened to EVERY manager ~3:30 PM (all 10 BMs + ops + field managers; Cameron's announcement, Coach's self-intro checked line by line; Mike fired the weekly recap within two minutes). The 'all 10 BMs in by EOQ' bar is MET. Same day, two hard findings fixed: the live channel instructions had been rewritten 4× since 9/7 and never written back (the 9/9 recap exception was committed to a stale file and never ran) — repo now equals live, verified 9,931 chars; and the channel had been granted all 17 private einsteinadmin repos — narrowed to training-camp-kb, hard rule 12 shipped. LANE B — phase 02 LIVE in Mission Control (targets 10/30/10/30/10, visual pass live 13:23); the single file is FROZEN; Replit build ruled with the handover written; two-door intake ruled (manual form for managers without a COS, repo-pull for those with one). Scope session 12925601857 is Critical Mon 9/14 and, per the 180 ruling, now gates leaders running huddles and syncs.",
+      "percent_complete": 82,
+      "assessment": "9/15: LANE A — the contest proved the intake side: six managers tagged Coach with ideas in 30 min, Coach refused to rank them (guardrail 3), and Lane 2 reached the 'want these on your board?' step on Frank's two picks; Mike's confirmation is the last click. Intake design RULED: per-product board Mike designs, PR prep out of the Coaches Room, playbook = one source with Because lines, drift closed by a scheduled sync job; working session Fri 9/18. LANE B — the first live 1:1 ran on the app today (Mike); milestone 3b is on main and running on Replit dev. Feedback file written (6 bugs, 10 features). Mike pilots the 1:1 room with his BMs the week of 9/21.",
       "blockers": [
-        "Lane A write lane 2 (a BM's feature request captured to a board) STILL has not fired from a real BM — third week; half the Green bar. Free-Slack question CLOSED 9/11: Claude Tag cannot pair with a free workspace, so the 10 mover workspaces need another channel.",
-        "Lane B: the intake and the room EXIST on Replit (9/11) but the room is not facilitator-ready — Codex's design audit (local, uncommitted) lists 5 functional defects (report GET crash, drafts vanish on reload, finish-after-failed-save, 1:1 destination missing, misleading completed UI) that Claude integrates next; then a one-page facilitator runbook (bridge for the 9/16 rotation), V1 to Mike, 3+ syncs. Cameron will likely run 9/16 off the frozen tool.",
-        "Governance: recap-flip VERIFIED 9/11 (Coach flipped Mike's pending rulings to ANNOUNCED, KB 859eae4). New: Mike's 9/11 announcement says sprint unlock + cap removal revert at quarter end; the KB says permanent — Coach answers from the KB; parked to Mike's 1:1. Coach still cannot open Google Docs."
+        "Lane A write lane 2 has reached the confirm step on a real BM request (Frank, 9/15) but no pulse exists until Mike says yes.",
+        "Lane B: the published app has its own empty PRODUCTION database; every import lives in dev. Cameron wants 1:1s on the published link. Finish/save failed once live today.",
+        "Governance: playbook drift between Coach's KB, Gerald's repo and the app code; fix ruled 9/15 (scheduled job → PRs to the KB) but not built."
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
@@ -223,7 +223,6 @@
     "win": "Claude Tags set up — the Training Camp Coaches Room is live with Claude in Slack for the first time; plus real Jeff/sales movement",
     "meeting": "Roundtable group sync 2026-09-07 13:15 CT (recorded at /wrap; the host row was blank during the meeting)"
   },
-  "lastUpdated": "2026-09-15T09:05:00-05:00",
-  "notes": "",
-  "catch_up_note": "Catch-up push 9/15 AM covering Mon 9/14 (no /wrap ran): 1:1 room v1 verified on m3-server, ITP check-in #2 digested, triage-week executed."
+  "lastUpdated": "2026-09-15T17:45:00-05:00",
+  "notes": ""
 }
