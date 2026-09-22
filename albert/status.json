@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-17T17:23:26-05:00",
+  "last_updated": "2026-09-21T20:17:15-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -19,10 +19,11 @@
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 55,
-      "assessment": "9/17 BM roundtable: six branches over the 50% line at 120 signatures. The room itself voted to unlock delayed photo uploads — the top mover blocker — and Mike built it before the call ended, against his own objection. Coupled with a new standard: attestation at sign-in, caught cheating = written warning, second time = termination. 3-signature/day limit returns after Training Camp. Lead PIN sign-off plus a leads-who-actually-train dashboard agreed but deliberately deferred to Q4 so it does not slow the sprint. The gap the room went quiet on: no BM has ever issued a written warning for repeat deniers and we never told them what earns one.",
+      "percent_complete": 58,
+      "assessment": "9/21 group sync: Mike caught that the Training Camp dashboard was measuring task completion instead of the engagements inside each task — found it the morning he was about to issue manager warnings, by re-reading the numbers before sending. \"We were measuring the touchdown, not the yards.\" Branches over the line went 6 to 9 and the company reads 44% on track. The pacing signal is real now where it wasn't before, but 44% against a 70% Green floor is still materially short. Brian is onsite San Antonio 9/23 and South Austin 9/25 to watch movers use the app first-hand.",
       "blockers": [
-        "North and South Austin are the drag at roughly 30% against the 50% sprint line; six of ten branches are now over it. Warnings begin 9/18, with North Austin getting a redirect rather than a written warning (shorthanded five straight days). The 70%-through-stage-4 floor by EOQ is still the real bar and is not in reach yet."
+        "Corrected measurement basis 9/21: the dashboard had been counting task completion rather than the engagements inside each task. Real read is 44% of the company on track, 78 at risk, 67 behind, and 33 people who have never logged in — against a 70% on-track Green floor with ~5.5 weeks to the 10/19 theme deadline. Nine of ten branches are now over the line (was six); San Antonio is tracking Super Green, Dallas and below fall off fast. Manager warnings were held 9/21 because Mike caught the error before sending.",
+        "Deactivation hygiene: workers-comp and terminated employees stay in the denominator until a manager deactivates them, so the company number reads low by an unknown amount."
       ],
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
@@ -49,12 +50,11 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 88,
-      "assessment": "9/17: LANE B — third live 1:1 on the published app (Brian, 67 min, prep pushed with a matched receipt, parking item pushed and read back). That clears the 3+ syncs component of the Green bar. v0.14.0 parking queue live-verified. LANE A — Mike flipped on Coach read-only for the app repo once the repo was genuinely current (12 days of unpushed work found and fixed live); the intake design is now his idea, not ours. Still short: write lane 2 needs his board.",
+      "percent_complete": 90,
+      "assessment": "9/21: LANE B — first group sync run end-to-end on the Meeting OS (2h09m, all six plus Paul), and the first meeting where a no-COS attendee used the manual prep form with Google sign-in (Austin L, same morning). Seven releases shipped 9/16 to 9/21 (v0.16.1 through v0.16.7) including per-rock decision mode. LANE A — Section 6 closed 9/18: Coach reads a sanitized app-code mirror, the Thursday batch job posts to Mike's standing pulse, and its first run surfaced 17 real items. What the group sync exposed is that the tool's RECORD is the weak half, not the room.",
       "blockers": [
-        "Lane A write lane 2 has reached the confirm step on a real BM request (Frank, 9/15) but no pulse exists until Mike names the feature-request board — working session Fri 9/18 11:00.",
-        "Governance: playbook drift between Coach's KB, Gerald's repo and the app code. Live instance — the BM room re-ruled 9/17 that the 3-signature/day limit returns after Training Camp, while the KB still says 'permanent change.' Coach answers BMs from the KB.",
-        "Meeting OS Prep Door has no praise lane: PUT /api/bridge/one-on-one-prep takes only fyi/goal_reads/topics, so COS-sourced praise can only ride the FYI blob, which hides at Start. Cost it live in Brian's 1:1 9/17 — the best-fitting prepped praise never got delivered. Handed to Codex."
+        "The Meeting OS produces a thinner record than the meeting. The 9/21 group sync export captured 3 of roughly 16 decisions that were made out loud with a named owner and date, recorded neither person Cameron released mid-meeting, and left groupDiscuss and openQuestions empty. Handed to Codex 9/21 as a 13-bug handover; the proposed fix is a confirm pass at Finish rather than more in-meeting capture controls.",
+        "The BM roster is not loaded. people and reporting_lines hold 8 rows (the six leaders, Paul, Austin L) all reporting to Cameron, so neither Mike nor Brian has a direct in the system and no BM has goals to prep against. Mike and Brian agreed 9/21 to test with their BMs this week; Codex is loading the roster."
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
