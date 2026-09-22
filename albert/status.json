@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-21T20:17:15-05:00",
+  "last_updated": "2026-09-22T16:52:13-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -50,11 +50,10 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 90,
-      "assessment": "9/21: LANE B — first group sync run end-to-end on the Meeting OS (2h09m, all six plus Paul), and the first meeting where a no-COS attendee used the manual prep form with Google sign-in (Austin L, same morning). Seven releases shipped 9/16 to 9/21 (v0.16.1 through v0.16.7) including per-rock decision mode. LANE A — Section 6 closed 9/18: Coach reads a sanitized app-code mirror, the Thursday batch job posts to Mike's standing pulse, and its first run surfaced 17 real items. What the group sync exposed is that the tool's RECORD is the weak half, not the room.",
+      "percent_complete": 92,
+      "assessment": "9/22: LANE B — the BM pilot is live. Roster loaded 9/21 (10 BMs, 13 Ops/FMs, 123 goals); Mike and Brian each ran the Meeting OS with multiple directs and Cameron is folding their feedback; 1:1 and group-sync designs redone off today's design audits, v0.18.0 personal home live. Paul facilitates the Wed–Fri huddles on it while Cameron is at F50. The record-vs-room gap (3 of ~16 decisions captured 9/21) is with Codex. LANE A — Section 6 closed 9/18; Coach reads the sanitized app mirror; Thursday batch job live. What moves the grade now: a BM-originated question through both Tags write lanes, and BM-run syncs at a branch.",
       "blockers": [
-        "The Meeting OS produces a thinner record than the meeting. The 9/21 group sync export captured 3 of roughly 16 decisions that were made out loud with a named owner and date, recorded neither person Cameron released mid-meeting, and left groupDiscuss and openQuestions empty. Handed to Codex 9/21 as a 13-bug handover; the proposed fix is a confirm pass at Finish rather than more in-meeting capture controls.",
-        "The BM roster is not loaded. people and reporting_lines hold 8 rows (the six leaders, Paul, Austin L) all reporting to Cameron, so neither Mike nor Brian has a direct in the system and no BM has goals to prep against. Mike and Brian agreed 9/21 to test with their BMs this week; Codex is loading the roster."
+        "The Meeting OS produces a thinner record than the meeting. The 9/21 group sync export captured 3 of roughly 16 decisions that were made out loud with a named owner and date, recorded neither person Cameron released mid-meeting, and left groupDiscuss and openQuestions empty. Handed to Codex 9/21 as a 13-bug handover; the proposed fix is a confirm pass at Finish rather than more in-meeting capture controls."
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
