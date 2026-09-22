@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-14T13:31:22-05:00",
+  "last_updated": "2026-09-21T11:58:00-05:00",
   "updated_by": "Gerald (/status)",
   "cadence_days": 7,
   "goals": [
@@ -18,12 +18,12 @@
       "name": "Mover Training App — Company-Wide Rollout + Driver-Training Port + Digital Training Handbook",
       "critical": true,
       "self_status": "red",
-      "confidence": 3,
-      "percent_complete": 40,
-      "assessment": "Red but trending green — best week of the rollout. Off BM feedback about what was blocking their teams, Mike shipped a batch of app updates (all live now) and sent every manager the changes plus a hard expectation: each branch keeps more than 50% of its movers engaged (on track OR at risk), deadline EOW. It moved the needle — behind dropped 181 to 147 and company engagement is 44% (41 on track, 79 at risk, 147 behind, 4 not started of ~271). Over the 50% line already: San Antonio 81%, Tampa 78%, Fort Worth 69%, Leander 59%, Garland 58%. Under it and where the EOW push has to land: South Austin 21%, North Austin 30%, Dallas 36%, Houston 39%, McKinney 41%. Still Red on the 70%-through-pipeline gate, but for the first time there is a real lever (shipped fixes + a branch-level hard line) and the trend is the right direction.",
+      "confidence": 4,
+      "percent_complete": 50,
+      "assessment": "Still Red on the 70%-through-pipeline gate, but the trend is now decisively green and the lever is proven two weeks running. After catching an error in the Training Camp numbers and shipping the manager-requested fixes, engagement jumped to 73% (192 of 263 movers on track or at risk: 115 on track, 77 at risk, 68 behind, 3 not started/locked) and behind dropped from 147 to 68 in a week. The hard 50%-per-branch line landed everywhere except South Austin (44%: 8 on track/8 at risk/20 behind). Range now: Tampa 100, San Antonio 96, Fort Worth 94, McKinney 90, Leander 86, Dallas 83, Houston 64, Garland 60, North Austin 59, South Austin 44. Green gate is still 70% through the pipeline (Lead-Ready) by 10/19 — engagement is the leading indicator, not the gate, so the work now shifts from 'get them active' to 'move them through the stages.'",
       "blockers": [
-        "Five branches under the 50% engagement line (South/North Austin, Dallas, Houston, McKinney) — EOW deadline to clear it",
-        "Green gate is 70% through pipeline by 10/19; 44% engaged is progress but not there"
+        "South Austin the only branch under the 50% engagement line (44%)",
+        "Green gate = 70% through pipeline (Lead-Ready) by 10/19 — engagement high but pipeline completion is the real bar"
       ],
       "milestones": [
         {
@@ -55,11 +55,16 @@
           "name": "BM-feedback app updates shipped + hard 50%-engagement-per-branch line (deadline EOW)",
           "date": "2026-09-14",
           "done": true
+        },
+        {
+          "name": "All branches but South Austin clear the 50% engagement line",
+          "date": "2026-09-21",
+          "done": true
         }
       ],
       "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through full pipeline (Lead-Ready) by 10/19 + Scrum recert by 10/19",
       "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through stage 4 by EOQ",
-      "updated": "2026-09-14",
+      "updated": "2026-09-21",
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-training-hq-8fe42f5c/"
     },
     {
@@ -70,10 +75,10 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 62,
-      "assessment": "Tracking Super Green, 2 of 5 field weeks done. North Dallas and Tampa are both complete, and the commitments from each are in place — Dallas's are confirmed and the team is working them, Tampa's get verified on the next check-in. McKinney is on for the week of 9/21 (visit 3). The one open loop is admin: neither the Dallas nor the Tampa key-issue + action-plan write-up is in the Road-to-A+ HQ yet — that is this week's task. Green is 3 field weeks across the 10 branches by Oct 1; Mike is managing to the SG 5, plan built and committed. Standing risk is unchanged: competing workload pulling him out of the field.",
+      "assessment": "Tracking Green toward Super Green, still 2 of 5 field weeks done (North Dallas, Tampa). Mike pushed the McKinney visit (was this week) to next week to first absorb this week's heavy batch of training-app changes and get current on the new systems. This week's field-adjacent work: following up Tampa's sales engagement and auditing Dallas's damage tracking to confirm the new damage-accountability changes are moving the right direction. Open admin loop unchanged — the Dallas and Tampa key-issue/action-plan write-ups still aren't in the Road-to-A+ HQ. Timeline is tightening: SG is 5 field weeks by Oct 1, which now means 3 visits (McKinney, Fort Worth, Garland) in roughly two weeks — doable but no more slack. Green (3 weeks) is safe.",
       "blockers": [
-        "Dallas AND Tampa key-issue + action-plan write-ups not yet in the Road-to-A+ HQ (this week)",
-        "Non-goal workload is the standing risk to staying in the field all 5 weeks"
+        "McKinney visit slipped to next week — SG's 5-weeks-by-Oct-1 now needs 3 visits in ~2 weeks",
+        "Dallas + Tampa key-issue/action-plan write-ups still not in the Road-to-A+ HQ"
       ],
       "milestones": [
         {
@@ -104,7 +109,7 @@
       ],
       "superGreen": "5 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
       "green": "3 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
-      "updated": "2026-09-14",
+      "updated": "2026-09-21",
       "hq_url": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/"
     },
     {
@@ -115,9 +120,11 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 67,
-      "assessment": "Green holding at 91 QTD, and the accident run is caught up — all of the recent truck accidents are processed, which takes the incident-rate overhang off the table for now (last week's alert/dismissal audit is still finishing). Branch spread shows where Super Green lives or dies: Fort Worth 98, Tampa 96, Leander 95, Houston 94, South Austin 94, San Antonio 92, McKinney 91 all at/over green; the drag is Dallas 86, Garland 89, North Austin 89. SG (95 company by Oct 1) means pulling those bottom three up several points while the top holds. Green is comfortable; SG is a real stretch and it is a DFW-region coaching problem, not a company-wide one.",
+      "assessment": "Green holding — company QTD safety score at 91, though the weekly score dipped to 88 last week, worth watching. Two new truck accidents came in 9/18 (MUSK John S., Wayne Danny) and are pending processing, so last week's 'all accidents caught up' no longer fully holds. SG (95 company by Oct 1) remains a DFW-region coaching stretch — the sub-90 drag at last read was Dallas 86, Garland 89, North Austin 89. Green is comfortable; SG needs those bottom branches up several points while the weekly score recovers from the 88 dip.",
       "blockers": [
-        "Dallas 86, Garland 89, North Austin 89 are the sub-90 drag on the company score — SG needs them up several points"
+        "Weekly score dipped to 88 last week (QTD still 91)",
+        "Two new accidents (MUSK, Wayne, 9/18) pending processing",
+        "Dallas 86 / Garland 89 / North Austin 89 sub-90 drag on SG"
       ],
       "milestones": [
         {
@@ -148,7 +155,7 @@
       ],
       "superGreen": "Samsara score at/above 95 by Oct 1 + zero unissued-warning backlog at EOQ",
       "green": "Samsara score at/above 90 by Oct 1 + zero unissued-warning backlog at EOQ",
-      "updated": "2026-09-14"
+      "updated": "2026-09-21"
     },
     {
       "id": "q3-sell-remaining-trucks",
@@ -157,10 +164,11 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 50,
-      "assessment": "Green on trajectory, but conversion is now the watch. NWT is still the only truck closed; a week passed with no additional sale. The pipeline is strong though — 9 active buyers on the 4 remaining trucks, several of whom came out to look last week, and Mike is following up with all of them this week. Green is 3 trucks (2 more needed), SG is 5. With 9 buyers on 4 units the path to Green is very reachable, but interest has to convert — if this week's follow-ups don't produce a close or two, confidence drops. Oct 31 is the only clock.",
+      "percent_complete": 55,
+      "assessment": "Green on trajectory with the first real second-deal momentum. NWT remains the only close, but there's now a pending offer on DAR — the buyer is setting up a mechanic inspection this week, and Mike is getting the maintenance records over and starting the strip-out process. Several other buyers are interested but no offers yet; Mike is re-listing the other 3 trucks this week to re-engage the market. Green is 3 trucks (2 more needed), SG is 5. A DAR close would put Green within one more deal; conversion is still the watch, but the pipeline is active and moving. Oct 31 is the only clock.",
       "blockers": [
-        "1 of 3 sold — 9 active buyers but no new close in a week; this week's follow-ups need to convert"
+        "1 of 3 closed; DAR offer pending inspection — needs to convert",
+        "Other 3 trucks being re-listed this week; interested buyers but no offers yet"
       ],
       "milestones": [
         {
@@ -192,11 +200,16 @@
           "name": "Sell 5 trucks (SG)",
           "date": "2026-10-31",
           "done": false
+        },
+        {
+          "name": "Pending offer on DAR (inspection scheduled) + re-list other 3",
+          "date": "2026-09-21",
+          "done": true
         }
       ],
       "superGreen": "Sell 5 trucks",
       "green": "Sell 3 trucks",
-      "updated": "2026-09-14"
+      "updated": "2026-09-21"
     },
     {
       "id": "q3-manager-training-sop-sandbox",
@@ -204,11 +217,11 @@
       "name": "Manager Training App — SOP Sandbox Training and reference",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 2,
-      "percent_complete": 20,
-      "assessment": "Still zero modules built and it has slipped several weeks running — the honest read is this rock keeps losing to the mover-training rollout and the FDE field weeks every time. The re-scope makes it very reachable (1-2 SOPs = Green, Samsara Management first), and Mike is now committing to getting an MVP live THIS week, which by itself would move it to Green. Yellow because the target and plan are real and one deployed module clears the bar — but the pattern is slippage, so this week is the test, not a forecast. It is also his personal pulse for the week (see sync_push).",
+      "confidence": 3,
+      "percent_complete": 35,
+      "assessment": "Yellow, but the first real build progress after weeks of slippage — the Samsara Management MVP is built (first draft). It is NOT deployed yet: Mike needs to read through and red-line the first draft before it goes live to managers. Green gate is 1-2 SOPs built AND deployed, so built-not-deployed keeps this Yellow (same lesson as before: built/synced is not live). One clean deploy of this module clears Green. Confidence is up because there's now a real artifact in hand, not just a plan; the remaining risk is the redline-to-deploy step slipping under the same competing-work pressure that stalled it for weeks. Still Mike's personal pulse for the week.",
       "blockers": [
-        "Zero modules built after several weeks; MVP committed for this week — execution has repeatedly lost to competing work"
+        "Samsara MVP built but not deployed — needs redline of first draft then go-live to clear Green"
       ],
       "milestones": [
         {
@@ -230,11 +243,16 @@
           "name": "3-4 SOP modules built + deployed (SG)",
           "date": "2026-10-31",
           "done": false
+        },
+        {
+          "name": "Samsara Mgmt MVP first draft built (redline pending)",
+          "date": "2026-09-21",
+          "done": true
         }
       ],
       "superGreen": "3-4 core-process SOPs built + deployed",
       "green": "1-2 core-process SOPs built + deployed (Samsara Mgmt first; each with a quiz + wiki-ready context)",
-      "updated": "2026-09-14"
+      "updated": "2026-09-21"
     }
   ],
   "kpis": [],
@@ -262,15 +280,17 @@
   ],
   "network_acks": [],
   "weekly_win": {
-    "week_of": "2026-09-01",
-    "win": "Worked with Dallas to build out and test a new damage-accountability approach with zero grey area: a clear, objective standard where low performers get coached up or coached out fast. The aim is real, near-term impact on Dallas's damage numbers, which have been the worst in the region — no more slow-rolling C-level damage."
+    "week_of": "2026-09-21",
+    "win": "Caught the error in the Training Camp engagement numbers and got the fixes in place — all but one branch (South Austin) crossed the 50% engagement goal line last week, with company behind dropping 147 to 68."
   },
   "sync_push": {
     "pulse": {
-      "one": "Get the Manager SOP Sandbox MVP live (first module — Samsara Management)",
-      "dod": "An MVP of the Manager Training App is deployed and usable by managers this week (first SOP module live) — moves Goal 5 to Green"
+      "one": "Catch up on this week's Training App changes and get the new manager-sourced ideas in place",
+      "dod": "Current on all this-week app changes, and every manager-sourced idea triaged into the build queue (accepted or declined, logged) by EOW"
     },
-    "discussion_points": [],
-    "win": "Dallas is testing a new damage-warning system — excited to see the increased accountability it drives on damages"
+    "discussion_points": [
+      "Scrum cert follow-up — certs were due 9/18; confirm who across DFWT is still outstanding and lock Brian's mock-board instructions so the region finishes certification"
+    ],
+    "win": "Caught the error in the Training Camp engagement numbers and got the fixes in place — all but one branch crossed the 50% engagement goal line last week"
   }
 }

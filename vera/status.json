@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-18T08:55:00-05:00",
-  "updated_by": "Vera (O3 ruling 9/17, Cameron + Brian in-room; route file brian-goal-change-2026-09-17)",
+  "last_updated": "2026-09-21T11:52:00-05:00",
+  "updated_by": "Vera (/status) - group sync prep 9/21, Brian-supplied updates",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -21,11 +21,10 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 55,
-      "assessment": "was green/3/40 -> yellow/3/55 at 40.7% of the quarter elapsed (37 of 91 days). The roundtable half advanced for real: the first BM strategy session RAN Thursday 9/3 in two mixed-region rooms of five (format changed from pair-first), Brian and Mike moderating simultaneously, and it produced ruled decisions plus six credited best practices. That is 1 of the 2 roundtables Green requires. Yellow is for the other half: zero regional event dates are locked across 5 regions against a 10/19 bar. This week's deliverable is pushing the manager event suggestions out and collecting event confirmation + head count. Brian's read: this goes green if events lock going into next week.",
+      "assessment": "green/3/55 at 51.6% of the quarter elapsed (47 of 91 days). Cameron ruled in the 9/17 O3 that the events bar reads one event per REGION, not one per management group - the interpretation was the blocker, not the work. Second BM meeting held, agenda more or less ratified, and both meetings produced feedback and action items that were completed. DFW ballot closed with responses in and COSM Grapevine coordinating for 10/8. This week: coordinating the manager events and getting the next BM meeting on the calendar for Wednesday 9/30.",
       "blockers": [
-        "Regional events: no dates locked in any of the 5 regions - messaging to confirm event choice + head count is this week's deliverable",
-        "Second BM roundtable not yet scheduled; Green needs 2 conducted with manager feedback and action items",
-        "9/3 session recap is built but not yet sent to the ten managers"
+        "Regional event dates still being coordinated - COSM Grapevine 10/8 is the first locked option",
+        "Next BM meeting targeted for Wednesday 9/30 - not yet on the calendar"
       ],
       "milestones": [
         {
@@ -63,7 +62,7 @@
       "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750316279",
-      "updated": "2026-08-31"
+      "updated": "2026-09-21"
     },
     {
       "id": "brian-atx-flex-sa-ops-dev",
@@ -71,13 +70,12 @@
       "name": "ATX Flex Manager + SA Ops Manager Development",
       "critical": false,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 94,
-      "assessment": "was green/4/92 -> green/4/94 at 49.5% of the quarter elapsed (45 of 91 days). The interview round is no longer pending, it is booked: all three finalists were invited 9/14 with Google Meet links, and Jake Petersen sits Wednesday 9/16 at 11:00 AM. Weighted standings hold at Petersen 89.5, Serrano 86.7, Rasberry 83.6, with the cut recorded on the scorecard (8 -> 7 -> 5 -> 3). Project 4 typing is recorded and deliberately left OUT of the weighted total. Scorecard is at v12 and now confirms its own saves rather than failing silently. RULED 9/15 (Brian): Rasberry's On-Site Evaluation category stays BLANK and unscored - Fort Worth has no FM, so no evals will ever be logged, and the absence is structural rather than a candidate failing. He is ranked across his three remaining categories. Note for the record: this drops his single weakest signal (a lone 41) while Petersen and Serrano both carry real on-site scores on the same 30-weight category. Remaining work is the interviews themselves.",
+      "confidence": 5,
+      "percent_complete": 98,
+      "assessment": "green/5/98 at 51.6% of the quarter elapsed. THE SEAT IS FILLED - Jake Petersen ACCEPTED the South Austin Field Manager offer letter today, 9/21. Offered in-room during the 9/17 O3 after a four-stage funnel (8 applicants -> 7 to peer review -> 5 projects days -> 3 finalists), final weighted standing Petersen 89.5. This week: onsite training planned for Friday 9/25 when Brian is in South Austin, and feedback delivered to the applicants who were not selected. Green still requires a documented 30/60/90.",
       "blockers": [
-        "Interviews run 9/16 onward - Petersen Wednesday 11:00 AM",
-        "Candidate prep emails dropped the sales heads-up, so all three arrive cold on it - press harder in the room",
-        "How AI use factors into the scorecard is still unweighted"
+        "Documented 30/60/90 for Petersen not yet built - this is the remaining Green requirement",
+        "Feedback owed to Serrano and Rasberry, the two finalists not selected"
       ],
       "milestones": [
         {
@@ -150,7 +148,7 @@
       "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
       "flywheel": "❔ Other",
       "live_pulse": "12746835385",
-      "updated": "2026-09-15"
+      "updated": "2026-09-21"
     },
     {
       "id": "brian-ctxh-theme-mgmt",
@@ -160,11 +158,10 @@
       "self_status": "yellow",
       "confidence": 2,
       "percent_complete": 45,
-      "assessment": "was green/4/75 -> RED/2/45 at 40.7% of the quarter elapsed (37 of 91 days), Brian's own call. Green requires >=70% of enrolled movers through stage 4 by 10/31. Actual stage-4 completion by branch against a 16% company-wide figure: Houston 40.6% (reconciled 9/15), San Antonio 19%, North Austin 13%, South Austin 13%, Leander 10% - the four non-Houston figures are the 9/7 read and have not been re-pulled. Three of five branches sit BELOW company. Against a 70% bar that is out of reach without intervention, so the color is red regardless of activity - the prior 75% percent-complete reflected the sandbox and enrollment milestones (both closed) and masked the fact that the binding milestone has barely moved. Intervention is live, not pending: updated messaging and rules go out TODAY off last week's BM session to clear the obstacles slowing signatures and speed-to-competency through stage 4, and the 9/4 retraining ruling removed Stages 2 and 3 as requirements so managers stop re-doing sign-offs with tenured movers. Brian is also working the Training Camp view to drive focus onto red team members and lift engagement region-wide. Stage 4 has been opened to everyone. 9/15 update: Brian worked the managers directly on the app and communicated expectations, and the Houston QG reads surfaced a measurement problem that has to be fixed before the number can be trusted - Sergio reported 40.6%, Alex 26% and Joel 26% for the SAME branch metric in the same week. RECONCILED 9/15 (Brian): 40.6% is the right number - Sergio had it, Alex and Joel were both reporting low. So Houston is materially further along than the 9/7 read showed (26% -> 40.6%) and is now roughly 2.5x the company figure. The rock is Red either way with roughly five weeks to the 10/19 bar.",
+      "assessment": "yellow/2/45 at 51.6% of the quarter elapsed, Brian's call after the BM meeting, up from RED. Green requires >=70% of enrolled movers through stage 4 by 10/31. THE MEASUREMENT ITSELF WAS THE FIRST PROBLEM AND IT IS NOW FIXED: Houston had been reporting three different figures for the same branch metric in the same week (40.6 / 26 / 26). The read was re-evaluated and the scoring and focus corrected the morning of 9/21, so the data now represents actual progress. Monitoring from here. Cameron named this week make-or-break - if the BM-meeting changes do not move stage-4 completion it goes back to red rather than drifting. This week: get into the field and watch movers actually use the app, and collect frustrations directly from the team while onsite in San Antonio 9/23 and South Austin 9/25.",
       "blockers": [
-        "Stage-4 completion still short of the 70% Green bar - Houston 40.6% is the strongest branch by a wide margin; NA 13%, SA 13%, LEA 10%, SAN 19% are the 9/7 read and need re-pulling",
-        "Three of five CTXH branches were below the company-wide stage-4 figure at last read (NA, SA, Leander)",
-        "Alex and Joel were both under-reporting Houston's number - worth checking whether the same mis-read is happening on other branch cards",
+        "Stage-4 completion still short of the 70% Green bar - re-pull against the corrected scoring",
+        "Cameron's condition: no movement this week sends this back to red",
         "Approval integrity: the 8/24-8/30 photo audit flagged 98 of 186 manager approvals as batch-run, so raw completion may overstate real competency"
       ],
       "milestones": [
@@ -223,7 +220,7 @@
       "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
       "flywheel": "① Attract & Develop Great Movers",
       "live_pulse": "12750301851",
-      "updated": "2026-09-15"
+      "updated": "2026-09-21"
     },
     {
       "id": "brian-branch-audits",
@@ -233,9 +230,9 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 10,
-      "assessment": "was yellow/3/0 -> green/3/10 at 40.7% of the quarter elapsed (37 of 91 days). The status changed because the thing that was missing is now in place: a visit schedule. San Antonio 9/18, South Austin 9/25, North Austin 9/30, Leander tentatively 10/15, Houston still to be dated. That is three firm dates ahead of the 10/19 bar, and Green requires 3 of 5 locations - so this is tracking to clear rather than at risk. No movement this week, which is a short week (PTO Thursday and Friday), not a drift. Percent-complete stays low and honest: nothing has been conducted yet.",
+      "assessment": "green/3/10 at 51.6% of the quarter elapsed. Green needs 3 of 5 branches audited. Two firm front-line visits land THIS WEEK - San Antonio Wednesday 9/23 and South Austin Friday 9/25 - which puts Brian two-thirds of the way to the Green bar for the quarter. North Austin 9/30 follows. Percent stays at 10 until the visits are actually conducted; the schedule is locked, the visits are not yet done.",
       "blockers": [
-        "Leander date is tentative (10/15?) and Houston is unscheduled - Green needs 3 of 5, so the three firm dates carry it",
+        "Leander date tentative (10/15?) and Houston unscheduled - the three firm dates carry Green",
         "Redesigned branch-visit evaluation dashboard is also a Green requirement and is not started",
         "Each visit carries a scorecard audit, a circle-up and a huddle audit - 3 of each needed by 10/19"
       ],
@@ -255,7 +252,7 @@
       "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
       "flywheel": "② Deliver the Smart Move Experience",
       "live_pulse": "12750317266",
-      "updated": "2026-08-31"
+      "updated": "2026-09-21"
     },
     {
       "id": "brian-scrum-accountability-pt3",
@@ -263,14 +260,14 @@
       "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 82,
-      "assessment": "was green/4/80 -> green/4/82 at 49.5% of the quarter elapsed (45 of 91 days). The DFW wave has started producing certifications: Grant Hardison certified 9/15 at 54 of 60 (90%, an A) on his first attempt, off a 29 baseline - a 25-point improvement, valid through 3/15/2027. Houston also got its first LIVE main-board read (as opposed to mock): 50 of 60, a B, qualifying - Sergio 54, Alex 54, Joel 52, all three clearing. The standout there is that all 18 quarterly goal pulses across three managers were updated the same day, the strongest QG discipline on record across any board read. Green still requires all 10 branch boards re-certified by 10/19, and nine of ten DFW boards remain untouched.",
+      "confidence": 5,
+      "percent_complete": 95,
+      "assessment": "green/5/95 at 51.6% of the quarter elapsed, up from 82. THE ROLLOUT IS COMPLETE - ALL CTXH AND DFWT MANAGERS ARE CERTIFIED and through their mock boards. The DFW wave closed 9/18 with all ten certified (Beattie 58, Heaberlin 58, Dueck 56, Anderson/Hardison/Vaughan/Davis/Enoh 54, Krodel/Orama 52) off a 29 baseline - the cohort averaged +25. Four reworks, all four passed same day on category-level feedback with no fix detail. Remaining work is refinement, not rollout: analyze the questions and criteria that are consistently missed, then either adjust the instructions for clarity or change the board items so the same points are not always lost. Considering putting Austin L. through certification this week.",
       "blockers": [
-        "Nine of the ten DFW boards are still untouched - that wave is the whole remaining path to the 10/19 bar",
-        "Grant's readout names the planted duplicate, the status-mismatch trap and the Inbox orphans, so it works as a partial answer key - keep it off any DFW group channel until the rest have sat theirs",
-        "Live-read cadence still unsettled: pre-fix or post-fix read is parked",
-        "Mock instructions still never say scenario time vs real time - one line needed before the next DFW cohort"
+        "Four rubric defects logged and open (later-dates-sync-day, duplicate-vs-recurring, mock-update-content instruction, relocation loophole)",
+        "Cohort-wide training gap: reference-vs-Live QG pulses - four of ten updated the exempt reference copies and left the Live copies blank",
+        "Cohort result not yet posted to the Scrum Part 3 live pulse 12750326806 - Cameron and Albert cannot see it",
+        "Branch and position still unrecorded for Krodel, Orama and Heaberlin"
       ],
       "milestones": [
         {
@@ -333,7 +330,7 @@
       "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750326806",
-      "updated": "2026-09-15",
+      "updated": "2026-09-21",
       "hq_url": "https://bherz303.github.io/einstein-scrum-hq-hf9zjgpk/"
     }
   ],
@@ -345,8 +342,8 @@
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 69,
-      "assessment": "was yellow/3/62 (30 cards) -> yellow/3/69 at 49.5% of the quarter elapsed. 33 of 48 delivered, verified off a board-level pull on the Manager column (cursor null, no truncation). Brian logged three more on 9/15 - Garrison Cobe, CALVIN HUGHES and Dustin Street. Per manager: Dustin 9, Lukas Konrad 5, Rance Pope 4, Chris Anderson 3, Daniel Behseresht 3, Cameron Klepac 2, Joel Villatoro 2, Garrison Cobe 2, Frank Williams 1, Sergio Buenrostro 1, Hector Zavala 1, Alex Tran 1, Calvin Hughes 1, plus 1 to a non-manager. 13 of 15 managers now have at least one card. TWO remain at zero: Nick Dagel (paternity leave - fair) and JESPAH LARA, who is the only genuinely open gap.",
+      "percent_complete": 71,
+      "assessment": "yellow/3/71 at 51.6% of the quarter elapsed. 34 of 48 delivered, verified 9/21 off a board-level pull on the Manager column (cursor null, no truncation). Jespah Lara is the only available manager still at zero; Nick Dagel is on paternity leave. Nine of fifteen sit under 3 for Super Green.",
       "chart_note": "PERSONAL TRACKING ONLY — not a Q3 chart rock and not part of the status Cameron's board tracks. Brian's call 8/24: this is a side goal he tracks himself. Kept in bonus_goals[] so the count stays visible in his own file without reading as a seventh rock.",
       "blockers": [
         "Jespah Lara is the only manager at zero who is actually available - Nick Dagel is on paternity leave",
@@ -393,7 +390,7 @@
       "green": "48 praise cards delivered, at least 1 per manager in region",
       "red": "Fewer than 48 cards delivered",
       "live_pulse": "12761931235",
-      "updated": "2026-09-15"
+      "updated": "2026-09-21"
     }
   ],
   "kpis": [],
@@ -426,12 +423,13 @@
   "network_acks": [],
   "sync_push": {
     "pulse": {
-      "one": "Two things on a three-day week: (1) the Connection Cadence manager event - push the event suggestions out and collect confirmation plus head count; (2) SA FM applicants - get interviews communicated to the top candidates and coordinate them to start next week.",
-      "dod": "Event choice messaging out to every region with head counts back and dates locked going into next week; and interview invitations communicated with the interview schedule set to begin next week."
+      "one": "Be onsite. San Antonio Wednesday 9/23 and South Austin Friday 9/25 - front-line visits that carry the branch audits, first-hand observation of movers actually using the training app, and Jake Petersen's onsite training.",
+      "dod": "Both front-line visits conducted; app frustrations collected directly from crews at both branches; Jake's onsite training run Friday in South Austin."
     },
     "discussion_points": [
-      "Rippling time cards and clock-ins - asking for escalation, and the contrast is the argument. Anne sent Rippling a documented four-part package on 7/15: (1) clock-ins failing to register with missing hours, (2) false 'still clocked in from last night' messages that block a shift, (3) profile photos attached to the wrong employee, (4) employees not pulling on any iPad. On 9/4 we got a genuinely good answer - on item 3 only: root cause identified (the timeclock saves HEIC instead of JPEG and the timesheet system can't read it), a download-button workaround shipped, an app-side fix for new photos, and a committed date of end of next week. That is exactly the rigor we want. We have received nothing comparable on the three items that actually cost hours. The ask: what other fixes have shipped, and can we get items 1, 2 and 4 escalated to the same standard as the photo fix. Frustration is real and it is coming from movers, managers and ROs over redundantly and constantly correcting time cards - movers are describing it as getting to a breaking point. Action on our side: the 9/4 note requires each branch to update the timeclock app (Settings > Check for updates) or new photos keep saving in the wrong format - pushing that to all five CTXH branches today."
+      "Training Camp warnings and the beta head start. The announcement draws one inference for everyone - under roughly 50% on-track means management is not engaging - but Garland and Dallas had about three extra weeks as beta branches, while South Austin sits at 13% and Leander at 10% with no head start. Want the group's read on whether the head start gets accounted for.",
+      "Tag short weeks on the velocity post so PTO weeks can be excluded from the rolling average. Raised in the 9/17 O3 and unactioned - it affects every spoke's trend line, not just mine."
     ],
-    "win": "The BM sync-up session. Getting that format organized, confirmed and run - two mixed-region rooms of five running simultaneously - and the level of engagement we got out of it. Managers called it a keeper."
+    "win": "All CTXH and DFWT managers are now Scrum certified - the DFW wave closed Friday with all ten through, averaging a 25-point lift off a 29 baseline, and four reworks that all passed same day. And Jake Petersen accepted the South Austin Field Manager offer this morning, which closes the hire the whole scorecard was built for."
   }
 }

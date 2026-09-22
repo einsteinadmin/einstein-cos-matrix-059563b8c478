@@ -1,10 +1,14 @@
 {
   "schema_version": "1.0",
-  "owner": { "name": "Paul Morin", "title": "CFO/COO · Co-Owner", "cos": "Clark" },
+  "owner": {
+    "name": "Paul Morin",
+    "title": "CFO/COO · Co-Owner",
+    "cos": "Clark"
+  },
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-07T12:49:00-05:00",
+  "last_updated": "2026-09-21T12:29:00-05:00",
   "updated_by": "Clark (/status)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
@@ -14,11 +18,11 @@
   "cadence_days": 2,
   "sync_push": {
     "pulse": {
-      "one": "Complete at least 5 BM financial-accountability meetings this week",
-      "dod": "All 5 meetings held by end of day Friday 9/11"
+      "one": "Get the commercial moving company details in hand, or pull an acquisition target from an alternate source, and run the review.",
+      "dod": "Financial analysis completed for one additional company by the end of this week."
     },
     "discussion_points": [],
-    "win": "Tampa visit went well and Titan Up delivered great insights — plus uncovered that only 21% of hub-detected lates make it onto branch Performance Logs, a big tracking opportunity."
+    "win": "All branch financial reviews completed."
   },
   "goals": [
     {
@@ -29,19 +33,51 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 80,
-      "assessment": "9/7: Matisen still hasn't been able to run the historical analysis. Green remains solid, but Super Green (9/15 milestone) is unlikely at this point. Scheduling a reset with Matisen this week.",
+      "assessment": "9/21: Historical analysis is DONE - the blocker that held this at 80% since early September is cleared. Remaining path is sequential and known: Cameron's final review, then out to the regional and branch management team to poke holes, then prep the document for the October training days with an official launch 11/1. Super Green (9/15) is off the table; Green is intact.",
       "blockers": [
-        "Matisen's historical analysis still not run (was expected ~9/4) — reset being scheduled; Paul's qualification look-back analysis depends on it"
+        "Cameron's final review not yet scheduled",
+        "Regional + branch management pressure-test round not yet run"
       ],
       "milestones": [
-        { "name": "Pay structure + Promotion Paths documented and communicated to the team; recurring tracking cadence operational", "date": "2026-10-31", "done": false },
-        { "name": "Green criteria met (Super Green threshold)", "date": "2026-09-15", "done": false }
+        {
+          "name": "Historical analysis complete",
+          "date": "2026-09-19",
+          "done": true
+        },
+        {
+          "name": "Cameron final review",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "Regional + BM team pressure test",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "Document shared at October training days ahead of 11/1 launch",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "Pay structure + Promotion Paths documented and communicated to the team; recurring tracking cadence operational",
+          "date": "2026-10-31",
+          "done": false
+        },
+        {
+          "name": "Green criteria met (Super Green threshold)",
+          "date": "2026-09-15",
+          "done": false
+        }
       ],
       "superGreen": "Green criteria met by 9/15 (mid-quarter)",
       "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence",
-      "dependencies": ["Anne", "Matisen"],
+      "dependencies": [
+        "Anne",
+        "Matisen"
+      ],
       "mb_pulse": "11752733644",
-      "updated": "2026-09-07"
+      "updated": "2026-09-21"
     },
     {
       "id": "paul-q3-2",
@@ -50,19 +86,37 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 80,
-      "assessment": "9/7: Ben completed the Q3 label fix on the branch CFO dashboards. Paul checking back in with the managers and scheduling the accountability meetings this week — target is at least 5 completed by Friday 9/11.",
+      "percent_complete": 90,
+      "assessment": "9/21: All branches completed for July - every branch financial review is done. Dashboard improvements continue off the BM feedback punch list. August review meetings get scheduled late this week and first thing next week. The one gap to Green is ownership: regionals are not yet folding this into their own meetings.",
       "blockers": [
-        "Rest-of-scorecard integration beyond the financial review — needs coordination with Cameron and Matisen"
+        "Regionals not yet including the financial review in their meetings - cadence still run by Paul, not the RMs",
+        "August review meetings not yet scheduled"
       ],
       "milestones": [
-        { "name": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs, run by RMs", "date": "2026-10-31", "done": false }
+        {
+          "name": "All branch July financial reviews complete",
+          "date": "2026-09-14",
+          "done": true
+        },
+        {
+          "name": "August review round scheduled",
+          "date": "2026-09-28",
+          "done": false
+        },
+        {
+          "name": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs, run by RMs",
+          "date": "2026-10-31",
+          "done": false
+        }
       ],
       "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting",
       "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both",
-      "dependencies": ["Brian", "Mike"],
+      "dependencies": [
+        "Brian",
+        "Mike"
+      ],
       "mb_pulse": "11728394236",
-      "updated": "2026-09-07"
+      "updated": "2026-09-21"
     },
     {
       "id": "paul-q3-3",
@@ -72,35 +126,45 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 60,
-      "assessment": "9/7: General SOP completed — now collecting feedback from the team on it. Matisen built a tracker that will be integrated into the process. 60% done, on target for Green.",
-      "blockers": [],
+      "assessment": "9/21: No additional movement in the last two weeks. SOP is written and Matisen's tracker exists; holding at 60% with feedback collection and integration still to run. Six weeks left in the quarter.",
+      "blockers": [
+        "No movement since 9/7 - needs a working block to collect SOP feedback and integrate Matisen's tracker"
+      ],
       "milestones": [
-        { "name": "Unpaid-bill workflow documented end-to-end and team trained; tracker covers all outstanding invoices", "date": "2026-10-31", "done": false }
+        {
+          "name": "Unpaid-bill workflow documented end-to-end and team trained; tracker covers all outstanding invoices",
+          "date": "2026-10-31",
+          "done": false
+        }
       ],
       "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
       "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
       "mb_pulse": "11728362120",
-      "updated": "2026-09-07"
+      "updated": "2026-09-21"
     },
     {
       "id": "paul-q3-4",
       "number": 4,
       "name": "Acquisition Case Study — New Branch vs. Acquisition Model",
       "critical": true,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 30,
-      "assessment": "9/7: Holding at 30%. Commercial moving company hasn't responded to follow-up emails. Titan Up conference (9/2-9/4) completed — gathered strong contacts who have done moving acquisitions, to follow up with for more detail.",
+      "assessment": "9/21: Yellow. The commercial mover keeps promising details in a couple of days and then goes quiet - this has now repeated several times and is the single thing holding the goal flat at 30%. Pivot in motion: pull a target from an alternate source rather than keep waiting. Separately, confirmed with Tricia that a storage angle works well here - renting roughly 10 storage units for customer use and billing customers for the storage.",
       "blockers": [
-        "Commercial moving company unresponsive to follow-up emails — details needed to run the analysis"
+        "Commercial moving company repeatedly promises details and never sends them - need an alternate source for target #2"
       ],
       "milestones": [
-        { "name": "Houston organic-vs-acquisition case study complete; 3 acquisition opportunities evaluated, at least 1 of 3 current/live", "date": "2026-10-31", "done": false }
+        {
+          "name": "Houston organic-vs-acquisition case study complete; 3 acquisition opportunities evaluated, at least 1 of 3 current/live",
+          "date": "2026-10-31",
+          "done": false
+        }
       ],
       "superGreen": "5 opportunities evaluated",
       "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
       "mb_pulse": "11728336219",
-      "updated": "2026-09-07"
+      "updated": "2026-09-21"
     },
     {
       "id": "paul-q3-5",
@@ -110,17 +174,25 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 50,
-      "assessment": "9/7: Tampa visit completed 9/1-9/2 — 1 of 2 visits toward Green, 50%. Next branch visit needs scheduling.",
+      "assessment": "9/21: Holding at 50%, Tampa done 9/1-9/2. Next week is the open window for visit #2; branch not yet chosen. Green (2 visits) very reachable, Super Green (3) depends on booking #2 now.",
       "blockers": [
-        "Second (and possibly third) branch visit not yet scheduled"
+        "Visit #2 not scheduled and branch not yet selected - next week is the target window"
       ],
       "milestones": [
-        { "name": "Tampa branch visit", "date": "2026-09-01", "done": true },
-        { "name": "2 visits complete (Green threshold)", "date": "2026-10-31", "done": false }
+        {
+          "name": "Tampa branch visit",
+          "date": "2026-09-01",
+          "done": true
+        },
+        {
+          "name": "2 visits complete (Green threshold)",
+          "date": "2026-10-31",
+          "done": false
+        }
       ],
       "superGreen": "3 visits",
       "green": "2 visits",
-      "updated": "2026-09-07"
+      "updated": "2026-09-21"
     }
   ],
   "kpis": [],

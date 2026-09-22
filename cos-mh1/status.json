@@ -8,20 +8,20 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-18T11:55:01-05:00",
+  "last_updated": "2026-09-21T13:55:29-05:00",
   "updated_by": "Matisen (/status)",
   "cadence_days": 1,
   "sync_push": {
-    "meeting": "",
-    "meeting_time": "",
+    "meeting": "Roundtable Sync Up",
+    "meeting_time": "2026-09-21T13:30:00-05:00",
     "one_thing": {
-      "commitment": "Deploying hub out today for the team. Had to get the runner and builder off my machine and into the cloud.",
-      "definition_of_done": ""
+      "commitment": "Continuation of last week, two items, both in flight: (1) deploy hub, with Games synced to the mover app as the follow up. Blocked on LiftUp today. (2) Unblock Botpress, which needs to move this week to hit the deployment plan.",
+      "definition_of_done": "Game scores go out on the mover app this week, and Botpress QA is approved and passing for prod."
     },
     "discussion_points": [
-      "Nothing right now, will talk with Cam about multi-LLM access"
+      "No room time, I have a lot of focus work this week."
     ],
-    "win": "Hub deployment is bundled with EMMA MCP tools and functions that once we get the hub off my local machine we can start accessing and improving"
+    "win": "The hub's filtered front door went live in production across all 12 filters, so every department has its own view, and Jenkins-in-Docker verified on 9/21 as the last piece before it leaves my machine."
   },
   "goals": [
     {
@@ -32,8 +32,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 38,
-      "assessment": "Hub deployment to the team is the live thread: the runner and builder are moving off Matisen's local machine into the cloud, with team deployment targeted Mon-Tue 9/21-22 \u2014 in flight, not shipped. B: the LiftUp line-by-line ran 9/15 and the ruling holds at no rewrite and no new datastore, repoint reads to the existing secondaries. A is unchanged: region scorecards are built but still not delivered. D (Sage) is paused as of 9/11 until the Rippling kiosk punch conflicts are resolved.",
+      "percent_complete": 45,
+      "assessment": "Hub did not reach the team. A large majority of last week's 80 LOW went into reworking hub items for Jenkins: the filtered layout flipped to production across all 12 filters, the einstein-hub org repo was populated with sync-as-manifest, and Jenkins-in-Docker verified 9/21 with deploy still blocked on 4 items. Real infrastructure progress, no delivery. A is unchanged, region scorecards built and still not delivered. D (Sage) remains paused since 9/11 behind the Rippling kiosk punch conflicts.",
       "blockers": [
         "A. Region scorecards built but not delivered \u2014 regionals do not have them yet",
         "B. Paul/Cam EMMA MCP access \u2014 hub MCP still needs the Slack channel + per-agent tokens; LiftUp line-by-line 9/15",
@@ -64,7 +64,7 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-09-18"
+      "updated": "2026-09-21"
     },
     {
       "id": "matisen-q3-sales-marketing",
@@ -73,8 +73,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 46,
-      "assessment": "D: the ESP RO pilot went live 9/10 (manual mode with Amanda for a couple of weeks before automation triggers); the chatbot launch email is drafted and waiting on approval for the LeadFerno sunset. The AI call system (Evoca) was deferred 9/11 to October with Matisen and Amanda owning the selection. B unchanged: call grading runs nightly, estimate_accuracy live on the hub; conversion on the sales target dashboard still to do. Paused for the week of 9/15 to focus on the Rippling timeclock bugs and closing out the hub; ESP scenario 12 (move date passed, created inactive, 22-lead preview) and the 9/15-16 advance-button outage recovery landed before the pause.",
+      "percent_complete": 48,
+      "assessment": "ESP scenario 11 staged and scenario 12 shipped; the 9/15-16 advance-button outage was diagnosed to a deactivated Leander Gmail token and recovered. Botpress is now the live commitment, needed to hit the deployment plan.",
       "blockers": [
         "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
         "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) \u2014 Einstein can edit the knowledge base only"
@@ -103,7 +103,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-09-18"
+      "updated": "2026-09-21"
     },
     {
       "id": "matisen-q3-performance-people",
@@ -112,8 +112,8 @@
       "critical": true,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 44,
-      "assessment": "B: the promotion-eligibility tool moved to hours-based windows on 9/11; Paul and Anne lock thresholds this week and present to Cameron for buy-in before rollout messaging. C: 160+ Rippling kiosk punch conflicts remain open with Rippling; the Jamf path to push the update to every device was found 9/10 and the kiosk bug form is taking mover reports. A: webhook verification still not reported done. Week of 9/15: C is the only block running \u2014 Rippling timeclock/kiosk bugs are the focus (9/17 kiosk name audit, branch-vs-truck purity, Timeclock 5.0.10 OS floor, Jamf push path). A, B and D are paused this week.",
+      "percent_complete": 48,
+      "assessment": "C carried the week: kiosk crosswalk round 2 closed the 7 remaining unknowns, plus a retroactive kiosk name audit, the branch-vs-truck purity ruling, the Timeclock 5.0.10 OS floor and a confirmed Jamf push path. B advanced through working sessions with Anne and Paul on the promotion ladder.",
       "blockers": [
         "A. Webhook verification still unconfirmed \u2014 the original gate (Anne on vacation) has cleared; Anne active on the board since 8/26, verification not yet reported done",
         "C. Rippling API token scopes \u2014 Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
@@ -142,7 +142,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-09-18"
+      "updated": "2026-09-21"
     },
     {
       "id": "matisen-q3-praise",
