@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-21T12:29:00-05:00",
-  "updated_by": "Clark (/status)",
+  "last_updated": "2026-09-22T22:15:00-05:00",
+  "updated_by": "Clark (/wrap)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "cross_checked_against": "ai-chief-of-staff/network/rollover/2026-Q3/paul-status-q3-DRAFT.json (Albert, 8/17) — structure matches goal-for-goal",
@@ -174,15 +174,20 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 50,
-      "assessment": "9/21: Holding at 50%, Tampa done 9/1-9/2. Next week is the open window for visit #2; branch not yet chosen. Green (2 visits) very reachable, Super Green (3) depends on booking #2 now.",
+      "assessment": "9/22: San Antonio locked for Wed 10/7 as visit #2 (week of 9/28 fell through with Dustin and Lukas both out). Brian informed by Slack, not required to join. Once 10/7 happens, Green (2 visits) is locked. Super Green (3) needs South Austin in October once Jake Peterson is settled.",
       "blockers": [
-        "Visit #2 not scheduled and branch not yet selected - next week is the target window"
+        "Super Green only: South Austin date not set, waiting on Jake Peterson to settle in"
       ],
       "milestones": [
         {
           "name": "Tampa branch visit",
           "date": "2026-09-01",
           "done": true
+        },
+        {
+          "name": "San Antonio branch visit",
+          "date": "2026-10-07",
+          "done": false
         },
         {
           "name": "2 visits complete (Green threshold)",
@@ -192,7 +197,7 @@
       ],
       "superGreen": "3 visits",
       "green": "2 visits",
-      "updated": "2026-09-21"
+      "updated": "2026-09-22"
     }
   ],
   "kpis": [],
