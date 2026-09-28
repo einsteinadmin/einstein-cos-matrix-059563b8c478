@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-22T18:27:45-05:00",
-  "updated_by": "Linda (/wrap)",
+  "last_updated": "2026-09-28T08:40:00-05:00",
+  "updated_by": "Linda (/wrap — stamp only, delta held for Anne)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -63,7 +63,8 @@
         "Single-bucket dilution hole — Cameron asked Anne to map termination counts and whether tiering is needed (third callout weighted heavier than the first two) so the pool isn't too shallow.",
         "Unemployment eligibility under a poor-performance termination — Paul's concern. Now with Jennifer (attorney): email sent 9/22, high-level framework to follow once she confirms a call. Out of Anne's hands; Oct 1 sign-off is 9 days out and attorney turnaround is the least controllable piece.",
         "Framework sent to Mike and Brian 9/22, two days ahead of the 9/24 commitment. ⚠️ Paul was on the original 9/24 list and is one of the two required Green-bar signatures — confirm he has it.",
-        "⚠️ Full launch still NOT a Q3 deliverable — targeted January 1, 2027 per Cameron's 8/27 confirmation."
+        "⚠️ Full launch still NOT a Q3 deliverable — targeted January 1, 2027 per Cameron's 8/27 confirmation.",
+        "Unemployment-eligibility question on the framework — attorney call with Jennifer Ward (JDW Law) booked Thu 9/24, 3pm CT."
       ],
       "green": "Methodology fully designed — every dimension (attendance, damages, CHOICES/professionalism, driver score) mapped to point values and weights, with an explicit rule for how damages get weighted based on attribution quality (not a flat weight) — signed off by Cameron and Paul by Oct 1.",
       "superGreen": "Green + live scoring piloted on one full branch ahead of the Jan 1, 2027 company-wide launch, with 3 BMs trained to use the score in a real coaching conversation.",
@@ -76,7 +77,7 @@
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-22"
+      "updated": "2026-09-24T08:02:28-05:00"
     },
     {
       "id": "anne-q3-3",
@@ -252,8 +253,8 @@
   ],
   "sync_push": {
     "pulse": {
-      "one": "Get Start/Stop/Keep out and live — Anne's personal focus, confirmed in the 9/21 group sync",
-      "dod": "The app is live and all 7 Roundtable leaders have it, with the first conversations logged through the tool"
+      "one": "Trial day sunset comms out to branch leadership by end of this week, ahead of the 10/1 launch",
+      "dod": "Manager deck/video, written recap and Monday pulse delivered to all branch leadership before 10/1"
     },
     "discussion_points": [
       "100-Point / damages measurement — Mike wants damage-per-hour replaced by a count or dollar threshold; Anne and Cameron designed around damages-per-hour over an hours gate; Paul disputes Mike's premise about resolution-date lag and wants Matisen to settle the factual question. Unresolved, and it gates the Oct 1 methodology sign-off.",
@@ -263,6 +264,6 @@
       "eNPS — same shape: the Green bar requires the baseline established \"by Oct 1\" but the Mover wave opens 10/7 and closes 10/14. Unmeetable as written.",
       "Trial Day Sunset — in-flight candidate rule: anyone with a trial day already booked when it flips on 10/1."
     ],
-    "win": "We trialed the workers' comp preauthorization workflow and it's working. It's faster than what we were doing before, and for the first time we have complete visibility into someone's injury from the moment it's reported — pre-auth, Concentra confirmation, info to the clinic, Texas Mutual submission, all the way through. Proven four times live now."
+    "win": "None this cycle — Anne was running Employee Experience solo last week (Jalissa out)."
   }
 }

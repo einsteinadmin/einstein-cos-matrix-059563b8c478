@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-21T13:55:29-05:00",
-  "updated_by": "Matisen (/status)",
+  "last_updated": "2026-09-25T08:10:17-05:00",
+  "updated_by": "Matisen (/gm catch-up)",
   "cadence_days": 1,
   "sync_push": {
     "meeting": "Roundtable Sync Up",
@@ -27,18 +27,18 @@
     {
       "id": "matisen-q3-admin",
       "number": 1,
-      "name": "QG and Support Blocks \u2014 Admin",
+      "name": "QG and Support Blocks — Admin",
       "hq_url": "https://hub.einsteinmoving.com",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 45,
-      "assessment": "Hub did not reach the team. A large majority of last week's 80 LOW went into reworking hub items for Jenkins: the filtered layout flipped to production across all 12 filters, the einstein-hub org repo was populated with sync-as-manifest, and Jenkins-in-Docker verified 9/21 with deploy still blocked on 4 items. Real infrastructure progress, no delivery. A is unchanged, region scorecards built and still not delivered. D (Sage) remains paused since 9/11 behind the Rippling kiosk punch conflicts.",
+      "assessment": "Hub did not reach the team. A large majority of last week's 80 LOW went into reworking hub items for Jenkins: the filtered layout flipped to production across all 12 filters, the einstein-hub org repo was populated with sync-as-manifest, and Jenkins-in-Docker verified 9/21 with deploy still blocked on 4 items. Real infrastructure progress, no delivery. A is unchanged, region scorecards built and still not delivered. D (Sage) remains paused since 9/11 behind the Rippling kiosk punch conflicts. 9/24: Games Branch & Mover view went live on the hub with manager drill-downs and the ?mover= embed shape for the mover app; hub-mcp games_mover deployed with per-token scopes. Field-app Games handoff leads with the hub embed (Option A).",
       "blockers": [
-        "A. Region scorecards built but not delivered \u2014 regionals do not have them yet",
-        "B. Paul/Cam EMMA MCP access \u2014 hub MCP still needs the Slack channel + per-agent tokens; LiftUp line-by-line 9/15",
+        "A. Region scorecards built but not delivered — regionals do not have them yet",
+        "B. Paul/Cam EMMA MCP access — hub MCP still needs the Slack channel + per-agent tokens; LiftUp line-by-line 9/15",
         "D. Sage/EMMA paused 9/11 behind the Rippling kiosk time-punch conflicts (160+ open with Rippling support)",
-        "Hub production still served from Matisen's local machine until the runner + builder cutover lands \u2014 clears on the 9/21-22 team deployment"
+        "Hub production still served from Matisen's local machine until the runner + builder cutover lands — clears on the 9/21-22 team deployment"
       ],
       "milestones": [
         {
@@ -47,7 +47,7 @@
           "done": false
         },
         {
-          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) \u2014 $28K",
+          "name": "B. EMMA MCP team access (unblocks AI CoS + KPIs) — $28K",
           "date": "2026-10-31",
           "done": false
         },
@@ -64,12 +64,12 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-09-21"
+      "updated": "2026-09-24"
     },
     {
       "id": "matisen-q3-sales-marketing",
       "number": 2,
-      "name": "QG and Support Blocks \u2014 Sales and Marketing",
+      "name": "QG and Support Blocks — Sales and Marketing",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
@@ -77,7 +77,7 @@
       "assessment": "ESP scenario 11 staged and scenario 12 shipped; the 9/15-16 advance-button outage was diagnosed to a deactivated Leander Gmail token and recovered. Botpress is now the live commitment, needed to hit the deployment plan.",
       "blockers": [
         "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
-        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) \u2014 Einstein can edit the knowledge base only"
+        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only"
       ],
       "milestones": [
         {
@@ -108,15 +108,15 @@
     {
       "id": "matisen-q3-performance-people",
       "number": 3,
-      "name": "QG and Support Blocks \u2014 Performance and Employee Management",
+      "name": "QG and Support Blocks — Performance and Employee Management",
       "critical": true,
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 48,
       "assessment": "C carried the week: kiosk crosswalk round 2 closed the 7 remaining unknowns, plus a retroactive kiosk name audit, the branch-vs-truck purity ruling, the Timeclock 5.0.10 OS floor and a confirmed Jamf push path. B advanced through working sessions with Anne and Paul on the promotion ladder.",
       "blockers": [
-        "A. Webhook verification still unconfirmed \u2014 the original gate (Anne on vacation) has cleared; Anne active on the board since 8/26, verification not yet reported done",
-        "C. Rippling API token scopes \u2014 Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
+        "A. Webhook verification still unconfirmed — the original gate (Anne on vacation) has cleared; Anne active on the board since 8/26, verification not yet reported done",
+        "C. Rippling API token scopes — Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
       ],
       "milestones": [
         {
@@ -130,7 +130,7 @@
           "done": false
         },
         {
-          "name": "C. Performance log tracking to Rippling \u2014 O3, PL, Praise, Coaching",
+          "name": "C. Performance log tracking to Rippling — O3, PL, Praise, Coaching",
           "date": "2026-10-31",
           "done": false
         },
@@ -154,8 +154,8 @@
       "percent_complete": 25,
       "assessment": "12 of 48 praise delivered and logged to the Praise Board as of 9/18 (board-verified: 5 on 9/07, 2 on 9/09, 4 on 9/11, 1 undated), with 2 more sitting Not Delivered in the Manager Queue. Nothing new logged since 9/11. Logging goes straight to the board by API the same day the praise is given. Burn-down: 36 to Green in about 6 weeks, roughly 6 a week.",
       "blockers": [
-        "Measurement source formally undecided (Praise Board vs Rippling PL) \u2014 board submissions are flowing as the working basis, but the count cannot be graded until this is ruled",
-        "Praise Board clear-on-status automation still broken and unowned \u2014 counts must state raw-vs-delivered basis"
+        "Measurement source formally undecided (Praise Board vs Rippling PL) — board submissions are flowing as the working basis, but the count cannot be graded until this is ruled",
+        "Praise Board clear-on-status automation still broken and unowned — counts must state raw-vs-delivered basis"
       ],
       "milestones": [
         {
@@ -164,8 +164,8 @@
           "done": false
         }
       ],
-      "superGreen": "125% \u2014 60 praise",
-      "green": "100% \u2014 48 praise",
+      "superGreen": "125% — 60 praise",
+      "green": "100% — 48 praise",
       "updated": "2026-09-18"
     }
   ],
@@ -179,7 +179,7 @@
       "forked": [
         "hooks/wrap-autopush-hook.sh"
       ],
-      "note": "MD payloads (gm-step-network-inbox, wrap-step-status-publish) staged unwired at .claude/network-core/; autopush Stop hook DECLINED \u2014 6h TTL would silently drop the push on sessions >6h, which are routine here. Rationale + replacement design in ADR-010 (local). Network constitution (SYSTEM.md + ADR 001-014) adopted read-only to context/network/."
+      "note": "MD payloads (gm-step-network-inbox, wrap-step-status-publish) staged unwired at .claude/network-core/; autopush Stop hook DECLINED — 6h TTL would silently drop the push on sessions >6h, which are routine here. Rationale + replacement design in ADR-010 (local). Network constitution (SYSTEM.md + ADR 001-014) adopted read-only to context/network/."
     }
   ],
   "network_acks": []
