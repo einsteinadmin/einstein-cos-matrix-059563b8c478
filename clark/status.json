@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-22T22:15:00-05:00",
-  "updated_by": "Clark (/wrap)",
+  "last_updated": "2026-09-29T14:40:59-05:00",
+  "updated_by": "Clark (/sync-prep)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "cross_checked_against": "ai-chief-of-staff/network/rollover/2026-Q3/paul-status-q3-DRAFT.json (Albert, 8/17) — structure matches goal-for-goal",
@@ -30,13 +30,12 @@
       "number": 1,
       "name": "Annual Mover Comp Review — Pay Structure + Promotion Paths",
       "critical": true,
-      "self_status": "green",
-      "confidence": 5,
+      "self_status": "yellow",
+      "confidence": 3,
       "percent_complete": 80,
-      "assessment": "9/21: Historical analysis is DONE - the blocker that held this at 80% since early September is cleared. Remaining path is sequential and known: Cameron's final review, then out to the regional and branch management team to poke holes, then prep the document for the October training days with an official launch 11/1. Super Green (9/15) is off the table; Green is intact.",
+      "assessment": "9/29: Yellow. The 9/28 three-hour session with Cameron and Anne changed direction: one record of events feeding two scores (standing and promotion readiness), both designed together before launch. Now waiting on Anne's framework update from that talk. The 10/31 launch is at risk.",
       "blockers": [
-        "Cameron's final review not yet scheduled",
-        "Regional + branch management pressure-test round not yet run"
+        "Waiting on Anne's framework update after the 9/28 session with Cameron"
       ],
       "milestones": [
         {
@@ -77,7 +76,7 @@
         "Matisen"
       ],
       "mb_pulse": "11752733644",
-      "updated": "2026-09-21"
+      "updated": "2026-09-29"
     },
     {
       "id": "paul-q3-2",
@@ -87,10 +86,10 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 90,
-      "assessment": "9/21: All branches completed for July - every branch financial review is done. Dashboard improvements continue off the BM feedback punch list. August review meetings get scheduled late this week and first thing next week. The one gap to Green is ownership: regionals are not yet folding this into their own meetings.",
+      "assessment": "9/29: Green. July reviews complete for all 10 branches. Paul is booking the August review meetings today for Thu 10/1 and Fri 10/2. The remaining gap to Green is ownership: regionals are not yet running the financial review in their own meetings.",
       "blockers": [
         "Regionals not yet including the financial review in their meetings - cadence still run by Paul, not the RMs",
-        "August review meetings not yet scheduled"
+        "August review meetings being scheduled 9/29"
       ],
       "milestones": [
         {
@@ -116,19 +115,19 @@
         "Mike"
       ],
       "mb_pulse": "11728394236",
-      "updated": "2026-09-21"
+      "updated": "2026-09-29"
     },
     {
       "id": "paul-q3-3",
       "number": 3,
       "name": "Improve Invoicing + AR Collections Tracking",
       "critical": false,
-      "self_status": "green",
-      "confidence": 5,
+      "self_status": "yellow",
+      "confidence": 4,
       "percent_complete": 60,
-      "assessment": "9/21: No additional movement in the last two weeks. SOP is written and Matisen's tracker exists; holding at 60% with feedback collection and integration still to run. Six weeks left in the quarter.",
+      "assessment": "9/29: Yellow. Worked uncollected payments with Stephanie 9/25. Next step waits on Matisen's Data Hub work, which feeds his invoice tracker. Once it lands we can move quickly; if Matisen finishes this week, this goes back to Green.",
       "blockers": [
-        "No movement since 9/7 - needs a working block to collect SOP feedback and integrate Matisen's tracker"
+        "Waiting on Matisen's Data Hub work, which feeds the invoice tracker"
       ],
       "milestones": [
         {
@@ -140,7 +139,7 @@
       "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
       "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
       "mb_pulse": "11728362120",
-      "updated": "2026-09-21"
+      "updated": "2026-09-29"
     },
     {
       "id": "paul-q3-4",
@@ -150,9 +149,9 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 30,
-      "assessment": "9/21: Yellow. The commercial mover keeps promising details in a couple of days and then goes quiet - this has now repeated several times and is the single thing holding the goal flat at 30%. Pivot in motion: pull a target from an alternate source rather than keep waiting. Separately, confirmed with Tricia that a storage angle works well here - renting roughly 10 storage units for customer use and billing customers for the storage.",
+      "assessment": "9/29: Yellow. New live target: First Class Moving Systems (Tampa, NAVL agent). NDA signed 9/25, intro call held 9/29. Financials expected Thu 10/1 or Fri 10/2, with analysis done within a day or two of receipt.",
       "blockers": [
-        "Commercial moving company repeatedly promises details and never sends them - need an alternate source for target #2"
+        "First Class financials expected Thu 10/1 or Fri 10/2"
       ],
       "milestones": [
         {
@@ -164,7 +163,7 @@
       "superGreen": "5 opportunities evaluated",
       "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
       "mb_pulse": "11728336219",
-      "updated": "2026-09-21"
+      "updated": "2026-09-29"
     },
     {
       "id": "paul-q3-5",

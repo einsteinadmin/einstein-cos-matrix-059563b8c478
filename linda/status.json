@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-28T17:30:00-05:00",
-  "updated_by": "Linda (/wrap — stamp only, delta held for Anne)",
+  "last_updated": "2026-09-29T16:12:00-05:00",
+  "updated_by": "Linda (/sync-prep)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -27,8 +27,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 45,
-      "assessment": "Preauthorization workflow proven 4x live. 9/22 session with Mike and Brian worked the two-day minor-injury rule hard and landed on an automated-leave design that resolved Mike's core objection. Anne's driving case, stated in the room: people have been out a month with nothing submitted to Texas Mutual, no FMLA issued, and no notification to EE. Green bar's second half — workflow trained to all 10 BMs by EOQ — still not started; the presentation review is dated 9/23.",
+      "percent_complete": 52,
+      "assessment": "Injury Hub built 9/25 (manager + mover views, not yet published). Anne set the rules: Minor = up to 3 calendar days counted from the day after the injury, Critical = same-day claim, movers report within 7 days, pain over 48 hours gets reported, light duty via re-employability for anyone out more than a month, FMLA-equivalent protection at all branches. That moves the Green bar's 'workflow documented' half. Training all 10 BMs hasn't started.",
       "blockers": [
         "WC package review by Brian and Mike — scheduled rather than pending as of the 9/21 group sync: Anne sends the process to Mike 9/22 so he can weigh in. Anne flagged in the room that inconsistency is already happening — people messaging her separately instead of funnelling to one place. Brian's rules haven't gone out yet; something broke on the board last week.",
         "Green bar's second half — workflow trained to all 10 BMs by EOQ — still not started. The deck exists in draft; no training has been delivered.",
@@ -37,7 +37,8 @@
         "Preauthorization workflow proven twice now (9/11, 9/14) and drafted into a checklist — still needs Anne to fill in the process specifics (exact pre-auth channel, Concentra's info requirements, Texas Mutual's submission method) before it's ready to hand to a BM or fold into the WC training deck",
         "Sebastian Osuna's late-reported Houston injury (adjuster non-payment, AFC/Workwell-network question) unresolved — live test case for whatever this process becomes",
         "OSHA-board-to-Rippling migration (single source of truth, annual CSV export) not yet scoped",
-        "Automated-leave design agreed 9/22 with Mike and Brian but feasibility unconfirmed: minor-injury form → system auto-sets Rippling leave → mover cannot clock in → manager's follow-up call releases them. Mike's condition was that it be automated and out of the manager's hands. Anne checking Rippling — \"potentially a little bit more to it\"; may need built workflows. Scheduling propagation also unresolved (managers don't schedule in Rippling)."
+        "Automated-leave design agreed 9/22 with Mike and Brian but feasibility unconfirmed: minor-injury form → system auto-sets Rippling leave → mover cannot clock in → manager's follow-up call releases them. Mike's condition was that it be automated and out of the manager's hands. Anne checking Rippling — \"potentially a little bit more to it\"; may need built workflows. Scheduling propagation also unresolved (managers don't schedule in Rippling).",
+        "Brian's manager guide still says a 2-day Minor window and counts the day of injury as day 1. It has to match Anne's 3-day rule before the hub launches."
       ],
       "green": "Custom claim-submission tool (the Monday intake form counts) built against the OSHA-recordable field spec you hand Matisen before the data structure locks — with a working EE-notification loop confirmed — plus the on-site incident workflow documented and trained to all 10 branch managers, by EOQ.",
       "superGreen": "Green, plus: (a) the mover-specific WC training session built and put in onboarding training; (b) the manager-specific WC training session built and put in onboarding training; (c) at least one real Q3 WC leave case showing correctly in Rippling's leave-tracking view, cross-referenced with FMLA where applicable.",
@@ -47,7 +48,7 @@
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-22"
+      "updated": "2026-09-29T16:12:00-05:00"
     },
     {
       "id": "anne-q3-2",
@@ -55,16 +56,18 @@
       "name": "100-Point Behavioral System — Q2 Rock 2 Companion",
       "critical": true,
       "self_status": "green",
-      "confidence": 4,
-      "percent_complete": 75,
-      "assessment": "100-Point HQ sent to Mike and Brian 9/22, ahead of the 9/24 commitment. Mike confirmed on the 9/22 call he is an advocate in principle — \"totally on board... once I get the nitty gritty\" — and named the reason to lead with: managers can't tell an A player from a C player, and a point system does that for them. Green bar is Cameron + Paul sign-off by Oct 1, so Mike/Brian review advances the work but is not the bar. Still owed by Anne: the tiering/termination-count analysis Cameron asked for, and the unemployment-eligibility answer via Jennifer.",
+      "confidence": 3,
+      "percent_complete": 80,
+      "assessment": "9/28 Cameron/Paul/Anne call set the direction: one record of events feeding the standing score, promotion and the Lead bonus. 9/29 Anne built the combined design outline for Cameron and Paul (four buckets with floors, a 1/3/5/10 scale where repeats move up a tier, callouts moved to earned unpaid time off, promotion at 92+, per-event denominators) and a workshop for the 9/30 Brian/Mike review. An attendance backtest on all 10 branch Performance Logs (277 active field employees) shows the lines don't over-terminate: on attendance alone 18 at formal write-up, 4 at final warning, 1 at termination review. Six decisions go to Cameron and Paul.",
       "blockers": [
-        "Damages measurement unresolved — Mike wants count/dollar-based (damage-per-hour 'needs to go away'), Anne and Cameron designed around damages-per-hour over an hours gate. Paul disputes Mike's premise about resolution-date lag and wants Matisen to settle the factual question.",
         "Single-bucket dilution hole — Cameron asked Anne to map termination counts and whether tiering is needed (third callout weighted heavier than the first two) so the pool isn't too shallow.",
-        "Unemployment eligibility under a poor-performance termination — Paul's concern. Now with Jennifer (attorney): email sent 9/22, high-level framework to follow once she confirms a call. Out of Anne's hands; Oct 1 sign-off is 9 days out and attorney turnaround is the least controllable piece.",
         "Framework sent to Mike and Brian 9/22, two days ahead of the 9/24 commitment. ⚠️ Paul was on the original 9/24 list and is one of the two required Green-bar signatures — confirm he has it.",
         "⚠️ Full launch still NOT a Q3 deliverable — targeted January 1, 2027 per Cameron's 8/27 confirmation.",
-        "Unemployment-eligibility question on the framework — attorney call with Jennifer Ward (JDW Law) booked Thu 9/24, 3pm CT."
+        "Unemployment eligibility ANSWERED by counsel (Jennifer, 9/24): an objective, evenly applied, pre-communicated system is fine; a termination has to rest on counted incidents over a defined period, like the attendance policy.",
+        "Oct 1 methodology sign-off will be missed. Outline to Cameron and Paul 9/29, Brian/Mike review 9/30, point values tested on 15-20 real movers over ~2 weeks, target the QGR.",
+        "Damages still open: three options (points per incident / rate only / split by job, recommended) go to Brian and Mike 9/30.",
+        "Decisions needed from Cameron and Paul: earned-time-off accrual rate and cap; whether callouts on earned time cost the Lead bonus; damages option; retiring the Games bars from the promotion gate; standalone 10/31 launch; Mike's Dallas beta.",
+        "A branch Performance Log recorded an FMLA absence as a no-call/no-show. Protected leave needs a flag on every event record, and FMLA currently counts against the Lead attendance bonus."
       ],
       "green": "Methodology fully designed — every dimension (attendance, damages, CHOICES/professionalism, driver score) mapped to point values and weights, with an explicit rule for how damages get weighted based on attribution quality (not a flat weight) — signed off by Cameron and Paul by Oct 1.",
       "superGreen": "Green + live scoring piloted on one full branch ahead of the Jan 1, 2027 company-wide launch, with 3 BMs trained to use the score in a real coaching conversation.",
@@ -77,7 +80,7 @@
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-24T08:02:28-05:00"
+      "updated": "2026-09-29T16:12:00-05:00"
     },
     {
       "id": "anne-q3-3",
@@ -137,17 +140,21 @@
       "number": 5,
       "name": "Mover Promotion Framework — First Cohort Live",
       "critical": false,
-      "self_status": "green",
+      "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 95,
-      "assessment": "Decision brief built and published 9/22 (ballot-style, 7 items + overall; framework leads, rollout second) and sent to Cameron; Brian and Mike are the other two reviewers. Confirmed 9/22: damages measured per Rippling clock hour, and the ~200-person backtest verdicts (121 early / 46 late / 7 on time) are purely an hours question, not bar calibration. Games scorecard now mapped into the brief so a 7/8/9/10 reads as real thresholds. Anne ruled the Oct 1 Green bar holds — publishing the plan is not the same event as going live 10/31 — provided one branch-facing comms piece lands before 10/1.",
+      "assessment": "9/28 call put the standalone 10/31 launch in doubt: Cameron doesn't want the promotion framework live separately from the 100-Point design ('moving twice'). Not cancelled, needs confirmation. 9/29 Anne's combined outline recommends retiring the Games bars as the promotion gate (replaced by score 92+ plus bucket floors, fast track 97+ with zero reviews), keeping the ladder, hours gates and Part-Time Lead rules. The Oct 1 'published to branches' bar is at risk unless the published piece is the combined design. Percent held at 95 pending Anne's re-estimate.",
       "blockers": [
         "Fast-track bar values not confirmed locked — Paul called the structure \"ready to rock\" 9/18 but named no numbers; the values are still flagged provisional in CLAUDE.md.",
         "#17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
         "Lead General's own standard-track hours (1,820) and performance bar still 'proposed,' pending Cameron",
         "Rippling Performance Log purges attendance data past 6 months, capping look-back depth — PL rework not yet scheduled (Matisen needs dedicated build time)",
         "🔴 Rippling time-clock data is unreliable — two confirmed bugs escalated to Rippling engineering (punches lost on offline sync; duplicate pings not de-duplicated), ~100 offline punches unlogged, legacy audit view removed. Engineering committed to respond by Oct 7. Damages AND attendance both run per Rippling clock hour, and the first promotion cycle reads all of October — strongest live risk to the 10/31 date.",
-        "Junior Lead's 7.5 bar does not exist in the Einstein Games scorecard (whole numbers only) — interpolate or move it to a whole number."
+        "Junior Lead's 7.5 bar does not exist in the Einstein Games scorecard (whole numbers only) — interpolate or move it to a whole number.",
+        "Standalone 10/31 launch in doubt (9/28). Needs Cameron's go/wait call.",
+        "Recommendation to retire the Games bars changes a locked decision; needs Cameron and Paul.",
+        "Rippling job-template bug: a Lead General promotion kept the Master Lead title. Escalated to Rippling engineering 9/24.",
+        "Decision brief ballots: Cameron opened it, 0 votes; Brian and Mike haven't opened it."
       ],
       "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
       "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
@@ -159,7 +166,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-22"
+      "updated": "2026-09-29T16:12:00-05:00"
     },
     {
       "id": "anne-q3-6",
