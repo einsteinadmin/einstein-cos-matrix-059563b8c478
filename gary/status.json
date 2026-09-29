@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-21T14:09:13-05:00",
+  "last_updated": "2026-09-28T12:53:53-05:00",
   "updated_by": "Gary (/sync-prep)",
   "cadence_days": 7,
   "sync_push": {
@@ -29,12 +29,12 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 45,
-      "assessment": "Yellow — the cadence is healthy; the score is not moving. Corrected 2026-09-21 against the repo (output/weekly/), which disproves the prior 'no new score data since 8/17' claim: weekly runs completed 8/25, 8/31, 9/7, 9/14 and 9/21, plus two v2 CET rubric runs. Cumulative is now 493 calls graded at a 46.0 average, against a 65 Green bar — a 19-point gap that has not closed. Week over week the company average went 47.3 -> 47.4, which is noise; zero calls cleared the green bar this week and the best single call was 66.9. The restructure around Jeff's 3-stage baseline framework is done and the v2 CET 100-pt rubric is running. So volume and cadence are solved and coaching conversion is not — the calibration session remains the real lever, not more runs. Two live process risks: the 9/14 and 9/21 Monday updates are written but unposted because the monday.com connector has been unavailable for 10+ days, and the walkthrough-scheduler mini-rubric is still PENDING, so those calls are scored null rather than inconsistently.",
+      "assessment": "Yellow — rubric transitioned to v3 (Section Map, 100-pt, graded directly off the rewritten 15-Minute Quote Call script) the week of 9/23, superseding the v2/85-pt scale this assessment previously tracked. First v3 run: 163 calls, 9/23–9/24, company avg 60.0/100, median 59.5, pass rate 9.6% against the 80-pt Green bar. v2 and v3 scores are not comparable — this is a new baseline, not a score movement from the prior 46.0/65 v2 figure. The 60-minute calibration session with Cameron/Nhel/Tetet is no longer a prerequisite for v3 — it shipped live without it. The v3 pipeline fix also resolves the run-reliability problem (stalling, manual splitting) that had been a standing blocker under v2.",
       "blockers": [
         "monday.com connector unavailable 10+ days — the 9/14 and 9/21 weekly updates are written but unposted to pulse 12206626312 (Cameron-facing)",
-        "Score is flat against the 65 Green bar (47.4 this week, 46.0 cumulative) — volume is not converting into coaching movement",
-        "Per-bullet rubric weights, walkthrough-scheduler mini-rubric (still PENDING in config/rubric.md), and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
-        "Rep-level scores are volatile week to week (27-pt swings) — not yet safe to drive individual coaching decisions",
+        "v3 score (60.0 avg, 9.6% pass rate) is a new baseline against an 80-pt bar — not yet enough runs to show a trend",
+        "Per-bullet weight fine-tuning and comp-tie risk still open for v3, though no calibration session is required before further runs",
+        "Rep-level scores are volatile week to week (27-pt swings under v2) — not yet safe to drive individual coaching decisions",
         "Phone-join plumbing (external_number carried by call_id) not yet built, though the plan is confirmed workable"
       ],
       "milestones": [
@@ -77,11 +77,16 @@
           "name": "Weekly cadence sustained 5 runs running (8/25–9/21), 493 calls cumulative",
           "date": "2026-09-21",
           "done": true
+        },
+        {
+          "name": "v3 rubric live, first full run complete (163 calls, 9/23–9/24)",
+          "date": "2026-09-24",
+          "done": true
         }
       ],
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
-      "updated": "2026-09-21",
+      "updated": "2026-09-28",
       "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
       "metrics": {
         "calls_graded_cumulative": 493,
@@ -94,6 +99,16 @@
         "last_run": "2026-09-21",
         "calls_over_green_bar_this_week": 0,
         "best_single_call_this_week": 66.9
+      },
+      "metrics_v3": {
+        "rubric_version": "v3-section-map",
+        "calls_graded": 163,
+        "avg_score": 60.0,
+        "median_score": 59.5,
+        "pass_rate_pct": 9.6,
+        "green_bar": 80,
+        "last_run": "2026-09-24",
+        "note": "Not comparable to the v2-scale metrics block above — different point structure and section boundaries, not a reweighting."
       }
     },
     {
@@ -216,11 +231,11 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 55,
-      "assessment": "Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang — that leadership session is also what's driving the call-grading methodology pivot (Goal 1). Rep-level training paused around the leadership session and restarts Tue 9/8, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling. 9/10 update: built and shipped a 100-pt CET call-grading rubric directly from Jeff's Call Map (quid pro quo, agenda question, differentiator takeaway, Save Your Ass, close), separate from the old 85-pt company-wide grader. First full run: 427 calls across 13 CET reps, 376 graded, company avg 53.6/100, 21 passing the 80-pt bar. This operationalizes Jeff's training into something measurable — real evidence the engagement is translating into a working coaching tool, not just training sessions. Run reliability is a growing problem though — last week's run got stuck entirely; this week's started at 7:30am and is still running, requiring the work to be split up and rerun in pieces. Next step: package the pipeline so Matisen can run it daily instead of this being a manual, unreliable process.",
+      "assessment": "Green — weekly Trinity/Northwood sync continuing. 9/23–9/24 two-day call grade (sent to Jeff Friday via Monday + Slack) showed real movement: Open 23%→56%, Their Concerns 23%→68% week-over-week — reps are asking the concerns question but not staying in it long enough (Tetet: rapport zone held under 20 sec). This week's training focus: Active Listening via role play (main session + daily-huddle mini-drills). Team homework: each rep submits their own best active-listening call as a benchmark, against the team's 80%-per-item target. Concern-handling approach changed by Jeff, a real shift from prior training: reps now only acknowledge concerns during Open/Concerns (\"noted\") and hold all promise-based responses (damage coverage, on-time guarantee) until the Two Promises step after the estimate — replacing the old in-the-moment-response rule; concerns not covered by either promise are deferred to next week's training. Coordination friction this cycle: Jeff was unaware Friday's call-grade send had landed until confirmed live on the call; Jeff also showed up with a redone script Amanda had to walk him through against the version her team sent Friday — script version reconciliation now explicitly assigned to Jeff (official V2 incoming). The v3 CET rubric rollout (see Goal 1) also resolves the run-reliability blocker previously listed here.",
       "blockers": [
         "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
         "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart",
-        "CET call-grading run reliability — runs stalling/taking multiple hours, requiring manual splitting; plan to hand off a packaged version to Matisen for daily automated runs"
+        "Script version control — Jeff and Amanda's team have drifted onto different working versions of the 15-Minute Quote Call script; Jeff owes an official V2"
       ],
       "milestones": [
         {
@@ -256,7 +271,7 @@
       ],
       "superGreen": "TBD — bars not set on chart",
       "green": "TBD — bars not set on chart",
-      "updated": "2026-09-21"
+      "updated": "2026-09-28"
     }
   ],
   "kpis": [],

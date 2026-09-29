@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-24T18:40:00-05:00",
-  "updated_by": "Vera (/status) - group sync prep 9/21, Brian-supplied updates",
+  "last_updated": "2026-09-28T12:05:00-05:00",
+  "updated_by": "Vera (/sync-prep)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -23,8 +23,8 @@
       "percent_complete": 60,
       "assessment": "green/3/60 at ~60% of the quarter elapsed. First regional event BOOKED 9/24: Austin, Texas Stars hockey Wed 11/11, free suite for 22 (lands after the 10/31 close; Brian's ruling - it counts, coordinated in Q3). DFW COSM Grapevine Thu 10/8 at a final headcount of 9, tickets to book. Budget reset 9/24 to $75-100/head entry+food, alcohol on the employee. Remaining to Green: San Antonio, Houston and Tampa events, and the second BM roundtable (targeted Wed 9/30).",
       "blockers": [
-        "San Antonio, Houston and Tampa events not yet locked (Austin booked, DFW headcount final)",
-        "Second BM roundtable targeted for Wed 9/30 - not yet on the calendar"
+        "San Antonio, Houston and Tampa events not yet locked (Austin 11/11 booked, DFW 10/8 headcount final at 9 - Mike needs the login to buy tickets)",
+        "Second BM meeting set for Wed 9/30 at 2 PM"
       ],
       "milestones": [
         {
@@ -62,7 +62,7 @@
       "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750316279",
-      "updated": "2026-09-24"
+      "updated": "2026-09-28T12:05:00-05:00"
     },
     {
       "id": "brian-atx-flex-sa-ops-dev",
@@ -72,7 +72,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 98,
-      "assessment": "green/5/98 at 51.6% of the quarter elapsed. THE SEAT IS FILLED - Jake Petersen ACCEPTED the South Austin Field Manager offer letter today, 9/21. Offered in-room during the 9/17 O3 after a four-stage funnel (8 applicants -> 7 to peer review -> 5 projects days -> 3 finalists), final weighted standing Petersen 89.5. This week: onsite training planned for Friday 9/25 when Brian is in South Austin, and feedback delivered to the applicants who were not selected. Green still requires a documented 30/60/90.",
+      "assessment": "green/5/98 at 63% of the quarter elapsed. Jake Petersen's onboarding is set for 10/1. His initial onsite training ran last week while Brian was in South Austin, so he has a basic understanding. Getting him set up in the system for Monday; everything coordinated and ready by 10/1. Remaining Green requirement is his documented 30/60/90.",
       "blockers": [
         "Documented 30/60/90 for Petersen not yet built - this is the remaining Green requirement",
         "Feedback owed to Serrano and Rasberry, the two finalists not selected"
@@ -148,7 +148,7 @@
       "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
       "flywheel": "❔ Other",
       "live_pulse": "12746835385",
-      "updated": "2026-09-21"
+      "updated": "2026-09-28T12:05:00-05:00"
     },
     {
       "id": "brian-ctxh-theme-mgmt",
@@ -158,10 +158,10 @@
       "self_status": "yellow",
       "confidence": 2,
       "percent_complete": 45,
-      "assessment": "yellow/2/45 at 51.6% of the quarter elapsed, Brian's call after the BM meeting, up from RED. Green requires >=70% of enrolled movers through stage 4 by 10/31. THE MEASUREMENT ITSELF WAS THE FIRST PROBLEM AND IT IS NOW FIXED: Houston had been reporting three different figures for the same branch metric in the same week (40.6 / 26 / 26). The read was re-evaluated and the scoring and focus corrected the morning of 9/21, so the data now represents actual progress. Monitoring from here. Cameron named this week make-or-break - if the BM-meeting changes do not move stage-4 completion it goes back to red rather than drifting. This week: get into the field and watch movers actually use the app, and collect frustrations directly from the team while onsite in San Antonio 9/23 and South Austin 9/25.",
+      "assessment": "yellow/2/45 at 63% of the quarter elapsed. Training Camp: teams need engagement. The biggest obstacle is tracking it and getting the guys to do it every day - managers need to issue warnings to hold people accountable. On track / on track or at risk: NA 43% (20) / 80% (37), SA 33% (12) / 67% (24), LEA 43% (9) / 81% (17), SAN 52% (13) / 96% (24), HOU 26% (8) / 70% (23).",
       "blockers": [
-        "Stage-4 completion still short of the 70% Green bar - re-pull against the corrected scoring",
-        "Cameron's condition: no movement this week sends this back to red",
+        "Daily engagement - tracking it and getting movers to do it every day",
+        "Managers need to issue warnings to hold movers accountable",
         "Approval integrity: the 8/24-8/30 photo audit flagged 98 of 186 manager approvals as batch-run, so raw completion may overstate real competency"
       ],
       "milestones": [
@@ -186,7 +186,7 @@
           "done": true
         },
         {
-          "name": ">=70% of enrolled movers through stage 4 (HOU 40.6%; others 10-19% at last read)",
+          "name": ">=70% of enrolled movers through stage 4 (on track 9/28: NA 43, SA 33, LEA 43, SAN 52, HOU 26)",
           "date": "2026-10-31",
           "done": false
         },
@@ -220,7 +220,7 @@
       "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
       "flywheel": "① Attract & Develop Great Movers",
       "live_pulse": "12750301851",
-      "updated": "2026-09-21"
+      "updated": "2026-09-28T12:05:00-05:00"
     },
     {
       "id": "brian-branch-audits",
@@ -229,17 +229,16 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 10,
-      "assessment": "green/3/10 at 51.6% of the quarter elapsed. Green needs 3 of 5 branches audited. Two firm front-line visits land THIS WEEK - San Antonio Wednesday 9/23 and South Austin Friday 9/25 - which puts Brian two-thirds of the way to the Green bar for the quarter. North Austin 9/30 follows. Percent stays at 10 until the visits are actually conducted; the schedule is locked, the visits are not yet done.",
+      "percent_complete": 65,
+      "assessment": "green/3/65 at 63% of the quarter elapsed. Two of three front-line visits are done: San Antonio 9/23 and South Austin 9/25. North Austin moved off 9/30 and is now set for 10/16, which completes the Green bar. The redesigned branch-visit evaluation dashboard is still a Green requirement and is not started.",
       "blockers": [
-        "Leander date tentative (10/15?) and Houston unscheduled - the three firm dates carry Green",
-        "Redesigned branch-visit evaluation dashboard is also a Green requirement and is not started",
-        "Each visit carries a scorecard audit, a circle-up and a huddle audit - 3 of each needed by 10/19"
+        "North Austin visit moved to 10/16 - that visit completes Green",
+        "Redesigned branch-visit evaluation dashboard is also a Green requirement and is not started"
       ],
       "milestones": [
         {
-          "name": "3 locations visited + scorecard audits + 3 circle-ups + 3 huddle audits (scheduled: SAN 9/18, SA 9/25, NA 9/30)",
-          "date": "2026-10-19",
+          "name": "3 locations visited + scorecard audits + 3 circle-ups + 3 huddle audits (SAN 9/23 done, SA 9/25 done, NA 10/16)",
+          "date": "2026-10-16",
           "done": false
         },
         {
@@ -252,7 +251,7 @@
       "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
       "flywheel": "② Deliver the Smart Move Experience",
       "live_pulse": "12750317266",
-      "updated": "2026-09-21"
+      "updated": "2026-09-28T12:05:00-05:00"
     },
     {
       "id": "brian-scrum-accountability-pt3",
@@ -264,6 +263,7 @@
       "percent_complete": 95,
       "assessment": "green/5/95 at 51.6% of the quarter elapsed, up from 82. THE ROLLOUT IS COMPLETE - ALL CTXH AND DFWT MANAGERS ARE CERTIFIED and through their mock boards. The DFW wave closed 9/18 with all ten certified (Beattie 58, Heaberlin 58, Dueck 56, Anderson/Hardison/Vaughan/Davis/Enoh 54, Krodel/Orama 52) off a 29 baseline - the cohort averaged +25. Four reworks, all four passed same day on category-level feedback with no fix detail. Remaining work is refinement, not rollout: analyze the questions and criteria that are consistently missed, then either adjust the instructions for clarity or change the board items so the same points are not always lost. Considering putting Austin L. through certification this week.",
       "blockers": [
+        "Confirm with Mike this week that the scorecard works for every manager's board in both regions",
         "Four rubric defects logged and open (later-dates-sync-day, duplicate-vs-recurring, mock-update-content instruction, relocation loophole)",
         "Cohort-wide training gap: reference-vs-Live QG pulses - four of ten updated the exempt reference copies and left the Live copies blank",
         "Cohort result not yet posted to the Scrum Part 3 live pulse 12750326806 - Cameron and Albert cannot see it",
@@ -330,7 +330,7 @@
       "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750326806",
-      "updated": "2026-09-21",
+      "updated": "2026-09-28T12:05:00-05:00",
       "hq_url": "https://bherz303.github.io/einstein-scrum-hq-hf9zjgpk/"
     }
   ],
