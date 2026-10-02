@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-29T12:17:39-05:00",
-  "updated_by": "Matisen (/status)",
+  "last_updated": "2026-10-02T08:10:00-05:00",
+  "updated_by": "CoS-MH1 (catch-up wrap)",
   "cadence_days": 1,
   "sync_push": {
     "meeting": "",
@@ -71,8 +71,10 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 62,
-      "assessment": "Botpress is at 35 of 36 scenarios passing, up from 21 Good / 2 Acceptable / 12 Poor at the 9/25 harness baseline — C4 long-distance referral and C14 missing-email both fixed. One scenario left, then live. Scoping of the EMMA Quoting and Availability integration opens once it ships.",
+      "assessment": "Botpress board moved to Good 54 / Acceptable 4 / Poor 0 with zero pending review on 10/01, up from 21 Good / 2 Acceptable / 12 Poor at the 9/25 baseline. First adversarial pass came back 6 of 6 clean and the full lead funnel was verified end to end on the live webchat. CET is now testing it with Amanda. Remaining gate before go-live: Desk coverage hours have to match when the webchat is reachable. Scoping of the EMMA Quoting and Availability integration opens once it ships.",
       "blockers": [
+        "Botpress go-live gated on Desk coverage hours matching webchat availability; CET findings pending",
+        "Two rulings open: on-time guarantee wording (2-hour window vs 30-minute morning window) and discount policy consistency",
         "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
         "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only"
       ],
@@ -100,7 +102,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-09-29"
+      "updated": "2026-10-01"
     },
     {
       "id": "matisen-q3-performance-people",
