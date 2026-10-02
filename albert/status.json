@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-30T22:15:00-05:00",
+  "last_updated": "2026-10-02T09:15:00-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -51,13 +51,13 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 100,
-      "assessment": "9/30: GREEN, both lanes met (Cameron confirmed). Lane A: all 10 BMs in the Coach channel, many BM-originated questions closed through both write lanes, playbook gaps fixed, about 8-9 feature requests from the channel shipped by Mike (playbook repo 27 commits and app repo 64 since 9/18). Lane B: intake live (leaders push their own prep via /status-push), 3 group syncs run on Meeting OS, Brian and Mike running their BM 1:1s on it, v0.23.2 shipped the 1:1 Scorecard + board grade. Super Green hinges on Lane B: a BM running their own sync with their managers at a branch (Brian about 2 sessions away). 9/30 risk: v0.22.0 broke every 1:1 open for part of the day; fixed same day. || 9/29: Lane B running on real prep — Matisen and Anne 1:1s ran on Meeting OS off same-day /sync-prep 0.4.3 pushes (all goals, commitments decided). Two gaps found and routed: the facilitator_id rule was only implied (0.4.4 in flight) and a 1:1 was started without Albert's prep pushed (start-without-prep warning requested). Next layer: Jalissa (with Anne) and Fabian (with Matisen) by 10/19. || 9/22: LANE B — the BM pilot is live. Roster loaded 9/21 (10 BMs, 13 Ops/FMs, 123 goals); Mike and Brian each ran the Meeting OS with multiple directs and Cameron is folding their feedback; 1:1 and group-sy",
+      "assessment": "10/1: Meeting OS v0.24.1 -> v0.26.0 live and verified (board grade in the 1:1 Scorecard, live huddle parking, parking timer). Board grader (network-core 0.4.5 -> 0.4.7, Brian's rubric v1.6.1) delivered to Gerald + Vera; first real grades at next week's BM syncs. || 9/30: GREEN, both lanes met (Cameron confirmed). Lane A: all 10 BMs in the Coach channel, many BM-originated questions closed through both write lanes, playbook gaps fixed, about 8-9 feature requests from the channel shipped by Mike (playbook repo 27 commits and app repo 64 since 9/18). Lane B: intake live (leaders push their own prep via /status-push), 3 group syncs run on Meeting OS, Brian and Mike running their BM 1:1s on it, v0.23.2 shipped the 1:1 Scorecard + board grade. Super Green hinges on Lane B: a BM running their own sync with their managers at a branch (Brian about 2 sessions away). 9/30 risk: v0.22.0 broke every 1:1 open for part of the day; fixed same day. || 9/29: Lane B running on real prep — Matisen and Anne 1:1s ran on Meeting OS off same-day /sync-prep 0.4.3 pushes (all goals, commitments decided). Two gaps found and routed: the facilitator_id rule was only implied (0.4.4 in flight) and a 1:1 was started without Albert's prep pushed (start-without-prep warning requested). Next layer: Jalissa (with Anne) and Fabian (with Matisen) by 10/19. || 9/22: LANE B — the BM pilot is live. Roster loaded 9/21 (10 BMs, 13 Ops/FMs, 123 goals); Mike and Brian each ran the Meeting OS with multiple directs and Cameron is folding their feedback; 1:1 and group-sy",
       "blockers": [
         "Super Green: no BM-run sync at a branch yet (Brian about 2 sessions out)"
       ],
       "superGreen": "Green + BOTH: LANE A, the layer below the BMs in the room (ops and flex managers), or the same pattern proved on a second subject beyond Training Camp. LANE B, BM-run sync-ups actually running at a branch, not just designed.",
       "green": "BOTH lanes hit. LANE A, Claude Tags trialed and proved out: live in Slack, all 10 BMs in the room by EOQ, and BOTH write lanes exercised on a question that came from a branch manager rather than from leadership testing it (one gap closed into the playbook, one feature request captured to a board). The proof point is the playbook growing from THEIR questions, not Albert's. LANE B, Einstein Meeting OS: the intake built and live so leaders' own pushes seed the sync instead of Albert hand-seeding it, sync-consolidation V1 delivered to Mike, and 3+ group syncs run on it.",
-      "updated": "2026-09-16"
+      "updated": "2026-10-01"
     },
     {
       "id": "cameron-q3-4",
@@ -66,14 +66,14 @@
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
-      "percent_complete": 58,
-      "assessment": "9/30: at risk on two Green items. (1) Einstein AI Use Policy: v0.1 drafted 9/30 night (ChatGPT + Gemini approved with training off, Matisen = tool approver, HR data OK in the Einstein Claude account); Cameron redlines and hands to Anne 10/1. (2) Monthly Big Rocks review: CUT (Cameron 9/30, pending Paul's ratification). It was run once on 9/30 with Opus at max effort and came back riddled with inaccuracies and no value; running it twice more makes no sense. Its job is covered by the COS network maintenance, Meeting OS, and the weekly status pushes. Registry and bus lane #1 stand (not re-verified 9/30). TUR ruler settled 9/29 (fleet basis). || 9/29: TUR ruler SETTLED with Matisen — fleet TUR is the ruler for the Q3 66% target (65.1% Q3 as of 9/29); running-truck is display-only; 'active TUR' is a forward-looking demand view getting relabeled. || 9/16: goal system of record RULED — the chart owns titles and bars, the leader's status.json owns status, a meeting ruling travels as a goal-change record until both carry it. A daily drift chec",
+      "percent_complete": 62,
+      "assessment": "10/1: AI Use Policy v0.2 redline applied; OWNER = Matisen (policy + tool list + vendor reviews), Anne = Rippling eSign rollout + discipline side. Handed off 10/1: Sky 13187177693 (Matisen + Anne redline + Nov 1 rollout plan, due Fri 10/9); Cameron reviews 10/12, approves final text by ~10/16, so 'adopted' is reachable in Q3. 'Rolled out with Anne ... BEFORE the Tier-3 BM pilot' will not land in Q3 (rollout = Nov 1, everyone but movers; movers after on a short version) - Cameron's call at grading. Big Rocks review cut still waits on Paul (13177486493). || 9/30: at risk on two Green items. (1) Einstein AI Use Policy: v0.1 drafted 9/30 night (ChatGPT + Gemini approved with training off, Matisen = tool approver, HR data OK in the Einstein Claude account); Cameron redlines and hands to Anne 10/1. (2) Monthly Big Rocks review: CUT (Cameron 9/30, pending Paul's ratification). It was run once on 9/30 with Opus at max effort and came back riddled with inaccuracies and no value; running it twice more makes no sense. Its job is covered by the COS network maintenance, Meeting OS, and the weekly status pushes. Registry and bus lane #1 stand (not re-verified 9/30). TUR ruler settled 9/29 (fleet basis). || 9/29: TUR ruler SETTLED with Matisen — fleet TUR is the ruler for the Q3 66% target (65.1% Q3 as of 9/29); running-truck is display-only; 'active TUR' is a forward-looking demand view getting relabeled. || 9/16: goal system of record RULED — the chart owns titles and bars, the leader's status.json owns status, a meeting ruling travels as a goal-change record until both carry it. A daily drift chec",
       "blockers": [
         "Scorecard rollout audience + cadence unruled — scaffold first"
       ],
       "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
       "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
-      "updated": "2026-09-16"
+      "updated": "2026-10-01"
     },
     {
       "id": "cameron-q3-5",
@@ -222,6 +222,6 @@
     "win": "Claude Tags set up — the Training Camp Coaches Room is live with Claude in Slack for the first time; plus real Jeff/sales movement",
     "meeting": "Roundtable group sync 2026-09-07 13:15 CT (recorded at /wrap; the host row was blank during the meeting)"
   },
-  "lastUpdated": "2026-09-30T22:15:00-05:00",
+  "lastUpdated": "2026-10-02T09:15:00-05:00",
   "notes": ""
 }
