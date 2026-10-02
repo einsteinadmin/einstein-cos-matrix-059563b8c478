@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-29T17:45:36-05:00",
-  "updated_by": "Linda (/wrap — reviewed, no changes)",
+  "last_updated": "2026-10-01T11:45:00-05:00",
+  "updated_by": "Linda (/wrap follow-up)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -37,7 +37,7 @@
         "Preauthorization workflow proven twice now (9/11, 9/14) and drafted into a checklist — still needs Anne to fill in the process specifics (exact pre-auth channel, Concentra's info requirements, Texas Mutual's submission method) before it's ready to hand to a BM or fold into the WC training deck",
         "Sebastian Osuna's late-reported Houston injury (adjuster non-payment, AFC/Workwell-network question) unresolved — live test case for whatever this process becomes",
         "OSHA-board-to-Rippling migration (single source of truth, annual CSV export) not yet scoped",
-        "Automated-leave design agreed 9/22 with Mike and Brian but feasibility unconfirmed: minor-injury form → system auto-sets Rippling leave → mover cannot clock in → manager's follow-up call releases them. Mike's condition was that it be automated and out of the manager's hands. Anne checking Rippling — \"potentially a little bit more to it\"; may need built workflows. Scheduling propagation also unresolved (managers don't schedule in Rippling).",
+        "Rippling support confirmed 9/29: no native setting blocks clock-in by leave type. Options are a custom Workflow Studio build (unconfirmed it can change Time & Attendance access) or manual removal, so the 9/22 'mover cannot clock in, out of managers' hands' design is not achievable as written.",
         "Brian's manager guide still says a 2-day Minor window and counts the day of injury as day 1. It has to match Anne's 3-day rule before the hub launches."
       ],
       "green": "Custom claim-submission tool (the Monday intake form counts) built against the OSHA-recordable field spec you hand Matisen before the data structure locks — with a working EE-notification loop confirmed — plus the on-site incident workflow documented and trained to all 10 branch managers, by EOQ.",
@@ -48,7 +48,7 @@
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-29T16:12:00-05:00"
+      "updated": "2026-10-01T11:00:00-05:00"
     },
     {
       "id": "anne-q3-2",
@@ -64,7 +64,7 @@
         "Framework sent to Mike and Brian 9/22, two days ahead of the 9/24 commitment. ⚠️ Paul was on the original 9/24 list and is one of the two required Green-bar signatures — confirm he has it.",
         "⚠️ Full launch still NOT a Q3 deliverable — targeted January 1, 2027 per Cameron's 8/27 confirmation.",
         "Unemployment eligibility ANSWERED by counsel (Jennifer, 9/24): an objective, evenly applied, pre-communicated system is fine; a termination has to rest on counted incidents over a defined period, like the attendance policy.",
-        "Oct 1 methodology sign-off will be missed. Outline to Cameron and Paul 9/29, Brian/Mike review 9/30, point values tested on 15-20 real movers over ~2 weeks, target the QGR.",
+        "Oct 1 sign-off missed as expected. Anne walked Cameron through the workshop 9/29; the group walkthrough was pulled from the 9/30 huddle (Cameron wants alignment first), likely Monday 10/5. Cameron asked Anne to run /consultants on it first. Then point values tested on 15-20 real movers, target the QGR.",
         "Damages still open: three options (points per incident / rate only / split by job, recommended) go to Brian and Mike 9/30.",
         "Decisions needed from Cameron and Paul: earned-time-off accrual rate and cap; whether callouts on earned time cost the Lead bonus; damages option; retiring the Games bars from the promotion gate; standalone 10/31 launch; Mike's Dallas beta.",
         "A branch Performance Log recorded an FMLA absence as a no-call/no-show. Protected leave needs a flag on every event record, and FMLA currently counts against the Lead attendance bonus."
@@ -80,7 +80,7 @@
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-29T16:12:00-05:00"
+      "updated": "2026-10-01T11:00:00-05:00"
     },
     {
       "id": "anne-q3-3",
@@ -95,7 +95,7 @@
         "Launch slipped twice (9/16 → 9/18 → week of 9/21) on deploy-pipeline and roster-data polish — actively being worked (3 commits 9/18–9/21). Nothing shipped yet, so adoption is still zero.",
         "Rollout communication/marketing framing to employees not yet drafted — Cameron's own \"random employee\" Green-bar language still needs a pre-call heads-up mechanism or the adoption metric itself is at risk",
         "Call-assignment visibility mechanism (due-for-contact queue) is built in the 9/10 sync but not yet validated against a live multi-leader run",
-        "🔴 The mechanism changed on 9/22. Mike and Brian rejected leadership-makes-the-calls (sample size 42/quarter vs ~350 staff; self-selection; forcing function against the just-voluntary survey; compensable time for hourly movers called off-shift) and the room converged on branch managers running one conversation a week with their own movers, on the clock, into the same dashboard — 70–80 responses/month. The Green bar as ratified ('adopted by all 7 Roundtable leaders, each reporting two conversations through the tool') no longer describes the work and needs a Cameron ruling. Unlike the Mover Promotion Oct 1 bar, this one cannot be rescued by a reading.",
+        "Scope ruled by Cameron 9/29: the Roundtable runs the calls, at any level, not mover-only (for regionals, 'two rungs below' = ops managers and FMs; regionals now meet 1:1 only with BMs). Anne owes: tool rework for all levels, a heads-up comms plan for movers, and re-aligning Mike and Brian herself. Still open from the 9/30 huddle: Mike wants movers first; feedback-review cadence (monthly trends vs a 'critical' tag in the biweekly sync) unsettled.",
         "App needs rework for the new model: submission path for branch managers rather than 7 leaders, roster targeting, and a themes/trends view (Mike: \"I don't want to read every employee's survey\")."
       ],
       "green": "Practice designed and documented (format, cadence, log structure) — adopted by all 7 Roundtable leaders, with each leader reporting two Start/Stop/Keep conversations through the tool before the Roundtable QGR.",
@@ -107,7 +107,7 @@
       "mb_pulse": "11728350964",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-22"
+      "updated": "2026-10-01T11:00:00-05:00"
     },
     {
       "id": "anne-q3-4",
@@ -121,11 +121,12 @@
       "blockers": [
         "Survey wave has not opened — launches 10/7, closes 10/14 (historical second-week-of-October cadence, confirmed by Anne 9/21).",
         "Participation of at least 50% of eligible movers is the actual bar and is unknowable until the wave runs.",
-        "⚠️ Green bar says the baseline must be established \"by Oct 1\" but the wave opens 10/7 — unmeetable as written, needs a bar decision from Cameron.",
-        "GIT_DEPLOY_KEY secret not set — a container restart breaks git pull until it exists.",
+        "Cameron is removing the Oct 1 baseline date from the Green bar (agreed in the 9/29 1:1).",
+        "GIT_DEPLOY_KEY status disputed: Cameron's read of the 9/29 prep says set and restart-verified; CLAUDE.md says unset. Verify in Replit before the 10/7 launch.",
         "Publish expiry ~10/18 on the free Starter plan now sits only 4 days after the 10/14 close — re-publish if the window slips at all.",
         "Manager & CET flow not started — sequenced after Mover, runway to January.",
-        "Engagement survey app may be published to the wrong Replit workspace — Anne flagged this in passing on 9/22, unverified."
+        "Engagement survey app may be published to the wrong Replit workspace — Anne flagged this in passing on 9/22, unverified.",
+        "Ultimate question split into two (recommend Einstein as a place to work / recommend the mover role): DONE by Anne before 10/1. Brian is the last app reviewer."
       ],
       "green": "Platform selected and built by September 15 (revised from end of August per Cameron 8/27); survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
       "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
@@ -133,7 +134,7 @@
       "mb_pulse": "12626620998",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-22"
+      "updated": "2026-10-01T11:45:00-05:00"
     },
     {
       "id": "anne-q3-5",
@@ -151,7 +152,7 @@
         "Rippling Performance Log purges attendance data past 6 months, capping look-back depth — PL rework not yet scheduled (Matisen needs dedicated build time)",
         "🔴 Rippling time-clock data is unreliable — two confirmed bugs escalated to Rippling engineering (punches lost on offline sync; duplicate pings not de-duplicated), ~100 offline punches unlogged, legacy audit view removed. Engineering committed to respond by Oct 7. Damages AND attendance both run per Rippling clock hour, and the first promotion cycle reads all of October — strongest live risk to the 10/31 date.",
         "Junior Lead's 7.5 bar does not exist in the Einstein Games scorecard (whole numbers only) — interpolate or move it to a whole number.",
-        "Standalone 10/31 launch in doubt (9/28). Needs Cameron's go/wait call.",
+        "Standalone 10/31 launch still undecided. 9/29: Anne proposed keeping the current promotion method through year end and launching on 100-Point Jan 1; Cameron: 'we'll see.'",
         "Recommendation to retire the Games bars changes a locked decision; needs Cameron and Paul.",
         "Rippling job-template bug: a Lead General promotion kept the Master Lead title. Escalated to Rippling engineering 9/24.",
         "Decision brief ballots: Cameron opened it, 0 votes; Brian and Mike haven't opened it."
@@ -166,7 +167,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-29T16:12:00-05:00"
+      "updated": "2026-10-01T11:00:00-05:00"
     },
     {
       "id": "anne-q3-6",
@@ -260,17 +261,14 @@
   ],
   "sync_push": {
     "pulse": {
-      "one": "Trial day sunset comms out to branch leadership by end of this week, ahead of the 10/1 launch",
-      "dod": "Manager deck/video, written recap and Monday pulse delivered to all branch leadership before 10/1"
+      "one": "Get the new engagement survey launched with the first round of messaging out",
+      "dod": "Survey live on 10/7 and the first launch message sent to movers and branch leadership"
     },
     "discussion_points": [
-      "100-Point / damages measurement — Mike wants damage-per-hour replaced by a count or dollar threshold; Anne and Cameron designed around damages-per-hour over an hours gate; Paul disputes Mike's premise about resolution-date lag and wants Matisen to settle the factual question. Unresolved, and it gates the Oct 1 methodology sign-off.",
-      "100-Point / single-bucket dilution — whether tiering is needed so someone can't hide a bad dimension behind good ones, and so three callouts plus one late arrival isn't a termination. Cameron asked for the exposure map by 9/24.",
-      "100-Point / unemployment eligibility under a poor-performance termination — Paul's open question, going to Jennifer after Anne's research.",
-      "Mover Promotion — the Q3 Green bar's \"published to branches by Oct 1\" does not match the ratified plan (rollout at October training days, first check 11/1). Needs a bar decision.",
-      "eNPS — same shape: the Green bar requires the baseline established \"by Oct 1\" but the Mover wave opens 10/7 and closes 10/14. Unmeetable as written.",
-      "Trial Day Sunset — in-flight candidate rule: anyone with a trial day already booked when it flips on 10/1."
+      "100-Point / Mover Promotion: group walkthrough with Brian and Mike after Cameron's review; standalone 10/31 cohort vs Jan 1 launch on 100-Point.",
+      "100-Point / damages measurement: still three options open.",
+      "Start/Stop/Keep: movers first (Mike) vs other levels first until the 10/7 survey is digested (Anne); feedback-review cadence."
     ],
-    "win": "None this cycle — Anne was running Employee Experience solo last week (Jalissa out)."
+    "win": "Cameron at the 9/30 huddle praised the trial-day sunset message Anne and Brian sent: clear, fun, easy to read, 'not information overflow'."
   }
 }

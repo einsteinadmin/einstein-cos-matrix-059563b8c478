@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-28T12:05:00-05:00",
+  "last_updated": "2026-10-01T17:55:00-05:00",
   "updated_by": "Vera (/sync-prep)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
@@ -261,12 +261,11 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 95,
-      "assessment": "green/5/95 at 51.6% of the quarter elapsed, up from 82. THE ROLLOUT IS COMPLETE - ALL CTXH AND DFWT MANAGERS ARE CERTIFIED and through their mock boards. The DFW wave closed 9/18 with all ten certified (Beattie 58, Heaberlin 58, Dueck 56, Anderson/Hardison/Vaughan/Davis/Enoh 54, Krodel/Orama 52) off a 29 baseline - the cohort averaged +25. Four reworks, all four passed same day on category-level feedback with no fix detail. Remaining work is refinement, not rollout: analyze the questions and criteria that are consistently missed, then either adjust the instructions for clarity or change the board items so the same points are not always lost. Considering putting Austin L. through certification this week.",
+      "assessment": "green/5/95. Certification rollout is complete (all CTXH and DFWT managers certified). 10/1: live board scoring rules workshopped with Mike and Cameron - rubric v1.6.1, 9 criteria / 45 points (QG Value, DoD, Project Column dropped), OOO managers excluded, existing certs stand. The network /scrum-check and /meeting-prep now run it. Next week: start grading CTXH live boards on the new rubric - those reads are the remaining path for this goal.",
       "blockers": [
-        "Confirm with Mike this week that the scorecard works for every manager's board in both regions",
+        "No live boards graded yet on rubric v1.6.1 - first reads planned week of 10/5",
         "Four rubric defects logged and open (later-dates-sync-day, duplicate-vs-recurring, mock-update-content instruction, relocation loophole)",
         "Cohort-wide training gap: reference-vs-Live QG pulses - four of ten updated the exempt reference copies and left the Live copies blank",
-        "Cohort result not yet posted to the Scrum Part 3 live pulse 12750326806 - Cameron and Albert cannot see it",
         "Branch and position still unrecorded for Krodel, Orama and Heaberlin"
       ],
       "milestones": [
