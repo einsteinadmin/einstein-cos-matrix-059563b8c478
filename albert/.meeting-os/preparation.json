@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "preparations": [
+    {
+      "schema_version": 1,
+      "meeting_type": "group-sync",
+      "meeting_date": "2026-10-05",
+      "facilitator_id": null,
+      "reviewed_at": "2026-10-05T12:35:22-05:00",
+      "confirmed": true,
+      "win": "Finished the Mover IQ question walk with Anne and Paul, got the board grade beta passing end to end, and got Meeting OS prepped (QGR release 1 live).",
+      "no_win": false,
+      "check_in": {
+        "velocity": 193,
+        "velocity_qg": 22,
+        "happiness": 5,
+        "short_week": false,
+        "work_days": null,
+        "usual_days": null,
+        "short_week_reason": ""
+      },
+      "goal_updates": [
+        {
+          "goal_id": "cameron-q3-1",
+          "status": "Y",
+          "percent": 58,
+          "confidence": 3,
+          "assessment": "9/30: measure clarified from the 7/30 chart. Green = 70% of 8/20-enrolled movers through stage 4 by 10/31; Super Green = Lead Ready by 10/19; on-track % is pacing only. Mike's region: S. Austin behind-count 23 to 10, N. Austin 32 to 6, four branches with nobody behind. Stage-4 completion count not yet reported; Lane 2 (call grading over 60 avg) number not in hand. || 9/21 group sync: Mike caught that the Training Camp dashboard was measuring task completion instead of the engagements inside each task — found it the morning he was about to issue manager warnings, by re-reading the numbers before sending. \"We were measuring the touchdown, not the yards.\" Branches over the line went 6 to 9 and the company reads 44% on track. The pacing signal is real now where it wasn't before, but 44% against a 70% Green floor is still materially short. Brian is onsite San Antonio 9/23 and South Austin 9/25 to watch movers use the app first-hand.",
+          "blockers": [
+            "Corrected measurement basis 9/21: the dashboard had been counting task completion rather than the engagements inside each task. Real read is 44% of the company on track, 78 at risk, 67 behind, and 33 people who have never logged in — against a 70% on-track Green floor with ~5.5 weeks to the 10/19 theme deadline. Nine of ten branches are now over the line (was six); San Antonio is tracking Super Green, Dallas and below fall off fast. Manager warnings were held 9/21 because Mike caught the error before sending.",
+            "Deactivation hygiene: workers-comp and terminated employees stay in the denominator until a manager deactivates them, so the company number reads low by an unknown amount."
+          ]
+        },
+        {
+          "goal_id": "cameron-q3-2",
+          "status": "G",
+          "percent": 55,
+          "confidence": 4,
+          "assessment": "8/31: THE BUILD CLOCK STARTED — Secret Stache's 13-week build officially began today (start confirmed by Rich 8/26; gantt lands wk 2-3). Einstein-side inputs moving: Lianna's copy handed to KP with Amanda's confirmation template for the official email templates (8/31 1:1). Weekend wobble handled: site went down Sat AM — Matisen caught it, Kickpoint restored it in ~1 hr. Green = all Einstein-side inputs delivered + build on schedule as of 10/31 — nothing Einstein-side blocking at kickoff. [Prior 8/28: bars amended (Cameron ratified) — SG = ahead of schedule + launch date locked; launch itself moved to a Q4 rock.]",
+          "blockers": []
+        },
+        {
+          "goal_id": "cameron-q3-3",
+          "status": "G",
+          "percent": 100,
+          "confidence": 5,
+          "assessment": "10/2: board grade beta passed end to end (Brian's COS graded Sergio's Houston board 37/45; it showed in his Meeting OS 1:1 Scorecard). /grade-meeting shipped to all six COSes (network-core 0.4.9). || 10/1: Meeting OS v0.24.1 -> v0.26.0 live and verified (board grade in the 1:1 Scorecard, live huddle parking, parking timer). Board grader (network-core 0.4.5 -> 0.4.7, Brian's rubric v1.6.1) delivered to Gerald + Vera; first real grades at next week's BM syncs. || 9/30: GREEN, both lanes met (Cameron confirmed). Lane A: all 10 BMs in the Coach channel, many BM-originated questions closed through both write lanes, playbook gaps fixed, about 8-9 feature requests from the channel shipped by Mike (playbook repo 27 commits and app repo 64 since 9/18). Lane B: intake live (leaders push their own prep via /status-push), 3 group syncs run on Meeting OS, Brian and Mike running their BM 1:1s on it, v0.23.2 shipped the 1:1 Scorecard + board grade. Super Green hinges on Lane B: a BM running their own sync with their managers at a branch (Brian about 2 sessions away). 9/30 risk: v0.22.0 broke every 1:1 open for part of the day; fixed same day. || 9/29: Lane B running on real prep — Matisen and Anne 1:1s ran on Meeting OS off same-day /sync-prep 0.4.3 pushes (all goals, commitments decided). Two gaps found and routed: the facilitator_id rule was only implied (0.4.4 in flight) and a 1:1 was started without Albert's prep pushed (start-without-prep warning requested). Next layer: Jalissa (with Anne) and Fabian (with Matisen) by 10/19. || 9/22: LANE B — the BM pilot is live. Roster loaded 9/21 (10 BMs, 13 Ops/FMs, 123 goals); Mike and Brian each ran the Meeting OS with multiple directs and Cameron is folding their feedback; 1:1 and group-sy",
+          "blockers": [
+            "Super Green: no BM-run sync at a branch yet (Brian about 2 sessions out)"
+          ]
+        },
+        {
+          "goal_id": "cameron-q3-4",
+          "status": "Y",
+          "percent": 62,
+          "confidence": 3,
+          "assessment": "10/2: Monthly Big Rocks review CUT from Green — ratified by Paul 10/2 (Cameron's own cut, so Paul ratified under the late-bar-change rule); chart row 7 stamped. Kept: a time-and-money-by-build table at every QGR prep, first at Cam + Paul 10/19. Remaining Green items: registry + bus lane #1 (not re-verified since 9/30) and the AI Use Policy (Matisen + Anne redline due 10/9; 'adopted' reachable in Q3, 'rolled out' lands Nov 1). || 10/1: AI Use Policy v0.2 redline applied; OWNER = Matisen (policy + tool list + vendor reviews), Anne = Rippling eSign rollout + discipline side. Handed off 10/1: Sky 13187177693 (Matisen + Anne redline + Nov 1 rollout plan, due Fri 10/9); Cameron reviews 10/12, approves final text by ~10/16, so 'adopted' is reachable in Q3. 'Rolled out with Anne ... BEFORE the Tier-3 BM pilot' will not land in Q3 (rollout = Nov 1, everyone but movers; movers after on a short version) - Cameron's call at grading. Big Rocks review cut still waits on Paul (13177486493). || 9/30: at risk on two Green items. (1) Einstein AI Use Policy: v0.1 drafted 9/30 night (ChatGPT + Gemini approved with training off, Matisen = tool approver, HR data OK in the Einstein Claude account); Cameron redlines and hands to Anne 10/1. (2) Monthly Big Rocks review: CUT (Cameron 9/30, pending Paul's ratification). It was run once on 9/30 with Opus at max effort and came back riddled with inaccuracies and no value; running it twice more makes no sense. Its job is covered by the COS network maintenance, Meeting OS, and the weekly status pushes. Registry and bus lane #1 stand (not re-verified 9/30). TUR ruler settled 9/29 (fleet basis). || 9/29: TUR ruler SETTLED with Matisen — fleet TUR is the ruler for the Q3 66% target (65.1% Q3 as of 9/29); running-truck is display-only; 'active TUR' is a forward-looking demand view getting relabeled. || 9/16: goal system of record RULED — the chart owns titles and bars, the leader's status.json owns status, a meeting ruling travels as a goal-change record until both carry it. A daily drift chec",
+          "blockers": [
+            "Scorecard rollout audience + cadence unruled — scaffold first"
+          ]
+        },
+        {
+          "goal_id": "cameron-q3-5",
+          "status": "R",
+          "percent": 33,
+          "confidence": 1,
+          "assessment": "10/2: first Friday alignment with Adam committed the new script (two promises early, no-deposit close) and the training plan (CET only, one skill a day, last class 12/9). Q4 bars move to Amanda's next 1:1 at QGR. Still red as written. || 9/30: graded RED as written (Cameron's ruling). The Green bar names cohorts with Jeff, who was removed at week 8. Adam Boyd took over and extended the engagement through December at no added cost (verbal on the 9/30 call; written recap pending). Rewriting the bars four weeks out would make them easier, which fails the 9/7 harder-only rule, so the Adam-era bars become the Q4 rock (back-pocket draft on the Trinity pulse; Amanda drafts hers first). Amanda's Rock #6 still grades the close-rate outcome. || 9/29: Jeff is OFF the engagement. Adam Boyd (Trinity president) runs it himself, at least short term — agreed on the 9/29 call with Cameron + Amanda. Adam keeps as much of Jeff's direction and our terminology as possible; homework becomes 'practice twice with your manager, then we hear it on calls.' Amanda sends him the original + current script, the rubric, 3 sample calls and our top-2 priorities; working session Wed 9/30 11:00 (Adam, Amanda, Cameron). Yellow holds: credible path, nothing resta",
+          "blockers": [
+            "Call-grading v2 weighting isn't the ruling (Stage 1 = 40/100, pass bar 80 on the whole map before it's taught → 21 of 376 pass); class number needs to be Stage 1 /40 this month.",
+            "PII: RULED 9/10 — gate the call-grading page behind the hub login (Einstein emails; Jeff has one), do NOT redact. SCB 13019780241 → Gary breakdown → Amanda → Matisen wires the nightly runner (needs the repo shared to the new account first). Open until the page is behind the login.",
+            "Rubric score and conversion still not joined per rep (Matisen).",
+            "The scoreboard has no owner: the grading rubric and rep conversion are two scored things in tension (Amanda + Matisen). Script-blend strategy brief written for /consultants (Trinity Sales Training/script-blend-albert-read-2026-09-10.md).",
+            "Engagement terms under Adam unsettled (value vs ~$52K spend, the paused week) — Amanda raising it."
+          ]
+        },
+        {
+          "goal_id": "cameron-q3-bonus-northwood",
+          "status": "R",
+          "percent": 0,
+          "confidence": 4,
+          "assessment": "8/28 MOVED FROM ROCK #5 → BONUS (Cameron). ~20-hour build he is DELIBERATELY holding while progressing other work — five weeks zero movement as of 8/28, by choice not drift. Still live and gradeable if he picks it up; no longer counts against the 5-rock denominator.",
+          "blockers": []
+        }
+      ],
+      "commitments": [],
+      "pulse": {
+        "one": "QGR prep kit live for the Roundtable by Thu 10/9",
+        "dod": "Every leader's checklist is open in Meeting OS with dates set and July answers loaded",
+        "work_start": "2026-10-05",
+        "work_end": "2026-10-09",
+        "decision": "accepted"
+      },
+      "parking": [],
+      "discussion_points": []
+    }
+  ]
+}
