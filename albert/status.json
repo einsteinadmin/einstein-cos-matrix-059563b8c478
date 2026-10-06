@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-02T09:15:00-05:00",
+  "last_updated": "2026-10-05T20:30:01-05:00",
   "updated_by": "Albert (/wrap)",
   "cadence_days": 1,
   "goals": [
@@ -51,7 +51,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 100,
-      "assessment": "10/2: board grade beta passed end to end (Brian's COS graded Sergio's Houston board 37/45; it showed in his Meeting OS 1:1 Scorecard). /grade-meeting shipped to all six COSes (network-core 0.4.9). || 10/1: Meeting OS v0.24.1 -> v0.26.0 live and verified (board grade in the 1:1 Scorecard, live huddle parking, parking timer). Board grader (network-core 0.4.5 -> 0.4.7, Brian's rubric v1.6.1) delivered to Gerald + Vera; first real grades at next week's BM syncs. || 9/30: GREEN, both lanes met (Cameron confirmed). Lane A: all 10 BMs in the Coach channel, many BM-originated questions closed through both write lanes, playbook gaps fixed, about 8-9 feature requests from the channel shipped by Mike (playbook repo 27 commits and app repo 64 since 9/18). Lane B: intake live (leaders push their own prep via /status-push), 3 group syncs run on Meeting OS, Brian and Mike running their BM 1:1s on it, v0.23.2 shipped the 1:1 Scorecard + board grade. Super Green hinges on Lane B: a BM running their own sync with their managers at a branch (Brian about 2 sessions away). 9/30 risk: v0.22.0 broke every 1:1 open for part of the day; fixed same day. || 9/29: Lane B running on real prep — Matisen and Anne 1:1s ran on Meeting OS off same-day /sync-prep 0.4.3 pushes (all goals, commitments decided). Two gaps found and routed: the facilitator_id rule was only implied (0.4.4 in flight) and a 1:1 was started without Albert's prep pushed (start-without-prep warning requested). Next layer: Jalissa (with Anne) and Fabian (with Matisen) by 10/19. || 9/22: LANE B — the BM pilot is live. Roster loaded 9/21 (10 BMs, 13 Ops/FMs, 123 goals); Mike and Brian each ran the Meeting OS with multiple directs and Cameron is folding their feedback; 1:1 and group-sy",
+      "assessment": "10/5: Meeting OS ran its 4th group sync and the first 1:1 below the Roundtable (Amanda ran Austin's herself). v0.27.1 + v0.27.2 shipped the room's fixes the same day (Refresh now pulls all 7 leaders), template 0.4.10 rolled /status-push to the spokes, and the Meeting OS /meeting-prep went to every COS with connection walkthroughs to Amanda, Anne, Paul and Matisen. Super Green still hinges on a BM running their own sync at a branch. || 10/2: board grade beta passed end to end (Brian's COS graded Sergio's Houston board 37/45; it showed in his Meeting OS 1:1 Scorecard). /grade-meeting shipped to all six COSes (network-core 0.4.9). || 10/1: Meeting OS v0.24.1 -> v0.26.0 live and verified (board grade in the 1:1 Scorecard, live huddle parking, parking timer). Board grader (network-core 0.4.5 -> 0.4.7, Brian's rubric v1.6.1) delivered to Gerald + Vera; first real grades at next week's BM syncs. || 9/30: GREEN, both lanes met (Cameron confirmed). Lane A: all 10 BMs in the Coach channel, many BM-originated questions closed through both write lanes, playbook gaps fixed, about 8-9 feature requests from the channel shipped by Mike (playbook repo 27 commits and app repo 64 since 9/18). Lane B: intake live (leaders push their own prep via /status-push), 3 group syncs run on Meeting OS, Brian and Mike running their BM 1:1s on it, v0.23.2 shipped the 1:1 Scorecard + board grade. Super Green hinges on Lane B: a BM running their own sync with their managers at a branch (Brian about 2 sessions away). 9/30 risk: v0.22.0 broke every 1:1 open for part of the day; fixed same day. || 9/29: Lane B running on real prep — Matisen and Anne 1:1s ran on Meeting OS off same-day /sync-prep 0.4.3 pushes (all goals, commitments decided). Two gaps found and routed: the facilitator_id rule was only implied (0.4.4 in flight) and a 1:1 was started without Albert's prep pushed (start-without-prep warning requested). Next layer: Jalissa (with Anne) and Fabian (with Matisen) by 10/19. || 9/22: LANE B — the BM pilot is live. Roster loaded 9/21 (10 BMs, 13 Ops/FMs, 123 goals); Mike and Brian each ran the Meeting OS with multiple directs and Cameron is folding their feedback; 1:1 and group-sy",
       "blockers": [
         "Super Green: no BM-run sync at a branch yet (Brian about 2 sessions out)"
       ],
@@ -222,6 +222,6 @@
     "win": "Finished the Mover IQ question walk with Anne and Paul, got the board grade beta passing end to end, and got Meeting OS prepped (QGR release 1 live).",
     "meeting": "Roundtable group sync 2026-10-05"
   },
-  "lastUpdated": "2026-10-02T16:45:00-05:00",
+  "lastUpdated": "2026-10-05T20:30:01-05:00",
   "notes": ""
 }
