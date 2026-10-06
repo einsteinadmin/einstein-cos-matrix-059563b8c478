@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-09-29T14:40:59-05:00",
-  "updated_by": "Clark (/sync-prep)",
+  "last_updated": "2026-10-05T12:30:59-05:00",
+  "updated_by": "Clark (/status-push)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "cross_checked_against": "ai-chief-of-staff/network/rollover/2026-Q3/paul-status-q3-DRAFT.json (Albert, 8/17) — structure matches goal-for-goal",
@@ -18,11 +18,11 @@
   "cadence_days": 2,
   "sync_push": {
     "pulse": {
-      "one": "Get the commercial moving company details in hand, or pull an acquisition target from an alternate source, and run the review.",
-      "dod": "Financial analysis completed for one additional company by the end of this week."
+      "one": "Run the First Class Moving financial analysis.",
+      "dod": "Analysis done and shared with Cameron by Fri 10/9."
     },
     "discussion_points": [],
-    "win": "All branch financial reviews completed."
+    "win": "All branch financial review meetings were completed for August last week."
   },
   "goals": [
     {
@@ -33,9 +33,9 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 80,
-      "assessment": "9/29: Yellow. The 9/28 three-hour session with Cameron and Anne changed direction: one record of events feeding two scores (standing and promotion readiness), both designed together before launch. Now waiting on Anne's framework update from that talk. The 10/31 launch is at risk.",
+      "assessment": "10/5: Yellow. Cameron has sent his latest feedback on the framework and Paul still needs to review it. The 10/31 launch remains at risk until that review is done.",
       "blockers": [
-        "Waiting on Anne's framework update after the 9/28 session with Cameron"
+        "Paul to review Cameron's latest feedback on the framework"
       ],
       "milestones": [
         {
@@ -76,7 +76,7 @@
         "Matisen"
       ],
       "mb_pulse": "11752733644",
-      "updated": "2026-09-29"
+      "updated": "2026-10-05"
     },
     {
       "id": "paul-q3-2",
@@ -86,10 +86,9 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 90,
-      "assessment": "9/29: Green. July reviews complete for all 10 branches. Paul is booking the August review meetings today for Thu 10/1 and Fri 10/2. The remaining gap to Green is ownership: regionals are not yet running the financial review in their own meetings.",
+      "assessment": "10/5: Green. All August branch financial reviews were completed last week, the second full round after July. The remaining gap is ownership: regionals do not yet run the review in their own meetings.",
       "blockers": [
-        "Regionals not yet including the financial review in their meetings - cadence still run by Paul, not the RMs",
-        "August review meetings being scheduled 9/29"
+        "Regionals not yet including the financial review in their meetings - cadence still run by Paul, not the RMs"
       ],
       "milestones": [
         {
@@ -98,9 +97,9 @@
           "done": true
         },
         {
-          "name": "August review round scheduled",
-          "date": "2026-09-28",
-          "done": false
+          "name": "August review round complete",
+          "date": "2026-10-02",
+          "done": true
         },
         {
           "name": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs, run by RMs",
@@ -115,20 +114,18 @@
         "Mike"
       ],
       "mb_pulse": "11728394236",
-      "updated": "2026-09-29"
+      "updated": "2026-10-05"
     },
     {
       "id": "paul-q3-3",
       "number": 3,
       "name": "Improve Invoicing + AR Collections Tracking",
       "critical": false,
-      "self_status": "yellow",
+      "self_status": "green",
       "confidence": 4,
       "percent_complete": 60,
-      "assessment": "9/29: Yellow. Worked uncollected payments with Stephanie 9/25. Next step waits on Matisen's Data Hub work, which feeds his invoice tracker. Once it lands we can move quickly; if Matisen finishes this week, this goes back to Green.",
-      "blockers": [
-        "Waiting on Matisen's Data Hub work, which feeds the invoice tracker"
-      ],
+      "assessment": "10/5: Green. Matisen has an updated invoicing hub. We are tweaking it now and will share it with the team shortly, and it updates the collections tracking process.",
+      "blockers": [],
       "milestones": [
         {
           "name": "Unpaid-bill workflow documented end-to-end and team trained; tracker covers all outstanding invoices",
@@ -139,7 +136,7 @@
       "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
       "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
       "mb_pulse": "11728362120",
-      "updated": "2026-09-29"
+      "updated": "2026-10-05"
     },
     {
       "id": "paul-q3-4",
@@ -148,10 +145,10 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 30,
-      "assessment": "9/29: Yellow. New live target: First Class Moving Systems (Tampa, NAVL agent). NDA signed 9/25, intro call held 9/29. Financials expected Thu 10/1 or Fri 10/2, with analysis done within a day or two of receipt.",
+      "percent_complete": 50,
+      "assessment": "10/5: Yellow, 50%. First Class Moving Systems (Tampa, NAVL agent) financials received. Analysis not started yet; it is this week's Happiness Pulse.",
       "blockers": [
-        "First Class financials expected Thu 10/1 or Fri 10/2"
+        "First Class financial analysis not started"
       ],
       "milestones": [
         {
@@ -163,7 +160,7 @@
       "superGreen": "5 opportunities evaluated",
       "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
       "mb_pulse": "11728336219",
-      "updated": "2026-09-29"
+      "updated": "2026-10-05"
     },
     {
       "id": "paul-q3-5",

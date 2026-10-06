@@ -8,18 +8,21 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-02T08:10:00-05:00",
-  "updated_by": "CoS-MH1 (catch-up wrap)",
+  "last_updated": "2026-10-05T12:00:55-05:00",
+  "updated_by": "Matisen (/status)",
   "cadence_days": 1,
   "sync_push": {
-    "meeting": "",
-    "meeting_time": "",
+    "meeting": "Roundtable Sync Up",
+    "meeting_time": "2026-10-05T13:30:00-05:00",
     "one_thing": {
-      "commitment": "",
-      "definition_of_done": ""
+      "commitment": "Completely caught up on praise, PL Migrated to Rippling (Mirrored)",
+      "definition_of_done": "Praise at 38 by EOW and PLS mirrored on Rippling with Form scoped out for Mover Field App"
     },
-    "discussion_points": [],
-    "win": ""
+    "discussion_points": [
+      "Promo Ladder",
+      "Botpress Follow Up"
+    ],
+    "win": "Chatbot passing all QA scenarios, close to launch"
   },
   "goals": [
     {
@@ -31,7 +34,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 55,
-      "assessment": "Hub handoff with Vlad today at 12:30 — script update run plus confirmation. Once it passes, Hub2 migrates back to hub, Games pull-through gets verified, then MCP sharing and a company-wide process for runners and adhoc reports. D (Sage) is unpaused: export prepped, app-credentials email going out, upload timing and destination to confirm. A unchanged — region scorecards built, still not delivered to regionals.",
+      "assessment": "Vlad is pushing updates to the games runner to match what is running locally; next is updating the Jenkins variable settings. Once that lands, Hub2 migrates back to hub, Games pull-through gets verified, then MCP sharing and a company-wide process for runners and adhoc reports. D (Sage): sample week and setup guide delivered to Prosper 9/29, awaiting their accounts, cutover and feedback. A unchanged: region scorecards built, still not delivered to regionals.",
       "blockers": [
         "A. Region scorecards built but not delivered — regionals do not have them yet",
         "B. Paul/Cam EMMA MCP access — gated on today's 12:30 hub handoff passing, then MCP share",
@@ -61,7 +64,7 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-09-29"
+      "updated": "2026-10-05"
     },
     {
       "id": "matisen-q3-sales-marketing",

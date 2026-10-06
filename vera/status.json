@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-01T17:55:00-05:00",
-  "updated_by": "Vera (/sync-prep)",
+  "last_updated": "2026-10-05T12:45:00-05:00",
+  "updated_by": "Vera (/status-push)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -20,11 +20,10 @@
       "critical": false,
       "self_status": "green",
       "confidence": 3,
-      "percent_complete": 60,
-      "assessment": "green/3/60 at ~60% of the quarter elapsed. First regional event BOOKED 9/24: Austin, Texas Stars hockey Wed 11/11, free suite for 22 (lands after the 10/31 close; Brian's ruling - it counts, coordinated in Q3). DFW COSM Grapevine Thu 10/8 at a final headcount of 9, tickets to book. Budget reset 9/24 to $75-100/head entry+food, alcohol on the employee. Remaining to Green: San Antonio, Houston and Tampa events, and the second BM roundtable (targeted Wed 9/30).",
+      "percent_complete": 80,
+      "assessment": "green/3/80 at ~70% of the quarter elapsed. Second BM roundtable ran 9/30 (both rooms aggregated, four rulings locked), so 2 of 2 roundtables are done. Austin regional event booked: Texas Stars hockey Wed 11/11, free suite for 22 (lands after the 10/31 close; Brian's ruling - it counts, coordinated in Q3). DFW COSM Grapevine Thu 10/8 at a final headcount of 9. Budget $75-100/head entry+food, alcohol on the employee. Remaining to Green: San Antonio, Houston and Tampa events.",
       "blockers": [
-        "San Antonio, Houston and Tampa events not yet locked (Austin 11/11 booked, DFW 10/8 headcount final at 9 - Mike needs the login to buy tickets)",
-        "Second BM meeting set for Wed 9/30 at 2 PM"
+        "San Antonio, Houston and Tampa events not yet locked (Austin 11/11 booked, DFW COSM 10/8 headcount final at 9)"
       ],
       "milestones": [
         {
@@ -43,9 +42,9 @@
           "done": true
         },
         {
-          "name": "2 BM roundtables scheduled, agenda built, conducted w/ manager feedback + action items (1 of 2 done - 9/3)",
+          "name": "2 BM roundtables scheduled, agenda built, conducted w/ manager feedback + action items (2 of 2 done - 9/3, 9/30)",
           "date": "2026-10-19",
-          "done": false
+          "done": true
         },
         {
           "name": "Budget approved - reset 9/24 to $75-100 per person, entry + food, no alcohol",
@@ -62,7 +61,7 @@
       "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750316279",
-      "updated": "2026-09-28T12:05:00-05:00"
+      "updated": "2026-10-05T12:45:00-05:00"
     },
     {
       "id": "brian-atx-flex-sa-ops-dev",

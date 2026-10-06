@@ -8,15 +8,28 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-01T11:33:16-05:00",
-  "updated_by": "Gary (/wrap)",
+  "last_updated": "2026-10-05T12:05:00-05:00",
+  "updated_by": "Gary (/status-push, T-30 before 1:30 group sync)",
   "cadence_days": 7,
   "sync_push": {
     "pulse": {
       "one": "Push out the chatbot edits for Matisen — we've got to get that going this week.",
       "dod": "Matisen sends the corrected chatbot build back to Botpress by end of week."
     },
-    "discussion_points": [],
+    "discussion_points": [
+      {
+        "title": "Call grading: shifting off the composite score to the Open and Concerns stages",
+        "detail": "Now that the script is finalized we are not chasing a final grade this quarter. The measure that matters is movement in the two stages we rewrote. Two v3 weeks and 663 calls give a clean pre-v4 baseline: Open 56.3% of 10 pts, Their Concerns 69.3% of 30 pts, combined 66.0% of 40. Open is the weaker of the two and the one that slipped, so coaching starts there. Treat all of it as baseline rather than progress: both weeks were graded before v4 reached anyone, and a 0.7 point move on two data points is noise. What I need from the room: rubric v3 grades by section number and v4 reorders them, so the renumber has to land before the first week reps are graded on the new flow, or we are scoring new-flow calls against the old map and the baseline is worthless. That is the gate, not any given Monday run. Consequence stated plainly: the Green bar question goes on hold with this. We are tracking stage improvement, not a composite against 65 or 80. If Cameron still wants a Q3 number on 31 Oct I would rather have that conversation now than on 1 Nov."
+      },
+      {
+        "title": "Goal 5 close-rate component cannot be graded at end of quarter",
+        "detail": "Trinity now runs through 9 Dec with Adam Boyd. Green includes new-customer close rate up 2 points off the frozen 8/5 baseline, and there will be no readable number by 31 Oct. This needs a re-base to a December reading and that is Cameron's call before the quarter closes. Related and small: the cascading chart has Amanda's row reading Adam (Northwood) and Nhel's row reading Jeff (Northwood) for the same engagement. Worth fixing before QGR so it does not read as two projects."
+      },
+      {
+        "title": "Monday notification coverage is broken network-wide, not just here",
+        "detail": "Mentions and replies have gone unscanned on this workspace since 9/1. The deeper finding is measured, not assumed: the account-wide updates feed reaches back about 81 minutes and will not paginate further, so any COS using that method covers roughly 1.4 hours out of every 24. A personal token changes transport, not coverage. Flagging because Gerald has been chasing a fix that would not have solved it."
+      }
+    ],
     "win": "Phase 2 of our Magic Moments customer experience work is in full swing. We've got coloring books and crayons ready to order, and a 'Welcome to Your Neighborhood' pamphlet that's very close to being ready to send to Kickpoint to complete."
   },
   "source_of_truth": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified in QGR room 7/30)",
@@ -28,14 +41,14 @@
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
-      "percent_complete": 45,
-      "assessment": "Yellow — rubric transitioned to v3 (Section Map, 100-pt, graded directly off the rewritten 15-Minute Quote Call script) the week of 9/23, superseding the v2/85-pt scale this assessment previously tracked. First v3 run: 163 calls, 9/23–9/24, company avg 60.0/100, median 59.5, pass rate 9.6% against the 80-pt Green bar. v2 and v3 scores are not comparable — this is a new baseline, not a score movement from the prior 46.0/65 v2 figure. The 60-minute calibration session with Cameron/Nhel/Tetet is no longer a prerequisite for v3 — it shipped live without it. The v3 pipeline fix also resolves the run-reliability problem (stalling, manual splitting) that had been a standing blocker under v2.",
+      "percent_complete": 50,
+      "assessment": "Yellow. Focus shifted 10/5: with the 15-minute quote-call script finalized (v4, settled on the 10/2 Adam Boyd call), we are no longer chasing a final composite grade this quarter. The measure is movement in the two stages we rewrote, Open and Their Concerns. Section 6 Concerns Again is deliberately NOT in this focus. Two v3 weeks and 663 calls give a clean pre-v4 baseline: Open 56.3% of 10 pts (down 1.0 week over week), Their Concerns 69.3% of 30 pts (up 1.3), combined 66.0% of 40 (up 0.7). All movement is inside noise on two data points. Open is the weaker stage and the one that slipped, so coaching starts there. Composite this run was 59.3 across 431 calls, flat against 59.9 the prior week on the same instrument, and NOT comparable to the retired 85-pt scale. The gate before reps are graded on the new flow: rubric v3 grades by section number and v4 reorders them, so the renumber must land first or new-flow calls get scored against the old map. The Green bar question (65 vs 80) goes on hold with this shift and needs Cameron if a Q3 number is still wanted on 31 Oct.",
       "blockers": [
-        "monday.com connector unavailable 10+ days — the 9/14 and 9/21 weekly updates are written but unposted to pulse 12206626312 (Cameron-facing)",
-        "v3 score (60.0 avg, 9.6% pass rate) is a new baseline against an 80-pt bar — not yet enough runs to show a trend",
-        "Per-bullet weight fine-tuning and comp-tie risk still open for v3, though no calibration session is required before further runs",
-        "Rep-level scores are volatile week to week (27-pt swings under v2) — not yet safe to drive individual coaching decisions",
-        "Phone-join plumbing (external_number carried by call_id) not yet built, though the plan is confirmed workable"
+        "Rubric v3 renumber must land before the first week reps are graded on script v4, or new-flow calls are scored against the old section map",
+        "Green bar unsettled: rubric_v3.md states 80+, the ratified Q3 chart states 65 on the retired 85-pt scale. On hold while focus is on stage improvement, but needs Cameron before 31 Oct if a Q3 number is expected",
+        "Only two v3 weeks exist, both pre-v4, so there is no trend yet and no post-v4 evidence",
+        "Rep-level scores remain volatile week to week, not yet safe to drive individual coaching decisions",
+        "Phone-join plumbing (external_number carried by call_id) not yet built"
       ],
       "milestones": [
         {
@@ -91,7 +104,7 @@
       ],
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
-      "updated": "2026-10-01",
+      "updated": "2026-10-05",
       "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
       "metrics": {
         "calls_graded_cumulative": 493,
@@ -107,12 +120,42 @@
       },
       "metrics_v3": {
         "rubric_version": "v3-section-map",
-        "calls_graded": 256,
-        "avg_score": 59.9,
-        "pass_rate_pct": 9.5,
+        "calls_graded": 431,
+        "calls_pulled": 487,
+        "calls_skipped": 52,
+        "avg_score": 59.3,
+        "pass_rate_pct": 7.0,
         "green_bar": 80,
-        "last_run": "2026-09-27",
-        "note": "Combined full week (9/23-27) replacing the earlier 163-call partial pilot. Not comparable to the v2-scale metrics block above — different point structure and section boundaries, not a reweighting."
+        "last_run": "2026-10-05",
+        "week_start": "2026-09-28",
+        "week_end": "2026-10-04",
+        "focus_sections": {
+          "note": "Focus shifted 10/5: with the script finalized, tracking improvement in the Open and Concerns stages rather than the composite score. Section 6 (Concerns Again) is NOT part of this focus.",
+          "section1_open_pct": 56.3,
+          "section2_their_concerns_pct": 69.3,
+          "combined_of_40_pct": 66.0,
+          "prior_week": {
+            "week": "2026-09-23..27",
+            "section1_open_pct": 57.3,
+            "section2_their_concerns_pct": 67.9,
+            "combined_of_40_pct": 65.3
+          },
+          "movement": {
+            "open": -1.0,
+            "their_concerns": 1.3,
+            "combined": 0.7,
+            "read": "Inside noise. Two data points is not a trend."
+          },
+          "baseline_caveat": "Both v3 weeks were graded BEFORE script v4 reached reps. This is the pre-v4 baseline, not evidence about the new flow.",
+          "weakest": "Open, at 56.3% and down 1.0 week over week.",
+          "rep_spread_combined_pct": {
+            "low": 59.8,
+            "high": 72.8,
+            "n_reps": 13,
+            "min_calls_per_rep": 5
+          }
+        },
+        "note": "Composite 59.3 is flat against last week's 59.9 on the same v3 instrument. NOT comparable to the retired 85-pt scale (45.8) - different point structure, not a reweighting."
       }
     },
     {
@@ -233,14 +276,14 @@
       "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
       "critical": false,
       "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 50,
-      "assessment": "Yellow — training with Jeff Johnson is paused as of 9/29. After repeated script inconsistency, no retained memory of prior conversations, and no measurable progress after ~2 months against the $54,500 spend, Cameron and Amanda paused the engagement and Cameron called Adam Boyd (Jeff's boss, Trinity Group) directly. Adam is now running the engagement himself; Jeff is fully out. Not a reset to zero: the underlying direction (agenda-setting opener, active listening before pricing) carries forward, and this week's baseline work transfers directly to Adam. A guidebook was built for Adam consolidating the old script, the Jeff-era build, and current state (see memory/project_jeff_pause_adam_handoff.md). Answered Adam's opening asks: baseline call length (11.9 min avg), v3 grading score (59.9/100), and conversion broken out warm vs cold (CET converts 52.1% on repeat/referral leads vs 21.8% on cold/new leads -- the real training lever, since only ~26% of CET's volume is warm). Nhel and Tetet confirmed as coaches. An Aptive Index psychographic assessment is in motion for Amanda, Cameron, Nhel, Tetet, and the team's top-2/bottom-2 reps by cold-lead conversion. Adam's own comments on the guide resolved the concern-handling flip-flop that caused the original Jeff friction (hold for Two Promises, answer in the moment only if the customer pushes twice).",
+      "confidence": 4,
+      "percent_complete": 60,
+      "assessment": "Yellow, but moving properly for the first time since the pause. Jeff Johnson came off 9/29; Adam Boyd (Trinity) now runs the engagement directly and the 10/2 planning call with Amanda, Cameron, Nhel and Tetet settled the script flow end to end. Two Promises moved to step 3 (before probing and the estimate), Adam's two-concerns question became the primary opener into it, value-day pricing went in at the end of the estimate as a total-dollar saving, and the ask order flipped so the rate lock and no-deposit come before the close. A clean v4 card, a change log and an editable doc for Adam/Nhel/Tetet review were built the same day. Extension secured through 9 Dec 2026 at no additional cost, so the original spend concern is closed and the last class is 9 Dec. Training is CET only by choice, with Calvin and Jack excluded to keep focus on the team doing three quarters of sales. Against the Green definition the playbook half is now substantially done; the rubric half and the close-rate half are not. The close-rate component is structurally ungradeable at EOQ (31 Oct) because a trailing-90-day dollar-basis metric cannot move 2 points in four weeks, so Amanda is taking a re-basing to Cameron before 31 Oct rather than after, on the 7/30 estimate-accuracy precedent.",
       "blockers": [
-        "Extension at no additional cost requested in the first email to Adam (9/30) -- no reply yet; this is unresolved and material to the quarter's spend",
-        "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
-        "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — this now needs correcting the other direction, since Adam genuinely is running it",
-        "Training itself is paused -- no live sessions running until the script/approach is re-settled with Adam"
+        "Flow chart not built — Amanda committed to it on the 10/2 call; it is the one-page artifact reps keep beside them and the thing that makes the new flow usable day to day",
+        "rubric_v3.md grades by section number and v4 reorders them — must be renumbered before the first week reps are actually graded on v4 (NOT before any given Monday run; grading old-flow calls against the new map would be wrong)",
+        "Green's close-rate component is ungradeable at EOQ 31 Oct — re-basing to a 9 Dec reading needs Cameron before 31 Oct",
+        "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement"
       ],
       "milestones": [
         {
@@ -274,9 +317,9 @@
           "done": true
         }
       ],
-      "superGreen": "TBD — bars not set on chart",
-      "green": "TBD — bars not set on chart",
-      "updated": "2026-10-01"
+      "superGreen": "Green + new-customer (non-repeat/referral) close rate up ≥ 3.5 pts off the frozen 8/5 baseline (14% → 17.5%).",
+      "green": "Sales playbook rewritten (why-they-buy / emotional, not estimate-delivery) + call-grading rubric updated to match — AND new-customer close rate up ≥ 2 pts off the frozen 8/5 baseline (14% → 16%) by EOQ. Pods NOT included in this goal.",
+      "updated": "2026-10-05"
     }
   ],
   "kpis": [],

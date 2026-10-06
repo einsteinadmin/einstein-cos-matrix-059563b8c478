@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-01T11:45:00-05:00",
-  "updated_by": "Linda (/wrap follow-up)",
+  "last_updated": "2026-10-05T17:26:54-05:00",
+  "updated_by": "Linda (/wrap)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -28,7 +28,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 52,
-      "assessment": "Injury Hub built 9/25 (manager + mover views, not yet published). Anne set the rules: Minor = up to 3 calendar days counted from the day after the injury, Critical = same-day claim, movers report within 7 days, pain over 48 hours gets reported, light duty via re-employability for anyone out more than a month, FMLA-equivalent protection at all branches. That moves the Green bar's 'workflow documented' half. Training all 10 BMs hasn't started.",
+      "assessment": "Injury Hub is built and published (manager + mover views). Anne set the rules: Minor = up to 3 calendar days counted from the day after the injury, Critical = same-day claim, movers report within 7 days, pain over 48 hours gets reported, light duty via re-employability for anyone out more than a month, FMLA-equivalent protection at all branches. That moves the Green bar's 'workflow documented' half. Training all 10 BMs hasn't started.",
       "blockers": [
         "WC package review by Brian and Mike — scheduled rather than pending as of the 9/21 group sync: Anne sends the process to Mike 9/22 so he can weigh in. Anne flagged in the room that inconsistency is already happening — people messaging her separately instead of funnelling to one place. Brian's rules haven't gone out yet; something broke on the board last week.",
         "Green bar's second half — workflow trained to all 10 BMs by EOQ — still not started. The deck exists in draft; no training has been delivered.",
@@ -48,7 +48,7 @@
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-01T11:00:00-05:00"
+      "updated": "2026-10-05T13:09:59-05:00"
     },
     {
       "id": "anne-q3-2",
@@ -58,7 +58,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 80,
-      "assessment": "9/28 Cameron/Paul/Anne call set the direction: one record of events feeding the standing score, promotion and the Lead bonus. 9/29 Anne built the combined design outline for Cameron and Paul (four buckets with floors, a 1/3/5/10 scale where repeats move up a tier, callouts moved to earned unpaid time off, promotion at 92+, per-event denominators) and a workshop for the 9/30 Brian/Mike review. An attendance backtest on all 10 branch Performance Logs (277 active field employees) shows the lines don't over-terminate: on attendance alone 18 at formal write-up, 4 at final warning, 1 at termination review. Six decisions go to Cameron and Paul.",
+      "assessment": "9/28 Cameron/Paul/Anne call set the direction: one record of events feeding the standing score, promotion and the Lead bonus. 9/29 Anne built the combined design outline for Cameron and Paul (four buckets with floors, a 1/3/5/10 scale where repeats move up a tier, callouts moved to earned unpaid time off, promotion at 92+, per-event denominators) and a workshop for the 9/30 Brian/Mike review. An attendance backtest on all 10 branch Performance Logs (277 active field employees) shows the lines don't over-terminate: on attendance alone 18 at formal write-up, 4 at final warning, 1 at termination review. Six decisions go to Cameron and Paul. 10/2: Cameron's written read is in. The architecture holds, with 5 foundations to pressure-test and 7 questions back to Anne. Paul is weighing in on the six decisions. Anne is reviewing it this week. 9/30: Mike is aligned on the design (escalating points already in it) and sent a damages rewrite he calls more HR friendly, to fold in. 10/5: the Mover IQ group walkthrough with Brian and Mike was pushed again.",
       "blockers": [
         "Single-bucket dilution hole — Cameron asked Anne to map termination counts and whether tiering is needed (third callout weighted heavier than the first two) so the pool isn't too shallow.",
         "Framework sent to Mike and Brian 9/22, two days ahead of the 9/24 commitment. ⚠️ Paul was on the original 9/24 list and is one of the two required Green-bar signatures — confirm he has it.",
@@ -66,7 +66,7 @@
         "Unemployment eligibility ANSWERED by counsel (Jennifer, 9/24): an objective, evenly applied, pre-communicated system is fine; a termination has to rest on counted incidents over a defined period, like the attendance policy.",
         "Oct 1 sign-off missed as expected. Anne walked Cameron through the workshop 9/29; the group walkthrough was pulled from the 9/30 huddle (Cameron wants alignment first), likely Monday 10/5. Cameron asked Anne to run /consultants on it first. Then point values tested on 15-20 real movers, target the QGR.",
         "Damages still open: three options (points per incident / rate only / split by job, recommended) go to Brian and Mike 9/30.",
-        "Decisions needed from Cameron and Paul: earned-time-off accrual rate and cap; whether callouts on earned time cost the Lead bonus; damages option; retiring the Games bars from the promotion gate; standalone 10/31 launch; Mike's Dallas beta.",
+        "Cameron's answers to the six decisions are in (10/2). Anne to answer his 7 questions; Paul's input pending.",
         "A branch Performance Log recorded an FMLA absence as a no-call/no-show. Protected leave needs a flag on every event record, and FMLA currently counts against the Lead attendance bonus."
       ],
       "green": "Methodology fully designed — every dimension (attendance, damages, CHOICES/professionalism, driver score) mapped to point values and weights, with an explicit rule for how damages get weighted based on attribution quality (not a flat weight) — signed off by Cameron and Paul by Oct 1.",
@@ -80,7 +80,7 @@
       "mb_pulse": "11752777323",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-01T11:00:00-05:00"
+      "updated": "2026-10-05T17:26:54-05:00"
     },
     {
       "id": "anne-q3-3",
@@ -90,12 +90,12 @@
       "self_status": "yellow",
       "confidence": 3,
       "percent_complete": 55,
-      "assessment": "Walkthrough held 9/22 with Mike and Brian (Amanda absent). The app itself was praised twice; the underlying design was rejected and redesigned in the room. Adoption remains zero, which is what the bar measures. Anne sent Cameron a written summary of the table's feedback the same day and asked for everyone in one room rather than relaying objections. Confidence drops to 3 because the rock's Green bar now measures a mechanism the stakeholders have moved off.",
+      "assessment": "Cameron ruled the beta 10/1: movers not required for the first 6 weeks, BMs not in the beta (they own carrying out changes), feedback reviewed monthly. The mechanism dispute is closed. Anne is verifying where the app and rollout stand, reviewing Cameron's feedback (4 open calls + 2 app bugs: UTC dates, no earlier-day logging), and targeting go-live Tue 10/6 (app edits from Cameron's second round). Adoption is still zero. 10/5 group sync: Cameron restated the Green bar as each Roundtable leader holding 2 conversations before the Roundtable QGR (~10/27), starting this week; feedback triaged monthly unless flagged critical.",
       "blockers": [
-        "Launch slipped twice (9/16 → 9/18 → week of 9/21) on deploy-pipeline and roster-data polish — actively being worked (3 commits 9/18–9/21). Nothing shipped yet, so adoption is still zero.",
+        "Cameron's 4 open calls + 2 app bugs to resolve before go-live.",
         "Rollout communication/marketing framing to employees not yet drafted — Cameron's own \"random employee\" Green-bar language still needs a pre-call heads-up mechanism or the adoption metric itself is at risk",
         "Call-assignment visibility mechanism (due-for-contact queue) is built in the 9/10 sync but not yet validated against a live multi-leader run",
-        "Scope ruled by Cameron 9/29: the Roundtable runs the calls, at any level, not mover-only (for regionals, 'two rungs below' = ops managers and FMs; regionals now meet 1:1 only with BMs). Anne owes: tool rework for all levels, a heads-up comms plan for movers, and re-aligning Mike and Brian herself. Still open from the 9/30 huddle: Mike wants movers first; feedback-review cadence (monthly trends vs a 'critical' tag in the biweekly sync) unsettled.",
+        "Scope ruled by Cameron 9/29: the Roundtable runs the calls, at any level, not mover-only (for regionals, 'two rungs below' = ops managers and FMs; regionals now meet 1:1 only with BMs). Anne owes: tool rework for all levels, a heads-up comms plan for movers, and re-aligning Mike and Brian herself.",
         "App needs rework for the new model: submission path for branch managers rather than 7 leaders, roster targeting, and a themes/trends view (Mike: \"I don't want to read every employee's survey\")."
       ],
       "green": "Practice designed and documented (format, cadence, log structure) — adopted by all 7 Roundtable leaders, with each leader reporting two Start/Stop/Keep conversations through the tool before the Roundtable QGR.",
@@ -107,7 +107,7 @@
       "mb_pulse": "11728350964",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-01T11:00:00-05:00"
+      "updated": "2026-10-05T17:26:54-05:00"
     },
     {
       "id": "anne-q3-4",
@@ -146,6 +146,7 @@
       "percent_complete": 95,
       "assessment": "9/28 call put the standalone 10/31 launch in doubt: Cameron doesn't want the promotion framework live separately from the 100-Point design ('moving twice'). Not cancelled, needs confirmation. 9/29 Anne's combined outline recommends retiring the Games bars as the promotion gate (replaced by score 92+ plus bucket floors, fast track 97+ with zero reviews), keeping the ladder, hours gates and Part-Time Lead rules. The Oct 1 'published to branches' bar is at risk unless the published piece is the combined design. Percent held at 95 pending Anne's re-estimate.",
       "blockers": [
+        "Cameron 10/5 (group sync): Mover IQ won't change systems this quarter or next; promotions and damages stay as-is, hours-based, until Jan 1, possibly Apr 1. Effect on the standalone 10/31 cohort to confirm with Anne.",
         "Fast-track bar values not confirmed locked — Paul called the structure \"ready to rock\" 9/18 but named no numbers; the values are still flagged provisional in CLAUDE.md.",
         "#17 (coaching-trigger automation for damages) still unratified by Anne + Cameron",
         "Lead General's own standard-track hours (1,820) and performance bar still 'proposed,' pending Cameron",
@@ -167,7 +168,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-01T11:00:00-05:00"
+      "updated": "2026-10-05T17:26:54-05:00"
     },
     {
       "id": "anne-q3-6",
@@ -177,7 +178,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 20,
-      "assessment": "9/16: status moves yellow → green per Anne/Cameron's 1:1, though this stays blocked on Paul's benefits-gate decision per Cameron's own note — no bar text change. First real working session with Cali Beeman (Gallagher) ran 8/21 — substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document — both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul. 8/31: sent BMs a reminder to term verbally-terminated movers in Rippling this week, to validate the benefits file feeds ahead of the redesign recommendation. Trajectory: tracking yellow — real progress with Cali, but plan-year decisions aren't locked and Paul's read on the redesign is still pending; November bar has runway but multiple external dependencies are unresolved.",
+      "assessment": "9/16: status moves yellow → green per Anne/Cameron's 1:1, though this stays blocked on Paul's benefits-gate decision per Cameron's own note — no bar text change. First real working session with Cali Beeman (Gallagher) ran 8/21 — substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document — both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul. 8/31: sent BMs a reminder to term verbally-terminated movers in Rippling this week, to validate the benefits file feeds ahead of the redesign recommendation. Trajectory: tracking yellow — real progress with Cali, but plan-year decisions aren't locked and Paul's read on the redesign is still pending; November bar has runway but multiple external dependencies are unresolved. 10/5: Anne sent Cali the next communication. On schedule for the November window.",
       "blockers": [
         "2027 plan-year decisions not yet locked with Cameron and Paul",
         "ACA variable-hour classification strategy not yet decided (6-month measurement period proposed, needs Cameron/Paul)",
@@ -192,7 +193,7 @@
       "mb_pulse": null,
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-09-16"
+      "updated": "2026-10-05T13:09:59-05:00"
     }
   ],
   "kpis": [
@@ -261,14 +262,14 @@
   ],
   "sync_push": {
     "pulse": {
-      "one": "Get the new engagement survey launched with the first round of messaging out",
-      "dod": "Survey live on 10/7 and the first launch message sent to movers and branch leadership"
+      "one": "Engagement survey goes out this week",
+      "dod": "It's out, and I provide an update by end of week"
     },
     "discussion_points": [
-      "100-Point / Mover Promotion: group walkthrough with Brian and Mike after Cameron's review; standalone 10/31 cohort vs Jan 1 launch on 100-Point.",
-      "100-Point / damages measurement: still three options open.",
-      "Start/Stop/Keep: movers first (Mike) vs other levels first until the 10/7 survey is digested (Anne); feedback-review cadence."
+      "Mover IQ walkthrough with Brian and Mike after Cameron's review",
+      "100-Point damages measurement: three options still open",
+      "Performance Log migration to Rippling (Matisen) vs Mover IQ overlap, parked 10/5"
     ],
-    "win": "Cameron at the 9/30 huddle praised the trial-day sunset message Anne and Brian sent: clear, fun, easy to read, 'not information overflow'."
+    "win": "All recent workers' comp claims submitted and uploaded to Texas Mutual Thursday morning, with check-ins sent to every injured employee."
   }
 }
