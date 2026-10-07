@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-05T12:05:00-05:00",
-  "updated_by": "Gary (/status-push, T-30 before 1:30 group sync)",
+  "last_updated": "2026-10-06T11:55:00-05:00",
+  "updated_by": "Gary (/wrap covering 10/05)",
   "cadence_days": 7,
   "sync_push": {
     "pulse": {
@@ -239,15 +239,13 @@
       "number": 4,
       "name": "Estimating improvements",
       "critical": false,
-      "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 25,
-      "assessment": "Yellow — focus group named, but still early and unproven. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments — both fear of a bad big-move experience). Focus group is now named — Danah, Erik, and Jespah — on the theory that their lower sales numbers may trace back to estimating accuracy. Still a delayed-result metric — this plan won't move the accuracy number for 2-4+ weeks. Review work paused while Nhel was on vacation; Amanda checking back in on this this week. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
+      "self_status": "supergreen",
+      "confidence": 4,
+      "percent_complete": 60,
+      "assessment": "Super Green. Estimate accuracy is running 60 to 65%, clear of both the 46% Green bar and the 48% Super Green bar. Nhel got the bottom performer focus group moving with Danah, Erik and Jespah, and that is what moved the number. The prior yellow was a stale 9/21 status.json stamp that was never refreshed rather than a real read of where this stood. Cameron and Amanda ruled this green live in the 10/5 group sync; recorded here as Super Green because 60 to 65% clears the 48% bar outright, with bars unchanged per the routed goal change record amanda-goal-change-2026-10-05.",
       "blockers": [
-        "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
-        "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')",
-        "Manual review with the named focus group (Danah, Erik, Jespah) not yet started",
-        "Nhel on vacation — review work with the focus group hasn't started"
+        "Delayed-result metric. Work done now will not register in accuracy numbers for 2 to 4 weeks, so the current reading reflects earlier work.",
+        "Basis of the 60 to 65% figure is not recorded anywhere: which window, which population, dollar or count. Worth pinning before it is read against the earlier 45 to 46% number, which came off a different reading."
       ],
       "milestones": [
         {
@@ -268,7 +266,7 @@
       ],
       "superGreen": "Improved estimating to 48%",
       "green": "Improve estimating to 46%",
-      "updated": "2026-09-21"
+      "updated": "2026-10-06"
     },
     {
       "id": "amanda-sales-performance-engagement",
@@ -280,7 +278,6 @@
       "percent_complete": 60,
       "assessment": "Yellow, but moving properly for the first time since the pause. Jeff Johnson came off 9/29; Adam Boyd (Trinity) now runs the engagement directly and the 10/2 planning call with Amanda, Cameron, Nhel and Tetet settled the script flow end to end. Two Promises moved to step 3 (before probing and the estimate), Adam's two-concerns question became the primary opener into it, value-day pricing went in at the end of the estimate as a total-dollar saving, and the ask order flipped so the rate lock and no-deposit come before the close. A clean v4 card, a change log and an editable doc for Adam/Nhel/Tetet review were built the same day. Extension secured through 9 Dec 2026 at no additional cost, so the original spend concern is closed and the last class is 9 Dec. Training is CET only by choice, with Calvin and Jack excluded to keep focus on the team doing three quarters of sales. Against the Green definition the playbook half is now substantially done; the rubric half and the close-rate half are not. The close-rate component is structurally ungradeable at EOQ (31 Oct) because a trailing-90-day dollar-basis metric cannot move 2 points in four weeks, so Amanda is taking a re-basing to Cameron before 31 Oct rather than after, on the 7/30 estimate-accuracy precedent.",
       "blockers": [
-        "Flow chart not built — Amanda committed to it on the 10/2 call; it is the one-page artifact reps keep beside them and the thing that makes the new flow usable day to day",
         "rubric_v3.md grades by section number and v4 reorders them — must be renumbered before the first week reps are actually graded on v4 (NOT before any given Monday run; grading old-flow calls against the new map would be wrong)",
         "Green's close-rate component is ungradeable at EOQ 31 Oct — re-basing to a 9 Dec reading needs Cameron before 31 Oct",
         "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement"
