@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-05T20:30:01-05:00",
-  "updated_by": "Albert (/wrap)",
+  "last_updated": "2026-10-07T11:00:00-05:00",
+  "updated_by": "Albert (Q3 OPSP session)",
   "cadence_days": 1,
   "goals": [
     {
@@ -62,7 +62,7 @@
     {
       "id": "cameron-q3-4",
       "number": 4,
-      "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes · monthly Big Rocks review)",
+      "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes)",
       "critical": false,
       "self_status": "yellow",
       "confidence": 3,
@@ -114,10 +114,10 @@
     {
       "id": "cameron-tur",
       "name": "Truck Utilization Rate",
-      "target": "65%",
-      "actual": null,
-      "self_status": "unknown",
-      "note": "Running-truck ruler PRIMARY, Q3 chart target 66%; hub shows 42.3% Aug on a DIFFERENT ruler — open ruler question with Matisen; don't grade until settled."
+      "target": "66%",
+      "actual": "64.8% Q3-to-date (fleet ruler, 10/5 group sync)",
+      "self_status": "yellow",
+      "note": "Ruler SETTLED 9/29 (Matisen 1:1, Cameron confirmed): FLEET TUR (hub tur_trailing_fleet) grades against the Q3 66% target. Running-truck (~81%) is display-only; tur_active is a forward demand view."
     },
     {
       "id": "cameron-conv",
@@ -222,6 +222,6 @@
     "win": "Finished the Mover IQ question walk with Anne and Paul, got the board grade beta passing end to end, and got Meeting OS prepped (QGR release 1 live).",
     "meeting": "Roundtable group sync 2026-10-05"
   },
-  "lastUpdated": "2026-10-05T20:30:01-05:00",
+  "lastUpdated": "2026-10-07T11:00:00-05:00",
   "notes": ""
 }
