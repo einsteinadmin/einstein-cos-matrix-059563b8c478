@@ -8,12 +8,12 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-06T11:55:00-05:00",
-  "updated_by": "Gary (/wrap covering 10/05)",
+  "last_updated": "2026-10-08T08:58:00-05:00",
+  "updated_by": "Gary (/wrap \u2014 reviewed, no changes)",
   "cadence_days": 7,
   "sync_push": {
     "pulse": {
-      "one": "Push out the chatbot edits for Matisen — we've got to get that going this week.",
+      "one": "Push out the chatbot edits for Matisen \u2014 we've got to get that going this week.",
       "dod": "Matisen sends the corrected chatbot build back to Botpress by end of week."
     },
     "discussion_points": [
@@ -37,7 +37,7 @@
     {
       "id": "amanda-call-grading-volume",
       "number": 1,
-      "name": "Call Grading at Volume — Distribution + Coaching Loop",
+      "name": "Call Grading at Volume \u2014 Distribution + Coaching Loop",
       "critical": true,
       "self_status": "yellow",
       "confidence": 4,
@@ -87,12 +87,12 @@
           "done": false
         },
         {
-          "name": "Weekly cadence sustained 5 runs running (8/25–9/21), 493 calls cumulative",
+          "name": "Weekly cadence sustained 5 runs running (8/25\u20139/21), 493 calls cumulative",
           "date": "2026-09-21",
           "done": true
         },
         {
-          "name": "v3 rubric live, first full run complete (163 calls, 9/23–9/24)",
+          "name": "v3 rubric live, first full run complete (163 calls, 9/23\u20139/24)",
           "date": "2026-09-24",
           "done": true
         },
@@ -105,7 +105,7 @@
       "superGreen": "Improve the company (CET and Managers) average score to 75%",
       "green": "Improve the company (CET and Managers) average score to 65%",
       "updated": "2026-10-05",
-      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales — Quarterly Sales Comp' (cut — not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart — flagged to Cameron.",
+      "note": "Adopted onto Amanda's slate 8/17, replacing 'Incentivize Manager Sales \u2014 Quarterly Sales Comp' (cut \u2014 not being pursued this quarter). Originates as Nhel's Rock #4 on the ratified chart (MB pulse 11733923810). Divergence from the 7/30 chart \u2014 flagged to Cameron.",
       "metrics": {
         "calls_graded_cumulative": 493,
         "avg_score_cumulative": 46.0,
@@ -166,10 +166,10 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 78,
-      "assessment": "Green — moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle — expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+      "assessment": "Green \u2014 moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle \u2014 expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
       "blockers": [
-        "Matisen's corrections delayed by 9/4 payroll issue — back on track expected this week",
-        "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
+        "Matisen's corrections delayed by 9/4 payroll issue \u2014 back on track expected this week",
+        "Auto-Recharge cost ceiling cannot be disabled \u2014 needs a hard cap agreed before real traffic",
         "Confirmation that Paul delivered the Messenger token to Nidha's team",
         "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
       ],
@@ -202,12 +202,12 @@
     {
       "id": "amanda-email-suite",
       "number": 3,
-      "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
+      "name": "Extend New Email Design System to Full Email Suite \u2014 Shorter, Video-First, Fewer Words",
       "critical": false,
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 75,
-      "assessment": "Green — ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded — already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign — Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 – Oct 31), so this percentage should be read against a still-early-quarter baseline.",
+      "assessment": "Green \u2014 ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded \u2014 already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign \u2014 Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 \u2013 Oct 31), so this percentage should be read against a still-early-quarter baseline.",
       "blockers": [
         "Interim Gary mockups blocked on Amanda supplying Leanna's Google Doc link",
         "Kickpoint's official template build not yet complete",
@@ -271,15 +271,15 @@
     {
       "id": "amanda-sales-performance-engagement",
       "number": 5,
-      "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
+      "name": "Improve Sales Performance Engagement \u2014 Work with Jeff (Northwood)",
       "critical": false,
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 60,
       "assessment": "Yellow, but moving properly for the first time since the pause. Jeff Johnson came off 9/29; Adam Boyd (Trinity) now runs the engagement directly and the 10/2 planning call with Amanda, Cameron, Nhel and Tetet settled the script flow end to end. Two Promises moved to step 3 (before probing and the estimate), Adam's two-concerns question became the primary opener into it, value-day pricing went in at the end of the estimate as a total-dollar saving, and the ask order flipped so the rate lock and no-deposit come before the close. A clean v4 card, a change log and an editable doc for Adam/Nhel/Tetet review were built the same day. Extension secured through 9 Dec 2026 at no additional cost, so the original spend concern is closed and the last class is 9 Dec. Training is CET only by choice, with Calvin and Jack excluded to keep focus on the team doing three quarters of sales. Against the Green definition the playbook half is now substantially done; the rubric half and the close-rate half are not. The close-rate component is structurally ungradeable at EOQ (31 Oct) because a trailing-90-day dollar-basis metric cannot move 2 points in four weeks, so Amanda is taking a re-basing to Cameron before 31 Oct rather than after, on the 7/30 estimate-accuracy precedent.",
       "blockers": [
-        "rubric_v3.md grades by section number and v4 reorders them — must be renumbered before the first week reps are actually graded on v4 (NOT before any given Monday run; grading old-flow calls against the new map would be wrong)",
-        "Green's close-rate component is ungradeable at EOQ 31 Oct — re-basing to a 9 Dec reading needs Cameron before 31 Oct",
+        "rubric_v3.md grades by section number and v4 reorders them \u2014 must be renumbered before the first week reps are actually graded on v4 (NOT before any given Monday run; grading old-flow calls against the new map would be wrong)",
+        "Green's close-rate component is ungradeable at EOQ 31 Oct \u2014 re-basing to a 9 Dec reading needs Cameron before 31 Oct",
         "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement"
       ],
       "milestones": [
@@ -289,7 +289,7 @@
           "done": true
         },
         {
-          "name": "Two working sessions with Jeff — priorities selected",
+          "name": "Two working sessions with Jeff \u2014 priorities selected",
           "date": "2026-08-14",
           "done": true
         },
@@ -314,8 +314,8 @@
           "done": true
         }
       ],
-      "superGreen": "Green + new-customer (non-repeat/referral) close rate up ≥ 3.5 pts off the frozen 8/5 baseline (14% → 17.5%).",
-      "green": "Sales playbook rewritten (why-they-buy / emotional, not estimate-delivery) + call-grading rubric updated to match — AND new-customer close rate up ≥ 2 pts off the frozen 8/5 baseline (14% → 16%) by EOQ. Pods NOT included in this goal.",
+      "superGreen": "Green + new-customer (non-repeat/referral) close rate up \u2265 3.5 pts off the frozen 8/5 baseline (14% \u2192 17.5%).",
+      "green": "Sales playbook rewritten (why-they-buy / emotional, not estimate-delivery) + call-grading rubric updated to match \u2014 AND new-customer close rate up \u2265 2 pts off the frozen 8/5 baseline (14% \u2192 16%) by EOQ. Pods NOT included in this goal.",
       "updated": "2026-10-05"
     }
   ],
@@ -324,7 +324,7 @@
   "network_acks": [],
   "cut_this_quarter": [
     {
-      "name": "Incentivize Manager Sales — Quarterly Sales Comp (if not removed entirely)",
+      "name": "Incentivize Manager Sales \u2014 Quarterly Sales Comp (if not removed entirely)",
       "chart_number": 1,
       "cut_date": "2026-08-17",
       "reason": "Not being pursued this quarter (Amanda's call). Was her only Critical-flagged rock; the Critical flag moved to the adopted call-grading rock."
@@ -336,5 +336,5 @@
       "reason": "Removed from Amanda's Q3 slate (Amanda's call)."
     }
   ],
-  "period_elapsed_note": "As of 2026-08-31 the quarter is ~33% elapsed (Aug 1 – Oct 31). Percent_complete values are early/mid-quarter figures and are not comparable to end-of-quarter Q2 values."
+  "period_elapsed_note": "As of 2026-08-31 the quarter is ~33% elapsed (Aug 1 \u2013 Oct 31). Percent_complete values are early/mid-quarter figures and are not comparable to end-of-quarter Q2 values."
 }

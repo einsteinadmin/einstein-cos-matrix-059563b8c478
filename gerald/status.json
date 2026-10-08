@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-05T13:03:57-05:00",
-  "updated_by": "Gerald (/status-push)",
+  "last_updated": "2026-10-08T09:51:17-05:00",
+  "updated_by": "Gerald (goal-drift fix)",
   "cadence_days": 7,
   "goals": [
     {
@@ -20,9 +20,9 @@
       "self_status": "red",
       "confidence": 4,
       "percent_complete": 45,
-      "assessment": "Back to Red — remeasured against pipeline pace and the team is well behind it. Only 65 of 254 movers (26%) are at or past today's line of 71 tasks; the green gate is 70% of movers (178 people) at 92 tasks by 10/19, so we're 113 movers short of where we need to be right now. Branch pace vs. the expected line: Tampa 63%, McKinney 47%, San Antonio 36%, Dallas 29%, South Austin 29%, Fort Worth 22%, Houston 18%, North Austin 16%, Garland 10%, Leander 10%. Next-week checkpoint: 70% of the team above 82 tasks to get back on a green track. Engagement is proven — this is now a pure pace problem, and the bottom branches (Garland, Leander, North Austin) are the drag.",
+      "assessment": "Back to Red — remeasured against pipeline pace and the team is well behind it. Only 65 of 254 movers (26%) are at or past today's line of 71 tasks; the green gate is 70% of movers (178 people) at 92 tasks by 10/23, so we're 113 movers short of where we need to be right now. Branch pace vs. the expected line: Tampa 63%, McKinney 47%, San Antonio 36%, Dallas 29%, South Austin 29%, Fort Worth 22%, Houston 18%, North Austin 16%, Garland 10%, Leander 10%. Next-week checkpoint: 70% of the team above 82 tasks to get back on a green track. Engagement is proven — this is now a pure pace problem, and the bottom branches (Garland, Leander, North Austin) are the drag.",
       "blockers": [
-        "26% of movers at/past the 71-task line — 113 short of the 178 needed at 92 tasks by 10/19",
+        "26% of movers at/past the 71-task line — 113 short of the 178 needed at 92 tasks by 10/23",
         "Bottom branches dragging: Garland 10%, Leander 10%, North Austin 16%",
         "Next-week checkpoint: 70% of the team above 82 tasks"
       ],
@@ -49,7 +49,7 @@
         },
         {
           "name": "≥70% enrolled movers through pipeline (Lead-Ready)",
-          "date": "2026-10-19",
+          "date": "2026-10-23",
           "done": false
         },
         {
@@ -63,9 +63,9 @@
           "done": true
         }
       ],
-      "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through full pipeline (Lead-Ready) by 10/19 + Scrum recert by 10/19",
+      "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through full pipeline (Lead-Ready) by 10/23 + Scrum recert by 10/23",
       "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through stage 4 by EOQ",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-training-hq-8fe42f5c/"
     },
     {

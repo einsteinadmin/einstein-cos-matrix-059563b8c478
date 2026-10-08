@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-06T18:15:00-05:00",
+  "last_updated": "2026-10-08T08:52:25-05:00",
   "updated_by": "Linda (/wrap)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
@@ -27,18 +27,18 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 52,
-      "assessment": "Injury Hub is built and published (manager + mover views). Anne set the rules: Minor = up to 3 calendar days counted from the day after the injury, Critical = same-day claim, movers report within 7 days, pain over 48 hours gets reported, light duty via re-employability for anyone out more than a month, FMLA-equivalent protection at all branches. That moves the Green bar's 'workflow documented' half. Training all 10 BMs hasn't started.",
+      "percent_complete": 95,
+      "assessment": "Green bar met per Anne (10/7): Injury Hub built and published (claim submission + EE notification loop), and the on-site incident workflow is a written document every manager has had access to for a couple of weeks — that is the training. Texas Mutual quarterly claim review held 10/7: renewal 11/18, no concerns raised; loss analysis shows claims up the last two quarters with headcount growth. Michael Urias's first-aid recommendation will be answered by 11/26, folded into WC + onboarding training rather than a standalone program; he offered to train managers at the April conference. Super Green still open: mover- and manager-specific WC training built into onboarding, plus one real WC leave case shown correctly in Rippling.",
       "blockers": [
         "WC package review by Brian and Mike — scheduled rather than pending as of the 9/21 group sync: Anne sends the process to Mike 9/22 so he can weigh in. Anne flagged in the room that inconsistency is already happening — people messaging her separately instead of funnelling to one place. Brian's rules haven't gone out yet; something broke on the board last week.",
-        "Green bar's second half — workflow trained to all 10 BMs by EOQ — still not started. The deck exists in draft; no training has been delivered.",
         "Real-time field reporting mechanism for serious injuries still undecided (phone hotline vs. form) — open as of 9/3",
         "Brian's Monday intake form and the Anne/Matisen Rippling OSHA+Texas Mutual backend both have committed owners as of 9/3 but no build date yet",
         "Preauthorization workflow proven twice now (9/11, 9/14) and drafted into a checklist — still needs Anne to fill in the process specifics (exact pre-auth channel, Concentra's info requirements, Texas Mutual's submission method) before it's ready to hand to a BM or fold into the WC training deck",
         "Sebastian Osuna's late-reported Houston injury (adjuster non-payment, AFC/Workwell-network question) unresolved — live test case for whatever this process becomes",
         "OSHA-board-to-Rippling migration (single source of truth, annual CSV export) not yet scoped",
         "Rippling support confirmed 9/29: no native setting blocks clock-in by leave type. Options are a custom Workflow Studio build (unconfirmed it can change Time & Attendance access) or manual removal, so the 9/22 'mover cannot clock in, out of managers' hands' design is not achievable as written.",
-        "Brian's manager guide still says a 2-day Minor window and counts the day of injury as day 1. It has to match Anne's 3-day rule before the hub launches."
+        "Brian's manager guide still says a 2-day Minor window and counts the day of injury as day 1. It has to match Anne's 3-day rule before the hub launches.",
+        "Texas Mutual first-aid recommendation response due 11/26 (extendable) — Anne will have it by then."
       ],
       "green": "Custom claim-submission tool (the Monday intake form counts) built against the OSHA-recordable field spec you hand Matisen before the data structure locks — with a working EE-notification loop confirmed — plus the on-site incident workflow documented and trained to all 10 branch managers, by EOQ.",
       "superGreen": "Green, plus: (a) the mover-specific WC training session built and put in onboarding training; (b) the manager-specific WC training session built and put in onboarding training; (c) at least one real Q3 WC leave case showing correctly in Rippling's leave-tracking view, cross-referenced with FMLA where applicable.",
@@ -48,7 +48,7 @@
       "mb_pulse": "11728357310",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-05T13:09:59-05:00"
+      "updated": "2026-10-08T08:52:25-05:00"
     },
     {
       "id": "anne-q3-2",
@@ -90,7 +90,7 @@
       "self_status": "green",
       "confidence": 3,
       "percent_complete": 70,
-      "assessment": "LIVE 10/6: Anne announced go-live to the Roundtable with Cameron's review fixes (UTC date bug, non-employees removed, earlier-day logging, priority/owner/resolution fields, themes-by-department view) plus Brian's department tags, Mike's urgent-item definition and Paul's branch reservations. Mechanic confirmed: two conversations per Roundtable leader before the Roundtable QGR (~10/27); hourly callers call back on the clock; anyone on leave held out automatically. Green on trajectory (14 conversations across ~3 weeks); confidence held at 3 until conversations are logged.",
+      "assessment": "LIVE 10/6: Anne announced go-live to the Roundtable with Cameron's review fixes (UTC date bug, non-employees removed, earlier-day logging, priority/owner/resolution fields, themes-by-department view) plus Brian's department tags, Mike's urgent-item definition and Paul's branch reservations. Mechanic confirmed: two conversations per Roundtable leader before the Roundtable QGR (~10/27); hourly callers call back on the clock; anyone on leave held out automatically. Green on trajectory (14 conversations across ~3 weeks); confidence held at 3 until conversations are logged. 10/7: Paul's feedback built in (who-acts tagging per Start/Stop/Keep line, Paul + Cameron added). Monday reminder pulses on the Sky Board for all 7 leaders (10/12, 10/19, 10/26) with the deadline: two logged conversations each by EOD Mon 10/26, ahead of the 10/27–28 QGR.",
       "blockers": [
         "Adoption is zero: 14 conversations (2 per leader) needed by the Roundtable QGR, ~10/27."
       ],
@@ -103,7 +103,7 @@
       "mb_pulse": "11728350964",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-06T18:15:00-05:00"
+      "updated": "2026-10-08T08:52:25-05:00"
     },
     {
       "id": "anne-q3-4",
@@ -112,13 +112,12 @@
       "critical": false,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 70,
-      "assessment": "9/21 CORRECTION (Anne, direct): the Mover wave does NOT open 10/1. It has historically run the second week of October, and the plan is launch Tue 10/7, close Tue 10/14 — results worked through before the end-of-October QGR. Every 10/1 reference in the record was wrong and has been corrected (CLAUDE.md, the question handoff doc, and the app's own wave metadata, which additionally still carried a stale 10/31 close). Percent 45 -> 60 at Anne's direction: the build is done and past done (published 9/18, Rippling roster of 337 wired, branching tested, durable Postgres, dashboard validated, uptime alerts on); what remains is review tweaks this week, the wave running 10/7-10/14, and participation clearing 50%. The three blockers previously listed here were all resolved 9/18 and were scoring this goal against a 9/4 picture of the app; replaced. ⚠️ BAR CONFLICT, unresolved: the Green bar requires the baseline established \"by Oct 1\" and the wave does not open until 10/7. As written the bar cannot be met. Bar text is Cameron's to change and has NOT been edited here. 9/18: the survey went LIVE AND PUBLIC (repo commit 15d3262), rotating-question count corrected to 8, and the October wave window corrected (adc5dee). An eNPS bar-conflict flag raised the same day was checked and dropped as mistaken. This is past \"stood up on a dev server\" — 35%→45%. Still ahead: participation against the 50% bar once the wave opens 10/1. 9/16: status moves yellow → green per Anne/Cameron's 1:1 — the app is up on a Replit dev server after today's working session. No bar text change. Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first — Monday form, no vendor, historical results in a Drive folder — then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. ✅ 8/27 (Cameron 1:1): platform-selection target formally moved to September 15 (from end of August) to give Anne real room to build it herself rather than rush it. 8/31 (Cameron sync): reconfirmed — Anne builds with Linda this week, Linda interviews Anne to ~95% certainty on data flow before wireframing, wireframe before Replit. ✅ 9/4: real build landed — full build spec locked (scope: both Mover and Manager & CET surveys on one shared branching engine; named responses; roster pulled from Rippling; dynamic per-region leader-rating blocks — Brian for CTX+Houston, Mike Vandenbroader for DFW+Tampa, Amanda Ware for CX Team, no leader block for G&A; core-vs-rotating question architecture so future waves can add timely questions like an October benefits-value question without a rebuild; cadence locked at 6-month staggered waves, Mover next in October 2026, Manager & CET next in January 2027). A working Replit scaffold exists (Express server, admin/dashboard/survey pages, own database, no Monday dependency) — Mover flow being built first since it has the nearer deadline and bigger lift (10 branches × up to 4 roles). Cadence question from 8/31 (annual vs. monthly drip) resolved as part of the 9/4 spec (6-month staggered, not monthly). Trajectory: tracking yellow, trending toward green — real, tangible progress against the 9/15 bar for the first time, but the Mover flow still needs the roster wired in, dynamic branching tested, and dashboard validated before it's actually usable. 10/6: pre-launch complete (roster refreshed vs Rippling, required fields, confidentiality header, paid Autoscale deployment so no publish expiry); wave opens 10/7.",
+      "percent_complete": 75,
+      "assessment": "Mover wave OPENED Wed 10/7 (Anne confirmed), closes Tue 10/14; results worked through before the 10/27–28 QGR. Branch huddles are carrying the link (e.g. San Antonio's 10/7 huddle). Pre-launch done 10/6: roster refreshed vs Rippling, required fields enforced, confidentiality line in the header, npm audit clean; app is on a paid Autoscale deployment with no publish expiry. 9/21 CORRECTION (Anne, direct): the Mover wave does NOT open 10/1. It has historically run the second week of October, and the plan is launch Tue 10/7, close Tue 10/14 — results worked through before the end-of-October QGR. Every 10/1 reference in the record was wrong and has been corrected (CLAUDE.md, the question handoff doc, and the app's own wave metadata, which additionally still carried a stale 10/31 close). Percent 45 -> 60 at Anne's direction: the build is done and past done (published 9/18, Rippling roster of 337 wired, branching tested, durable Postgres, dashboard validated, uptime alerts on); what remains is review tweaks this week, the wave running 10/7-10/14, and participation clearing 50%. The three blockers previously listed here were all resolved 9/18 and were scoring this goal against a 9/4 picture of the app; replaced. ⚠️ BAR CONFLICT, unresolved: the Green bar requires the baseline established \"by Oct 1\" and the wave does not open until 10/7. As written the bar cannot be met. Bar text is Cameron's to change and has NOT been edited here. 9/18: the survey went LIVE AND PUBLIC (repo commit 15d3262), rotating-question count corrected to 8, and the October wave window corrected (adc5dee). An eNPS bar-conflict flag raised the same day was checked and dropped as mistaken. This is past \"stood up on a dev server\" — 35%→45%. Still ahead: participation against the 50% bar once the wave opens 10/1. 9/16: status moves yellow → green per Anne/Cameron's 1:1 — the app is up on a Replit dev server after today's working session. No bar text change. Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first — Monday form, no vendor, historical results in a Drive folder — then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. ✅ 8/27 (Cameron 1:1): platform-selection target formally moved to September 15 (from end of August) to give Anne real room to build it herself rather than rush it. 8/31 (Cameron sync): reconfirmed — Anne builds with Linda this week, Linda interviews Anne to ~95% certainty on data flow before wireframing, wireframe before Replit. ✅ 9/4: real build landed — full build spec locked (scope: both Mover and Manager & CET surveys on one shared branching engine; named responses; roster pulled from Rippling; dynamic per-region leader-rating blocks — Brian for CTX+Houston, Mike Vandenbroader for DFW+Tampa, Amanda Ware for CX Team, no leader block for G&A; core-vs-rotating question architecture so future waves can add timely questions like an October benefits-value question without a rebuild; cadence locked at 6-month staggered waves, Mover next in October 2026, Manager & CET next in January 2027). A working Replit scaffold exists (Express server, admin/dashboard/survey pages, own database, no Monday dependency) — Mover flow being built first since it has the nearer deadline and bigger lift (10 branches × up to 4 roles). Cadence question from 8/31 (annual vs. monthly drip) resolved as part of the 9/4 spec (6-month staggered, not monthly). Trajectory: tracking yellow, trending toward green — real, tangible progress against the 9/15 bar for the first time, but the Mover flow still needs the roster wired in, dynamic branching tested, and dashboard validated before it's actually usable. 10/6: pre-launch complete (roster refreshed vs Rippling, required fields, confidentiality header, paid Autoscale deployment so no publish expiry); wave opens 10/7.",
       "blockers": [
         "Participation of at least 50% of eligible movers is the actual bar and is unknowable until the wave runs.",
         "Cameron is removing the Oct 1 baseline date from the Green bar (agreed in the 9/29 1:1).",
         "GIT_DEPLOY_KEY status disputed: Cameron's read of the 9/29 prep says set and restart-verified; CLAUDE.md says unset. Verify in Replit before the 10/7 launch.",
-        "Publish expiry ~10/18 on the free Starter plan now sits only 4 days after the 10/14 close — re-publish if the window slips at all.",
         "Manager & CET flow not started — sequenced after Mover, runway to January.",
         "Engagement survey app may be published to the wrong Replit workspace — Anne flagged this in passing on 9/22, unverified.",
         "Ultimate question split into two (recommend Einstein as a place to work / recommend the mover role): DONE by Anne before 10/1. Brian is the last app reviewer."
@@ -129,7 +128,7 @@
       "mb_pulse": "12626620998",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-06T18:15:00-05:00"
+      "updated": "2026-10-08T08:52:25-05:00"
     },
     {
       "id": "anne-q3-5",
