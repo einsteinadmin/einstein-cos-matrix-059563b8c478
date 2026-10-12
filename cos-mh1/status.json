@@ -8,21 +8,18 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-05T12:00:55-05:00",
+  "last_updated": "2026-10-12T12:44:26-05:00",
   "updated_by": "Matisen (/status)",
   "cadence_days": 1,
   "sync_push": {
-    "meeting": "Roundtable Sync Up",
-    "meeting_time": "2026-10-05T13:30:00-05:00",
+    "meeting": "",
+    "meeting_time": "",
     "one_thing": {
-      "commitment": "Completely caught up on praise, PL Migrated to Rippling (Mirrored)",
-      "definition_of_done": "Praise at 38 by EOW and PLS mirrored on Rippling with Form scoped out for Mover Field App"
+      "commitment": "",
+      "definition_of_done": ""
     },
-    "discussion_points": [
-      "Promo Ladder",
-      "Botpress Follow Up"
-    ],
-    "win": "Chatbot passing all QA scenarios, close to launch"
+    "discussion_points": [],
+    "win": ""
   },
   "goals": [
     {
@@ -32,13 +29,12 @@
       "hq_url": "https://hub.einsteinmoving.com",
       "critical": true,
       "self_status": "green",
-      "confidence": 3,
-      "percent_complete": 55,
-      "assessment": "Vlad is pushing updates to the games runner to match what is running locally; next is updating the Jenkins variable settings. Once that lands, Hub2 migrates back to hub, Games pull-through gets verified, then MCP sharing and a company-wide process for runners and adhoc reports. D (Sage): sample week and setup guide delivered to Prosper 9/29, awaiting their accounts, cutover and feedback. A unchanged: region scorecards built, still not delivered to regionals.",
+      "confidence": 4,
+      "percent_complete": 65,
+      "assessment": "Cameron has started wiring up the hub. The QGR packet is almost complete through the hub, with automated data pull and sync. The AI Use Policy got feedback and approval to move ahead. The hub runner is mirrored and running without crashing; tool deploy updates are waiting on Vlad's wiring. D: connecting Sage to EMMA is this week's one thing.",
       "blockers": [
         "A. Region scorecards built but not delivered — regionals do not have them yet",
-        "B. Paul/Cam EMMA MCP access — gated on today's 12:30 hub handoff passing, then MCP share",
-        "Hub production still served from Matisen's local machine until the handoff + Hub2 migration lands"
+        "Hub production still served from Matisen's local machine until Vlad's tool deploy updates land"
       ],
       "milestones": [
         {
@@ -64,7 +60,7 @@
       ],
       "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
       "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-      "updated": "2026-10-05"
+      "updated": "2026-10-12"
     },
     {
       "id": "matisen-q3-sales-marketing",
@@ -73,13 +69,14 @@
       "critical": true,
       "self_status": "green",
       "confidence": 4,
-      "percent_complete": 62,
-      "assessment": "Botpress board moved to Good 54 / Acceptable 4 / Poor 0 with zero pending review on 10/01, up from 21 Good / 2 Acceptable / 12 Poor at the 9/25 baseline. First adversarial pass came back 6 of 6 clean and the full lead funnel was verified end to end on the live webchat. CET is now testing it with Amanda. Remaining gate before go-live: Desk coverage hours have to match when the webchat is reachable. Scoping of the EMMA Quoting and Availability integration opens once it ships.",
+      "percent_complete": 70,
+      "assessment": "Q3 revenue forecast landed within 1% of the projected R9 company landing. Botpress moved along. Sales Dashboard updates are still outstanding. Emails are queued for deploy and need the new email editor, which Fabian is pushing to QA this week.",
       "blockers": [
         "Botpress go-live gated on Desk coverage hours matching webchat availability; CET findings pending",
         "Two rulings open: on-time guarantee wording (2-hour window vs 30-minute morning window) and discount policy consistency",
-        "C. Email rollout queued behind lead triage and awaiting Fabian confirmation",
-        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only"
+        "D. Botpress behavior/voice/routing are vendor-only (ADK runtime) — Einstein can edit the knowledge base only",
+        "B. Sales Dashboard updates still outstanding",
+        "C. Email deploy waiting on the new email editor (Fabian to QA this week)"
       ],
       "milestones": [
         {
@@ -105,7 +102,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-10-01"
+      "updated": "2026-10-12"
     },
     {
       "id": "matisen-q3-performance-people",
@@ -115,7 +112,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 62,
-      "assessment": "A is done — ClearCompany is connected to Rippling. The 9/28 draft-hire failure was ESP credits, not the integration; once credits were added the drafts went through. What remains on A is a strategic call rather than a defect: whether the ClearCo connection is a viable helper worth keeping. B advanced — Paul moved the promotion ladder forward. C: Rippling token shared with Anne; the 403 on Custom Objects is still open and needs error detail to support the fix. D next step is integrating coaching docs and attendance with the Mover Training App.",
+      "assessment": "Promotion ladder still pending. PL migration to Rippling still in progress; Rippling object scoping has started and carries over from last week. A is done (ClearCompany connected to Rippling).",
       "blockers": [
         "A. ClearCo connection viability — keep-or-drop call still open (the connection itself works)",
         "C. Rippling API token scopes — Custom Objects returns 403; Performance Log path lacks files + employee-documents scopes"
@@ -144,7 +141,7 @@
       ],
       "superGreen": "100% Green or higher (4 of 4)",
       "green": "75% Green or higher (3 of 4)",
-      "updated": "2026-09-29"
+      "updated": "2026-10-12"
     },
     {
       "id": "matisen-q3-praise",
@@ -152,11 +149,10 @@
       "name": "Praise Targets",
       "critical": true,
       "self_status": "yellow",
-      "confidence": 3,
-      "percent_complete": 25,
-      "assessment": "12 logged to the Praise Board for Q3 — 11 fully evidenced with a delivery date and verbal confirmation (5 on 9/07, 2 on 9/09, 4 on 9/11), plus 1 undated shell with no person named. 25 fresh candidates are queued for delivery today and tomorrow from the 9/25 and 9/29 pulls; 6 of them expire within 48 hours under the 2-week freshness rule. Two expired Manager Queue entries (9/07, 9/14) were archived. Delivering the queue takes Q3 to 37 of 48.",
+      "confidence": 4,
+      "percent_complete": 44,
+      "assessment": "21 of 48 logged on the Praise Board with verbal confirmation (9 added 10/12: Fabian x5, Vlad x2, Laura, Elias). 5 more ruled for delivery and tracked as subitems. Confident in Green by 10/31; Super Green (60) will be close.",
       "blockers": [
-        "Measurement source formally undecided (Praise Board vs Rippling PL) — board submissions are flowing as the working basis, but the count cannot be graded until this is ruled",
         "Praise Board clear-on-status automation still broken and unowned — counts must state raw-vs-delivered basis"
       ],
       "milestones": [
@@ -168,7 +164,7 @@
       ],
       "superGreen": "125% — 60 praise",
       "green": "100% — 48 praise",
-      "updated": "2026-09-29"
+      "updated": "2026-10-12"
     }
   ],
   "kpis": [],
