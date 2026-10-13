@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-13T08:10:00-05:00",
-  "updated_by": "Linda (/wrap)",
+  "last_updated": "2026-10-13T10:11:46-05:00",
+  "updated_by": "Linda (/status-push)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -163,7 +163,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-05T17:26:54-05:00"
+      "updated": "2026-10-13T10:11:46-05:00"
     },
     {
       "id": "anne-q3-6",
