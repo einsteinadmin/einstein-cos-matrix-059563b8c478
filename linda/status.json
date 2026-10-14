@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-13T10:11:46-05:00",
-  "updated_by": "Linda (/status-push)",
+  "last_updated": "2026-10-13T17:09:09-05:00",
+  "updated_by": "Linda (/wrap — stamp only, delta held for Anne)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "prefilled_by": "Albert",
@@ -123,20 +123,20 @@
         "Ultimate question split into two (recommend Einstein as a place to work / recommend the mover role): DONE by Anne before 10/1. Brian is the last app reviewer.",
         "Participation 8% on day 2 (10/8) vs the ≥50% Green bar; Cameron expects <5% without a heavier push. Wave closes 10/14."
       ],
-      "green": "Platform selected and built by September 15 (revised from end of August per Cameron 8/27); survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
+      "green": "Platform selected and built; survey launched to the mover population as voluntary in the normal October wave (10/7–10/14); a first baseline eNPS score established with at least 50% participation among eligible movers before the Q3 Roundtable QGR.",
       "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
       "dependencies": [],
       "mb_pulse": "12626620998",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-13T08:00:00-05:00"
+      "updated": "2026-10-13T15:56:25-05:00"
     },
     {
       "id": "anne-q3-5",
       "number": 5,
       "name": "Mover Promotion Framework — First Cohort Live",
       "critical": false,
-      "self_status": "yellow",
+      "self_status": "green",
       "confidence": 4,
       "percent_complete": 95,
       "assessment": "9/28 call put the standalone 10/31 launch in doubt: Cameron doesn't want the promotion framework live separately from the 100-Point design ('moving twice'). Not cancelled, needs confirmation. 9/29 Anne's combined outline recommends retiring the Games bars as the promotion gate (replaced by score 92+ plus bucket floors, fast track 97+ with zero reviews), keeping the ladder, hours gates and Part-Time Lead rules. The Oct 1 'published to branches' bar is at risk unless the published piece is the combined design. Percent held at 95 pending Anne's re-estimate.",
@@ -153,8 +153,8 @@
         "Rippling job-template bug: a Lead General promotion kept the Master Lead title. Escalated to Rippling engineering 9/24.",
         "Decision brief ballots: Cameron opened it, 0 votes; Brian and Mike haven't opened it."
       ],
-      "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
-      "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
+      "green": "Promotion framework locked and folded into the 100-Point (Mover IQ) design — promotion eligibility set by the score (bucket floors + the promotion line), ladder and hours gates kept — ratified by Cameron and Paul, with the Q4 branch education plan drafted, before the Q3 Roundtable QGR. Launches with Mover IQ on Jan 1, 2027.",
+      "superGreen": "Green, plus the mover-facing Mover IQ view and the branch comms piece built and reviewed by the BMs before the Q3 Roundtable QGR.",
       "dependencies": [
         "Paul",
         "Matisen"
@@ -163,7 +163,7 @@
       "hq_url": "https://einsteinadmin.github.io/einstein-mover-promo-hq-e732027e5c2b/",
       "sub_blocks": null,
       "flag": null,
-      "updated": "2026-10-13T10:11:46-05:00"
+      "updated": "2026-10-13T15:56:25-05:00"
     },
     {
       "id": "anne-q3-6",
