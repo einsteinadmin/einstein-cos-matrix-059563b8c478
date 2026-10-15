@@ -8,7 +8,7 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-05T12:30:59-05:00",
+  "last_updated": "2026-10-15T12:00:00-05:00",
   "updated_by": "Clark (/status-push)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
@@ -31,9 +31,9 @@
       "name": "Annual Mover Comp Review — Pay Structure + Promotion Paths",
       "critical": true,
       "self_status": "yellow",
-      "confidence": 3,
+      "confidence": 2,
       "percent_complete": 80,
-      "assessment": "10/5: Yellow. Cameron has sent his latest feedback on the framework and Paul still needs to review it. The 10/31 launch remains at risk until that review is done.",
+      "assessment": "10/15: Yellow, trending Red. We decided to hold the launch and dig deeper on the solution. Paul still owes decisions on C (damages), D (retire Games bars) and F (Dallas beta).",
       "blockers": [
         "Paul to review Cameron's latest feedback on the framework"
       ],
@@ -76,7 +76,8 @@
         "Matisen"
       ],
       "mb_pulse": "11752733644",
-      "updated": "2026-10-05"
+      "updated": "2026-10-15T12:00:00-05:00",
+      "updated_by": "Clark (/status-push)"
     },
     {
       "id": "paul-q3-2",
@@ -86,7 +87,7 @@
       "self_status": "green",
       "confidence": 5,
       "percent_complete": 90,
-      "assessment": "10/5: Green. All August branch financial reviews were completed last week, the second full round after July. The remaining gap is ownership: regionals do not yet run the review in their own meetings.",
+      "assessment": "10/15: Green and improving with each round.",
       "blockers": [
         "Regionals not yet including the financial review in their meetings - cadence still run by Paul, not the RMs"
       ],
@@ -114,7 +115,8 @@
         "Mike"
       ],
       "mb_pulse": "11728394236",
-      "updated": "2026-10-05"
+      "updated": "2026-10-15T12:00:00-05:00",
+      "updated_by": "Clark (/status-push)"
     },
     {
       "id": "paul-q3-3",
@@ -124,7 +126,7 @@
       "self_status": "green",
       "confidence": 4,
       "percent_complete": 60,
-      "assessment": "10/5: Green. Matisen has an updated invoicing hub. We are tweaking it now and will share it with the team shortly, and it updates the collections tracking process.",
+      "assessment": "10/15: Green. The hub is still being tweaked. Paul is finalizing pieces this weekend, possibly waiting on an updated tool from Matisen.",
       "blockers": [],
       "milestones": [
         {
@@ -136,7 +138,8 @@
       "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
       "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
       "mb_pulse": "11728362120",
-      "updated": "2026-10-05"
+      "updated": "2026-10-15T12:00:00-05:00",
+      "updated_by": "Clark (/status-push)"
     },
     {
       "id": "paul-q3-4",
@@ -146,7 +149,7 @@
       "self_status": "yellow",
       "confidence": 4,
       "percent_complete": 50,
-      "assessment": "10/5: Yellow, 50%. First Class Moving Systems (Tampa, NAVL agent) financials received. Analysis not started yet; it is this week's Happiness Pulse.",
+      "assessment": "10/15: Yellow. The First Class financial analysis is drafted (10/6). Work planned Fri 10/16 and the weekend should bring it to Green.",
       "blockers": [
         "First Class financial analysis not started"
       ],
@@ -160,7 +163,8 @@
       "superGreen": "5 opportunities evaluated",
       "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
       "mb_pulse": "11728336219",
-      "updated": "2026-10-05"
+      "updated": "2026-10-15T12:00:00-05:00",
+      "updated_by": "Clark (/status-push)"
     },
     {
       "id": "paul-q3-5",
@@ -169,8 +173,8 @@
       "critical": false,
       "self_status": "green",
       "confidence": 5,
-      "percent_complete": 50,
-      "assessment": "9/22: San Antonio locked for Wed 10/7 as visit #2 (week of 9/28 fell through with Dustin and Lukas both out). Brian informed by Slack, not required to join. Once 10/7 happens, Green (2 visits) is locked. Super Green (3) needs South Austin in October once Jake Peterson is settled.",
+      "percent_complete": 100,
+      "assessment": "10/15: Green locked. Tampa 9/1-9/2 and San Antonio 10/7 are done. No further visits this quarter, so Super Green is off the table.",
       "blockers": [
         "Super Green only: South Austin date not set, waiting on Jake Peterson to settle in"
       ],
@@ -193,7 +197,8 @@
       ],
       "superGreen": "3 visits",
       "green": "2 visits",
-      "updated": "2026-09-22"
+      "updated": "2026-10-15T12:00:00-05:00",
+      "updated_by": "Clark (/status-push)"
     }
   ],
   "kpis": [],
