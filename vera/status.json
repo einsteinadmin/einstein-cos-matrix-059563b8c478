@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-12T13:10:05-05:00",
-  "updated_by": "Vera (/status-push)",
+  "last_updated": "2026-10-15T17:10:53-05:00",
+  "updated_by": "Vera (goal drift fix, chart text)",
   "source_of_truth": "Q3 2026 Cascading Team Goals sheet (1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM) — Brian Herzig / Sky Board block. Ratified QGR room 7/30/2026.",
   "cadence_days": 1,
   "goals": [
@@ -214,11 +214,11 @@
           "done": true
         }
       ],
-      "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
+      "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout)\n100% of active movers enrolled by 8/20.\nAdoption floor: ≥70*% of movers enrolled by 8/20 completed through full training pipeline. (Lead Ready) by 10/23 (2 weeks prior to quarter end).(*70% to account for part time movers)\nScrum Recert Completed by 10/23",
       "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
       "flywheel": "① Attract & Develop Great Movers",
       "live_pulse": "12750301851",
-      "updated": "2026-10-12T13:10:05-05:00"
+      "updated": "2026-10-15T17:10:53-05:00"
     },
     {
       "id": "brian-branch-audits",
@@ -323,11 +323,11 @@
           "done": true
         }
       ],
-      "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
+      "superGreen": "Super Green — 100% of frontline managers through the training module and all 10 boards re-certified by 10/23 + All departments (CET, EE, ATX) get re-certified.",
       "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
       "flywheel": "⑥ Reinvest Profit in People & Innovation",
       "live_pulse": "12750326806",
-      "updated": "2026-10-12T13:10:05-05:00",
+      "updated": "2026-10-15T17:10:53-05:00",
       "hq_url": "https://bherz303.github.io/einstein-scrum-hq-hf9zjgpk/"
     }
   ],

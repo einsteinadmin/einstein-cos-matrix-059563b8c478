@@ -8,8 +8,8 @@
   "period": "Q3 2026",
   "period_start": "2026-08-01",
   "period_end": "2026-10-31",
-  "last_updated": "2026-10-15T12:00:00-05:00",
-  "updated_by": "Clark (/status-push)",
+  "last_updated": "2026-10-15T23:50:00-05:00",
+  "updated_by": "Clark (/wrap)",
   "_provenance": {
     "source": "Q3 Roundtable Rocks and Targets (cascading goals chart), ratified QGR room 7/30/2026 — https://docs.google.com/spreadsheets/d/1BFJiQtN9zWrkje0ln1qD8CL5NWg-azfawmMfjDdb_yM",
     "cross_checked_against": "ai-chief-of-staff/network/rollover/2026-Q3/paul-status-q3-DRAFT.json (Albert, 8/17) — structure matches goal-for-goal",
@@ -151,7 +151,8 @@
       "percent_complete": 50,
       "assessment": "10/15: Yellow. The First Class financial analysis is drafted (10/6). Work planned Fri 10/16 and the weekend should bring it to Green.",
       "blockers": [
-        "First Class financial analysis not started"
+        "First Class financial analysis drafted 10/6, needs Paul's review",
+        "Houston organic-vs-acquisition case study still open"
       ],
       "milestones": [
         {
@@ -163,8 +164,8 @@
       "superGreen": "5 opportunities evaluated",
       "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
       "mb_pulse": "11728336219",
-      "updated": "2026-10-15T12:00:00-05:00",
-      "updated_by": "Clark (/status-push)"
+      "updated": "2026-10-15T23:50:00-05:00",
+      "updated_by": "Clark (/wrap)"
     },
     {
       "id": "paul-q3-5",
@@ -187,18 +188,18 @@
         {
           "name": "San Antonio branch visit",
           "date": "2026-10-07",
-          "done": false
+          "done": true
         },
         {
           "name": "2 visits complete (Green threshold)",
-          "date": "2026-10-31",
-          "done": false
+          "date": "2026-10-07",
+          "done": true
         }
       ],
       "superGreen": "3 visits",
       "green": "2 visits",
-      "updated": "2026-10-15T12:00:00-05:00",
-      "updated_by": "Clark (/status-push)"
+      "updated": "2026-10-15T23:50:00-05:00",
+      "updated_by": "Clark (/wrap)"
     }
   ],
   "kpis": [],
